@@ -8,7 +8,22 @@ This repository presents these texts as TEI/XML documents, which can be reused a
 
 See our interactive website: https://lawforms.exeter.ac.uk/
 
-Principal Investigator: Professor Nandini Chatterjee
+## Team
+
+Professor Nandini Chatterjee, Project Lead.
+
+Professor Chander Shekhar, Senior Advisor.
+
+Dr Elizabeth Thelen, Postdoctoral Research Associate.
+
+Dr Dominic Vendell, Postdoctoral Research Associate.
+
+Dr Elizabeth Williamson, Technical Director.
+
+Eva Bodenschatz, Richard Holding, Julia Hopkin, Gary Stringer, Digital Humanities Team, University of Exeter.
+
+Dr Hannah Archambault, copy editor.
+
 
 Funded by: European Research Council [Starting Grant ERC-2016-STG-714569](https://erc.easme-web.eu/?p=714569) 
 
