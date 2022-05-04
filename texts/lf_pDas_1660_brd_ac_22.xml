@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1660_brd_ac_22">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of Nawazish Khan to Purshottam Das and Paras Ram regarding the construction
+               of a water tank</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#brd"/>
+                  <collection ref="#pDas"/>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#hijri-qamri">30 Ramzan 1070</origDate>
+                     <origDate calendar="#gregorian" when="1660-06-09">9 June 1660</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>In response to a petition from
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+                and
+               <persName ref="#parasRam">Paras Ram</persName>,
+               <persName ref="#nawazishKhan">Nawazish Khan</persName>
+                orders a mason to be sent, the deployment of workers to build a water tank in the village
+               <placeName ref="#ratnagra">Ratnagra</placeName>
+                and the appointment of
+               <persName ref="#muhammadHashim">Muhammad Hashim</persName>
+                as the superintendent (darogha) and inspector (mushrif) of the tank.</p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="parvana"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Administration</term>
+               <term>Natural Resources</term>
+               <term>Petitioning</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <person role="issuer">
+               <persName ref="#nawazishKhan">Nawazish Khan</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="#parasRam">Paras Ram</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1660_brd_ac_22_r.jpg"/>
+      <graphic url="lf_pDas_1660_brd_ac_22_v.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1660_brd_ac_22_r.jpg"/>
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>الله اکبر</p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p>God is great</p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="per" type="authorisation" rend="right margin">
+            <p>
+               <stamp type="seal">
+                  <mentioned>
+                     <persName ref="#nawazishKhan">
+                        <unclear>نوازش</unclear>
+                         خان</persName>
+                     <unclear>مرید</unclear>
+                      حضرت محمد
+                     <persName ref="#aurangzebAlamgir">اورنگ
+                        <unclear>زیب</unclear>
+                         عالمگیر </persName>
+                      بادشاه غازی
+                     <date calendar="#hijri-qamri">
+                        <num>۱۰۷۰</num>
+                     </date>
+                  </mentioned>
+               </stamp>
+            </p>
+         </div>
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p><stamp type="seal">Round black ink seal<mentioned><persName ref="#nawazishKhan"><unclear>Nawazish</unclear> Khan</persName> <unclear>disciple</unclear> of Lord Muhammad <persName ref="#aurangzebAlamgir">Aurang<unclear>zeb</unclear> Alamgir</persName> <ref type="glossary" target="#gl_badshah">Badshah</ref> <ref type="glossary" target="#gl_ghazi">Ghazi</ref> <date calendar="#hijri-qamri">1070</date><note>A very clear impression of the same seal is found on <ref type="document" target="#lf_pDas_1660_brd_ac_ii">1660 Order of Nawazish Khan to Purshottam Das granting a house</ref>. Gaps in the reading of the seal impression are supplied through comparison.</note></mentioned></stamp></p>
+         </div>
+         <div xml:id="orig_div3" xml:lang="per" type="maintext">
+            <p>
+               <lb/>زبدة الاقران
+               <persName ref="#purshottamDas">پرسوتم</persName>
+                چودری و
+               <persName ref="#parasRam">پرسرام</persName>
+                قانونگوی پرگنه
+               <placeName ref="#pgDhar">دهار</placeName>
+                بعنایت و
+               <lb/>مهربانی امیدوار بوده بدانند عرضه داشتی که درینولا ارسالداشته بودند
+               <lb/>رسید حقیقت مشروحاً مفهوم گردید انچه در باب معمار بجهته سنگ موضع
+               <lb/>
+               <placeName ref="#nawasa">نواسه</placeName>
+                نوشته بودند معمار فرستاده شد انچه در باب چونه پزان و بیلداران
+               <lb/>برای بند تالاب
+               <placeName ref="#ratnagra">رتناگره</placeName>
+                نوشته بودند پار سال بجهة کندن تالاب 
+               <del>انها</del>
+               <add>
+                  <unclear>او</unclear>
+               </add>
+               <lb/>دو صد بیلدار جمع شده بودند باید که الحال هم هر قدر بیلدار در کار باشند
+               <lb/>سر براه نمایند و چونه پزان انجا در انجا آید چونه سر براه خواهند کرد انچه در باب
+               <lb/>داروغه و مشرف
+               <add>بند مذکور</add>
+               <note>This phrase is added above the line.</note>
+                نوشته بودند دازوغگی
+               <note>This appears to be a misspelling for دروغگی, i.e. 'daroghagi', meaning superintendency.</note>
+                بعهده
+               <persName ref="#muhammadHashim">محمد هاشم</persName>
+                شقدار انجا است
+               <lb/>و مشرف هم از 
+               <app>
+                  <rdg cert="high">سه</rdg>
+                  <rdg cert="low">سنه</rdg>
+               </app>
+               <num>۳</num>
+                بندی خود مقرر خواهد نمود درین باب تاکید دانند
+               <date calendar="#hijri-qamri">
+                  <num>۳۰</num>
+                   رمضان سنه
+                  <num>۱۰۷۰</num>
+               </date>
+            </p>
+         </div>
+         <div xml:id="trans_div3" corresp="#orig_div3">
+            <p>
+               <lb/>Eminent among Contemporaries
+               <persName ref="#purshottamDas">Purshottam [Das]</persName>
+               <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> and
+               <persName ref="#parasRam">Paras Ram</persName>
+               <ref type="glossary" target="#gl_qanungo">qanungo</ref> of <ref type="glossary" target="#gl_pargana">pargana</ref>
+               <placeName ref="#pgDhar">Dhar</placeName>
+               ,
+               <lb/>being hopeful of favour and kindness, know that the <ref type="glossary" target="#gl_arzdasht">ʿarzdasht</ref>, which they had sent recently,
+               <lb/>has arrived. The situation explained was understood. Regarding what they had
+               written in the matter of the mason on account of the stone of village
+               <lb/>
+               <placeName ref="#nawasa">Nawasa</placeName>
+               , the mason was sent. In the matter of the lime burners<note>Known as chuna-paz in
+                  Persian, these workers burnt limestone to produce quicklime, a key ingredient of
+                  mortar.</note> and the diggers
+               <lb/>for the dam of
+               <placeName ref="#ratnagra">Ratnagarh's [Ratnagra's]</placeName>
+                water tank, which they had written about,
+               <lb/>two hundred diggers had been gathered last year for the digging of their [his]
+               water tank. Now, too, it is necessary that [they] supply all diggers who [are able
+               to] work
+               <lb/>and the lime burners of that place will supply quick lime. [Regarding] that
+               which they had written
+               <lb/>in the matter of the <ref type="glossary" target="#gl_darogha">darogha</ref> and
+                  <ref type="glossary" target="#gl_mushrif">mushrif</ref> of the aforesaid dam, the
+               superintendency is the obligation of
+               <persName ref="#muhammadHashim">Muhammad Hashim</persName>
+               , the <ref type="glossary" target="#gl_shiqdar">shiqdar</ref> of that place,
+               <lb/>and the <ref type="glossary" target="#gl_mushrif">mushrif</ref> too will be
+               appointed out of his own <ref type="glossary" target="#gl_sihbandi">sih-bandi</ref>.
+               In this matter they shall know it settled.
+               <date calendar="#hijri-qamri">30 Ramzan year 1070</date>
+               . </p>
+         </div>
+         <div xml:id="orig_div4" xml:lang="ara" type="invocation" rend="bottom right margin">
+            <p>هو</p>
+         </div>
+         <div xml:id="trans_div4" corresp="#orig_div4">
+            <p>He [God] is</p>
+         </div>
+         <div xml:id="orig_div5" xml:lang="per" type="authorisation" rend="right margin">
+            <p>
+               <lb/>حسب المسطور مقرر شناسند بیلدار
+               <gap/>
+                باشد
+               <lb/>معمور از حضور فرستاده شده چونه
+               <unclear>پز</unclear>
+               <placeName ref="#pgDhar">دهار</placeName>
+                چه شده
+               <lb/>باو مقرر نماید که مصالح طیار نماید و اگر در
+               <placeName ref="#nalcha">نعلچه</placeName>
+                امده است
+               <lb/>بمتصدی
+               <placeName ref="#nalcha">نعلچه</placeName>
+                نوشته شده که او را بفرستاد خواهد فرستاد </p>
+         </div>
+         <div xml:id="trans_div5" corresp="#orig_div5">
+            <p>
+               <lb/>Know it settled as written. The digger
+               <gap/>
+                shall be.
+               <lb/>The mason having been sent from the Lord, whatever lime burners there are [in]
+               <placeName ref="#pgDhar">Dhar</placeName>
+               <lb/>appoint [them] to [work under] him so that the public conveniences are prepared.
+               And if he has come to
+               <placeName ref="#nalcha">Nalcha</placeName>
+               ,
+               <lb/>the <ref type="glossary" target="#gl_mutasaddi">mutasaddi</ref> of
+               <placeName ref="#nalcha">Nalcha</placeName>
+                has been written to that he should be sent, [and] he will be sent. </p>
+         </div>
+         <pb n="1v" facs="lf_pDas_1660_brd_ac_22_v.jpg"/>
+         <div xml:id="orig_div6" xml:lang="per" type="clericalNotes" rend="right margin">
+            <p>
+               <lb/>نقل
+               <unclear>سیاهه</unclear>
+               <lb/>بتاریخ
+               <date calendar="#hijri-qamri">
+                  <num>۳۰</num>
+                   رمضان سنه
+                  <num>۱۰۷۰</num>
+               </date>
+               <lb/>نقلدفتر دیوان رسید
+               <g ref="#faqt">فقط</g>
+            </p>
+         </div>
+         <div xml:id="trans_div6" corresp="#orig_div6">
+            <p>
+               <lb/><unclear>Register</unclear> copy
+               <lb/>On the date <date calendar="#hijri-qamri">30 Ramzan year 1070</date>
+               <lb/>the copy of the <ref type="glossary" target="#gl_daftar">daftar</ref> of the <ref type="glossary" target="#gl_diwan">diwan</ref> arrived.
+            </p>
+         </div>
+         <div xml:id="orig_div7" xml:lang="hin" type="laterAddition" rend="top left">
+            <p>
+               <lb rend="empty"/>
+               <placeName ref="#ratnagra">रतनागर</placeName>
+                तलाब का
+               <lb rend="empty"/>
+               <unclear>छ</unclear>
+               ह तमाम
+               <unclear>कीए</unclear>
+            </p>
+         </div>
+         <div xml:id="trans_div7" corresp="#orig_div7">
+            <p>
+               <lb rend="empty"/><placeName ref="#ratnagra">Ratnagra</placeName> water tank's
+               <lb rend="empty"/><gap/> <unclear>made</unclear> complete
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

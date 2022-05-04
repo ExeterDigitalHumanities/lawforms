@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_sDeshmukh_1589_bism_rumal4_33">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Copy of an order to Fulad Khan about flight of landlord Narsu Sethi and his
+               refusal to pay a sum of cash</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Elizabeth Thelen</persName>
+               <persName>Dominic Vendell</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#bism"/>
+                  <collection ref="#sDeshmukh"/>
+                  <idno>rumal 4, no. 33</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>unattested copy</objectType>
+                     <origDate calendar="#suhur">Jumada al-sani 991</origDate>
+                     <origDate calendar="#hijri-qamri">11 Jumada al-sani 997</origDate>
+                     <origDate calendar="#gregorian" when="1589-04-27">27 April 1589</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>The landlord (desai)
+               <persName ref="#narSethi">Narsu Sethi</persName>
+                refused to pay 100 coins to a cavalryman who had received a tax-free revenue
+                assignment (jagir) and fled from the town of
+               <placeName ref="#solapur">Solapur</placeName>. 
+               On account of this, the district officer
+               <persName ref="#fuladKhan">Fulad Khan</persName>
+                is ordered to reassure the inhabitants of the town.</p>
+         </abstract>
+
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="farman"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Desertion and Depopulation</term>
+               <term>Money</term>
+               <term>Soldiers</term>
+            </keywords>
+         </textClass>
+
+         <particDesc>
+            <person role="recipient">
+               <persName ref="#fuladKhan">Fulad Khan</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <graphic url="lf_sDeshmukh_1589_bism_rumal4_33_r.jpg"/>
+      <graphic url="lf_sDeshmukh_1589_bism_rumal4_33_v.jpg"/>
+
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_sDeshmukh_1589_bism_rumal4_33_r.jpg"/>
+         <div xml:id="orig_div1" xml:lang="per" type="maintext">
+            <p> <lb/>نقل
+               <lb/>فرمان همایون شرف نفاذ یافت بجانب خان اعظم
+               <persName ref="#fuladKhan">فولاد خان</persName>
+               <lb/>نایب غیبیت معامله
+               <placeName ref="#solapur">سندلاپور</placeName>
+                آنکه هر چه عریضه او بمتوقف
+               <lb/>عرض رسید انچه در مضمون ان درینوقت بالا
+               <persName ref="#narSethi">نرسو</persName>
+                بن میگ ستهی
+               <lb/>دیسای مبلغ
+               <measure type="currency" unit="hon" quantity="100">یکصد هون</measure>
+                برات
+               <persName ref="#miyanAlaBakhsh">میان علا بخش</persName>
+                بن جمال الدین
+               <lb/>ملتانی جمع رکاب جاگیر دیوان اعلی صادر شده است چون
+               <lb/>این خبر نفر مذکور شنیده بیدل گشته از دیه بیرون رفته و
+               <lb/>بواسطه این معنی مردم قصبه مذکور از رعیت بقال و بعضی قوم قصبه
+               <lb/>خالی کرده رفته اند اهتمام فرمودن باز دیده بود بتمام
+               <lb/>روشن شد چون حال بدین منوال باشد معلوم دانند و
+               <lb/>سایر مردم قصبه را تقویت و دلداری داده قصبه معمور
+               <lb/>نمایند درین باب اهتمام بواجبی نمایند بر حکم فرمان همایون روند
+               <lb/>
+               <date calendar="#suhur">ماه جمادی الاخر سنه
+                  <num>۹۹۱</num>
+               </date>
+            </p>
+         </div>
+         <div corresp="#orig_div1" xml:id="trans_div1">
+            <p><lb/>Copy<note>It is possible there is an invocation, but the image does not include the very top of the page.</note>
+               <lb/>A royal <ref type="glossary" target="#gl_farman">farman</ref> was issued. To the
+               great khan
+               <persName ref="#fuladKhan">Fulad Khan</persName>,
+               <lb/><ref type="glossary" target="#gl_naib">naib</ref> in absentia of <ref
+                  type="glossary" target="#gl_muamala">muʿamala</ref>
+               <placeName ref="#solapur">Sandlapur [Solapur]</placeName>
+                [know] that his petition
+               <lb/>was presented with [some] delay. The contents of which [state that], at
+               this time,
+               <persName ref="#narSethi">Narsu [Sethi]</persName>, son of the <ref type="glossary" target="#gl_desai">desai</ref> Meg Sethi
+               <lb/>has been issued a <ref type="glossary" target="#gl_berat">berat</ref> to pay the
+               sum of
+               <measure type="currency" unit="hon" quantity="100">100 <ref type="glossary"
+                     target="#gl_hon">hons</ref></measure>
+                to
+               <persName ref="#miyanAlaBakhsh">Miyan Ala Bakhsh</persName>, son of Jamaluddin
+               <lb/>Multani, a cavalryman holding a <ref type="glossary" target="#gl_jagir"
+                  >jagir</ref> from the Exalted <ref type="glossary" target="#gl_diwan">Diwan</ref>. When
+               <lb/>the aforementioned person heard this news, he was frightened and left the
+               village.
+               <lb/>And on account of this event, the people of the aforementioned <ref
+                  type="glossary" target="#gl_qasba">qasba</ref>, including from the population of
+               merchants and some of the community of the <ref type="glossary" target="#gl_qasba"
+                  >qasba</ref>,
+               <lb/>have vacated and departed. The supervision of orders had been investigated.
+               <lb/>It became completely clear [and] he [i.e. <persName ref="#fuladKhan">Fulad Khan</persName>] should make it known when the situation had taken
+               this shape.
+               <lb/>And strengthening and reassuring the remaining people of the <ref type="glossary" target="#gl_qasba">qasba</ref>
+               he should make the town
+               <lb/>prosperous. In this matter, he should take appropriate care. He should implement the order of
+               the royal <ref type="glossary" target="#gl_farman">farman</ref>.
+               <lb/>In the
+               <date calendar="#suhur">month Jumada al-akhir in the year 991</date>.<note>The calendar type is not specified in the document but it is most likely this
+                  date is a suhur date and the date on the verso is given in hijri years. Taking
+                  this to be the case, both dates correspond.</note>
+            </p>
+         </div>
+         <pb n="1v" facs="lf_sDeshmukh_1589_bism_rumal4_33_v.jpg"/>
+
+         <div xml:id="orig_div2" xml:lang="mar" type="clericalNotes" rend="top">
+            <p><lb/>तरीख ११ माहे जमादीलाखर
+               <date calendar="#hijri-qamri">सबा तिसैन</date>
+               <lb/>
+               <choice>
+                  <abbr>रु</abbr>
+                  <expan>रुजू</expan>
+               </choice>
+                मश्रीफ बार
+               <unclear>मोर्तुद</unclear>
+                सुरु
+               <lb/>फर्मान मामले
+               <placeName ref="#solapur">सोलापूर</placeName>
+                की
+               <lb/>बर
+               <persName ref="#narSethi">नरसो मेगी सेटी</persName>
+                देसाई
+               <lb/>
+               <measure type="currency" unit="hon" quantity="100">१०० होन</measure>
+                वरात
+               <persName ref="#miyanAlaBakhsh">अल बाद</persName>
+               <lb/>
+               <choice>
+                  <abbr>ब||</abbr>
+                  <expan>बिन</expan>
+               </choice>
+                मुलतानी सादीर सुद
+               <lb/>अजी माने रेया कसबे बेधी-
+               <lb/>ल सुद बेरु रफ्त अद
+               <lb/>अजी सबब वरात
+               <unclear>हुजूर</unclear>
+               <lb/>कर्दे सुद असत
+               <app>
+                  <rdg cert="medium">दूर</rdg>
+                  <rdg cert="medium">[मा]मूर</rdg>
+               </app>
+               <lb/>नुमायेद </p>
+         </div>
+
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p><lb/>On the date of the
+               <date calendar="#hijri-qamri">11th of the month Jumadi al-Akhir [in the year] seven
+                  and ninety</date>
+               <lb/>Accepted by the mushrif. Registered
+               <gap/>
+               <unclear>Started</unclear>
+               <note>While the literal meaning of the word सुरू, or suru, is "beginning," "started,"
+                  or "proceeding," its meaning as an official mark in the context of registering
+                  Persian orders is still unclear. The Maratha rajas of the late seventeenth and
+                  early eighteenth centuries maintained a position called the surnis, whose role in
+                  recording state documents likely involved applying this mark.</note>
+               <gap/>
+               <lb/><ref type="glossary" target="#gl_farman">Farman</ref> to the <ref
+                  type="glossary" target="#gl_muamala">muaʿmala</ref>
+               <placeName ref="#solapur">Solapur</placeName>
+                that
+               <lb/>on the <ref type="glossary" target="#gl_desai">desai</ref>
+               <persName ref="#narSethi">Narso Megi Sethi</persName>
+               <lb/>a <ref type="glossary" target="#gl_berat">berat</ref> to pay
+               <measure type="currency" unit="hon" quantity="100">100 <ref type="glossary"
+                     target="#gl_hon">hons</ref></measure>
+                to
+               <persName ref="#miyanAlaBakhsh">Ala Bakhsh</persName>,
+               <lb/>son of [Jamaluddin] Multani.
+               <lb/>Because of this event, the population of the <ref type="glossary"
+                  target="#gl_qasba">qasba</ref>
+               <lb/>became frightened and have left.
+               <lb/>Therefore the <ref type="glossary" target="#gl_berat">berat</ref>
+               <unclear>should be
+                  <lb/>rescinded, [and the <ref type="glossary" target="#qasba">qasba</ref>]
+                  <lb/>should be re-populated.</unclear>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_kapadDwara_1810_jcp_947">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bill of exchange drawn on Bakhtawarmal Rekhchand to pay funds from Jaipur to the camp of Daulat Rao Shinde</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Mohammad Shahnawaz</persName>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from printed source: <ref type="bibl" target="#bahuraSingh1989">Catalogue of Historical Documents in Kapad Dwara, plate 100–101</ref>.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#jcp"/>
+                  <collection ref="#kapadDwara"/>
+                  <idno>Kapad Dwara documents, no. 947</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#samvat-chaitradi">13 Chaitra sudi 1867</origDate>
+                     <origDate calendar="#gregorian" when="1810-04-17">17 April 1810</origDate>
+                     <origPlace type="placeOfIssue" ref="#jaipur"/>
+                     <!--<origPlace type="placeOfReceipt" ref="#example"/>-->
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="bibl" target="#shahnawaz2021">Hundi and Nirakh Hundawan</ref></bibl> 
+                  </listBibl>                  
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p>A bill of exchange (hundi) drawn by
+               <persName ref="#mansaramSuratram">Mansaram Suratram</persName>
+                on
+               <persName ref="#bakhtawarmalRekhchand">Bakhtawarmal Rekhchand</persName>
+                for the payment of 30,000 rupees from the kingdom of
+               <placeName ref="#jaipur">Jaipur</placeName>
+                to the military camp of the Maratha ruler
+               <persName ref="#daulatRaoShinde">Daulat Rao Shinde</persName>
+               .<note> Images of the document are published in <ref type="bibl" target="#bahuraSingh1989">Bahura and Singh</ref>, and free to view in <ref type="bibl" target="#shahnawaz2021">an article by Mohammad Shahnawaz</ref>
+                  (Open Access), whose transcription and translation are reproduced here with
+                  permission. There are minor adjustments to the transcription style to match the
+                  style of this website. </note></p></abstract>       
+        <textClass>
+           <keywords scheme="#formal"><term key="hundi"/></keywords>
+           <keywords scheme="#functional"><term key="privateDeeds"/></keywords>
+           <keywords scheme="#thematic">
+              <term>Money</term>
+              <term>Trade</term>
+              <term>War</term>
+           </keywords>
+        </textClass>
+        <particDesc>
+           <person role="debtor">
+              <persName ref="#mansaramSuratram">Mansaram Suratram</persName>
+           </person>
+           <person role="creditor">
+              <persName ref="#bakhtawarmalRekhchand">Bakhtawarmal Rekhchand</persName>
+           </person>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+   <facsimile>
+      <graphic url="lf_kapadDwara_1810_jcp_947_r.jpg"/>
+      <graphic url="lf_kapadDwara_1810_jcp_947_v.jpg"/>
+   </facsimile>
+
+  <text>
+      <body>
+         <pb n="1r"/>
+         <div xml:id="orig_div1" xml:lang="raj" type="invocation" rend="top centre">
+            <p>श्री राम जी</p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p>Shri Ram Ji</p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="raj" type="authorisation" rend="top right margin">
+            <p>
+               <lb rend="empty"/><choice><abbr>दा</abbr><expan>दस्तख़त</expan></choice> <persName ref="#sanwaldas">सावलदास</persName> का होड़ी सी-
+               <lb rend="empty"/>कार दाम दीजो
+            </p>
+         </div>
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p>
+               Signature of <persName ref="#sanwaldas">Sanwaldas</persName>, <ref type="glossary" target="#gl_hundi">hundi</ref>
+               to be paid
+            </p>
+         </div>
+         <div xml:id="orig_div3" xml:lang="raj" type="maintext">
+            <p>
+               <lb/>सिध श्री लसकर श्रीमंत <persName ref="#daulatRaoShinde">दौलतराव</persName> जी का
+               <lb/>सुभसुथानेक सरव वोपमां पत्री भाइ <persName ref="#bakhtawarmalRekhchand">बख्ता-
+               <lb/>वरमल रेखचंद</persName> जोग <placeName ref="#jaipur">सवाइी जैपुर</placeName> सुं <persName ref="#mansaramSuratram">मनसा-
+               <lb/>राम सूरतराम</persName> केन जै गोपाल वंचीजो अप-
+               <lb/>रंची हंडी १ तुमारै ऊपर करी <choice><abbr>रु</abbr><expan>रुपिया</expan></choice> <measure type="currency" unit="rupees" quantity="30000">३००००)</measure> अंकङे तीस
+               <lb/>हजार नीमङ़े पंदरा हजार का दुणा अठै राखा
+               <lb/>समसथान <placeName ref="#jaipur">सवाइी जैपुर</placeName> की सीरकार का
+               <lb/>मुदत हंडी पहुंचा दीन २५ अंक पचीस पाछे सा-
+               <lb/>ह जोग हंडी की चलण का ठाव देख चोकस कर
+               <lb/>दाम दीजो मीती <date calendar="#samvat-chaitradi">चत सुद १३ तरस <choice><abbr>सं</abbr><expan>संवत</expan></choice> १८६७ सड़सठ</date>
+            </p>
+         </div>
+         <div xml:id="trans_div3" corresp="#orig_div3">
+            <p>
+               <lb/>Success to the army camp of <ref type="glossary" target="#gl_shrimant">Shrimant</ref>
+               <persName ref="#daulatRaoShinde">Daulat Rao</persName>
+               <ref type="glossary" target="#gl_jiu">Ji</ref>,
+               <lb/>pleasant and prosperous place, the abode of merit! Therein to <ref type="glossary" target="#gl_bhai">Bhai</ref>
+               <persName ref="#bakhtawarmalRekhchand">Bakhta-
+                  <lb/>warmal Rekhchand</persName>
+                written from
+               <placeName ref="#jaipur">Sawai Jaipur</placeName>
+                by
+               <persName ref="#mansaramSuratram">Mansa-
+                  <lb/>ram Suratram</persName>
+                whose greetings<note>Literally: victory to <ref type="glossary" target="#gl_gopal">Gopal</ref>.</note> you be pleased to accept. Further,
+               <lb/>a <ref type="glossary" target="#gl_hundi">hundi</ref> is drawn upon you: for
+               <measure type="currency" unit="rupees" quantity="30000">Rupees 30,000</measure>
+               , in words thirty-
+               <lb/>thousand, twice of rupees fifteen thousand, on behalf of
+               <lb/>the place, the <ref type="glossary" target="#gl_sarkar">sarkar</ref><note>Here,
+                  the term sarkar refers to state or government.</note> of
+               <placeName ref="#jaipur">Sawai Jaipur</placeName>
+               ,
+               <lb/>a fixed-term <ref type="glossary" target="#gl_hundi">hundi</ref><note>This type
+                  of <ref type="glossary" target="#gl_hundi">hundi</ref>, known as a muddati hundi,
+                  could only be paid out after the stipulated time period had passed.</note> [of the
+               period] 25 days, in words twenty-five, after [which] date,
+               <lb/>you will please pay the amount thereof in the current coin to the presenter
+               after ascertaining his respectability, title, and address.
+               <lb/>Date
+               <date calendar="#samvat-chaitradi">Chaitra Sudi 13 thirteen, Vikram Samvat 1867
+                  sixty-seven</date>
+               . </p>
+         </div>
+         <pb n="1v"/>
+         <div xml:id="orig_div4" xml:lang="raj" type="clericalNotes" rend="top right margin">
+            <p>
+               <lb/>हुंडी सही राव श्री
+               <lb/><persName ref="#bapujiNimbalkar">बापु जी निमालकर</persName> का ज्म
+               <lb/><date calendar="#samvat-chaitradi">जठ वूद ३</date>
+            </p>
+         </div>
+         <div xml:id="trans_div4" corresp="#orig_div4">
+            <p>
+               <lb/>An authentic <ref type="glossary" target="#gl_hundi">hundi</ref>, Rao Shri
+               <lb/><persName ref="#bapujiNimbalkar">Bapuji Nimbalkar</persName> received,
+               <lb/><date calendar="#samvat-chaitradi">Jyeshth Badi 3</date>
+            </p>
+         </div>
+         <div xml:id="orig_div5" xml:lang="mar" type="clericalNotes" rend="middle">
+            <p>
+               सदर हु हुंडी चे रूपये <persName ref="#bapujiNimbalkar">बापुजी निंबलकर</persName> भरून पावलो हे सही
+            </p>
+         </div>
+         <div xml:id="trans_div5" corresp="#orig_div5">
+            <p>
+               I, <persName ref="#bapujiNimbalkar">Bapuji Nimbalkar</persName>, received payment of the rupees of the aforementioned <ref type="glossary" target="#gl_hundi">hundi</ref>, so declared.
+            </p>
+         </div>
+         <div xml:id="orig_div6" xml:lang="raj" type="clericalNotes" rend="middle">
+            <p>
+               <lb rend="empty"/><measure type="currency" unit="rupees" quantity="30000">३००००)</measure>
+               <lb rend="empty"/>अंकङे तीस हजार न्मन्मङ साढ़ा सात हजार का चौगणा
+            </p>
+         </div>
+         <div xml:id="trans_div6" corresp="#orig_div6">
+            <p><lb rend="empty"/><measure type="currency" unit="rupees" quantity="30000">30,000</measure>/-<note>This number is written inside a small box.</note>
+               <lb rend="empty"/>In words, thirty thousand, four times of seven and half thousand<note>This line is written on a diagonal slant.</note></p>
+         </div>
+         <div xml:id="orig_div7" xml:lang="raj" type="laterAddition" rend="bottom left">
+            <p><num>۲۸</num>/<num>۹۴۸</num> ९४७</p>
+         </div>
+         <div xml:id="trans_div7" corresp="#orig_div7">
+            <p>28/947 947<note>These are accession numbers, written in both Perso-Arabic and Devanagari scripts.</note></p>
+         </div>
+         <div xml:id="orig_div8" xml:lang="raj" type="clericalNotes" rend="bottom">
+            <p>पत्री भाइी <persName ref="#bakhtawarmalRekhchand">बखतावरमल रेखचंद</persName> जोग</p>
+         </div>
+         <div xml:id="trans_div8" corresp="#orig_div8">
+            <p>The letter,<note>The word 'patri', typically letter, may also denote a caste affiliation or official post here, such as patwari or record-keeper. It also occurs before <persName ref="#bakhtawarmalRekhchand">Bakhtawarmal Rekhchand's</persName> name in the main text.</note> <ref type="glossary" target="#gl_bhai">Bhai</ref> <persName ref="#bakhtawarmalRekhchand">Bakhtawarmal Rekhchand</persName></p>
+         </div>
+      </body>
+  </text>
+</TEI>

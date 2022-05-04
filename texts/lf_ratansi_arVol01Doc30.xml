@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_ratansi_arVol01Doc30">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Acknowledgement of a loan taken by Ahmad bin Sulaiman bin Rajab Al-Muqimi from Seth Ratansi</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Fahad Bishara</persName>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#vp"/>
+                  <collection ref="#ratansiP"/>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#hijri-qamri">23 Shawwal 1311</origDate>
+                     <origDate calendar="#gregorian" when="1894-04-29">29 April 1894</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p><persName ref="#ahmad">Ahmad bin Sulaiman bin Rajab Al-Muqimi</persName> acknowledges that he received a loan of eighty silver coins (qurush) from <persName ref="#ratansi">Ratansi Purshottam</persName> and the extension of this loan for a period of three months.</p></abstract>       
+        <textClass>
+           <keywords scheme="#formal"><term key="iqrar"/></keywords>
+           <keywords scheme="#functional"><term key="privateDeeds"/></keywords>
+           <keywords scheme="#thematic">
+              <term>Debt and Mortgage</term>
+              <term>Money</term>
+           </keywords>
+        </textClass>
+        <particDesc>
+           <person role="debtor">
+              <persName ref="#ahmad">Ahmad bin Sulaiman bin Rajab Al-Muqimi</persName>
+           </person>
+           <person role="creditor">
+              <persName ref="#ratansi">Ratansi Purshottam</persName>
+           </person>
+           <person role="writer">
+              <persName ref="#abdullahAlBahri">Abdullah bin Yaqub bin Yusuf Al-Bahri</persName>
+           </person>
+           <person role="witness">
+              <persName ref="#khalifa">Khalifa bin Mohammed</persName>
+           </person>
+           <person role="witness">
+              <persName ref="#salim">Salim bin Said</persName>
+           </person>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+   <facsimile>
+      <graphic url="lf_ratansi_arVol01Doc30.jpg"/>
+   </facsimile>    
+  <text>
+      <body>
+         <pb n="1r" facs="lf_ratansi_arVol01Doc30.jpg"/>
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>بمنّه تعالى</p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p>By the Grace of God</p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="ara" type="maintext">
+            <p>
+               <lb/>اقر
+               <persName ref="#ahmad">احمد بن سليمان بن رجب المقيمي</persName>
+               ان عليه 
+               <persName ref="#ratansi">للسيت رطنسيه بن
+               <lb/>برسوتم البانياني</persName>
+               ثمانين قرشاً فضة افرنسيسياً حقاً مؤجلاً
+               <lb/>عنه الي مضي ثلاثة اشهر زمانا من يومنا قذا اقراراً منه له بذلك
+               <lb/>بتاريخ
+               <date calendar="#hijri-qamri">يوم
+               <num>٢٣</num> 
+               من شهر شوال سنة
+               <num>١٣١١</num></date> 
+               و كتبه الفقير 
+               <persName ref="#abdullahAlBahri">عبدالله بن
+               <lb/>يعوب بن يوسف البحري</persName>
+               بيده
+               <lb/>و بعرفاني به 
+               <persName ref="#khalifa">خليف بن محمد</persName>
+               و
+               <persName ref="#salim">سالم بن سعيد</persName>
+            </p>
+         </div>
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p>
+               <lb/><persName ref="#ahmad">Ahmad bin Sulaiman bin Rajab Al-Muqimi</persName> acknowledges that he owes to the Seth <persName ref="#ratansi">Ratansi bin
+               <lb/>Pursottam Al-Banyani</persName> <measure type="currency" unit="qirsh" quantity="80">eighty silver French <ref type="glossary" target="#gl_qirsh">qurush</ref></measure>, an obligation that is delayed
+               <lb/>from him for three months’ time from this date, and this is an acknowledgment of that from him to him 
+               <lb/>on the <date calendar="#hijri-qamri">23rd day of the month of Shawwal 1311</date>, and it was written by <persName ref="#abdullahAlBahri">Abdullah 
+               <lb/>bin Yaqub bin Yusuf Al-Bahri</persName>, by his own hand
+               <lb/>And it was made known to <persName ref="#khalifa">Khalifa bin Mohammed</persName> and <persName ref="#salim">Salim bin Said</persName>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

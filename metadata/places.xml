@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/lawforms_places.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lawforms Project - Places</title>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Nandini Chatterjee</persName>
+                    <persName>Elizabeth Thelen</persName>
+                    <persName>Dominic Vendell</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding support and website development by</resp>
+                    <persName>Lizzy Williamson</persName>
+                    <persName>Eva Bodenschatz</persName>
+                    <persName>Richard Holding</persName>
+                    <persName>Julia Hopkin</persName>
+                    <persName>Gary Stringer</persName>
+                </respStmt>
+                <funder>ERC</funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                <pubPlace>Exeter</pubPlace>
+                <date when="2022">2022</date>
+                <ptr target="https://lawforms.exeter.ac.uk/"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>This is an open access work licensed under a Creative Commons Attribution
+                            4.0 International license. Images are not covered by this license;
+                            please consult the website for further details.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Created by and for the Forms of Law project</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place xml:id="ahu" type="village">
+                    <placeName xml:lang="per"><name>آهو</name></placeName>
+                    <placeName xml:lang="eng"><name>Ahu</name></placeName>
+                    <location>
+                        <geo>22.66766 75.21713</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                    <listBibl>
+                        <bibl type="geonames" n="1279217"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="afzalpur" type="district">
+                    <placeName xml:lang="per"><name>افضل پور</name></placeName>
+                    <placeName xml:lang="eng"><name>Afzalpur</name></placeName>
+                    <location>
+                        <geo>17.52532 76.20611</geo>
+                        <offset type="zoom">8</offset>
+                    </location>
+                    <listBibl>
+                        <bibl type="geonames" n="1279147"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="akkalkot" type="district">
+                    <placeName xml:lang="per"><name>اکلکوت</name></placeName>
+                    <placeName xml:lang="mar"><name>अकलकोट</name></placeName>
+                    <placeName xml:lang="eng"><name>Akkalkot</name></placeName>
+                    <location>
+                        <geo>17.52532 76.20611</geo>
+                        <offset type="zoom">8</offset>
+                    </location>
+                    <listBibl>
+                        <bibl type="geonames" n="1279147"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="allahabad" type="city">
+                    <placeName xml:lang="per"><name>اله آباد</name></placeName>
+                    <placeName xml:lang="eng"><name>Allahabad</name></placeName>
+                    <location>
+                        <geo>25.44478 81.84322</geo>
+                        <offset type="zoom">11</offset>
+                    </location>
+                    <note>This city's name was officially changed to Prayagraj in 2018.</note>
+                    <listBibl>
+                        <bibl type="geonames" n="1278994"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="amjhera" type="district">
+                    <placeName xml:lang="per"><name>امجهره</name></placeName>
+                    <placeName xml:lang="hin"><name>अमझरा</name></placeName>
+                    <placeName xml:lang="eng"><name>Amjhera</name></placeName>
+                    <location>
+                        <geo>22.55783 75.11849</geo>
+                        <offset type="zoom">8</offset>
+                    </location>
+                    <note>the coordinate location refers to the town of Amjhera, but our reference
+                        is to the region</note>
+                    <listBibl>
+                        <bibl type="geonames" n="1278783"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="anarad" type="village">
+                    <placeName xml:lang="per"><name>انارد</name></placeName>
+                    <placeName xml:lang="eng"><name>Anarad</name></placeName>
+                    <location>
+                        <geo>22.689159879820398 75.30045386854809</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                </place>
+
+                <place xml:id="andewadi" type="village">
+                    <placeName xml:lang="mar"><name>अदेवाडी</name></placeName>
+                    <placeName xml:lang="per"><name>اندیواری</name></placeName>
+                    <placeName xml:lang="eng"><name>Andewadi</name></placeName>
+                    <location>
+                        <geo>17.37409 76.31689</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                    <listBibl>
+                        <bibl type="geonames" n="10528411"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="anjana" type="village">
+                    <placeName xml:lang="per"><name>آنجنا</name></placeName>
+                    <placeName xml:lang="eng"><name>Anjana</name></placeName>
+                    <location>
+                        <geo>22.99802 75.68212</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                    <note>The location identification of Anjana with the modern village of Khamod
+                        Anjana is tentative.</note>
+                </place>
+
+                <place xml:id="askarabad" type="district">
+                    <placeName xml:lang="per"><name>عسکراباد</name></placeName>
+                    <placeName xml:lang="eng"><name>Askarabad</name></placeName>
+                    <location>
+                        <geo>22.33265 91.80731</geo>
+                        <offset type="zoom">8</offset>
+                    </location>
+                    <note>Coordinates provided are for the quarter called Askarabad within the city
+                        of Chittagong.</note>
+                    <listBibl>
+                        <bibl type="geonames" n="6414260"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="subaAurangabad" type="province">
+                    <placeName xml:lang="per">
+                        <addName type="epithet">خجسته بنیاد</addName>
+                        <name>اورنگاباد</name>
+                    </placeName>
+                    <placeName xml:lang="eng">
+                        <addName type="epithet">Fortunate Foundation (Khujasta Bunyad)</addName>
+                        <name>Aurangabad</name>
+                    </placeName>
+                    <location>
+                        <geo>19.87757 75.34226</geo>
+                        <offset type="zoom">5</offset>
+                    </location>
+                    <note>The coordinates provided are for the city of Aurangabad.</note>
+                    <listBibl>
+                        <bibl type="geonames" n="1278149"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="bagamoyo" type="city">
+                    <placeName xml:lang="ara">
+                        <name>باجامويو</name>
+                    </placeName>
+                    <placeName xml:lang="eng">
+                        <name>Bagamoyo</name>
+                    </placeName>
+                    <location>
+                        <geo>-6.44222 38.90422</geo>
+                        <offset type="zoom">11</offset>
+                    </location>
+                    <listBibl>
+                        <bibl type="geonames" n="161290"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="bagwadi" type="district">
+                    <placeName xml:lang="mar"><name>बागवाडी</name></placeName>
+                    <placeName xml:lang="eng">
+                        <name>Bagwadi</name>
+                        <addName>Muhammadnagar</addName>
+                    </placeName>
+                    <location>
+                        <geo>20.65627 78.1349</geo>
+                        <offset type="zoom">8</offset>
+                    </location>
+                    <listBibl>
+                        <bibl type="geonames" n="10214607"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="barodia" type="district">
+                    <placeName xml:lang="per"><name>بروده</name></placeName>
+                    <placeName xml:lang="eng"><name>Barodia</name></placeName>
+                    <location>
+                        <geo>22.58391 74.98623</geo>
+                        <offset type="zoom">8</offset>
+                    </location>
+                    <note>Following Habib, An Atlas of the Mughal Empire, Map 9a, we suggest this
+                        district should be identified with the town Barodia, historically known as
+                        Baroda.</note>
+                    <listBibl>
+                        <bibl type="geonames" n="10812531"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="bengal" type="province">
+                    <placeName xml:lang="per"><name>بنگاله</name></placeName>
+                    <placeName xml:lang="eng"><name>Bengal</name></placeName>
+                    <location>
+                        <geo>24 90</geo>
+                        <offset type="zoom">5</offset>
+                    </location>
+                    <note>Coordinates and references have been given for Bangladesh. The Mughal
+                        province of Bengal also included much of the territory in the present-day
+                        Indian state of West Bengal.</note>
+                    <listBibl>
+                        <bibl type="geonames" n="1210997"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="bhilwara" type="district">
+                    <placeName xml:lang="raj"><name>भीलाडा</name></placeName>
+                    <placeName xml:lang="eng"><name>Bhilwara</name></placeName>
+                    <location>
+                        <geo>25.34707 74.64081</geo>
+                        <offset type="zoom">8</offset>
+                    </location>
+                    <listBibl>
+                        <bibl type="geonames" n="1275960"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="subaBidar" type="province">
+                    <placeName xml:lang="per">
+                        <name>بیدر</name>
+                        <addName>محمد آباد</addName>
+                        <addName>ظفر آباد</addName>
+                    </placeName>
+                    <placeName xml:lang="eng">
+                        <name>Bidar</name>
+                        <addName>City of Muhammad</addName>
+                        <addName>City of Victory</addName>
+                    </placeName>
+                    <note>Prior to its incorporation as a Mughal province (suba) in the second half
+                        of the seventeenth century, Bidar was a major city and capital of the
+                        Bahmani Sultanate, hence the epithets "City of Muhammad (Muhammadabad)" and
+                        "City of Victory (Zaffarabad)."</note>
+                    <location>
+                        <geo>17.90802 77.51524</geo>
+                        <offset type="zoom">5</offset>
+                    </location>
+                    <note>The coordinates provided refer to the location of the city of
+                        Bidar.</note>
+                    <listBibl>
+                        <bibl type="geonames" n="1275738"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="bijur" type="village">
+                    <placeName xml:lang="per"><name>بجور</name></placeName>
+                    <placeName xml:lang="eng"><name>Bijur</name></placeName>
+                    <location>
+                        <geo>22.75393 75.46025</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                    <listBibl>
+                        <bibl type="geonames" n="8462386"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="burhanpur" type="city">
+                    <placeName xml:lang="per"><name>برهانپور</name></placeName>
+                    <placeName xml:lang="eng"><name>Burhanpur</name></placeName>
+                    <location>
+                        <geo>21.30868 76.23026</geo>
+                        <offset type="zoom">11</offset>
+                    </location>
+                    <listBibl>
+                        <bibl type="geonames" n="1275068"/>
+                    </listBibl>
+                </place>
+
+
+                <place xml:id="chandwada" type="village">
+                    <placeName xml:lang="per"><name>چنواره</name></placeName>
+                    <placeName xml:lang="eng"><name>Chandwada</name></placeName>
+                    <location>
+                        <geo>22.6569 75.22748</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                </place>
+
+                <place xml:id="devgarh" type="district">
+                    <placeName xml:lang="raj"><name>देवगढ</name></placeName>
+                    <placeName xml:lang="eng"><name>Devgarh</name></placeName>
+                    <location>
+                        <geo>25.52533 73.90812</geo>
+                        <offset type="zoom">8</offset>
+                    </location>
+                    <note>Sometimes also referred to as Deogarh.</note>
+                    <listBibl>
+                        <bibl type="geonames" n="1273098"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="dhamanda" type="village">
+                    <placeName xml:lang="per"><name>دهامنده</name></placeName>
+                    <placeName xml:lang="mar"><name>धामणदा</name></placeName>
+                    <placeName xml:lang="eng"><name>Dhamanda</name></placeName>
+                    <location>
+                        <geo>22.7234 75.19247</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                </place>
+
+                <place xml:id="dhar" type="town">
+                    <placeName xml:lang="per">
+                        <addName type="epithet">دارالانوار پیران</addName>
+                        <name>دهار</name>
+                    </placeName>
+                    <placeName xml:lang="hin"><name>धार</name></placeName>
+                    <placeName xml:lang="eng"><addName type="epithet">Abode of the light of the holy
+                            men</addName><name>Dhar (town)</name></placeName>
+                    <location>
+                        <geo>22.59373 75.29774</geo>
+                        <offset type="zoom">13</offset>
+                    </location>
+                    <bibl type="geonames" n="1272892"/>
+                </place>
+
+                <place xml:id="pgDhar" type="district">
+                    <placeName xml:lang="per"><name>دهار</name></placeName>
+                    <placeName xml:lang="hin"><name>धार</name></placeName>
+                    <placeName xml:lang="eng"><name>Dhar (district)</name></placeName>
+                    <location>
+                        <geo>22.5 75.25</geo>
+                        <offset type="zoom">8</offset>
+                    </location>
+                </place>
+
+                <place xml:id="gardawad" type="village">
+                    <placeName xml:lang="per"><name>گرداود</name></placeName>
+                    <placeName xml:lang="eng"><name>Gardawad</name></placeName>
+                    <location>
+                        <geo>22.69893 75.2424</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                    <listBibl>
+                        <bibl type="geonames" n="1271577"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="gujarat" type="province">
+                    <placeName xml:lang="per"><name>گجرات</name></placeName>
+                    <placeName xml:lang="eng"><name>Gujarat</name></placeName>
+                    <location>
+                        <geo>22.85 71.5</geo>
+                        <offset type="zoom">5</offset>
+                    </location>
+                    <listBibl>
+                        <bibl type="geonames" n="1270771"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="hassanabad" type="neighbourhood">
+                    <placeName xml:lang="per"><name>حسن آباد</name></placeName>
+                    <placeName xml:lang="eng"><name>Hassanabad</name></placeName>
+                    <location>
+                        <geo>34.10314146096234 74.829446672483</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                    <note>Hassanabad is a historic neighbourhood in the city of Srinagar with a
+                        large Shia population</note>
+                    <!-- location is approximate, coordinates are for the neighbourhood mosque as shown on GoogleMaps -->
+                </place>
+
+                <place xml:id="haylAlGhaf" type="town">
+                    <placeName xml:lang="ara">
+                        <name>حيل الغاف</name>
+                    </placeName>
+                    <placeName xml:lang="eng">
+                        <name>Hayl Al-Ghaf</name>
+                    </placeName>
+                    <location>
+                        <geo>23.1719 58.92366</geo>
+                        <offset type="zoom">13</offset>
+                    </location>
+                    <listBibl>
+                        <bibl type="geonames" n="287966"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="hindola" type="district">
+                    <placeName xml:lang="per"><name>هندوله</name></placeName>
+                    <placeName xml:lang="eng"><name>Hindola</name></placeName>
+                    <location>
+                        <geo>22.43921 75.19553</geo>
+                        <offset type="zoom">8</offset>
+                    </location>
+                    <note>Hindola was a historic district to the southwest of Dhar. The coordinates
+                        given are for the town of Nimkhera [Nimkheda], a town shown in the district
+                        in a map from the 1920s.</note>
+                    <listBibl>
+                        <bibl type="geonames" n="1261341"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="indore" type="district">
+                    <placeName xml:lang="mar"><name>इंदूर</name></placeName>
+                    <placeName xml:lang="eng"><name>Indore</name></placeName>
+                    <location>
+                        <geo>22.66667 75.75</geo>
+                        <offset type="zoom">8</offset>
+                    </location>
+                    <listBibl>
+                        <bibl type="geonames" n="1269744"/>
+                    </listBibl>
+                    <!-- Indore district details recorded -->
+                </place>
+
+                <place xml:id="islamabad" type="district">
+                    <placeName xml:lang="per"><name>اسلاماباد</name></placeName>
+                    <placeName xml:lang="eng"><name>Islamabad</name></placeName>
+                    <location>
+                        <geo>22.91667 91.5</geo>
+                        <offset type="zoom">8</offset>
+                    </location>
+                    <note>More commonly known as Chittagong.</note>
+                    <listBibl>
+                        <bibl type="geonames" n="13372000"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="jaipur" type="city">
+                    <placeName xml:lang="raj">
+                        <name>जैपुर</name>
+                        <addName type="alias">सवाई जैपुर</addName>
+                    </placeName>
+                    <placeName xml:lang="eng">
+                        <name>Jaipur</name>
+                        <addName type="alias">Sawai Jaipur</addName>
+                    </placeName>
+                    <location>
+                        <geo>26.91962 75.78781</geo>
+                        <offset type="zoom">11</offset>
+                    </location>
+                    <note>The city was named after its founder, the eighteenth-century king Jai
+                        Singh II, and was the capitol of the kingdom Jaipur. In historical texts,
+                        the king's honourific title Sawai is often appended to the city name as
+                        well.</note>
+                    <listBibl>
+                        <bibl type="geonames" n="1269515"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="jamli" type="district">
+                    <placeName xml:lang="per"><name>جاملی</name></placeName>
+                    <placeName xml:lang="eng"><name>Jamli</name></placeName>
+                    <location>
+                        <geo>22.48219 74.98923</geo>
+                        <offset type="zoom">8</offset>
+                    </location>
+                    <note>The coordinates provided are for the town of the same name.</note>
+                    <listBibl>
+                        <bibl type="geonames" n="10812697"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="jodhpurFort" type="fort">
+                    <placeName xml:lang="raj"><name>गढ जोधपुर</name></placeName>
+                    <placeName xml:lang="eng"><name>Jodhpur Fort</name></placeName>
+                    <location>
+                        <geo>26.29777 73.01865</geo>
+                        <offset type="zoom">16</offset>
+                    </location>
+                    <note>Presently called Mehrangarh</note>
+                </place>
+
+                <place xml:id="kadabgaon" type="village">
+                    <placeName xml:lang="per"><name>کرب گانون</name></placeName>
+                    <placeName xml:lang="eng"><name>Kadagaon</name></placeName>
+                    <location>
+                        <geo>17.45107 76.15501</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                    <listBibl>
+                        <bibl type="geonames" n="10696391"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="kalsada" type="village">
+                    <placeName xml:lang="mar"><name>कलसाडा</name></placeName>
+                    <placeName xml:lang="eng"><name>Kalsada</name></placeName>
+                    <location>
+                        <geo>22.77925 75.29165</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                </place>
+
+                <place xml:id="kampel" type="district">
+                    <placeName xml:lang="per"><name>کنپیل</name></placeName>
+                    <placeName xml:lang="eng"><name>Kampel</name></placeName>
+                    <location>
+                        <geo>22.61859 76.0506</geo>
+                        <offset type="zoom">8</offset>
+                    </location>
+                    <bibl type="geonames" n="1268218"/>
+                </place>
+
+                <place xml:id="karijari" type="village">
+                    <placeName xml:lang="per"><name>کریجاری</name></placeName>
+                    <placeName xml:lang="eng"><name>Karijari</name></placeName>
+                    <location>
+                        <geo>17.99998 73.40736</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                    <note>The location is tentative, identifying the historical village with the
+                        present-day place Karanjadi, which is near other villages named in the same
+                        document</note>
+                </place>
+
+                <place xml:id="khandwa" type="village">
+                    <placeName xml:lang="per"><name>کندوهه</name></placeName>
+                    <placeName xml:lang="eng"><name>Khandwa</name></placeName>
+                    <location>
+                        <geo>22.5839 75.64596</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                    <note>The identification of this place is tentative.</note>
+                    <bibl type="geonames" n="10705333"/>
+                </place>
+
+                <place xml:id="khanpur" type="village">
+                    <placeName xml:lang="hin"><name>खानपुर</name></placeName>
+                    <placeName xml:lang="eng"><name>Khanpur</name></placeName>
+                    <location>
+                        <geo>22.57055 75.31404</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                </place>
+
+                <place xml:id="khilchipur" type="town">
+                    <placeName xml:lang="per"><name>قلچی پور</name></placeName>
+                    <placeName xml:lang="eng"><name>Khilchipur</name></placeName>
+                    <location>
+                        <geo>24.03943 76.578</geo>
+                        <offset type="zoom">13</offset>
+                    </location>
+                    <bibl type="geonames" n="1266731"/>
+                </place>
+
+                <place xml:id="kondvi" type="district">
+                    <placeName xml:lang="per"><name>کوندوی</name></placeName>
+                    <placeName xml:lang="eng"><name>Kondvi</name></placeName>
+                    <location>
+                        <geo>17.92279 73.45632</geo>
+                        <offset type="zoom">8</offset>
+                    </location>
+                    <note>The coordinates given are for the present-day village Kondhawi.</note>
+                </place>
+
+                <place xml:id="kotwalBuzurg" type="village">
+                    <placeName xml:lang="per"><name>کوتوال بزورگ</name></placeName>
+                    <placeName xml:lang="eng"><name>Kotwal Buzurg</name></placeName>
+                    <location>
+                        <geo>17.87624 73.51523</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                </place>
+
+                <place xml:id="kusawada" type="village">
+                    <placeName xml:lang="per"><name>کساودها</name></placeName>
+                    <placeName xml:lang="eng"><name>Kusawadha</name></placeName>
+                    <location>
+                        <geo>22.77679 75.3587</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                </place>
+
+                <place xml:id="latvan" type="village">
+                    <placeName xml:lang="per"><name>لات ون</name></placeName>
+                    <placeName xml:lang="eng"><name>Latvan</name></placeName>
+                    <location>
+                        <geo>17.93567 73.34615</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                    <note>The name is also sometimes written in English as Latawan.</note>
+                </place>
+
+                <place xml:id="lawani" type="district">
+                    <placeName xml:lang="per"><name>لوانی</name></placeName>
+                    <placeName xml:lang="eng"><name>Lawani</name></placeName>
+                    <location>
+                        <geo>22.30429 75.31497</geo>
+                        <offset type="zoom">8</offset>
+                    </location>
+                </place>
+
+                <place xml:id="maliwada" type="village">
+                    <placeName xml:lang="per"><name>مالیواده</name></placeName>
+                    <placeName xml:lang="eng"><name>Maliwada</name></placeName>
+                    <location>
+                        <geo>22.59373 75.29774</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                    <note>Maliwada is a very small village close to the town of Dhar.</note>
+                </place>
+
+                <place xml:id="malwa" type="province">
+                    <placeName xml:lang="per"><name>مالوا</name></placeName>
+                    <placeName xml:lang="eng"><name>Malwa</name></placeName>
+                    <location>
+                        <geo>22 75</geo>
+                        <offset type="zoom">5</offset>
+                    </location>
+                </place>
+
+
+
+                <place xml:id="mandu" type="region">
+                    <placeName xml:lang="per"><name>مندو</name></placeName>
+                    <placeName xml:lang="eng"><name>Mandu</name></placeName>
+                    <location>
+                        <geo>22.34125 75.4013</geo>
+                        <offset type="zoom">5</offset>
+                    </location>
+                    <listBibl>
+                        <bibl type="geonames" n="1263833"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="mannur" type="town">
+                    <placeName xml:lang="per"><name>منور</name></placeName>
+                    <placeName xml:lang="mar"><name>मणौर</name></placeName>
+                    <placeName xml:lang="eng"><name>Mannur</name></placeName>
+                    <location>
+                        <geo>15.82479 75.62421</geo>
+                        <offset type="zoom">13</offset>
+                    </location>
+                    <listBibl>
+                        <bibl type="geonames" n="10847305"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="mundwa" type="town">
+                    <placeName xml:lang="raj"><name>मूंडवा</name></placeName>
+                    <placeName xml:lang="eng"><name>Mundwa</name></placeName>
+                    <location>
+                        <geo>27.0631 73.82304</geo>
+                        <offset type="zoom">13</offset>
+                    </location>
+                    <listBibl>
+                        <bibl type="geonames" n="1262491"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="nagansur" type="village">
+                    <placeName xml:lang="per"><name>ناگنسر</name></placeName>
+                    <placeName xml:lang="eng"><name>Nagansur</name></placeName>
+                    <placeName xml:lang="mar"><name>नागनसूर</name></placeName>
+                    <location>
+                        <geo>17.39289 76.16521</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                    <bibl type="geonames" n="1262263"/>
+                </place>
+
+                <place xml:id="pgNagaur" type="district">
+                    <placeName xml:lang="raj"><name>नागोर</name></placeName>
+                    <placeName xml:lang="eng"><name>Nagaur</name></placeName>
+                    <location>
+                        <geo>27.20201 73.73394</geo>
+                        <offset type="zoom">8</offset>
+                    </location>
+                    <note>The coordinates and geonames reference of the city of Nagaur are given
+                        here as an approximate location. Although Nagaur is also an administrative
+                        district today, its present boundaries are far more extensive than the
+                        historical district.</note>
+                    <bibl type="geonames" n="1262216"/>
+                </place>
+
+                <place xml:id="nakhl" type="town">
+                    <placeName xml:lang="ara">
+                        <name>نخل</name>
+                    </placeName>
+                    <placeName xml:lang="eng"><name>Nakhl</name></placeName>
+                    <location>
+                        <geo>23.39849 57.8218</geo>
+                        <offset type="zoom">13</offset>
+                    </location>
+                    <listBibl>
+                        <bibl type="geonames" n="287023"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="nalcha" type="district">
+                    <placeName xml:lang="per"><name>نعلجه</name></placeName>
+                    <placeName xml:lang="eng"><name>Nalcha</name></placeName>
+                    <location>
+                        <geo>22.41667 75.4</geo>
+                        <offset type="zoom">8</offset>
+                    </location>
+                    <bibl type="geonames" n="1262076"/>
+                </place>
+
+                <place xml:id="natondi" type="village">
+                    <placeName xml:lang="per"><name>ناتوندی</name></placeName>
+                    <placeName xml:lang="eng"><name>Natondi</name></placeName>
+                    <location>
+                        <geo>17.99406 73.43475</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                </place>
+
+                <place xml:id="naugaon" type="town">
+                    <placeName xml:lang="per"><name>نوگانوہ</name></placeName>
+                    <placeName xml:lang="eng"><name>Naugaon</name></placeName>
+                    <location>
+                        <geo>22.74354 75.68569</geo>
+                        <offset type="zoom">13</offset>
+                    </location>
+                    <bibl type="geonames" n="10705257"/>
+                </place>
+
+                <place xml:id="nawasa" type="village">
+                    <placeName xml:lang="per"><name>نواسه</name></placeName>
+                    <placeName xml:lang="eng"><name>Nawasa</name></placeName>
+                    <location>
+                        <geo>22.66913 75.35646</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                </place>
+
+                <place xml:id="niwai" type="district">
+                    <placeName xml:lang="per"><name>نوائی</name></placeName>
+                    <placeName xml:lang="eng"><name>Niwai</name></placeName>
+                    <location>
+                        <geo>26.36073 75.91836</geo>
+                        <offset type="zoom">8</offset>
+                    </location>
+                    <note>The coordinates given are for the town with the same name, which was the
+                        district headquarters.</note>
+                    <listBibl>
+                        <bibl type="geonames" n="1261614"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="pachor" type="town">
+                    <placeName xml:lang="per"><name>پاچور</name></placeName>
+                    <placeName xml:lang="eng"><name>Pachor</name></placeName>
+                    <location>
+                        <geo>20.65919 75.34890</geo>
+                        <offset type="zoom">13</offset>
+                    </location>
+                    <note>The idenfication of Pachor with modern-day Pachora is tentative. The name
+                        could also refer to place Pachod in Maharashtra, or another location
+                        entirely.</note>
+                </place>
+
+                <place xml:id="padalya" type="village">
+                    <placeName xml:lang="mar"><name>पाडल्या</name></placeName>
+                    <placeName xml:lang="eng"><name>Padalya</name></placeName>
+                    <location>
+                        <geo>22.55242 75.32372</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                </place>
+
+                <place xml:id="palamkottah" type="fort">
+                    <placeName xml:lang="per"><name>پالم کوتا</name></placeName>
+                    <placeName xml:lang="eng"><name>Palamkottah</name></placeName>
+                    <location>
+                        <geo>8.72525 77.73743</geo>
+                        <offset type="zoom">16</offset>
+                    </location>
+                    <bibl type="geonames" n="1260743"/>
+                </place>
+
+                <place xml:id="palwada" type="village">
+                    <placeName xml:lang="per"><name>پلواره</name></placeName>
+                    <placeName xml:lang="eng"><name>Palwada</name></placeName>
+                    <location>
+                        <geo>22.84399 75.33196</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                </place>
+
+                <place xml:id="patna" type="city">
+                    <placeName xml:lang="per"><name>پتنه</name></placeName>
+                    <placeName xml:lang="eng"><name>Patna</name></placeName>
+                    <location>
+                        <geo>25.59859 85.22023</geo>
+                        <offset type="zoom">11</offset>
+                    </location>
+                    <listBibl>
+                        <bibl type="geonames" n="1260083"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="raigarh" type="fort">
+                    <placeName xml:lang="eng"><name>Raigarh</name><addName>Islamgarh</addName><addName>Raheri</addName></placeName>
+                    <placeName xml:lang="per"><name>اسلامگده</name><addName>راهیری</addName></placeName>
+                    <note>During Aurangzeb's rule, Raigarh was renamed Islamgarh. A number of
+                        documents from the late seventeenth and eighteenth centuries mention
+                        'Raheri' as the alias of Islamgarh.</note>
+                    <location>
+                        <geo>18.2376 73.43832</geo>
+                        <offset type="zoom">16</offset>
+                    </location>
+                </place>
+
+                <place type="village" xml:id="ratnagaon">
+                    <placeName xml:lang="hin"><name>रतनागावा</name></placeName>
+                    <placeName xml:lang="eng"><name>Ratnagaon</name></placeName>
+                    <location>
+                        <geo>22.569188 75.338366</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                    <note>This is possibly the same as <placeName ref="#ratnagra"
+                            >Ratnagra</placeName>, Madhya Pradesh with coordinates of 22.569188,
+                        75.338366 on Google Maps.</note>
+                </place>
+
+                <place type="village" xml:id="ratnagra">
+                    <placeName xml:lang="per"><name>رتناگره</name></placeName>
+                    <placeName xml:lang="hin"><name>रतनागरो</name></placeName>
+                    <placeName xml:lang="eng"><name>Ratnagra</name></placeName>
+                    <location>
+                        <geo>22.569188 75.338366</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                    <note>Possibly the same place as <placeName ref="#ratnagaon"
+                            >Ratnagaon</placeName>.</note>
+                </place>
+
+                <place xml:id="ravdhal" type="village">
+                    <placeName xml:lang="per"><name>راودهل</name></placeName>
+                    <placeName xml:lang="eng"><name>Ravdhal</name></placeName>
+                    <location>
+                        <geo>18.07056 73.37381</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                </place>
+
+                <place xml:id="salumbar" type="district">
+                    <placeName xml:lang="raj"><name>सलुंबर</name></placeName>
+                    <placeName xml:lang="eng"><name>Salumbar</name></placeName>
+                    <location>
+                        <geo>24.13524 74.04442</geo>
+                        <offset type="zoom">8</offset>
+                    </location>
+                    <listBibl>
+                        <bibl type="geonames" n="1257588"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="sambhar" type="town">
+                    <placeName xml:lang="raj"><name>सांभर</name></placeName>
+                    <placeName xml:lang="eng"><name>Sambhar</name></placeName>
+                    <location>
+                        <geo>26.90806 75.19137</geo>
+                        <offset type="zoom">13</offset>
+                    </location>
+                    <note>The town is located on the edge of a salt lake and is an important site of
+                        salt production.</note>
+                    <listBibl>
+                        <bibl type="geonames" n="1257539"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="sanwer" type="district">
+                    <placeName xml:lang="per"><name>سانویر</name></placeName>
+                    <placeName xml:lang="eng"><name>Sanwer</name></placeName>
+                    <location>
+                        <geo>22.97415 75.8271</geo>
+                        <offset type="zoom">8</offset>
+                    </location>
+                    <note>The coordinates given are for the town of Sanwer. Our reference is to the
+                        district that includes this town.</note>
+                    <bibl type="geonames" n="1257313"/>
+                </place>
+
+                <place xml:id="shahjahanabad" type="city">
+                    <placeName xml:lang="per"><name>شاهجهان آباد</name></placeName>
+                    <placeName xml:lang="eng"><name>Shahjahanabad</name></placeName>
+                    <note>This refers to the section of Delhi built by the emperor Shah Jahan in the
+                        seventeenth century, which today is commonly called Old Delhi. The map
+                        location is an approximation.</note>
+                    <location>
+                        <geo>28.65621 77.2263</geo>
+                        <offset type="zoom">11</offset>
+                    </location>
+                    <bibl type="geonames" n=" 10263275"/>
+                </place>
+
+                <place xml:id="silodi" type="village">
+                    <placeName xml:lang="per"><name>سلودی</name></placeName>
+                    <placeName xml:lang="eng"><name>Silodi</name></placeName>
+                    <location>
+                        <geo>22.68923 75.20893</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                </place>
+
+                <place xml:id="sitapuri" type="village">
+                    <placeName xml:lang="per"><name>سیتاپوری</name></placeName>
+                    <placeName xml:lang="eng"><name>Sitapuri</name></placeName>
+                    <location>
+                        <geo>22.336767 75.090219</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                    <note>The historical location of Sitapuri may have been slightly East of this
+                        point, where there is now a mining operation.</note>
+                </place>
+
+                <place xml:id="sokomohogo" type="street">
+                    <placeName xml:lang="guj"><name>શોકમોગા</name></placeName>
+                    <placeName xml:lang="eng"><name>Sokomohogo</name></placeName>
+                    <location>
+                        <geo>-6.16366 39.19009</geo>
+                        <offset type="zoom">16</offset>
+                    </location>
+                </place>
+
+                <place xml:id="solapur" type="town">
+                    <placeName xml:lang="per">
+                        <name>سولاپور</name>
+                        <addName>سندلاپور</addName></placeName>
+                    <placeName xml:lang="mar"><name>सोलापूर</name>
+                        <addName>सोनलपूर</addName></placeName>
+                    <placeName xml:lang="eng"><name>Solapur</name></placeName>
+                    <location>
+                        <geo>17.67152 75.91044</geo>
+                        <offset type="zoom">13</offset>
+                    </location>
+                    <bibl type="geonames" n="1256436"/>
+                </place>
+
+                <place xml:id="sultanpur" type="town">
+                    <placeName xml:lang="per"><name>سلطانپور</name></placeName>
+                    <placeName xml:lang="eng"><name>Sultanpur</name></placeName>
+                    <location>
+                        <geo>22.571370 75.182339</geo>
+                        <offset type="zoom">13</offset>
+                    </location>
+                </place>
+
+                <place xml:id="tamhane" type="village">
+                    <placeName xml:lang="per"><name>تامهنه</name></placeName>
+                    <placeName xml:lang="eng"><name>Tamhane</name></placeName>
+                    <location>
+                        <geo>17.89379 73.38545</geo>
+                        <offset type="zoom">13</offset>
+                    </location>
+                </place>
+
+                <place xml:id="tornod" type="town">
+                    <placeName xml:lang="per"><name>ترنود</name></placeName>
+                    <placeName xml:lang="eng"><name>Tornod</name></placeName>
+                    <location>
+                        <geo>22.6361 75.3134</geo>
+                        <offset type="zoom">13</offset>
+                    </location>
+                </place>
+
+                <place xml:id="tudil" type="village">
+                    <placeName xml:lang="per"><name>تودل</name></placeName>
+                    <placeName xml:lang="eng"><name>Tudil</name></placeName>
+                    <location>
+                        <geo>18.06952 73.36202</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                    <note>The coordinates given are for the modern-day town of Lower Tudil.</note>
+                </place>
+
+                <place xml:id="udaipur" type="city">
+                    <placeName xml:lang="raj"><name>उदैपुर</name></placeName>
+                    <placeName xml:lang="eng"><name>Udaipur</name></placeName>
+                    <location>
+                        <geo>24.58584 73.71346</geo>
+                        <offset type="zoom">11</offset>
+                    </location>
+                    <listBibl>
+                        <bibl type="geonames" n="1253986"/>
+                    </listBibl>
+                </place>
+
+                <place xml:id="ujjain" type="city">
+                    <placeName xml:lang="per">
+                        <addName type="epithet">دار الفتح</addName>
+                        <name>اوجین</name>
+                    </placeName>
+                    <placeName xml:lang="eng">
+                        <addName type="epithet">Abode of Victory (Dar al-Fath)</addName>
+                        <name>Ujjain</name>
+                    </placeName>
+                    <location>
+                        <geo>23.18239 75.77643</geo>
+                        <offset type="zoom">11</offset>
+                    </location>
+                    <bibl type="geonames" n="1253914"/>
+                </place>
+
+                <place xml:id="valote" type="village">
+                    <placeName xml:lang="per"><name>ولوته</name></placeName>
+                    <placeName xml:lang="eng"><name>Valote</name></placeName>
+                    <location>
+                        <geo>17.93937 73.32591</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                </place>
+
+                <place xml:id="wakan" type="village">
+                    <placeName xml:lang="per"><name>واکن</name></placeName>
+                    <placeName xml:lang="eng"><name>Wakan</name></placeName>
+                    <location>
+                        <geo>17.96416 73.52775</geo>
+                        <offset type="zoom">14</offset>
+                    </location>
+                </place>
+
+                <place xml:id="zanzibar" type="city">
+                    <placeName xml:lang="eng"><name>Zanzibar</name></placeName>
+                    <location>
+                        <geo>-6.16394 39.19793</geo>
+                        <offset type="zoom">11</offset>
+                    </location>
+                    <bibl type="geonames" n="148730"/>
+                </place>
+
+
+            </listPlace>
+        </body>
+    </text>
+</TEI>

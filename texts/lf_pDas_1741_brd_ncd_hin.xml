@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1741_brd_ncd_hin">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of Sadashiv Ram to Pandit Sesadri Ram to employ nine horsemen to guard the village station</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Dominic Vendell</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                 <repository ref="#brd"/> 
+                  <collection ref="#pDas"/>
+                  <idno>none</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#suhur">1 Zu al-Hijjah 1141</origDate> 
+                     <origDate calendar="#gregorian"  when="1741-02-17">17 February 1741</origDate>                 
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p><persName ref="#sadashivPandit">Sadashiv Ram</persName> orders Pandit <persName ref="#sesadriRam">Sesadri Ram</persName> Ji to employ nine horsemen, led by commander (jamadar) <persName ref="#bijaySingh">Bijay Singh</persName>, at the monthly salary of 149 rupees to guard the village station night and day.</p></abstract>       
+        <textClass>
+           <keywords scheme="#functional">
+              <term key="orders"/>
+           </keywords>
+           <keywords scheme="#formal">
+              <term key="sanad"/>
+           </keywords>
+           <keywords scheme="#thematic">
+              <term>Money</term>
+              <term>Policing and Crime</term>
+              <term>Soldiers</term>
+           </keywords>
+        </textClass>
+        <particDesc>
+           <person role="issuer">
+              <persName ref="#sadashivPandit">Sadashiv Ram</persName>
+           </person>
+           <person role="recipient">
+              <persName ref="#sesadriRam">Sesadri Ram</persName>
+           </person>   
+        </particDesc>   
+     </profileDesc>
+  </teiHeader>
+
+   <facsimile>
+      <graphic url="lf_pDas_1741_brd_ncd_hin_r.jpg"/>
+      <graphic url="lf_pDas_1741_brd_ncd_hin_v.jpg"/>
+   </facsimile>
+  <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1741_ncd_hin_r.jpg"/>
+         
+         <div xml:id="orig_div1" xml:lang="hin" type="invocation" rend="top centre"><p>राम</p></div>
+         <div corresp="#orig_div1"  xml:id="trans_div1"><p><ref type="glossary" target="#gl_ram">Ram</ref></p></div>
+         
+         <div xml:id="orig_div2" xml:lang="hin" type="authorisation" rend="top centre">
+            <p><stamp type="seal"><mentioned>
+               श्री पांडुरंग चरणात सर
+               <persName ref="#sadashivPandit">सदासीव राम</persName>
+               नीरंतर
+            </mentioned></stamp></p>   
+         </div> 
+         <div corresp="#orig_div2"  xml:id="trans_div2">
+            <p>
+               <stamp type="seal">Square black ink seal<mentioned><persName ref="#sadashivPandit">Sadashiv Ram</persName>,<note>Based on context, Sadashiv Ram is likely the same person as Sadashiv Pandit mentioned in other contemporary documents and has therefore been encoded as the same person.</note> 
+               whose head is always bowed to the feet of Shri <ref type="glossary" target="#gl_panduranga">Panduranga</ref></mentioned></stamp>
+            </p>
+         </div>
+         
+         <div xml:id="orig_div3" xml:lang="hin" type="maintext">
+            <p>
+               <lb/>राजश्री पंडत
+               <persName ref="#sesadriRam">सेसाद्री राम जी</persName>
+                मुका-
+               <lb/>सदार <choice>
+                  <abbr>प्र.</abbr>
+                  <expan>परगना</expan>
+               </choice> 
+               <placeName ref="#pgDhar">धार</placeName> 
+               आगो 
+               <persName ref="#bijaySingh">बीजे सींघ</persName>
+               <lb/>वगेरा असवार ९ नव कुं चाकर
+               <lb/>रखे दर माहा
+               <choice>
+                  <abbr>रु.</abbr>
+                  <expan>रुपये</expan>
+               </choice>
+               <measure type="currency" unit="rupee" quantity="149">१४९</measure>
+               <g ref="#ali">[अळी]</g>
+               अंके
+               <lb/>एक सव ओगण पचास ठह-
+               <lb/>राया सो अड़ाही रोजा दर माहा
+               <lb/>मीना कर बाकी माह बमाह पाये
+               <lb/>जाय अर अपनी खातीर जमा सु
+               <lb/>रात दीन चवकी पहरा गसत सुवारी
+               <lb/><choice>
+               <abbr>मो</abbr>
+               <expan>मौज</expan>
+               </choice>
+               बेउजर हाजीर रहै हाजरी गैर
+               <lb/>हाजरी तलब मो कठगी
+               <lb/>मसारनीले सुवार <unclear>१</unclear>
+               <lb/>३० 
+            </p>
+         </div>
+         
+         <div corresp="#orig_div3"  xml:id="trans_div3">  
+            <p>
+               <lb/><ref type="glossary" target="#gl_rajashri">Rajashri</ref> <ref type="glossary" target="#gl_pandit">Pandit</ref> <persName ref="#sesadriRam">Sesadri Ram</persName> <ref type="glossary" target="#gl_jiu">Ji</ref>, <ref type="glossary" target="#gl_mokasadar">mokasadar</ref> of
+               <lb/><ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#pgDhar">Dhar</placeName>, it is ordered that [since] <persName ref="#bijaySingh">Bijay Singh</persName>
+               <lb/>etc., 9 [or in words] nine, horsemen have been employed,
+               <lb/>between them the [salary] of <measure type="currency" unit="rupee" quantity="149">149</measure> <g ref="#ali">[fractional symbol]</g> rupees per month,
+               <lb/>[or in words] one hundred and forty nine is fixed.
+               <lb/>So pay two and a half [rupees] daily wages between them
+               <lb/>[each] month [and] the rest they will receive monthly.
+               <lb/>And being content,
+               <lb/>they should guard the station night and day
+               <lb/>and be present in the village without excuse. Absences will
+               <lb/>be deducted from the salary.
+               <lb/>The said horseman <unclear>1</unclear>
+               <lb/>30 
+            </p> 
+         </div>
+         
+         <div xml:id="orig_div4" xml:lang="mar" type="maintext">
+            <p>
+               <choice>
+                  <abbr>त||</abbr>
+                  <expan>तारीख</expan>
+               </choice>
+               <date><choice>
+                  <abbr>छ</abbr>
+                  <expan>चंद्र</expan>
+               </choice>
+               १ माहे जीहेज</date>
+            </p></div>
+         
+         <div corresp="#orig_div4" xml:id="trans_div4"><p>On the lunar date of <date>1st of the month Zu al-Hijjah</date></p></div>
+         
+         <div xml:id="orig_div5" xml:lang="hin" type="particulars" rend="bottom">
+            <p>
+               <lb/> मसारनीले सुवार १
+               <lb/><persName ref="#bidraban">बीदराबन</persName> सुवार १
+               <lb/><persName ref="#nathuRam">नाथुराम</persName> सुवार १
+               <lb/><persName ref="#lalSingh">लालसींघ</persName> सुवार १
+               <lb rend="empty"/> <lb/><persName ref="#kanakSingh">कनकसींघ</persName> सुवार १
+               <lb/><persName ref="#mohkamSingh">मोहकमसींघ</persName> सुवार १
+               <lb/><persName ref="#kushalSingh">कुसलसींघ</persName> सुवार १
+               <lb/><persName ref="#suratSingh">सुरतसींघ</persName> सुवार १
+               <lb rend="empty"/> <lb/><unclear><persName ref="#gayadasa">गयादासा</persName></unclear> <choice><abbr>सु</abbr><expan>सुवार</expan></choice>
+               <figure/>
+            </p>   
+         </div>
+         
+         <div corresp="#orig_div5" xml:id="trans_div5">
+            <p>
+               <lb/>The said horseman [<persName ref="#bijaySingh">Bijay Singh</persName>] 1
+               <lb/><persName ref="#bidraban">Bidraban</persName> horseman 1
+               <lb/><persName ref="#nathuRam">Nathu Ram</persName> horseman 1
+               <lb/><persName ref="#lalSingh">Lal Singh</persName> horseman 1
+               <lb rend="empty"/> <lb/><persName ref="#kanakSingh">Kanak Singh</persName> horseman 1
+               <lb/><persName ref="#mohkamSingh">Mohkam Singh</persName> horseman 1
+               <lb/><persName ref="#kushalSingh">Kushal Singh</persName> horseman 1
+               <lb/><persName ref="#suratSingh">Surat Singh</persName> horseman 1
+               <lb rend="empty"/> <lb/><unclear><persName ref="#gayadasa">Gayadasa</persName></unclear> horseman <figure><figDesc>Two diagonal slashes and a loop, repeated three times.</figDesc></figure><note>It is unclear what this figure means.</note>
+            </p>
+         </div>   
+         
+         <pb n="1v" facs="lf_pDas_1741_brd_ncd_hin_v.jpg"/>
+         
+         <div xml:id="orig_div6" xml:lang="mar" type="clericalNotes" rend="top">
+            <p>
+               <lb/>इसम नवीसी <choice>
+                  <abbr>ब||</abbr>
+                  <expan>बेनाव</expan>
+               </choice>
+               <persName ref="#bijaySingh">बीजे सीग</persName>
+               <choice>
+                  <abbr>ज||र</abbr>
+                  <expan>जमादार</expan>
+               </choice> वगैरे
+               <lb/>स्वार ९ नव <unclear>मर्द</unclear> दर माहे 
+               <choice>
+                  <abbr>रुये</abbr>
+                  <expan>रुपये</expan>
+               </choice>
+               <measure type="currency" unit="rupee" quantity="149">१४९</measure>
+               <g ref="#ali">[अळी]</g>
+               <lb/>येकसे येकून पनास
+               <choice>
+                  <abbr>रुये</abbr>
+                  <expan>रुपये</expan>
+               </choice>
+               <gap/>
+               <lb/>केले नौकरी सुरु 
+               <date calendar="#suhur"><choice><abbr>छ</abbr>
+                  <expan>चंद्र</expan></choice>
+               १ जीलहेज 
+               <choice><abbr>सु||</abbr>
+               <expan>सुहूर</expan></choice>
+               <lb/>
+               इहिदे आर्बैन मया अलफ</date>
+               <stamp type="seal"><mentioned>
+                  मोर्तब सुद
+               </mentioned></stamp>
+            </p>   
+         </div>
+         
+         <div corresp="#orig_div6" xml:id="trans_div6">
+            <p>
+               <lb/>It is written in the name of the <ref type="glossary" target="#gl_jamadar">jamadar</ref> <persName ref="#bijaySingh">Bijay Singh</persName> etc.,
+               <lb/>that nine horsemen at the monthly [salary] of <measure type="currency" unit="rupee" quantity="149">149</measure> rupees, 
+               <lb/>[or in words] one hundred and forty nine rupees, 
+               <lb/>have been employed. On the lunar date of <date calendar="#suhur">1 Zu al-Hijjah in the Suhur year 
+               <lb/>one thousand and one hundred and forty-one</date>. <stamp type="seal">Square black ink seal<mentioned>Verified.</mentioned></stamp>
+            </p>   
+         </div>
+      </body>
+  </text>
+</TEI>

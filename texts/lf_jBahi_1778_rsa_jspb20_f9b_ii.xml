@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_jBahi_1778_rsa_jspb20_f9b_ii">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Copy of an order of Shri Huzur to Pirbakhsh settling an inheritance dispute</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#rsa"/>
+                  <collection ref="#jBahi"/>
+                  <idno>Jodhpur Sanad Parvana Bahi no. 20 f. 9b</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>authorized copy</objectType>
+                     <origDate calendar="#samvat-shravanadi">4 Pausha badi 1835</origDate>
+                     <origDate calendar="#gregorian" when="1778-12-07">7 December 1778</origDate>
+                     <origPlace type="placeOfReceipt" ref="#pgNagaur"/>
+                  </origin>
+               </history>
+<!--               use this if there is a printed version of your text-->
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="bibl" target="#thelen2021">Thelen, "Disputed Transactions"</ref></bibl> 
+                  </listBibl>                  
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p>After hearing a petition from <persName ref="#pirBakhsh">Pirbakhsh [Pirbakhas]</persName> regarding his dispute with <persName ref="#wasil">Wasil [Vasal]</persName> over adoption and inheritance,
+           the king's court orders that <persName ref="#wasil">Wasil</persName>'s claim is not valid.<note>An image of this document is not available for display on this website but
+           can be viewed in <ref type="bibl" target="#thelen2021">Thelen, "Disputed Transactions," p. 820</ref>. The transcription displayed here has been adjusted to reflect the transliteration schema in use on this website.</note></p></abstract>       
+        <textClass>
+           <keywords scheme="#formal">
+              <term key="sanad"/>
+              <term key="bahi"/>
+           </keywords>
+           <keywords scheme="#functional">
+              <term key="orders"/>
+              <term key="adminRecords"/>
+           </keywords>
+           <keywords scheme="#thematic">
+              <term key="disputes">Disputes</term>
+              <term key="inheritance">Inheritance</term>
+              <term key="petitioning">Petitioning</term>
+              <term key="women">Women</term>
+           </keywords>
+        </textClass>
+        <particDesc>
+           <person role="litigant">
+              <persName ref="#pirBakhsh">Pirbakhsh</persName>
+           </person>
+           <person role="litigant">
+              <persName ref="#wasil">Wasil</persName>
+           </person>
+           <person role="issuer">
+              <persName ref="#samvatram">Bhandari Samvatram</persName>
+           </person>
+           <person role="issuer">
+              <persName ref="#phataikaran">Pandit Fatehkaran</persName>
+           </person>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+   
+  <text>
+      <body>
+         <pb n="9a"/>
+         <div xml:id="orig_div1" type="clericalNotes" xml:lang="raj" rend="top">
+            <p>कचैडी    <placeName ref="#pgNagaur">नागोर</placeName>    ९</p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p><ref type="glossary" target="#gl_kacheri">Kacheri</ref>  <placeName ref="#pgNagaur">Nagaur</placeName>   9<note>This text is written as a header on folio 9a but can be understood to apply to each entry on folios 9a and 9b. It indicates the administrative division and district where the order was issued. The folio number 9 is a later addition.</note></p>
+         </div>
+         <pb n="9b"/>
+         <div xml:id="orig_div2" type="maintext" xml:lang="raj">
+            <p>
+               <lb/>मिती <date calendar="#samvat-shravanadi">पोस बदि ४ सोम संवत १८३५</date> रा
+               <lb rend="empty"/>
+               <lb/>तथा पीरजादा <persName ref="#alamuddin">अलंमदीन</persName> रै बेटै <persName ref="#pirBakhsh">पीरबखस</persName>
+               <lb/>अठै आयनै श्री हजुर मै अरज मालंम कराई
+               <lb/><persName ref="#hamiduddinChishti">पीर तारकीन जी</persName> रा पोता <persName ref="#kamaluddin">कंमालदीन</persName> <choice><abbr>सं||</abbr><expan>संवत</expan></choice> <date calendar="#samvat">१७९२</date> रै
+               <lb/>वरस फोत हुवो तरै <persName ref="#alamuddin">अलमदीन</persName> नु <persName ref="#kamaluddin">कमालदी-
+               <lb/>न</persName> रै खोलै <persName ref="#kamaluddin">कंमालदीन</persName> री बहु भेलो राखीयो नै
+               <lb/>पछै <choice><abbr>सं||</abbr><expan>संवत</expan></choice> <date calendar="#samvat">१८१२</date> रै बरस लिखत <persName ref="#kamaluddin">कंमालदीन</persName> री
+               <lb/>बहु <persName ref="#alamuddin">अलमदीन</persName> नु कर दीवी तिण मै लिखी-
+               <lb/>यो म्हारो माल मिलक रो ऊवारस <persName ref="#alamuddin">अलमदिन</persName>
+               <lb/>है तीको लिखत <persName ref="#hayattullah">हयाततुला</persName> रै दसखता रो छै नै
+               <lb/>पछै <choice><abbr>सं||</abbr><expan>संवत</expan></choice> <date calendar="#samvat">१८१७</date> रै वरस संनद पंण होय गई छै
+               <lb/>नै हंमै <persName ref="#wasil">वासल</persName> झगडो करै छै <persName ref="#kamaluddin">कंमालदीन</persName> रा मा-
+               <lb/>ल मिलक मै हेसो मांगु आगै लिखत हुवो ति-
+               <lb/>ण मै म्हारा बाप री साख नंही सु <persName ref="#wasil">वासल</persName> रै वा-
+               <lb/>प वारस तो लीयो जितरै इंतरा वरसा मै कदै-
+               <lb/>ई झगडो कीयो नंही नै <persName ref="#wasil">वासल</persName> पंण हकीकत
+               <lb/>मालंम कराई सु हुकंम हुवो है <persName ref="#alamuddin">अलमदीन</persName> नु
+               <lb/><persName ref="#kamaluddin">कंमालदीन</persName> रै खोलै लीयां इंतरा वरस हुवां
+               <lb/>नै <persName ref="#wasil">वासल</persName> रै बाप जीवतै झगडो नंही कीयो
+               <lb/>तो हंमै ही कैतब करंण देजो मती आडीओल
+               <lb/>संनद री नकल तफत्र<note>This is a scribal error for दफतर.</note> मै उतार इंणा नु सुप देजो
+               <lb/><choice><abbr>दु||</abbr><expan>दुवायत</expan></choice> <choice><abbr>भं||</abbr><expan>भंडारी</expan></choice> <persName ref="#samvatram">सांवतराम</persName> <choice><abbr>पं||</abbr><expan>पंडित</expan></choice> <persName ref="#phataikaran">फतैकरण
+</persName>            </p>
+         </div>
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p>
+               <lb/>Dated <date calendar="#samvat-shravanadi">Pausha <ref type="glossary" target="#gl_badi">badi</ref> 4 Monday of the Samvat [year] 1835</date>
+               <lb rend="empty"/>
+               <lb/>Since <ref type="glossary" target="#gl_pirzada">pirzada</ref> <persName ref="#alamuddin">Alamuddin</persName>’s son <persName ref="#pirBakhsh">Pirbakhsh</persName>
+               <lb/>having come here [and] entered a petition to <ref type="glossary" target="#gl_shriHuzur">Shri Huzur</ref> that:
+               <lb/><persName ref="#hamiduddinChishti">Pir Tarkin Ji</persName>’s descendant <persName ref="#kamaluddin">Kamaluddin</persName> died
+               <lb/>in the <date calendar="#samvat">Samvat year of 1792</date>.
+               <lb/>Then <persName ref="#kamaluddin">Kamaluddin</persName>’s wife adopted <persName ref="#alamuddin">Alamuddin</persName> on <persName ref="#kamaluddin">Kamaluddin</persName>’s behalf and
+               <lb/>later in the <date calendar="#samvat">Samvat year of 1812</date> <persName ref="#kamaluddin">Kamaluddin</persName>’s wife
+               <lb/>made a document to <persName ref="#alamuddin">Alamuddin</persName> in which it was written [that]
+               <lb/>the heir of my possessions is <persName ref="#alamuddin">Alamuddin</persName>.
+               <lb/>That document has the signature of <persName ref="#hayattullah">Hayattullah</persName>. And
+               <lb/>later, in the <date calendar="#samvat">Samvat year of 1817</date>, a <ref type="glossary" target="#gl_sanad">sanad</ref> was also created.
+               <lb/>And now <persName ref="#wasil">Wasil</persName> is quarrelling:<note>The next two sentences are reported speech.</note> [He says that] "I demand a portion in the possessions and property of <persName ref="#kamaluddin">Kamaluddin</persName>.
+               <lb/>The document that was created before
+               <lb/>did not include my father father’s witnessing." So <persName ref="#wasil">Wasil</persName>’s
+               <lb/>father did take a right to inheritance, and through all those years
+               <lb/>he never quarrelled. And [since] <persName ref="#wasil">Wasil</persName> has made the situation known again
+               <lb/>so the order has happened [thus]:
+               <lb/><persName ref="#kamaluddin">Kamaluddin</persName> having adopted <persName ref="#alamuddin">Alamuddin</persName>, this many years passed
+               <lb/>and <persName ref="#wasil">Wasil</persName>’s father did not quarrel while alive
+               <lb/>so now also do not allow fraud to be done. Margin:<note>What follows would constitute clerical notes on the document that was issued to <persName ref="#pirBakhsh">Pirbakhsh</persName>, but within the reference frame of the <ref type="glossary" target="#gl_bahi">bahi</ref> constitutes part of the main text.</note>
+               <lb/>After taking a copy of the <ref type="glossary" target="#gl_sanad">sanad</ref> in the <ref type="glossary" target="#gl_daftar">daftar</ref>, entrust [the <ref type="glossary" target="#gl_sanad">sanad</ref>] to him.
+               <lb/>Authorized by <ref type="glossary" target="#gl_bhandari">Bhandari</ref> <persName ref="#samvatram">Samvatram</persName> [and] <ref type="glossary" target="#gl_pandit">Pandit</ref> <persName ref="#phataikaran">Fatehkaran</persName>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

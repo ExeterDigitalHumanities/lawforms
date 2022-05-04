@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_sDeshmukh_1715_bism_rumal4_60">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Decision awarding an office of village headman to Pir Sethi as
+               seized security for an unpaid loan</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Dominic Vendell</persName>
+               <persName>Nandini Chatterjee</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#bism"/>
+                  <collection ref="#sDeshmukh"/>
+                  <idno>SD rumal 4 no. 60</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#gregorian" when="1715-10-13">13 October 1715</origDate>
+                     <origDate calendar="#julus">4 Shawwal 4</origDate>
+                     <origDate calendar="#suhur">1125</origDate>
+                     <origDate calendar="#shaka">1637</origDate>
+                     <origDate calendar="#jovian_brihaspati">Manmatha</origDate>
+                  </origin>
+               </history>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>The village headman (muqaddam) <persName ref="#pirSethi">Pir Sethi</persName>  gave a loan of 680 rupees to another headman with
+               the latter's headmanship serving as guarantee of repayment within three years. After the indebted headman died and a period of famine and enemy attacks resulted in the depopulation of the village, it was decided in the presence of a judge (qazi) and the notables of the district (pargana) that with the consent of the deceased's surviving relations, the headmanship should be placed in Pir Sethi's possession.</p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="mahzarNama"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="privateDeeds"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Administration</term>
+               <term>Debt and Mortgage</term>
+               <term>Desertion and Depopulation</term>
+               <term>Taxation and Tribute</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+           <person role="creditor">
+              <persName ref="#pirSethi">Pir Sethi</persName>
+           </person>
+           <person role="debtor">
+              <persName ref="#malappa">Malappa</persName>
+           </person>
+           <person role="notary">
+              <persName ref="#dianatKhan2">Dianat Khan</persName>
+           </person>
+           <person role="notary">
+              <persName ref="#abdulQadir">Abdul Qadir</persName>
+           </person>
+           <person role="witness">
+              <persName ref="#bhanjiNarsivha">Bhanji Narsivha</persName>
+           </person>
+            <person role="witness">
+               <persName ref="#sivrauJagdev">Sivrau Jagdev</persName>
+            </person>
+           <person role="witness">
+              <persName ref="#siddapa">Siddapa</persName>
+           </person>
+            <person role="witness">
+               <persName ref="#totapaJadi">Totapa Jadi</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#janappaPatki">Janappa Patki</persName>
+            </person>            
+            <person role="witness">
+               <persName ref="#malmappa">Malmappa</persName>
+            </person>            
+            <person role="witness">
+               <persName ref="#janoBhikaji">Jano Bhikaji</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_sDeshmukh_1715_bism_rumal4_60_r1.jpg"/>
+      <graphic url="lf_sDeshmukh_1715_bism_rumal4_60_r2.jpg"/>
+      <graphic url="lf_sDeshmukh_1715_bism_rumal4_60_r3.jpg"/>
+      <graphic url="lf_sDeshmukh_1715_bism_rumal4_60_r4.jpg"/>
+      <graphic url="lf_sDeshmukh_1715_bism_rumal4_60_r5.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_sDeshmukh_1715_bism_rumal4_60_r1.jpg"/>
+         
+         <div xml:id="orig_div1" xml:lang="per" type="endorsements" rend="top">
+            <p>
+               <lb/><stamp type="seal"><mentioned>
+                  <persName ref="#dianatKhan2">دیانت خان</persName>
+                  فدوی پادشاه غازی
+                  <persName ref="#farrukhsiyar">محمد فرخسیر</persName>
+                  سنه
+               <gap/></mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/><stamp type="seal"><mentioned>قاضی
+                  <persName ref="#abdulQadir">عبد القادر</persName>
+                  خادم شرع
+                  <gap/>
+                  <num>۱۸</num>
+               </mentioned></stamp>
+               <lb/>باقرار دیسموک و دسپاندیه مهر نموده شده 
+            </p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p>
+               <lb/><stamp type="seal">Round black ink seal<mentioned><persName ref="#dianatKhan2">Dianat Khan</persName>, servant of Emperor <persName ref="#farrukhsiyar">Muhammad Farrukhsiyar</persName> in the year<gap/></mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/><stamp type="seal">Round black ink seal<mentioned>Qazi <persName ref="#abdulQadir">Abdul Qadir</persName>, servant of the law <gap></gap> 18</mentioned></stamp>
+               <lb/>By the acknowledgment of the <ref type="glossary" target="#gl_deshmukh">deshmukhs</ref> and <ref type="glossary" target="#gl_deshpande">deshpandes</ref>, the seal was applied
+            </p>
+         </div>
+
+         <div xml:id="orig_div2" xml:lang="per" type="maintext">
+            <p><lb/>باعث تحریر این سطور آنکه
+               <persName ref="#pirSethi">پیر سیتهی</persName>
+               مقدم موضع 
+               <placeName ref="#kadabgaon">کرب گانون</placeName>
+               پرگنه
+               <placeName ref="#akkalkot">اکالکوت</placeName>
+               صوبه
+               <placeName ref="#subaBidar">محمد آباد عرف ظفر آباد</placeName>
+               <lb/>بحضور ارباب عدالت و اهالی و موالی پرگنه
+               <placeName ref="#afzalpur">افضل پور</placeName>
+               صوبه مزبور آمده ظاهر نمود که
+               مسمی
+               <persName ref="#malappa">ملپا</persName>
+               مقدم
+               <lb/><placeName ref="#andewadi">اندیواری</placeName>
+               پرگنه
+               <placeName ref="#afzalpur">افضل پور</placeName>
+               در عیوض مبلغ
+               <num>۶</num>
+               <measure type="currency" unit="rupee" quantity="680">ششصد و هشتاد روپیه</measure>
+               در هنگامی که
+               <persName ref="#pidNayak">پید نایک</persName>
+               موضع مزبور در قبض
+               <lb/>خود داشت از ما گرفته بگماشته نایک مزبور رسانیده در گروی
+               <persName ref="#malappa">ملپا</persName>
+               مذکور مقدمی با وجه
+               لوازم و رسوم
+               <lb/>با اراضی انعام موضع مسطور تمسک بمیعاد ۳ سه ساله بعلامت و دستخط زمینداران پرگنه
+               مزبور نوشته داده که
+               <lb/>درینمدت زر را بوصول رسانم اگر بوعده زر واصل نسازم مقدمی با لوازم و مراسم و اراضی
+               دست بر دارم و
+               <lb/>چنانچه میعاد مقضی شد و
+               <persName ref="#malappa">ملپا</persName>
+               مزبور مطابق وعده بوصول برساند و
+               <persName ref="#malappa">ملپا</persName>
+               مقدم مزبور فوت شد
+               <lb/>و قحط سال گردید و مدت نه سال دیه مسطور از سبب رفت قحطی و فتور غنیم لئیم ویران گشت
+               <lb/>بنده مطابق تمسک از شریک مقدم و برادران مقدم مزبور زر را بقاضای نمود
+               <lb/>آنها گفتند که
+               <persName ref="#malappa">ملپا</persName>
+               مقدم قربه مزبور در حین حیات خود تمسک بشرح و میعاد که بمن داده
+               <lb/>مایان نیز بمضمون آن راضی وشا کرانیم مقدمی وعده با لوازمه مقرری قربه مسطور در
+               قبض و تصرف
+               <lb/>خود نماید مایان را هیچوجه ازینمعنی تعین و مزاحمت نیست و نداریم
+               بنابران مطابق تمسک و  اقرار
+               <lb/>شريک پتل و برادران مقمم مزبور و ارباب عدالت و اهالی و موالی دست ناطق میخواهم که
+               <lb/>ثانی الحال سند ناطق بما و اولاد و احفاد من و تفصیل مفصل در هندوی مرقوم است هر که
+               <lb/>ازینمعنی واقف باشد دستخط و شاهدی بر این قرطاس شب نماید لهذا این چند کلمه
+               بطریق محضر قلمی گشت تحریر فی التاریخ چهارم ۴ شوال سنه
+               <date calendar="#julus">۴</date>
+               جلوس
+            </p>
+         </div>
+
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p><lb/>The reason for the writing of these lines is that <persName ref="#pirSethi">Pir Sethi</persName>, <ref type="glossary" target="#gl_muqaddam">muqaddam</ref> of the village
+               <placeName ref="#kadabgaon">Kadabgaon</placeName> in <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#akkalkot">Akkalkot</placeName> in <ref type="glossary" target="#gl_suba">suba</ref> <placeName ref="#subaBidar">Muhammadabad, or Zaffarabad</placeName>,
+               <lb/>in the presence of the notables of the court and all the people of the <ref type="glossary" target="#gl_pargana">pargana</ref>
+               <placeName ref="#afzalpur">Afzalpur</placeName> in the aforementioned <ref type="glossary" target="#gl_suba">suba</ref> came and announced that the <ref type="glossary" target="#gl_muqaddam">muqaddam</ref> named <persName ref="#malappa">Malappa</persName>
+               <lb/>of <placeName ref="#andewadi">Andewadi</placeName> in <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#afzalpur">Afzalpur</placeName> took the sum of <measure type="currency" unit="rupee" quantity="680">6 six hundred and eighty rupees</measure>
+               at the time that <persName ref="#pidNayak">Pid Nayak</persName> had the aforementioned village
+               <lb/>in his possession, and the agent of the aforementioned <persName ref="#pidNayak">Nayak</persName> delivered it, and
+               in mortgaging of the aforementioned <persName ref="#malappa">Malappa’s</persName> <ref type="glossary" target="#muqaddami">muqaddami</ref> along with the requisite fees
+               and perquisites
+               <lb/>and the <ref type="glossary" target="#gl_inam">inʿam</ref> lands of the aforementioned village, a <ref type="glossary" target="#gl_tamassuk">tamassuk</ref> for a period of 3
+               three years with the marks and signatures of the landlords of the aforementioned
+               <ref type="glossary" target="#gl_pargana">pargana</ref> was written that
+               <lb/>in this period, the money would be delivered to me. If by [this] promise the
+               money did not reach me, I would assume the <ref type="glossary" target="#gl_muqaddami">muqaddami</ref> with the requisite fees and
+               perquisites. And
+               <lb/>accordingly the period elapsed. And the aforementioned <persName ref="#malappa">Malappa</persName> according to the
+               promise should have paid. And <persName ref="#malappa">Malappa</persName> the aforementioned <ref type="glossary" target="#gl_muqaddam">muqaddam</ref> died.
+               <lb/>And a year of famine took place. And in a period of nine years, the
+               aforementioned village became depopulated because of flight from famine and the disorder of the cursed
+               enemy.
+               <lb/>The slave [I] according to the <ref type="glossary" target="#gl_tamassuk">tamassuk</ref> summoned the partner of the <ref type="glossary" target="#gl_muqaddam">muqaddam</ref> as
+               well as the brother of the aforementioned <ref type="glossary" target="#gl_muqaddam">muqaddam</ref> to the <ref type="glossary" target="#gl_qazi">qazi</ref>.
+               <lb/>They said that [as] the <ref type="glossary" target="#gl_muqaddam">muqaddam</ref> <persName ref="#malappa">Malappa</persName> of the aforementioned village in his
+               own lifetime gave a <ref type="glossary" target="#gl_tamassuk">tamassuk</ref> with a statement and a period [of payment] to me,
+               <lb/>we also by the contents of that will acquiesce [to your claim].
+               <lb/>The promised <ref type="glossary" target="#gl_muqaddami">muqaddami</ref> with the fixed perquisites of the aforementioned village
+               should be placed in [your] own control and possession. There is no obstruction
+               or issue to us from this event and we shall not have [such a problem]. On account of this, in accordance with the <ref type="glossary" target="#gl_tamassuk">tamassuk</ref>
+               and <ref type="glossary" target="#gl_iqrar">iqrar</ref>,
+               <lb/>the associate of the <ref type="glossary" target="#gl_patil">patil</ref> and the brother of the aforementioned <ref type="glossary" target="#gl_muqaddam">muqaddam</ref> and
+               the notables of the court and all the people willed decisively that
+               <lb/>henceforth a decisive <ref type="glossary" target="#gl_sanad">sanad</ref> to me and my descendants and relations with the
+               particulars should be written in Hindvi. Whoever
+               <lb/>should become aware of this event may see the signatures and testimonies on
+               this paper. Therefore these few words in the form of a <ref type="glossary" target="#gl_mahzarNama">mahzar</ref> were written. Written
+               on the date <date calendar="#julus">fourth 4 Shawwal in the fourth year of the reign</date>.
+            </p>
+         </div>
+
+         <pb n="2r" facs="lf_sDeshmukh_1715_bism_rumal4_60_r2.jpg"/>
+         
+         <div xml:id="orig_div3" xml:lang="mar" type="maintext">
+            <p><lb/>माहजर बी हजूर हली मवाली <choice>
+                  <abbr>प||</abbr>
+                  <expan>परगना</expan>
+               </choice>
+               <placeName ref="#bagwadi">महमदनगर उरुफ बाग-
+                  <lb/>वाडी</placeName> चकले <placeName ref="#akkalkot">अकलकोट</placeName> सुबे
+                  <placeName ref="#subaBidar">महमदाबाद</placeName>
+               <choice>
+                  <abbr>सु||</abbr>
+                  <expan>सुहूर</expan>
+               </choice> सन
+               <date calendar="#suhur">११२५</date>
+               <lb/>शके
+               <date calendar="#shaka">१६३७</date>
+               <date calendar="#jovian_brihaspati">मन्मथ</date>
+                नाव सवछेरे अस्वीन व दी प्रतीपदा
+               <lb/>रवीवार जाहला माहजर यैसाजे सबब पेसजी
+               <persName ref="#malappa">मलपा</persName>
+                मौकद-
+               <lb/>म मौजे <placeName ref="#andewadi">अदेवाडी</placeName>
+               <choice>
+                  <abbr>प||</abbr>
+                  <expan>परगना</expan>
+               </choice> मजकूर याने
+               <persName ref="#pirSethi">पीर सेठी</persName>
+                पासून कर्ज घेत-
+               <lb/>ले सबब फीतूर मुतालिकानी
+               <persName ref="#pidNaik">पीड नाईक</persName>
+                हजूर सुबे-
+               <lb/>दार नीसबती हजूर येऊन मौजे <choice>
+                  <abbr>म||री</abbr>
+                  <expan>मजकुरी</expan>
+               </choice> मौकाम राहून पैके गावास त-
+               <lb/>गादा लावीले याकरीतां कर्ज मोबलगं सन
+               <date calendar="#suhur">१११३</date>
+                मधे <choice>
+                  <abbr>रु||</abbr>
+                  <expan>रुपये</expan>
+               </choice>
+               <measure type="currency" unit="rupee" quantity="680">६८० <g ref="#ali">[अळी]</g></measure>
+               <lb/>साहसे ऐसी
+               <persName ref="#pirSethi">पीर सेठी</persName>
+                पासून पैके घेऊन पचाईताचे मारी-
+               <lb/>फातीने कतबा दीलहे त्यास वाइदा सी साला केले सदरहू पैके
+               <lb/>वाइदेस न पावले म्हणजे आपुली वतन मौकदमकी मान व मा-
+               <lb/>णणूक घरवाडां सेत व ईनामती आपुले खुशवजादीने
+               <lb/>दिलहे आहे येणे बमोजीब पाचाईताचे शाहीदीने कतबा
+               <lb/>दिलहे असतां मौजे <choice>
+                  <abbr>मं||</abbr>
+                  <expan>मजकूर</expan>
+               </choice> कूल बेचीराख पडीले सबबं कहत
+               <lb/>माल व फीतूर गनीमं याचे पाईन व माल वैरान पडीले
+               <persName ref="#malappa">मलपा</persName>
+                ना-
+               <lb/>मे फौत जाहला असता बादज <choice>
+                  <abbr>प||</abbr>
+                  <expan>परगना</expan>
+               </choice>
+                  <choice>
+                     <abbr>म||रास</abbr>
+                     <expan>मजकुरास</expan>
+                  </choice>
+               <persName ref="#pirSethi">पीर सेठी</persName>
+                येऊन
+               <lb/>अरबाब व अदालत व देसमुख व देसपाडे या हजूर इजाहेर
+               <lb/>केला की बमोजीब कतबे मौजे <placeName ref="#andewadi">आदेवाडीचे</placeName>
+               <persName ref="#malappa">मलपा</persName>
+                मौकदम आपुले
+               <lb rend="empty"/><pb n="3r" facs="lf_sDeshmukh_1715_bism_rumal4_60_r3.jpg"/>
+               <lb/>कर्ज देणे आहे यैसीयास आपुला कर्ज मौजे <choice>
+                  <abbr>म||चे</abbr>
+                  <expan>मजकुरचे</expan>
+               </choice> मौकदमापा-
+               <lb/>सून देवणे म्हणौन इस्तगासी जाहला बादज मौजे <choice>
+                  <abbr>म||ची</abbr>
+                  <expan>मजकुरची</expan>
+               </choice>               
+               <lb/>
+               <persName ref="#bagliPatel">बागली पटेल</persName>
+               <space/> व बीरादरानी
+               <persName ref="#malappa">मलपा</persName>
+                यास बोलाऊन
+               <lb/>हजूर पुरसीस केला सदरहू कर्ज वाजीबी
+               <persName ref="#pirSethi">पीर सेठीचे</persName>
+                देणे आहे
+               <lb/>ते देवणे म्हणोन फर्मावीला वरी
+               <persName ref="#bagliPatel">बागली पेटल</persName>
+                व बीरादरानी
+               <lb/>
+               <persName ref="#malappa">मलपा</persName>
+                मजकूर जाहीर केला की
+               <persName ref="#malappa">मलपा</persName>
+                हयात असता पैके घेऊन आपुली
+               <lb/>वतन दीलहे आहे आपणास पैके देवयास नाम व सारी कगाली
+               <lb/>जाहलो आहो
+               <persName ref="#pirSethi">पीर सेठीस</persName>
+                मौजे <choice>
+                  <abbr>म||चे</abbr>
+                  <expan>मजकुरचे</expan>
+               </choice> मौकदमी बमोजीबं कतबा
+               <lb/>आपण रजावंद आलो म्हणौन जाहीर केला बादज अजरू वाजी-
+               <lb/>बी इनसाफ केला सदरहू पैकेस मौजे <choice>
+                  <abbr>म||ची</abbr>
+                  <expan>मजकुरची</expan>
+               </choice> मौकदमी
+               <lb/>व मान व मानणुक व सेत व ईनाम व घरवाडा व जागा तमाम अरबाब अ- दालत देसमुख व देसपाडे
+               व तमाम हली मवाली मिलोन
+               <persName ref="#pirSethi">पीर सेठीस</persName>
+               <lb rend="empty"/><pb n="4r" facs="lf_sDeshmukh_1715_bism_rumal4_60_r4.jpg"/>
+               <lb/>मौजे <choice>
+                  <abbr>म||चे</abbr>
+                  <expan>मजकुरचे</expan>
+               </choice> मौकदमीकी मलपाचे उहदेच मानव मानणूक तमाम
+               <lb/>घरवाडा व जागां सेत ईनाम
+               <gap/>
+               दीलहे आहे हली गाव
+               <lb/>बेचीराग पडीला म्हणौन व सरफराजी इनाम जमीन चौकु-
+               <lb/>डवी चावर <measure type="land" unit="chavar" quantity="3/4">.|||.</measure> पाउणा
+               दीलहे आहे
+               <persName ref="#pirSethi">पीर सेठीने</persName>
+                मौजे <choice>
+                  <abbr>म||</abbr>
+                  <expan>मजकूर</expan>
+               </choice> चे मौकदम-
+               <lb/>की ईनाम पेसजी व हली येकून चावर ईतुके हकीम व देसमुख
+               <lb/>व देसपाडे मिलोन दिलहे आहे यैसीयास
+               <persName ref="#pirSethi">पीर सेठी</persName>
+                मौकदम मौजे <choice>
+                  <abbr>म||री</abbr>
+                  <expan>मजकुरी</expan>
+               </choice>
+               <lb/>चंद्र सुर्य असीजेत व पीडी दर पीडी मौकदमकी व मान मानणूक खा-
+               <lb/>ऊन सुखी गाव अबादकारी वसूल जारी करून लेकराचे लेकरे
+               <lb/>नादणूक करून पाढरीवरी साबीत कदम राहून दिवाण कामा-
+               <lb/>वरी रुजू होऊन असावा मौजे <choice>
+                  <abbr>म||री</abbr>
+                  <expan>मजकुरी</expan>
+               </choice> पेसजी ईनाम व हली ईनाम
+               <lb/>येकून चावर याचे दरगाही तनखा ईनामतीचा पैका बाद
+               <lb/>देऊन बाकी जमीन मौजे <choice>
+                  <abbr>म||र</abbr>
+                  <expan>मजकूर</expan>
+               </choice>ावरी सरसीकन वाटून वरावर्दी क-
+               <lb/>रून
+               <persName ref="#pirSethi">पीर सेठी</persName>
+                मौकदम मौजे <placeName ref="#andewadi">आदेवाडी</placeName> यास ईनाम दिलहे आहे
+               <lb/>
+               <choice>
+                  <abbr>प||</abbr>
+                  <expan>परगना</expan>
+               </choice>
+               <choice>
+                  <abbr>म||र</abbr>
+                  <expan>मजकूर</expan>
+               </choice>चे हकीम व देसमुख व देसपाडे व मौकदम देहाये <choice>
+                  <abbr>प||</abbr>
+                  <expan>परगना</expan>
+               </choice>
+               <choice>
+                  <abbr>म||</abbr>
+                  <expan>मजकूर</expan>
+               </choice>
+               <lb/>रजावद होऊन सनदं माहजर
+               <persName ref="#pirSethi">पीर सेठी</persName>
+                मौकदम मौजे <choice>
+                  <abbr>म||</abbr>
+                  <expan>मजकूर</expan>
+               </choice> यास म-
+               <lb/>ऱ्हमत केले आहे पेस्तर सानीनहल जो कोणही माहजर सनदेस दीकत
+               <lb/>करीतील तरी बीनदारी लोकास सौगद हजरत राहोमधे कीलाफ
+               <lb rend="empty"/><pb n="5r" facs="lf_sDeshmukh_1715_bism_rumal4_60_r5.jpg"/>
+               <lb/>बोलीलेच सौगद आहे व हीदू लोकास कासीस जाऊन मेले पातक
+               <lb/>समान आहे हली मौजे <choice>
+                  <abbr>म||री</abbr>
+                  <expan>मजकुरी</expan>
+               </choice> हक घुगरी दर खडीस मुगे <g ref="#ali">[अळी]</g> १ येक
+               <lb/>लवाजीमा करून दीलहा आहे व माहार राबते हमेशां बतालूक
+               <lb/>मौकदमकीस न दूर माहार १ राहावा व जुलाही व धणगर यावरी
+               <lb/>लवाजीमा दर साल मागस रुपये <measure type="currency" unit="rupee" quantity="3">३
+                  <g ref="#ali">[अळी]</g></measure> तीन व गोणी राहदारी दर गोणी-
+               <lb/>स रुके <measure type="currency" unit="ruka" quantity="3"><g ref="#ali">[अळी]</g>
+                  ३</measure> तीन लवाजीमा करून दीलहे आहे मौजे <choice>
+                  <abbr>म||</abbr>
+                  <expan>मजकूर</expan>
+               </choice>चे माहारावरी
+               <lb/>दुसारा येक घेत जाणे हली दीला माहजर वाजब सही बा माहजर
+               <lb/>सही छ १४ माहे शौवाल<note>Different handwriting suggests that this line may have been written by the issuer, <persName ref="#pirSethi">Pir Sethi</persName>.</note> 
+            </p>   
+         </div>   
+         
+         <div corresp="#orig_div3" xml:id="trans_div3">
+            <p><lb/><ref type="glossary" target="#gl_mahzar">Mahzar</ref> in the presence of all the people of the <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#bagwadi">Muhammadnagar</placeName>, 
+               <lb/>or <placeName ref="#bagwadi">Bagwadi</placeName>, <ref type="glossary" target="#gl_chakla">chakla</ref> <placeName ref="#akkalkot">Akkalkot</placeName>, in the <ref type="glossary" target="#gl_suba">suba</ref> <placeName ref="#subaBidar">Muhammadabad</placeName> in the Suhur year <date calendar="#suhur">1125</date>,  
+               <lb/>or the Shaka [year] <date calendar="#shaka">1637</date>, or the <date calendar="#jovian_brihaspati">Manmatha</date> year, in Ashwin on the first day [of the lunar fortnight],  
+               <lb/>Monday. The completed <ref type="glossary" target="#gl_mahzar">mahzar</ref> is as follows, because previously <persName ref="#malappa">Malappa</persName>, the <ref type="glossary" target="#gl_muqaddam">muqaddam</ref>  
+               <lb/>of the village <placeName ref="#andewadi">Andewadi</placeName> in the aforementioned <ref type="glossary" target="#gl_pargana">pargana</ref> took a loan from <persName ref="#pirSethi">Pir Sethi</persName>,   
+               <lb/>[and] because [during the] confusion the agent of <persName ref="#pidNaik">Pid Nayak</persName> came before the <ref type="glossary" target="#gl_subadar">subadar</ref> 
+               <lb/>of the government, stayed in the aforementioned village, and dunned the village for money.   
+               <lb/>On account of this, in the year <date calendar="#suhur">1113</date> a loan of the sum of <measure type="currency" unit="rupee" quantity="680">680 rupees</measure> <g ref="#ali">[fractional symbol]</g>,  
+               <lb/>[or] six hundred and eighty, was taken from <persName ref="#pirSethi">Pir Sethi</persName>, and under the supervision of the <ref type="glossary" target="#panchayat">panchayat</ref>,  
+               <lb/>a <ref type="glossary" target="#gl_katba">katba</ref> was given. So that a promise for three years was made. Should the aforementioned money  
+               <lb/>not be received as promised, my own [<persName ref="#malappa">Malappa’s</persName>] heritable rights to the <ref type="glossary" target="#muqaddami">muqaddami</ref> together with the fees and perquisites  
+               <lb/>and residence and fields and anything related to the <ref type="glossary" target="#gl_inam">inʿam</ref> have been voluntarily
+               <lb/>given. Thus on the basis of the testimony of the <ref type="glossary" target="#gl_panchayat">panchayat</ref>, a <ref type="glossary" target="#gl_katba">katba</ref> 
+               <lb/>having been given, the aforementioned village became fully depopulated. Because of famine 
+               <lb/>and the disorder of the enemy, its land and property was wasted. <persName ref="#malappa">Malappa</persName> 
+               <lb/>having died, then <persName ref="#pirSethi">Pir Sethi</persName> came to the aforementioned <ref type="glossary" target="#gl_pargana">pargana</ref> 
+               <lb/>and in the presence of the notables and the court and the <ref type="glossary" target="#deshmukh">deshmukhs</ref> and the <ref type="glossary" target="#deshpande">deshpandes</ref> declared 
+               <lb/>that on the basis of the <ref type="glossary" target="#gl_katba">katba</ref>, a loan to <persName ref="#malappa">Malappa</persName>, the <ref type="glossary" target="#gl_muqaddam">muqaddam</ref> of the village <placeName ref="#andewadi">Andewadi</placeName>, 
+               <lb/>is to be given. Hence my own loan from the <ref type="glossary" target="#gl_muqaddam">muqaddam</ref> of the aforementioned village 
+               <lb/>ought to be given so<gap/> happened. Then the aforementioned village’s 
+               <lb/><persName ref="#bagliPatel">Bagli Patel</persName><gap/> and the brothers of <persName ref="#malappa">Malappa</persName> were summoned, 
+               <lb/>and questioned. That the aforementioned loan of <persName ref="#pirSethi">Pir Sethi’s</persName> that is to be given 
+               <lb/>should be given, an order was made, and afterwards, <persName ref="#bagliPatel">Bagli Patel</persName> and the brothers 
+               <lb/>of the aforementioned <persName ref="#malappa">Malappa</persName> announced that <persName ref="#malappa">Malappa</persName> when alive took the money and has given 
+               <lb/>his heritable rights. We have become utterly impoverished in giving [back] the money to you. 
+               <lb/>On the basis of the <ref type="glossary" target="#gl_katba">katba</ref>, so as [to give] the <ref type="glossary" target="#gl_muqaddami">muqaddami</ref> of the aforementioned village to <persName ref="#pirSethi">Pir Sethi</persName>, 
+               <lb/>we come willingly, so [they] announced. Then by way of custom, 
+               <lb/>justice was done. Towards the aforementioned money, the <ref type="glossary" target="#gl_muqaddami">muqaddami</ref> of the aforementioned village 
+               <lb/>and fees and perquisites and fields and <ref type="glossary" target="#gl_inam">inʿam</ref> and dwelling and place, all of the notables 
+               <lb/>of the court and the <ref type="glossary" target="#gl_deshmukh">deshmukhs</ref> and <ref type="glossary" target="#gl_deshpande">deshpandes</ref> and all of the people having assembled 
+               <lb/><persName ref="#malappa">Malappa’s</persName> <ref type="glossary" target="#gl_muqaddami">muqaddami</ref> in the aforementioned village and all the fees and perquisites 
+               <lb/>and dwelling and place [and] fields [and] <ref type="glossary" target="#gl_inam">inʿam</ref> have been given to <persName ref="#pirSethi">Pir Sethi</persName>. Now the village 
+               <lb/>is depopulated. So for the enhancement of his <ref type="glossary" target="#gl_inam">inʿam</ref> lands, 
+               <lb/><measure type="land" unit="chavar" quantity="1/4"><ref type="glossary" target="#chavar">chavar</ref> 1/4</measure>, or one quarter, has been given. <persName ref="#pirSethi">Pir Sethi</persName> [shall have] the <ref type="glossary" target="#gl_muqaddami">muqaddami</ref> of the aforementioned village 
+               <lb/>in <ref type="glossary" target="#gl_inam">inʿam</ref>, in total both previously and currently <ref type="glossary" target="#gl_chavar">chavar</ref> <gap/>; so much the <ref type="glossary" target="#gl_hakim">hakims</ref> and <ref type="glossary" target="#gl_deshmukh">deshmukhs</ref> 
+               <lb/>and <ref type="glossary" target="#gl_deshpande">deshpandes</ref> have assembled and given. Therefore <persName ref="#pirSethi">Pir Sethi</persName> [shall have] the <ref type="glossary" target="#gl_muqaddami">muqaddami</ref> of the aforementioned village  
+               <lb/>[under] the sun and moon. And from generation to generation he shall enjoy the <ref type="glossary" target="#gl_muqaddami">muqaddami</ref> and fees and perquisites 
+               <lb/>happily and ensure the cultivation and revenue collection of the village, and the children of his children 
+               <lb/>should abide and reside on the village-land steadily and attend to 
+               <lb/>the government’s work. [Comprising] the aforementioned village’s previous <ref type="glossary" target="#gl_inam">inʿam</ref> and current <ref type="glossary" target="#gl_inam">inʿam</ref>, 
+               <lb/>the <ref type="glossary" target="#gl_inam">inʿam</ref> monies of the total <ref type="glossary" target="#gl_chavar">chavar</ref> should be exempt from the court’s taxation, 
+               <lb/>and on the remaining lands of the aforementioned village, grants of revenue should be distributed, statements [of revenue] calculated, 
+               <lb/>and the <ref type="glossary" target="#gl_inam">inʿam</ref> given to <persName ref="#pirSethi">Pir Sethi</persName>, the <ref type="glossary" target="#gl_muqaddam">muqaddam</ref> of the village <placeName ref="#andewadi">Andewadi</placeName>. 
+               <lb/>The aforementioned <ref type="glossary" target="#gl_pargana">pargana’s</ref> <ref type="glossary" target="#gl_hakim">hakims</ref> and <ref type="glossary" target="#gl_deshmukh">deshmukhs</ref> and <ref type="glossary" target="#gl_deshpande">deshpandes</ref> and <ref type="glossary" target="#gl_muqaddam">muqaddams</ref> of the villages of the aforementioned <ref type="glossary" target="#gl_pargana">pargana</ref> 
+               <lb/>have acquiesced and conferred a <ref type="glossary" target="#gl_sanad">sanad</ref>-<ref type="glossary" target="#gl_mahzar">mahzar</ref> on <persName ref="#pirSethi">Pir Sethi</persName>, the <ref type="glossary" target="#gl_muqaddam">muqaddam</ref> of the aforementioned village. 
+               <lb/>In future if anyone should challenge the <ref type="glossary" target="#gl_mahzar">mahzar</ref>-<ref type="glossary" target="#gl_sanad">sanad</ref>, 
+               <lb/>for the turbaned people [Muslims] it will be as if [making] an oath to God is [the same as] 
+               <lb/>contradicting an oath, and for Hindu people, it will be as if going to Kashi and dying  
+               <lb/>is equal to a sin. Currently, [regarding] the rights to grain in the aforementioned village, from each <ref type="glossary" target="#gl_khandi">khandi</ref> [of] <ref type="glossary" target="#gl_mung">mung</ref>, <g ref="#ali">[fractional symbol]</g> 1 one 
+               <lb/>has been given as a perquisite. And [regarding] the <ref type="glossary" target="#gl_mahar">Mahars</ref> and servants who are never 
+               <lb/>far from the <ref type="glossary" target="#gl_muqaddam">muqaddam</ref>, 1 <ref type="glossary" target="#gl_mahar">Mahar</ref> should remain. And on the <ref type="glossary" target="#gl_julahi">Julahis</ref> and <ref type="glossary" target="#gl_dhangar">Dhangars</ref>, 
+               <lb/>in the late crop-season of each year only <measure type="currency" unit="rupee" quantity="3">3 three rupees</measure> and on the transit of gunny-sacks, from each gunny  
+               <lb/><g ref="#ali">[fractional symbol]</g> <measure type="currency" unit="ruka" quantity="3">3 three</measure> only <ref type="glossary" target="#gl_ruka">rukas</ref> should be taken. The currently given <ref type="glossary" target="#gl_mahzar">mahzar</ref> is right. Approved by <ref type="glossary" target="#gl_mahzar">mahzar</ref>. 
+               <lb/>Approved on the 14th of the month of Shawwal. 
+            </p>   
+         </div>  
+         
+         <div xml:id="orig_div4" xml:lang="mar" type="witness" rend="right margin">
+            <p>
+               <lb/><choice><abbr>द ||</abbr><expan>दस्तखत</expan></choice> <persName ref="#bhanjiNarsivha">भानजी नरसीव्ह</persName> दे- 
+               <lb/>सपाडे <choice><abbr>प ||</abbr><expan>परगना</expan></choice> <placeName ref="#bagwadi">माहमदनगर</placeName> 
+              <lb rend="empty"/>
+               <lb/><choice><abbr>द ||</abbr><expan>दस्तखत</expan></choice> <persName ref="#sivrauJagdev">सीवराऊ जगदेव</persName> देसमुख 
+               <lb/><choice><abbr>प ||</abbr><expan>परगना</expan></choice> <placeName ref="#bagwadi">माहमदनगर</placeName> 
+              <lb rend="empty"/>
+               <lb/>मौकदमानी <choice><abbr>म ||</abbr><expan>मौजे</expan></choice> मजकूर 
+               <lb rend="empty"/>
+               <lb/><persName ref="#siddapa">सीदपा</persName> मौकदम 
+               <lb/><figure></figure> 
+               <lb rend="empty"/>
+               <lb/><persName ref="#totapaJadi">तोटपा ज- 
+               <lb/>दी</persName> मौकदम 
+               <lb/><choice><abbr>म ||</abbr><expan>मौजे</expan></choice> मजकूर 
+               <lb rend="empty"/>
+               <lb/><persName ref="#janappaPatki">जनापा पतकी</persName> 
+               <lb/><choice><abbr>म ||</abbr><expan>मौजे</expan></choice> <choice><abbr>म ||</abbr><expan>मजकूर</expan></choice> 
+               <lb rend="empty"/>
+               <lb/><persName ref="#malmappa">मलमपा</persName> <choice><abbr>म ||</abbr><expan>मौकदम</expan></choice> मौजे बटरोफ 
+               <lb/><figure></figure> 
+               <lb rend="empty"/>
+               <lb/><choice><abbr>ब ||</abbr><expan>बेकलम</expan></choice> <persName ref="#janoBhikaji">जानो भिकाजी</persName> कुलकर्णी मौजे मजकूर 
+            </p>
+         </div>
+         <div xml:id="trans_div4" corresp="#orig_div4">
+            <p>
+               <lb/>Writing of <persName ref="#bhanjiNarsivha">Bhanji Narsivha</persName>,
+               <lb/><ref type="glossary" target="#gl_deshpande">deshpande</ref> of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#bagwadi">Muhammadnagar</placeName><note>The witness signatures in the right margin of the document have been transcribed from top to bottom. They run across multiple images of the document.</note> 
+               <lb rend="empty"/>
+               <lb/>Writing of <persName ref="#sivrauJagdev">Sivrau Jagdev</persName>, <ref type="glossary" target="#gl_deshmukh">deshmukh</ref>
+               <lb/>of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#bagwadi">Muhammadnagar</placeName> 
+               <lb rend="empty"/>
+               <lb/><ref type="glossary" target="#gl_muqaddam">Muqaddams</ref> of the aforementioned village 
+              <lb rend="empty"/>
+               <lb/><persName ref="#siddapa">Siddapa</persName>, cultivator 
+               <lb/><figure place="right margin"><figDesc>sign of a plough</figDesc></figure> 
+              <lb rend="empty"/>
+               <lb/><persName ref="#totapaJadi">Totapa Jadi</persName>
+               <lb/><gap/>, cultivator 
+               <lb/>of the aforementioned village 
+              <lb rend="empty"/>
+               <lb/><persName ref="#janappaPatki">Janappa Patki</persName><gap></gap> 
+               <lb/>of the aforementioned village 
+              <lb rend="empty"/>
+               <lb/><persName ref="#malmappa">Malmappa</persName>, cultivator of the village Batarof<gap></gap>
+               <lb/><figure place="right margin"><figDesc>sign of a plough</figDesc></figure>
+               <lb rend="empty"/>
+               <lb/>By the pen of <persName ref="#janoBhikaji">Jano Bhikaji</persName>, <ref type="glossary" target="#gl_kulkarni">kulkarni</ref> of the aforementioned village 
+            </p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

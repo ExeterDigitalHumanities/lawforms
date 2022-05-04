@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1656_brd_ac">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of a Mughal officer to the officials of Dhar regarding the grant of revenue-free villages to
+               Purshottam Das</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#brd"/>
+                  <collection ref="#pDas"/>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#julus">19 Rajab 30</origDate>
+                     <origDate calendar="#hijri-qamri">19 Rajab 1066</origDate>
+                     <origDate calendar="#gregorian" when="1656-05-13">13 May 1656</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>A Mughal officer orders the local officials of <placeName ref="#pgDhar">Dhar</placeName> to entrust several revenue-free (inʿami)
+               villages to
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+                because he has appointed the landlord (chaudhri) of the district (pargana).</p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="parvana"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Administration</term>
+               <term>Grants</term>
+               <term>Petitioning</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <person role="supplicant">
+               <persName ref="#mirIbrahim">Mir Ibrahim</persName>
+            </person>
+            <person role="supplicant">
+               <persName ref="#abdussalam">Abdussalam</persName>
+            </person>
+            <person role="grantee">
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1656_brd_ac.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1656_brd_ac.jpg"/>
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>الله اکبر</p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p>God is great</p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="per" type="authorisation" rend="top right margin">
+            <p><stamp type="seal"><mentioned>
+                     <gap/>
+                  </mentioned></stamp></p>
+         </div>
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p><stamp type="seal">Round black ink seal<mentioned>
+                     <gap/>
+                  </mentioned></stamp></p>
+         </div>
+         <div xml:id="orig_div3" xml:lang="per" type="maintext">
+            <p>
+               <lb/>مقرر شد که متسدیان مهمات و متکفلان معاملات حال و استقبال
+               <lb/>پرگنه
+               <placeName ref="#pgDhar">دهار</placeName>
+                متعلقه سرکار
+               <placeName ref="#mandu">مندو</placeName>
+                من مضافات صوبه
+               <placeName ref="#malwa">مالوه</placeName>
+                بدانند که
+               <lb/>چون بموجب نشان عالی شان سعادت عُنوان از قرار بتاریخ
+               <date calendar="#julus">چهارم شهر رجب المرجب
+                  <lb/>سنه سی جلوس</date>
+                میمنت مانوس موافق سنه
+               <date calendar="#hijri-qamri">یکهزار و شصت و شش</date>
+                هجری النبویه
+               <lb/>خدمت چودهرای پرگنه مذکور حسب الالتماس سیادت پناه وزارت دستگاه
+               <gap/>
+               <persName ref="#mirIbrahim">میر ابراهیم</persName>
+               <lb/>و عزت ایات کفایت شعار ملا
+               <persName ref="#abdussalam">عبدالسلام</persName>
+                به
+               <persName ref="#purshottamDas">پرشوتم</persName>
+                ولد موهنداس مقرر و مفوض گشته
+               <lb/>و موضع
+               <placeName ref="#ahu">آهو</placeName>
+                وغیره بموجب تفصیل مرقومه فی
+               <unclear>الظر</unclear>
+                بشرط دولتخواهی و ابادان کاری
+               <lb/>که لازمه اینخدمت است در وجه انعام
+               <gap/>
+                ان مرحمت شده باید که
+               <lb/>خدمت مرجوعه را با مواضع انعامی وغیره باو مقرر دانسته وا گذارند که
+               <lb/>حاصلات انرا فصل بفصل و سال بسال متصرف شده لوازم حدمتگاری و مراسم دولتخواهی
+               <lb/>انچنان تقدیم رساند که آبادی و معموری پرگنه روز افزون گردد درین باب
+               <lb/>تاکید لازم دانسته
+               <unclear>تخلف</unclear>
+                نورزند
+               <unclear>تحریراً</unclear>
+                التاریخ
+               <date calendar="#julus">
+                  <num>۱۹</num>
+                   شهر رجب المرجب سنه
+                  <num>۳۰</num>
+               </date>
+                جلوس
+               <lb/>مبارک مقدس معلی مطابق سنه
+               <date calendar="#hijri-qamri">
+                  <num>۱۰۶۶</num>
+               </date>
+                هجری
+               <g ref="#faqt">فقط</g>
+            </p>
+         </div>
+         <div xml:id="trans_div3" corresp="#orig_div3">
+            <p>
+               <lb/>It was fixed that the <ref type="glossary" target="#gl_mutasaddi">mutasaddis</ref> of important endeavours and guarantors of the present and future
+               affairs
+               <lb/>of <ref type="glossary" target="#gl_pargana">pargana</ref>
+               <placeName ref="#pgDhar">Dhar</placeName>
+               , dependency of <ref type="glossary" target="#gl_sarkar">sarkar</ref>
+               <placeName ref="#mandu">Mandu</placeName>
+                annexed to <ref type="glossary" target="#gl_suba">suba</ref>
+               <placeName ref="#malwa">Malwa</placeName>
+                should know that
+               <lb/>since according to the glorious imperial <ref type="glossary" target="#gl_nishan">nishan</ref><note>Possibly issued by the prince
+                  <persName ref="#muradBakhsh">Murad Bakhsh</persName>
+                  . Both
+                  <persName ref="#abdussalam">Abdussalam</persName>
+                   and
+                  <persName ref="#mirIbrahim">Mir Ibrahim</persName>
+                   had seals that associated them with this prince. See Order of Abdussalam to
+                  Purshottam Das and Paras Ram about a dispute with other officials
+                  lf_pDas_1655_brd_ac, and Order of an employee of Murad Bakhsh to the officials and
+                  residents of Dhar about rights to water, lf_pDas_1655_dai_lns235ms_j.</note>
+               written on the date of the
+               <date calendar="#julus">fourth of the month of the revered Rajab
+                  <lb/>year thirty</date>
+                of the auspicious reign, equivalent to the year
+               <date calendar="#hijri-qamri">one thousand sixty and 6 [1066]</date>
+                of the flight of the Prophet,
+               <lb/>the service of <ref type="glossary" target="#gl_chaudhrai">chaudhrai</ref> of
+               the aforesaid <ref type="glossary" target="#gl_pargana">pargana</ref> according to
+               the petition of the Refuge of Sovereignty, Power of the Ministry
+               <gap/>
+               <persName ref="#mirIbrahim">Mir Ibrahim</persName>
+               <lb/>and Sign of Honour, Distinguished by Ability Mulla
+               <persName ref="#abdussalam">Abdussalam</persName>
+                was fixed and entrusted to
+               <persName ref="#purshottamDas">Purshottam [Das]</persName>
+                son of Mohan Das.
+               <lb/>And per the details written
+               <unclear>on the <ref type="glossary" target="#gl_zimn">zimn</ref></unclear>
+                [and] on condition of loyalty and making [the villages] prosperous, village
+               <placeName ref="#ahu">Ahu</placeName>
+               , etc.,
+               <lb/>that are the perquisites of this service, are granted as <ref type="glossary" target="#gl_inam">inʿam</ref>
+               <gap/>.
+               <note>The document was laminated with onion-skin paper and some words are illegible
+                  due to damage to the laminating layer.</note>
+               It is necessary that they [the officials being addressed] hand over the previously mentioned service along with the
+                <ref type="glossary" target="#gl_inami">inʿami</ref> villages, etc., knowing these
+               to be granted to him [<persName ref="#purshottamDas">Purshottam Das</persName>] so that
+               <lb/>enjoying the revenue of that [i.e., the villages] season by season and year by
+               year, he shall present [i.e. perform] the necessities of service and the obligations of loyalty
+               <lb/>to such an extent that the habitation and cultivation of the pargana shall
+               increase daily. In this matter
+               <lb/>knowing urgency [to be] necessary, do not delay. Written on the date
+               <date calendar="#julus">19 month Rajab the revered, year 30</date>
+                of the
+               <lb/>glorious exalted reign, equivalent to year
+               <date calendar="#hijri-qamri">1066</date>
+                Hijri.
+               <g ref="#faqt">Nothing further.</g>
+            </p>
+         </div>
+         <div xml:id="orig_div4" xml:lang="mar" type="laterAddition" rend="right margin">
+            <p>समक्ष पाहिली सदरहूची नोंद रजिस्टर बुकातिल आजक्रम नंबर १३० यातकेली आहे तारीख <date calendar="#gregorian">७ माहे आक्टोबर सन इसवी १९०२</date></p>
+         </div>
+         <div xml:id="trans_div4" corresp="#orig_div4">
+            <p>Witnessed that the aforementioned document has been noted in the daily register book number 130. Date <date calendar="#gregorian">7 October 1902 CE</date>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

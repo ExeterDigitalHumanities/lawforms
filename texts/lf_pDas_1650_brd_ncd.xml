@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1650_brd_ncd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of an official to Purshottam Das about a disruptive revenue officer</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Nandini Chatterjee</persName>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#brd"/>
+                  <collection ref="#pDas"></collection>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" notBefore="1650" notAfter="1659">1650–59</origDate>
+                     <!--attributed date-->
+                  </origin>
+               </history>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>In response to a petition from <persName ref="#purshottamDas">Purshottam Das</persName>, an official orders the revenue officer (karori) to stop displacing the people of <placeName ref="#sultanpur">Sultanpur</placeName> and instead
+            settle the people and improve agriculture.</p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="parvana"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term key="administration">Administration</term>
+               <term key="desertionAndDepopulation">Desertion and Depopulation</term>
+               <term key="petitioning">Petitioning</term>
+            </keywords>
+         </textClass>
+
+         <particDesc>
+            <person role="supplicant">
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1650_brd_ncd_r.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1650_brd_ncd_r.jpg"/>
+
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>الله اکبر</p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p>God is great</p>
+         </div>
+
+         <div xml:id="orig_div2" xml:lang="per" type="maintext">
+            <p>
+               <lb/>زبده الاقران
+               <persName ref="#purshottamDas">پرسوتمداس</persName>
+               چودری پرگنه
+               <placeName ref="#jamli">جاملی</placeName>
+                و
+               <placeName ref="#hindola">هندوله</placeName>
+                را انها آنکه
+               <lb/> عرضه داشتی که درینولا مشتمل بر کیفیت بیجا شدن مردم مهاجن و
+               <lb/>خوش باش قصبه
+               <placeName ref="#sultanpur">سلطانپور</placeName>
+                از بی سلوکی کروری آنجا قلمی نموده
+               <lb/>ارسال داشته بود رسید و بر آن آگهی رفت و آنچه درین
+               <lb/>ماده باستی بکروری آنجا نوشت نگاشته با این رقیمه نزد او
+               <lb/>فرستاده آمد باید که باو برساند و باتفاق تسلی انجماعه نموده بمکان
+               <lb/>اصلی آباد سازد و رعایا را مستمال ساخته در مزید زراعت و افزونی
+               <lb/>کشتکار سرگرم دارد که باعث مجرای او در این خواهد بود زیاده تاکید
+               <unclear>نرفت</unclear>
+            </p>
+         </div>
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p>
+               <lb/>Eminent among Contemporaries
+               <persName ref="#purshottamDas">Purshottam Das</persName> chaudhri
+                of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#jamli">Jamli</placeName>
+                and <placeName ref="#hindola">Hindola</placeName>
+                is informed that
+               <lb/>the petition containing the account of the displacement of the well-off and 
+               <lb/>important people of the town of <placeName ref="#sultanpur">Sultanpur</placeName> due to the ill behaviour of the <ref type="glossary" target="#gl_karori">karori</ref> of that place, that he had presently put in writing
+               <lb/>and had been sent, was received. And on account of that the information arose and whatever
+               <lb/>was written [in] a writing to the <ref type="glossary" target="#gl_karori">karori</ref> regarding this matter of lowliness, it was sent to him
+               <lb/>with this letter. It is essential that [this writing] shall be delivered to him, and that by causing the consolation of those people
+               <lb/>he will make [them] settled in the original home. And having concilliated the peasants, he shall be occupied in the increase of cultivation
+               <lb/>and the enlargement of husbandry for the cause of his progress will be in this. More compulsion <unclear>shall not arise</unclear>. 
+            </p>
+         </div>
+         
+         <div xml:id="orig_div3" xml:lang="ara" type="invocation" rend="right margin">
+            <p>الله اکبر</p>
+         </div>
+         <div xml:id="trans_div3" corresp="#orig_div3">
+            <p>God is great</p>
+         </div>
+         
+         <div xml:id="orig_div4" xml:lang="per" type="authorisation" rend="right margin">
+            <p>
+               <lb/>اگر
+               <gap></gap>
+               راستی بوده
+               <unclear>بصلح با یکدیگر الحاف</unclear>
+               <lb/>کرده معامله پرگنه جاملی هندوله را از قرار
+               <lb/>واقع خواهد پرداخت
+               <unclear>نوری...</unclear>
+                آنها است
+               <lb/>و اگر
+               <unclear>اجاه</unclear>
+               خصومت بمیان اوردند
+               <gap></gap>
+               که نتیجه 
+               <lb/>نیک نخواهد یافت زیاده چه نوشت
+               <lb/><stamp type="seal"><mentioned><gap/>
+                  <unclear>بنده</unclear>
+                  <persName ref="#shahJahan">شاه جهان</persName>
+                  </mentioned></stamp>
+            </p>
+         </div>
+         <div xml:id="trans_div4" corresp="#orig_div4">
+            <p>
+               <lb/>If <gap/> is true, <unclear>compelling [them] to compromise with one another</unclear>
+               <lb/>the affairs of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#jamli">Jamli</placeName> and <placeName ref="#hindola">Hindola</placeName> 
+               <lb/>shall be as fixed.<gap/> is of them
+               <lb/>And if they cause quarrels to arise, the result 
+               <lb/>will not be good. What more was written.
+              <lb/><stamp type="seal">Round black ink seal<mentioned><gap/><unclear>servant of</unclear> <persName ref="#shahJahan">Shah Jahan</persName></mentioned></stamp><note>The document is undated, so a date has been ascribed
+              using 1650, when <persName ref="#purshottamDas">Purshottam Das</persName> is known to become active, as an opening bound and the end of the reign of <persName ref="#shahJahan">Shah Jahan</persName>, i.e. 1659, as a closing bound on the basis of this seal.
+              However, it is possible the seal continued to be used afterward. <persName ref="#purshottamDas">Purshottam Das</persName> was involved in a similar incident in 1669. See <ref type="bibl" target="#chatterjee2020">Chatterjee, Negotiating Mughal Law, p. 137</ref>.</note>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

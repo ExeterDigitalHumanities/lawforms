@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1665_dai_lns235ms_g1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of Muhammad Ali Khan to Nathmal regarding receipt of payment and the delivery of
+               sheesham wood</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#dai"/>
+                  <collection ref="#pDas"/>
+                  <idno>LNS 235 MS g1</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#julus">22 Jumada al-sani 8</origDate>
+                     <origDate calendar="#hijri-qamri">22 Jumada al-sani 1076</origDate>
+                     <origDate calendar="#gregorian" when="1665-12-30">30 December 1665</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p><persName ref="#nathmal">Nathmal</persName>'s payment of 304 rupees was received by the state. <persName ref="#muhammadAliKhan">Muhammad Ali Khan</persName> orders him to send sheesham wood to the Lord instead of to <placeName ref="#barodia">Barodia</placeName> and to send the balance of his previous payment and the next installment.</p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="parvana"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term key="buyingAndSelling">Buying and Selling</term>
+               <term key="money">Money</term>
+               <term key="naturalResources">Natural Resources</term>
+               <term key="petitioning">Petitioning</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <person role="issuer">
+               <persName ref="#muhammadAliKhan">Muhammad Ali Khan</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="#nathmal">Nathmal</persName>
+            </person>
+            <person role="supplicant">
+               <persName ref="#nathmal">Nathmal</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1665_dai_lns235ms_g1_r.jpg"/>
+      <graphic url="lf_pDas_1665_dai_lns235ms_g1_v.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1665_dai_lns235ms_g1_r.jpg"/>
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>هو</p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="per" type="authorisation" rend="top right">
+            <p><stamp type="seal"><mentioned>
+                     <persName ref="#muhammadAliKhan">محمد
+                        <unclear>علیخان</unclear>
+                     </persName>
+                     <unclear>نامم از صدق</unclear>
+                     <gap/>
+                  </mentioned></stamp></p>
+         </div>
+         <div xml:id="orig_div3" xml:lang="per" type="maintext">
+            <p>
+               <lb/>زبدة الاقران
+               <persName ref="#nathmal">نتهمل</persName>
+                پسر چودری
+               <persName ref="#purshottamDas">پرسوتم</persName>
+                اجاره دار
+               <placeName ref="#jamli">جاملی</placeName>
+                بعنایت امیدوار بوده بداند
+               <lb/>عرضه داشتی که درینولا با مبلغ
+               <measure type="currency" unit="rupee" quantity="304">سیصد و چهار عدد روپیه</measure>
+                ارسال داشته بود
+               <lb/>رسید ثانی الحال مبلغ مذکور بموجب قبض حضور مجری خواهند یافت آنچه
+               <lb/>در باب چوب شیشم نوشته بود که چون جنگل بسیار است
+               <lb/>بنابران چوب مذکور بریده نمی شود معلوم آن زبده الاقران باد که
+               <lb/>قبل ازین پروانه صادر شده بود که چوب مزبور سربراه نموده به پرگنه
+               <lb/>
+               <placeName ref="#barodia">بروده</placeName>
+                بفرستند الحال مقرر شد که چوب مسطور بحضور ارسال دارد و بر طبق<note>The main text continues on the right margin after this point.</note>
+               <lb/>نوشته بعمل آورد
+               <lb/>و تتمه بوجه سابق و وجه بوجه حال را
+               <lb/>بسرعت هر چه تمامتر مرسول
+               <unclear>گرداند</unclear>
+                اگر
+               <lb/>درینماده اهمال خواهد کرد متعاقب
+               <app>
+                  <rdg cert="high">سوار</rdg>
+                  <rdg cert="low">سواد</rdg>
+               </app>
+               <lb/>فرستاده خواهد شد
+               <unclear>زیاده چه نگاشته</unclear>
+                شود
+               <lb/>تحریراً فی التاریخ
+               <date calendar="#julus"><num>۲۲</num>
+               <lb/>جمادی الثانی سنه 
+                  <num>۸</num>
+               </date>
+            </p>
+         </div>
+         <pb n="1v" facs="lf_pDas_1665_dai_lns235ms_g1_v.jpg"/>
+         <div xml:id="orig_div4" xml:lang="per" type="clericalNotes" rend="middle left">
+            <p>
+               <unclear>بتاریخ</unclear>
+               <date calendar="#julus"> 
+                  <num>۲۲</num>
+                  شهر جمادی
+                  <unclear>الثانی</unclear>
+                  سنه
+                  <num>۸</num>
+                   </date>
+                نقل
+               <unclear>گرفته شد</unclear>
+            </p>
+         </div>
+         <div corresp="#orig_div1" xml:id="trans_div1">
+            <p>He [God] is</p>
+         </div>
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p><stamp type="seal">Round black ink seal<mentioned>
+                     <persName ref="#muhammadAliKhan">Muhammad Ali Khan</persName>
+                     <gap/>
+                  </mentioned></stamp>
+            </p>
+         </div>
+         <div corresp="#orig_div3" xml:id="trans_div3">
+            <p>
+               <lb/>Eminent among Contemporaries
+               <persName ref="#nathmal">Nathmal</persName>, son of <ref type="glossary" target="#gl_chaudhri">chaudhri</ref>
+               <persName ref="#purshottamDas">Purshottam [Das]</persName> [and] <ref type="glossary" target="#gl_ijaradar">ijaradar</ref> of
+               <placeName ref="#jamli">Jamli</placeName>,
+                having hoped for kindness, should know
+               <lb/>the <ref type="glossary" target="#gl_arzdasht">ʿarzdasht</ref> that recently you had sent with the sum of
+               <measure type="currency" unit="rupee" quantity="304">three hundred and four rupees</measure>
+               <lb/>has arrived. Hence, the aforementioned sum will be routed towards payment of the Lord. [Regarding] that which
+               <lb/>was written with regard to <ref type="glossary" target="#gl_sheesham">sheesham</ref> wood, [to wit] that since there is lots of jungle
+               <lb/>[and] due to this, the aforementioned wood cannot be cut, that Eminent among Contemporaries [you] should know that
+               <lb/>previously, a <ref type="glossary" target="#gl_parvana">parvana</ref> had been issued so that the aforementioned wood should be supplied and sent to the <ref type="glossary" target="#gl_pargana">pargana</ref>
+               <lb/><placeName ref="#barodia">Barod[i]a</placeName>. Now it is determined that the aforementioned wood shall be sent to the Lord. And accordingly, 
+               <lb/>it shall be done as written.
+               <lb/>And the balance for the previous amount and the amount of the current amount 
+               <lb/>- as complete as possible - should be sent quickly. If
+               <lb/>in this matter there will be too much delay, then subsequently
+               <app>
+                  <rdg cert="high">a rider</rdg>
+                  <rdg cert="low">writing</rdg>
+               </app>
+               <lb/>will be sent. What more should be written?
+               <lb/>Written on the date of
+               <date calendar="#julus">22
+                  <lb/>Jumada al-sani of the [regnal] year 8</date>.
+            </p>
+         </div>
+         <div corresp="#orig_div4" xml:id="trans_div4">
+            <p>
+               On the date <date calendar="#julus">22 of the month of Jumada <unclear>al-sani</unclear>
+                   of the [regnal] year 8</date>,
+                a copy
+               <unclear>was taken</unclear>.
+               </p>
+         </div>
+      </body>
+   </text>
+</TEI>

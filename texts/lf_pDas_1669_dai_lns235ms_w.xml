@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1669_dai_lns235ms_w">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of Muhibb Ali to Nathmal granting land to plant a garden and build a resthouse for travelers</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Nandini Chatterjee</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#dai"/>
+                  <collection ref="#pDas"/>
+                  <idno>LNS 235 MS w</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" when="1669">1669</origDate>
+                     <origPlace type="placeOfIssue" ref="#dhar"/>
+                     <origPlace type="placeOfReceipt" ref="#dhar"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Five bighas, or a little over three acres, of tax-exempt land are allocated from the village <placeName ref="#maliwada">Maliwada</placeName> in district (pargana) <placeName ref="#pgDhar">Dhar</placeName>
+               to <persName ref="#nathmal">Nathmal</persName>, son of the landlord (chaudhri) <persName ref="#purshottamDas">Purshottam Das</persName>, to plant a garden and build a resthouse for travelers. </p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="parvana"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Agriculture</term>
+               <term>Gardens and Orchards</term>
+               <term>Grants</term>
+               <term>Taxation and Tribute</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <person role="grantee">
+               <persName ref="#nathmal">Nathmal</persName>
+            </person>
+            <person role="grantor">
+               <persName ref="#muhibbAli">Muhibb Ali</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1669_dai_lns235ms_w_r.jpg"/>
+      <graphic url="lf_pDas_1669_dai_lns235ms_w_v.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1669_dai_lns235ms_w_r.jpg"/>
+         
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>هو</p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p>He [God] is</p>
+         </div>
+
+         <div xml:id="orig_div2" xml:lang="per" type="maintext">
+            <p>
+               <lb/>متصدیان مهمات حال و استقبال پرگنه
+               <placeName ref="#pgDhar">دهار</placeName>
+                سرکار
+                <placeName ref="#mandu">مندو</placeName>
+                بدانند که موازی پنج بیگه
+               <lb/> زمین بنجر خارج جمع بجهت احداث باغ حسب الضمن از موضع
+               <placeName ref="#maliwada">مالیواده</placeName>
+                عمله پرگنه مذکور
+               <lb/> به
+               <persName ref="#nathmal">نتهمل</persName>
+                پسر چودهری
+               <persName ref="#purshottamDas">پرسوتم داس</persName>
+                بتصدق فرق مبارک بندگان حضرت سلیمن منزلت
+               <lb/>مقرر نموده شد که بخاطر جمع احداث باغ نماید که هچکس از محصول وغیره آراضی
+               <lb/>مسطور مشار الیه مزاحم نشوند و حاصلات آنرا بتصرف او واگذارند که بدعاگوی
+               <lb/>دوام دولت ابد پیوند اشتغال نماید تحریر فی التاریخ 
+               <gap/>
+            </p>
+         </div>
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p>
+               <lb/>Important officials of the present and future of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#pgDhar">Dhar</placeName>, <ref type="glossary" target="#gl_sarkar">sarkar</ref> <placeName ref="#mandu">Mandu</placeName>, know that <measure type="land" quantity="5" unit="bigha">five</measure> <ref type="glossary" target="#gl_bigha">bighas</ref> of fallow land, 
+               <lb/>[which is] exempt from taxes, is allocated for the construction of a garden, according to the [details] on the reverse, from the village <placeName ref="#maliwada">Maliwada</placeName> in the administration of the said <ref type="glossary" target="#gl_pargana">pargana</ref>
+               <lb/>to <persName ref="#nathmal">Nathmal</persName>, son of <persName ref="#purshottamDas">Purshottam Das</persName> <ref type="glossary" target="#gl_chaudhri">chaudhri</ref>, as charity by the servants of the blessed head [the ruler], who is like Lord Suleiman<note>This is likely a reference to the biblical king Solomon, celebrated for his wisdom.</note>;
+               <lb/>so that with settled mind he constructs the garden such that nobody
+               <lb/>will disturb the said land of the said person [<persName ref="#nathmal">Nathmal</persName>] because of taxes etc. And the yield from that land should be given over to him so that
+               <lb/>he can engage himself in praying that the longevity of the sovereignty be infinite. Written on the date <gap/><note>No date of composition appears after this phrase. The date of 1669 CE has been ascribed based on the approximate period of <persName ref="#nathmal">Nathmal's</persName> activities.</note>
+            </p>
+         </div>
+         
+         <div xml:id="orig_div3" xml:lang="per" type="authorisation" rend="top right margin">
+            <p>
+               <lb/>چون از پیشگاه خلافت در باب
+               <lb/>احداث باغات بجهت رفاهت مترددان
+               <lb/>حکم است بتصدق فرق مبارک اشرف
+               <lb/>مقرر شد
+               <g type="#baiz">بیض</g>
+               <lb/><stamp type="seal"><mentioned>
+                  <persName ref="#muhibbAli">محب علی</persName>
+                  مرید
+                  <persName ref="#aurangzebAlamgir">عالمگیر</persName>
+                  شاه
+               </mentioned></stamp></p></div>
+            
+         <div xml:id="trans_orig3" corresp="#orig_div3">
+            <p> 
+               <lb/>Since from the court of governance, the
+               <lb/>the construction of a garden for the relief of travelers
+               <lb/>is ordered, it is allocated in charity.
+               <lb/><g type="#baiz">Ended.</g>
+               <lb/><stamp type="seal">Round black ink seal<mentioned><persName ref="#muhibbAli">Muhibb Ali</persName>
+               disciple of <persName ref="#aurangzebAlamgir">Alamgir</persName> Shah</mentioned></stamp>
+            </p>
+         </div>
+
+         <pb n="1v" facs="lf_pDas_1669_dai_lns235ms_w_v.jpg"/>
+
+         <div xml:id="orig_div4" xml:lang="per" type="laterAddition" rend="top right">
+            <p>پروانه بنام
+               <persName ref="#nathmal">نتهمل</persName>
+                باغ
+                <placeName ref="#maliwada">مالیواده</placeName>
+            </p>
+         </div>
+         <div xml:id="trans_div4" corresp="#orig_div4">
+            <p><ref type="glossary" target="#gl_parvana">Parvana</ref> in the name of
+               <persName ref="#nathmal">Nathmal</persName>
+                [for] a garden [in]
+               <placeName ref="#maliwada">Maliwada</placeName>
+            </p>
+         </div>
+         <div xml:id="orig_div5" xml:lang="per" type="clericalNotes" rend="middle right">
+            <p>
+               <lb rend="empty"/>مقرر ضمن از موضع مالیواده عمله
+               <lb rend="empty"/>پرگنه دهار بجهته باغ به نتهمل مقرر نموده شد
+            </p>
+         </div>
+         <div xml:id="trans_div5" corresp="#orig_div5">
+            <p><lb rend="empty"/>Confirmed by the <ref type="glossary" target="#gl_zimn">zimn</ref>, [to wit] from the village <placeName ref="#maliwada">Maliwada</placeName> in the administration of 
+               <lb rend="empty"/><ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#pgDhar">Dhar</placeName>, [land] for a garden is assigned to <persName ref="#nathmal">Nathmal</persName>. 
+            </p>
+         </div>
+
+         <div xml:id="orig_div6" xml:lang="per" type="clericalNotes" rend="bottom centre">
+            <p><app><rdg cert="low">ارازی</rdg>
+               <rdg cert="high">موازی</rdg></app>
+               <measure type="land" unit="bigha" quantity="5">پنج بیگه</measure>
+               <gap/>
+            </p>
+         </div>
+         <div xml:id="trans_div6" corresp="#orig_div6">
+            <p><measure type="land" unit="bigha" quantity="5">5</measure> <ref type="glossary" target="#gl_bigha">bighas</ref> [of] land <gap/> </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1672_dai_lns235ms_p">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of a Mughal official to the revenue officials of Dhar reconfirming a revenue grant
+               to Purshottam Das and his descendants</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#dai"/>
+                  <collection ref="#pDas"/>
+                  <idno>LNS 235 MS p</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#gregorian" when="1672-06-11">11 June 1672</origDate>
+                     <origDate calendar="#hijri-qamri">14 Safar 1083</origDate>
+                     <origPlace type="placeOfReceipt" ref="#dhar"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>The revenue officials (mutasaddis) of district (pargana) <placeName ref="#pgDhar">Dhar</placeName>
+               are informed about villages, land and trees that were granted to
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+                and his descendants as charitable revenue (inʿam) and tax-free land (nankar) by the
+               late <persName ref="#nawazishKhan">Nawazish Khan</persName>. The verso provides the specific details of the grant.</p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="parvana"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Agriculture</term>
+               <term>Gardens and Orchards</term>
+               <term>Grants</term>
+               <term>Natural Resources</term>
+               <term>Taxation and Tribute</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+           <person role="grantee">
+              <persName ref="#purshottamDas">Purshottam Das</persName>
+           </person>
+           <person role="grantor">
+              <persName ref="#nawazishKhan">Nawazish Khan</persName>
+           </person>
+        </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1672_dai_lns235ms_p_r.jpg"/>
+      <graphic url="lf_pDas_1672_dai_lns235ms_p_v.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1672_dai_lns235ms_p_r.jpg"/>
+         <div xml:id="orig_div1" xml:lang="per" type="invocation" rend="top centre">
+            <p>باسم سُبحانه </p>
+         </div>
+         <div corresp="#orig_div1" xml:id="trans_div1">
+            <p>In the name of the Most Holy</p>
+         </div>
+         
+         <div xml:id="orig_div2" xml:lang="per" type="maintext">
+            <p>
+               <lb/>مُتصدیان مهمات حال و استقبال پرگنه
+               <placeName ref="#dhar">دهار</placeName>
+                سرکار
+               <placeName ref="#mandu">مندو</placeName>
+                صوبه
+               <placeName ref="#malwa">مالوه</placeName>
+                بدانند که
+               <lb/>در اینولا حقیقت دولتخواهی و آبادانکاری و نیکو خدمتی
+               <persName ref="#purshottamDas">پرسوتم</persName>
+                چودهری آنجا بعرض رسید که
+               <lb/>در انجام کارهای سرکار خود را معاف نمی دارد و مُطابق سند
+               <persName ref="#nawazishKhan">نوازش خان</persName>
+                مرحوُم
+               <lb/>موضع
+               <placeName ref="#ahu">اهو</placeName>
+                وغیره ده قریه و
+               <measure type="area" unit="bigha" quantity="550">پانصد و پنجاه بیگه</measure>
+                زمین و اشجار انبه وغیره بموجب مفصله ضمن
+               <lb/>بر طبق نشان
+               <persName ref="#muradBakhsh">مراد بخش</persName>
+                و جاگیرداران پیشین در وجه انعام و نانکار او
+               <lb/>معه فرزندان مقرر است ما نیز مواضعات مذکور و اشجار مذبور وغیره را
+               <lb/>در وجه انعام او و فرزندانش مرحمت فرموُدیم باید که وجه مرقوم را
+               <lb/>به نهج قدیم باو وا گذارند که محصوُل آنرا سال بسال فصل بفصل
+               <lb/>متصرف بوُده در دولتخواهی و نیکو خدمتی سعی موفوره بظهور رساند
+               <lb/>اندرینباب تاکید دانسته
+               حسب الفرموده عمل نماید تحریراً فی التاریخ
+               <date calendar="#hijri-qamri">
+                  <num>۱۴</num>
+                   صفر سنه
+                  <app>
+                     <rdg cert="low">
+                        <num>۱۰۸۳</num>
+                     </rdg>
+                     <rdg cert="high">
+                        <num>۱۰۸۲</num>
+                     </rdg>
+                  </app>
+               </date>
+            </p>
+         </div>
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p><lb/>The <ref type="glossary" target="#gl_mutasaddi">mutasaddis</ref> of the present
+               and future affairs of <ref type="glossary" target="#gl_pargana">pargana</ref>
+               <placeName ref="#pgDhar">Dhar</placeName>, <ref type="glossary" target="#gl_sarkar"
+                  >sarkar</ref>
+               <placeName ref="#mandu">Mandu</placeName>, <ref type="glossary" target="#gl_suba"
+                  >suba</ref>
+               <placeName ref="#malwa">Malwa</placeName> shall know that
+               <lb/>at this time the account of the loyalty, the efforts to populate [the land], and
+               the good service in that place of
+               <persName ref="#purshottamDas">Purshottam [Das]</persName>
+               <ref type="glossary" target="#gl_chaudhri">chaudri</ref> came to be known:
+               that
+               <lb/>in the completion of the works of the state he does not excuse himself. And
+               according to the <ref type="glossary" target="#gl_sanad">sanad</ref> of the late
+               <persName ref="#nawazishKhan">Nawazish Khan</persName>,
+               <lb/>the village <placeName ref="#ahu">Ahu</placeName>, etc. – ten villages and
+               <measure type="area" unit="bigha" quantity="550">five hundred and fifty</measure>
+               <ref type="glossary" target="#gl_bigha">bighas</ref> of land and mango trees etc.
+               as per the details on the <ref type="glossary" target="#gl_zimn">zimn</ref> –
+               <lb/>are allotted for the <ref type="glossary" target="#gl_inam">inʿam</ref> and <ref
+                  type="glossary" target="#gl_nankar">nankar</ref> of him and his sons 
+               in accordance with the <ref type="glossary" target="#gl_nishan">nishan</ref> of
+               <persName ref="#muradBakhsh">Murad Bakhsh</persName>
+               and the former <ref type="glossary" target="#gl_jagirdar">jagirdars</ref>.
+               <lb/>We also grant the aforementioned villages and the abovementioned trees etc.
+               <lb/>for the <ref type="glossary" target="#gl_inam">inʿam</ref> of him and his sons.
+               It is necessary that the noted amount
+               <lb/>is returned to him in the former manner so that he shall possess the tax revenue of
+               that [land] from year to year [and] season to season and
+               <lb/>shall cause extreme diligence in good wishes and good service to be
+               exhibited.
+               <lb/>In this matter know it settled, [and] according to the order, let it be done. Written on the date
+               <date calendar="#hijri-qamri">14 Safar of the year <app>
+                  <rdg cert="low">1083</rdg>
+                  <rdg cert="high">1082</rdg>
+               </app>
+               </date>. </p>
+         </div>
+
+         <div xml:id="orig_div3" xml:lang="per" type="invocation" rend="top right margin">
+            <p>ا</p>
+         </div>
+         <div xml:id="trans_div3" corresp="#orig_div3">
+            <p>Alif</p>
+         </div>
+
+         <div xml:id="orig_div4" xml:lang="per" type="authorisation" rend="top right margin">
+            <p>
+               <gap/>
+                دارند
+               <g ref="#faqat">فقط</g>
+               <lb rend="empty"/><stamp type="seal"><mentioned>
+                     <gap/>
+                      تاج
+                     <gap/>
+                      سوای
+                     ثابت
+                  <unclear>زمانه</unclear>
+                      شاه
+                     <persName ref="#aurangzebAlamgir">عالمگیر</persName>
+                  </mentioned></stamp>
+            </p>
+         </div>
+         <div corresp="#orig_div4" xml:id="trans_div4">
+            <p>
+               <gap/>
+               They shall have.
+               <g ref="#faqat">Nothing further.</g>
+               <lb rend="empty"/><stamp type="seal">Round black ink seal<mentioned>
+                  <gap/>
+                  Taj
+                  <gap/>
+                  Sawai,
+                  the Sign <unclear>of the Age</unclear>
+                  Shah
+                  <persName ref="#aurangzebAlamgir">Alamgir</persName>
+               </mentioned></stamp>
+            </p>
+         </div>
+         
+         <pb n="1v" facs="lf_pDas_1672_dai_lns235ms_p_v.jpg"/>
+         <div xml:id="orig_div5" xml:lang="per" type="particulars" rend="middle centre">
+            <p>
+               <lb/>مقرراً ضمن در وجه انعام و نانکار
+               <persName ref="#purshottamDas">پرسوتم</persName>
+                چودری معه فرزندان
+               <lb/>بموجب نشان
+               <persName ref="#muradBakhsh">مراد بخش</persName>
+                و اسناد حکام پیشین
+               <lb rend="empty"/>
+               <list>
+                  <lb/>
+                  <head>
+                     <g ref="#siyaq">۱۰</g>
+                      موضع و 
+                     <g ref="#siyaq">۵۵۰</g>
+                      و
+                     <g ref="#siyaq">۴۳</g>
+                      درخت انبه و یک قطع باغ </head>
+                  <lb rend="empty"/>
+                  <lb/>
+                  <label>موضع 
+                     <placeName ref="#ahu">اهو</placeName>
+                     وغیره
+                     <g ref="#siyaq">۱۰</g>
+                      موضع</label>
+                  <item>
+                     <list>
+                        <lb/>
+                        <item>قریه موضع 
+                           <placeName ref="#ahu">اهو</placeName></item>
+                        <lb/>
+                        <item>قریه موضع صواره</item>
+                        <lb/>
+                        <item>قریه موضع 
+                           <placeName ref="#palwada">بلواره</placeName>
+                        </item>
+                        <lb/>
+                        <item>قریه موضع
+                           <placeName ref="#dhamanda">دهامنده</placeName>
+                        </item>
+                        <lb/>
+                        <item>قریه موضع
+                           <unclear>الوکیه</unclear>
+                        </item>
+                        <lb/>
+                        <item>قریه موضع
+                           <unclear>سیدهوره</unclear>
+                        </item>
+                        <lb/>
+                        <item>قریه موضع چهاپور</item>
+                        <lb/>
+                        <item>قریه موضع
+                           <unclear>بهولری</unclear>
+                        </item>
+                        <lb/>
+                        <item>قریه موضع
+                           <unclear>نکراواه</unclear>
+                        </item>
+                        <lb/>
+                        <item>قریه موضع رای پور</item>
+                     </list>
+                  </item>
+                  <lb rend="empty"/>
+                  <lb/>
+                  <label>اراضی وغیره
+                     <g ref="#siyaq">۵۵۰</g>
+                      و
+                     <g ref="#siyaq">۴۳</g>
+                      درخت و یک قطع باغ</label>
+                  <item>
+                     <list>
+                        <lb/>
+                        <label>اراضی در موضع
+                           <placeName ref="#maliwada">مالیواده</placeName>
+                           وغیره
+                           <g ref="#siyaq">۵۵۰</g>
+                        </label>
+                        <item>
+                           <list>
+                              <lb/>
+                              <item>قریه 
+                                 <placeName ref="#maliwada">مالیواده</placeName>
+                                 <g ref="#siyaq">۴۵</g>
+                              </item>
+                              <lb/>
+                              <item>قریه
+                                 <placeName ref="#ratnagra">رتناگره</placeName>
+                                 <g ref="#siyaq">۵</g>
+                              </item>
+                              <lb/>
+                              <item>قریه
+                                 <placeName ref="#gardawad">گرداود</placeName>
+                                 <g ref="#siyaq">۱۵۰</g>
+                              </item>
+                              <lb/>
+                              <item>قریه کرهود
+                                 <g ref="#siyaq">۱۰۰</g>
+                              </item>
+                              <lb/>
+                              <item>قریه 
+                                 <placeName ref="#silodi">سیلودی</placeName>
+                                 <g ref="#siyaq">۴۵</g>
+                              </item>
+                              <lb/>
+                              <item>قریه
+                                 <unclear>بوکانوه</unclear>
+                                 بزرگ
+                                 <g ref="#siyaq">۲۰۰</g>
+                              </item>
+                              <lb/>
+                              <item>قریه رام پوریه
+                                 <g ref="#siyaq">۵</g>
+                              </item>
+                           </list>
+                        </item>
+                        <lb rend="empty"/>
+                        <lb/>
+                        <label>درخت انبه وغیره
+                           <g ref="#siyaq">۴۳</g>
+                            درخت یک قطع باغ </label>
+                        <item>
+                           <list>
+                              <lb/>
+                              <item>تارخاپور درخت انبه
+                                 <g ref="#siyaq">۲۰</g>
+                              </item>
+                              <lb/>
+                              <item><unclear>تارنعت</unclear>
+                                 پور درخت انبه
+                                 <g ref="#siyaq">۲۰</g>
+                              </item>
+                              <lb/>
+                              <item>
+                                 <unclear>کاتهیه</unclear>
+                                 باری یک قطع زمین</item>
+                              <lb/>
+                              <item>
+                                 <unclear>نارنول</unclear>
+                                  دنوب بالات درخت انبه
+                                 <g ref="#siyaq">۳</g>
+                              </item>
+                           </list>
+                        </item>
+                     </list>
+                  </item>
+               </list>
+            </p>
+         </div>
+         <div corresp="#orig_div5" xml:id="trans_div5">
+            <p> <lb/>Confirmation of the contents in the account of <ref type="glossary"
+               target="#gl_inam">inʿam</ref> and <ref type="glossary" target="#gl_nankar"
+                  >nankar</ref> of
+               <persName ref="#purshottamDas">Purshottam [Das]</persName>
+               <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> and sons
+               <lb/>according to the <ref type="glossary" target="#gl_nishan">nishan</ref> of
+               <persName ref="#muradBakhsh">Murad Bakhsh</persName>
+               and the <ref type="glossary" target="#gl_sanad">sanads</ref> of former officials
+               <lb rend="empty"/>
+               <lb/>
+               <list>
+                  <head>
+                     <g ref="#siyaq">10</g>
+                     villages and
+                     <g ref="#siyaq">550</g>
+                     [<ref type="glossary" target="#gl_bigha">bighas</ref>] and
+                     <g ref="#siyaq">43</g>
+                     mango trees and one piece of orchard </head>
+                  <lb rend="empty"/>
+                  <lb/>
+                  <label>Village <placeName ref="#ahu">Ahu</placeName>, etc.
+                     <g ref="#siyaq">10</g>
+                     villages </label>
+                  <item><list>
+                     <lb/>
+                     <item>Village <ref type="glossary" target="#gl_mauza">mauzaʿ</ref> <placeName ref="#ahu">Ahu</placeName></item>
+                     <lb/>
+                     <item>Village <ref type="glossary" target="#gl_mauza">mauzaʿ</ref>
+                        <unclear>Sawara</unclear>
+                     </item>
+                     <lb/>
+                     <item>Village <ref type="glossary" target="#gl_mauza">mauzaʿ</ref>
+                        <unclear><placeName ref="#palwada">Palwada</placeName></unclear>
+                     </item>
+                     <lb/>
+                     <item>Village <ref type="glossary" target="#gl_mauza">mauzaʿ</ref>
+                        <placeName ref="#dhamanda">Dhamanda</placeName>
+                     </item>
+                     <lb/>
+                     <item>Village <ref type="glossary" target="#gl_mauza">mauzaʿ</ref>
+                        <unclear>Anokha</unclear>
+                     </item>
+                     <lb/>
+                     <item>Village <ref type="glossary" target="#gl_mauza">mauzaʿ</ref>
+                        <unclear>Sadpura</unclear>
+                     </item>
+                     <lb/>
+                     <item>Village <ref type="glossary" target="#gl_mauza">mauzaʿ</ref> Chapur</item>
+                     <lb/>
+                     <item>Village <ref type="glossary" target="#gl_mauza">mauzaʿ</ref>
+                        <unclear>Bholpuri</unclear>
+                     </item>
+                     <lb/>
+                     <item>Village <ref type="glossary" target="#gl_mauza">mauzaʿ</ref>
+                        <unclear>Nakravdeh</unclear>
+                     </item>
+                     <lb/>
+                     <item>Village <ref type="glossary" target="#gl_mauza">mauzaʿ</ref> Raipur</item>
+                  </list></item>
+                  <lb rend="empty"/>
+                  <lb/>
+                  <label>Land, etc.
+                     <g ref="#siyaq">550</g>
+                     bighas and
+                     <g ref="#siyaq">43</g>
+                     trees and one piece of orchard</label>
+                  <item><list>
+                     <lb/>
+                     <label>Land in <ref type="glossary" target="#gl_mauza">mauzaʿ</ref> <placeName ref="#maliwada">Maliwada</placeName>, etc.
+                        <g ref="#siyaq">550</g>
+                        <ref type="glossary" target="#gl_bigha">bighas</ref></label>
+                     <item><list>
+                        <lb/>
+                        <item>Village <placeName ref="#maliwada">Maliwada</placeName>
+                           <g ref="#siyaq">45</g>
+                           <ref type="glossary" target="#gl_bigha">bighas</ref></item>
+                        <lb/>
+                        <item>Village
+                           <placeName ref="#ratnagra">Ratnagra</placeName>
+                           <g ref="#siyaq">5</g>
+                           <ref type="glossary" target="#gl_bigha">bighas</ref></item>
+                        <lb/>
+                        <item>Village
+                           <placeName ref="#gardawad">Gardawad</placeName>
+                           <g ref="#siyaq">150</g>
+                           <ref type="glossary" target="#gl_bigha">bighas</ref></item>
+                        <lb/>
+                        <item>Village
+                           <unclear>Karhud</unclear>
+                           <g ref="#siyaq">100</g>
+                           <ref type="glossary" target="#gl_bigha">bighas</ref></item>
+                        <lb/>
+                        <item>Village <placeName ref="#silodi">Silodi</placeName>
+                           <g ref="#siyaq">45</g>
+                           <ref type="glossary" target="#gl_bigha">bighas</ref></item>
+                        <lb/>
+                        <item>Village
+                           <unclear>Bukanuh</unclear>
+                           Buzorg
+                           <g ref="#siyaq">200</g>
+                           <ref type="glossary" target="#gl_bigha">bighas</ref></item>
+                        <lb/>
+                        <item>Village Rampuria
+                           <g ref="#siyaq">5</g>
+                           <ref type="glossary" target="#gl_bigha">bighas</ref></item>
+                     </list></item>
+                     <lb rend="empty"/>
+                     <lb/>
+                     <label>Mango trees, etc.
+                        <g ref="#siyaq">43</g>
+                        trees, one piece of orchard</label>
+                     <item><list>
+                        <item>
+                           <lb/>
+                           <unclear>Tarakhapur</unclear>
+                           <g ref="#siyaq">20</g>
+                           mango trees </item>
+                        <lb/>
+                          <item>
+                           <unclear>Tarnatpur</unclear>
+                           <g ref="#siyaq">20</g>
+                           mango trees</item>
+                        <lb/>
+                        <item>
+                           <unclear>Kathia</unclear>
+                           -bari one piece of land</item>
+                        <lb/>
+                        <item>
+                           <unclear>Narnul Dhub alat</unclear>
+                           <g ref="#siyaq">3</g>
+                           mango trees</item>
+                     </list></item>
+                  </list></item>
+               </list>
+            </p>
+         </div>
+         
+         <div xml:id="orig_div6" xml:lang="per" type="clericalNotes" rend="top right">
+            <p>
+               <gap/>
+               <unclear>نمایند</unclear>
+            </p>
+         </div>
+         <div corresp="#orig_div6" xml:id="trans_div6">
+            <p>
+               <gap/>
+            </p></div>
+         
+         <div xml:id="orig_div7" xml:lang="per" type="clericalNotes" rend="top left"><p>
+               پروانه نواب
+               <unclear>جهانخان</unclear>
+         </p></div>
+         <div corresp="#orig_div7" xml:id="trans_div7"><p>
+            <ref type="glossary" target="#gl_parvana">Parvana</ref> of <ref type="glossary"
+               target="#gl_nawab">Nawab</ref>
+            <unclear>Jahan Khan</unclear>
+         </p></div>
+         
+         <div xml:id="orig_div8" xml:lang="per" type="clericalNotes" rend="left margin"><p>
+               <lb rend="empty"/>تاریخ
+               <date calendar="#hijri-qamri">
+                  <num>۷</num>
+                   شهر
+                  <gap/>
+                   سنه
+                  <num>۱۰۸۲</num>
+               </date>
+               <lb rend="empty"/>
+               <app>
+                  <rdg cert="medium">نقل</rdg>
+                  <rdg cert="medium">بصدر</rdg>
+               </app>
+                دفتر
+               <gap/>
+               <unclear> شد</unclear>
+               <lb rend="empty"/>م
+               </p></div>
+         <div corresp="#orig_div8" xml:id="trans_div8"><p>
+            <lb rend="empty"/>Dated
+            <date calendar="#hijri-qamri">7 month
+               <gap/>
+               year 1082</date>
+            <lb rend="empty"/><app>
+               <rdg cert="medium">to the Sadar</rdg>
+               <rdg cert="medium">copy</rdg>
+            </app>
+            office
+            <gap/>
+            <lb rend="empty"/>mim<note>Endorsements on the verso sometimes include single Persian letters below the main inscription. Most common are the letters mim, dal and fe. There is debate over what these letters mean.</note>
+         </p></div>
+         
+         <div xml:id="orig_div9" xml:lang="per" type="clericalNotes" rend="bottom left margin"><p>
+               <lb rend="empty"/><stamp type="seal"/>
+               <lb rend="empty"/>
+               <gap/>
+               <date calendar="#hijri-qamri">
+                  <num>۷</num>
+                   شهر ربیع
+                  <unclear>ثانی</unclear>
+                   سنه
+                  <num>۱۰۸۲</num>
+               </date>
+               <lb rend="empty"/>م
+         </p></div> 
+         <div corresp="#orig_div9" xml:id="trans_div9"><p>
+            <lb rend="empty"/><stamp type="seal">Faint impression of round black ink seal</stamp>
+            <lb rend="empty"/>
+            <date calendar="#hijri-qamri">7 month Rabiʿ
+               <unclear>al-sani</unclear>
+               year 1082</date>
+            <lb rend="empty"/>mim
+         </p></div>
+         
+         <div xml:id="orig_div10" xml:lang="per" type="clericalNotes" rend="bottom right"><p>
+               <lb rend="empty"/><stamp type="seal"/>
+               <lb rend="empty"/>بتاریخ
+               <date calendar="#hijri-qamri">
+                  <num>۲۳</num>
+                   شهر صفر سنه
+                  <num>۱۰۸۳</num>
+               </date>
+               <gap/>
+               <lb rend="empty"/>
+               <unclear>د</unclear>
+               </p></div>
+         <div corresp="#orig_div10" xml:id="trans_div10"><p>
+            <lb rend="empty"/><stamp type="seal">Partial impression of round black ink seal</stamp>
+            <lb rend="empty"/>On the date
+            <date calendar="#hijri-qamri">23 month Safar year 1083</date>
+            <gap/>
+            <lb rend="empty"/>
+            <unclear>dal</unclear>
+         </p></div>
+         
+         <div xml:id="orig_div11" xml:lang="per" type="clericalNotes" rend="right margin"><p>
+                <lb rend="empty"/>نقل دفتر دیوان رسید
+               <lb rend="empty"/>بتاریخ
+               <date calendar="#hijri-qamri">
+                  <num>۲۳</num>
+                   شهر صفر سنه
+                  <num>۱۰۸۳</num>
+               </date>
+               <lb rend="empty"/>ف
+               </p></div>
+         <div xml:id="trans_div11" corresp="#orig_div11"><p>
+            <lb rend="empty"/>A copy reached the office of the <ref type="glossary" target="#gl_diwan"
+               >diwan</ref>
+            <lb rend="empty"/>on the date
+            <date calendar="#hijri-qamri">23 month Safar year 1083</date>
+            <lb rend="empty"/>fe
+         </p></div>
+         
+         <div xml:id="orig_div12" xml:lang="per" type="clericalNotes" rend="right margin"><p>   
+               مطابق پروانگی وزارت پناه بدیع الزمان پروانه قلمیشد
+               <g ref="#baiz">بیض</g>
+            </p>
+         </div>
+         <div corresp="#orig_div12" xml:id="trans_div12"><p>
+         According to the order of the Refuge of the Minister, the Wonder of the Age, the
+                  <ref type="glossary" target="#gl_parvana">parvana</ref> was written.
+               <g ref="#baiz">Ended</g>.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

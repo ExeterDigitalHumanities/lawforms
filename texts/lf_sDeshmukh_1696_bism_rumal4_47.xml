@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_sDeshmukh_1696_bism_rumal4_47">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Declaration of Gaundappa Mujgonda about the purchase of trees reported stolen
+               from a garden</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Nandini Chatterjee</persName>
+               <persName>Dominic Vendell</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#bism"/>
+                  <collection ref="#sDeshmukh"/>
+                  <idno>rumal 4, no. 47</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#fasli">1106</origDate>
+                     <origDate calendar="#julus">4 Jumada al-sani 39</origDate>
+                     <origDate calendar="#hijri-qamri">4 Jumada al-sani 1107</origDate>
+                     <origDate calendar="#gregorian" when="1696-01-10">10 January 1696</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>The cultivator
+               <persName ref="#gaundappaMujgonda">Gaundappa Mujgonda</persName>
+                declared before the judge (qazi) that trees
+               reported stolen from the garden of a merchant were purchased from the brother of the
+                  headman (muqaddam) of the nearby village
+               <placeName ref="#nagansur">Nagansur</placeName>.
+            </p>
+         </abstract>
+
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="takrir"/>
+               <term key="iqrar"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="judicialDox"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Agriculture</term>
+               <term>Buying and Selling</term>
+               <term>Disputes</term>
+               <term>Gardens and Orchards</term>
+               <term>Policing and Crime</term>
+            </keywords>
+         </textClass>
+
+         <particDesc>
+            <person role="litigant">
+               <persName ref="#gaundappaMujgonda">Gaundappa Mujgonda</persName>
+            </person>
+            <person role="litigant">
+               <persName ref="#pawariSethi">Pawari Sethi</persName>
+            </person>
+            <person role="notary">
+               <persName ref="#qaziAhmad">Ahmad</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#parvappaAngonda">Parvappa Angonda</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#sinappaMudgalMahantappa">Sinappa Mudgal Mahantappa</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <graphic url="lf_sDeshmukh_1696_bism_rumal4_47_r1.jpg"/>
+      <graphic url="lf_sDeshmukh_1696_bism_rumal4_47_r2.jpg"/>
+   </facsimile>
+
+   <text>
+      <body>
+         <pb n="1v" facs="lf_sDeshmukh_1696_bism_rumal4_47_r1.jpg"/>
+         <div xml:id="orig_div1" xml:lang="per" type="invocation" rend="top centre">
+            <p>ا</p>
+         </div>
+         <div corresp="#orig_div1" xml:id="trans_div1">
+            <p>Alif</p>
+         </div>
+
+         <div xml:id="orig_div2" xml:lang="per" type="endorsements" rend="top left">
+            <p><lb/><stamp type="seal"><mentioned><gap/>
+               <persName ref="#qaziAhmad">احمد</persName>
+               خادم شرع محمد</mentioned></stamp>
+               <lb/><persName ref="#gaundappaMujgonda">گوندپا مجگونده</persName>
+                حاضر آمده اقرار کرد
+               <lb/>که درختهای مذکورها در خانه
+               <persName ref="#rachappa">راچپا</persName>
+                مقدم
+               <lb/>و
+               <persName ref="#sidappa">سدپا</persName>
+                برادر او خرید کرده ام
+                <gap/>
+                و مهر نموده شد
+            </p>
+         </div>
+
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p><lb/><stamp type="seal">Round black ink seal<mentioned> <gap/> <persName ref="#qaziAhmad">Ahmad</persName> servant of the law of Muhammad</mentioned></stamp>
+               <lb/><persName ref="#gaundappaMujgonda">Gaundappa Mujgonda</persName> appeared and acknowledged
+               <lb/> that I have [he has] purchased the aforesaid trees from the house of the <ref type="glossary" target="#gl_muqaddam">muqaddam</ref>
+               <persName ref="#rachappa">Rachappa</persName>
+               <lb/> and his brother
+               <persName ref="#sidappa">Sidappa</persName> <gap/> and the seal has been applied.</p>
+         </div>
+
+         <div xml:id="orig_div3" xml:lang="per" type="authorisation" rend="right margin">
+            <p><stamp type="seal"><mentioned><gap></gap>
+               خانه زاد شاه
+               <persName ref="#aurangzebAlamgir">عالمگیر</persName>
+            </mentioned></stamp>
+            </p>
+         </div>
+
+         <div corresp="#orig_div3" xml:id="trans_div3">
+            <p><stamp type="seal">Black ink teardrop seal<mentioned> <gap></gap>born in the house of Shah <persName ref="#aurangzebAlamgir">Alamgir</persName></mentioned></stamp>
+            </p>
+         </div>
+
+         <div xml:id="orig_div4" xml:lang="per" type="maintext">
+            <p>
+               <lb/>منکه
+               <persName ref="#gaundappaMujgonda">گوندپا منجگونده</persName>
+                و غیره مزارعان قصبه
+               <placeName ref="#mannur">منور بزرگ</placeName>
+               ایم چون 
+               <persName ref="#pawariSethi">پواری دانسیتی</persName>
+               مزارعه موضع
+               <lb/>
+               <placeName ref="#nagansur">ناگنسر</placeName>
+               در عمله پرگنه
+               <placeName ref="#akkalkot">اکلکوت</placeName>
+                دعوی کرد و تقاضا نمود که درختهای بابت باغ و گورستان خود از
+               <lb/> قسم نیم و غیره بریده لوت کرده آورده اید جواب متاع من کنید بنابران بحضور اهالی
+               <lb/> و موالی قصبه مذکور اقرار مینمایم که درختهای مذکور از باغ و گورستان مشارالیه نزد
+               <persName ref="#rachappa">راچا</persName>
+               مقدم
+               <lb/> موضع مذکور و
+               <persName ref="#sidappa">سدپا</persName>
+                برادر او خریده آورده ایم اگر ثانی الحال نوعدیگر ظاهر شود خودها
+               <lb/> از عهده جواب آن بر آیم انچند کلمه بطریق سند نوشت داده شد که ثانی الحال حجت شد
+               <lb/>درختها و اسامی بتفصل
+            </p>
+         </div>
+         
+         <div corresp="#orig_div4" xml:id="trans_div4">
+            <p>
+               <lb/>I, <persName ref="#gaundappaMujgonda">Gaundappa Mujgonda</persName>, and other cultivators of the <ref type="glossary" target="#gl_qasba">qasba</ref>
+               <placeName ref="#mannur">Greater Mannur</placeName>
+               [state that]
+               <persName ref="#pawariSethi">Pawari Sethi</persName>,
+               [son of] Dan Sethi at the time of sowing the fields of the village
+               <lb/><placeName ref="#nagansur">Nagansur</placeName>
+               made a complaint in the
+               office of the <ref type="glossary" target="#gl_pargana">pargana</ref>
+               <placeName ref="#akkalkot">Akkalkot</placeName> and demanded that
+               "having cut and looted the trees associated with my garden and burial-ground
+               <lb/>of neem and other varieties, you [<persName ref="#gaundappaMujgonda">Gaundappa Mujgonda</persName>, etc.] brought [them]. Answer [i.e. compensate] for my goods." Regarding this,
+               <lb/>we acknowledge in the presence of all the inhabitants of the said town that
+               those trees from the garden and burial-ground of the aforesaid [<persName ref="#pawariSethi">Pawari Sethi</persName>]
+               <lb/>were purchased from
+               <persName ref="#rachappa">Rachappa</persName>, the <ref type="glossary" target="#gl_muqaddam">muqaddam</ref> of the said village, and his brother
+               <persName ref="#sidappa">Sidappa</persName>. If henceforth another kind [of complaint] should arise, we ourselves
+               <lb/>promise to respond. These few words were written in the form of <ref type="glossary" target="#gl_sanad">sanad</ref> in
+               case there is an objection in the future.
+               <lb/>Details of the trees and the persons
+            </p>
+         </div>   
+               
+         <div xml:id="orig_div5" xml:lang="per" type="particulars" rend="middle">
+            <p>
+               <lb/>مشاراله درخت نیم عددان
+               <lb/><persName ref="#rayappaKaroti">رایا کروتی</persName>
+               درخت املی عدد
+               <lb/><persName ref="#brahmagopa">بهرماکوپ گونده</persName>
+               درخت املی عدد
+               <lb/><persName ref="#chenappaChaundSethi">چنپا چوند سیتی</persName>
+               درخت نیم عدد
+               <lb/><persName ref="#rayaKavadi">رایا کودی</persName>
+               درخت نیم عددان
+            </p>   
+         </div>
+         
+         <div corresp="#orig_div5" xml:id="trans_div5">
+            <p>
+               <lb/>Aforesaid [<persName ref="#gaundappaMujgonda">Gaundappa Mujgonda</persName>] neem tree[s] two
+               <lb/><persName ref="#rayappaKaroti">Raya Karoti</persName> tamarind tree one               
+               <lb/><persName ref="#brahmagopa">Brahmagop Gonda</persName> tamarind tree one
+               <lb/><persName ref="#chenappaChaundSethi">Chenappa Chaund Sethi</persName> neem tree one
+               <lb/><persName ref="#rayaKavadi">Raya Kavadi</persName> neem tree[s] two
+             </p>
+         </div> 
+         
+         <div xml:id="orig_div6" xml:lang="per" type="maintext" rend="right margin">
+            <p>
+               تحریراً فی التاریخ چهارم شهر جمادی الثانی سنه ۳۹ جلوس والا
+               <g ref="#baiz">بیض</g>
+            </p>   
+         </div>   
+         
+         <div corresp="#orig_div6" xml:id="trans_div6">
+            <p>
+               Written on the date of the 4th of the month Jumada al-sani of the regnal year <date calendar="#julus">39</date>. <g ref="#baiz">Ended</g>.
+            </p>
+         </div>
+
+         <pb n="2r" facs="lf_sDeshmukh_1696_bism_rumal4_47_r2.jpg"/>
+
+         <div xml:id="orig_div7" xml:lang="mar" type="maintext">
+            <p>
+               <lb/>तकरीर कर्दे
+               <persName ref="#gaundappaMujgonda">गौडपा मुजगोडा</persName>
+                वगैरे <choice>
+                  <abbr>क׀׀</abbr>
+                  <expan>कसबा</expan>
+               </choice>
+               <placeName ref="#mannur">मणौर <choice>
+                     <abbr>बु׀׀</abbr>
+                     <expan>बुद्रुख</expan>
+                  </choice>
+               </placeName>
+               <lb/><choice>
+                  <abbr>सु׀׀</abbr>
+                  <expan>सुहूर</expan>
+               </choice>
+               <date calendar="#fasli">११०६</date>
+                लिहून दीधले यैसा जे
+               <persName ref="#pawariSethi">पावाडी सेटी</persName>
+                दान सेटी
+               <lb/>मुजाहीम जाले की आपले बाग व बाडीतील नीब तोडून आणीले
+               <lb/>तमाम बाग लुटून आला आहे त्याचा जवाब करणे म्हणोऊ
+               <lb/>तरी आपण तुमचे बागमधे आपखुदीने सर्व तोडली
+               <lb/>नाही
+               <persName ref="#sidappa">सीदापा</persName>
+               <choice>
+                  <abbr>बि׀׀</abbr>
+                  <expan>बिरादर</expan>
+               </choice> <persName ref="#rachappa">राचापा</persName> मोकदम मौजे <placeName ref="#nagansur">नागनसूर</placeName>
+               <lb/>याने आपणाचा वीकत दीधले <choice>
+                  <abbr>बि׀׀</abbr>
+                  <expan>बितपसील</expan>
+               </choice>
+            </p>
+         </div>
+         
+         <div corresp="#orig_div7" xml:id="trans_div7">
+            <p>
+               <lb/><ref type="glossary" target="#gl_takrir">Takrir</ref> of
+               <persName ref="#gaundappaMujgonda">Gaundappa Mujgonda</persName>
+               and other cultivators of the <ref type="glossary" target="#gl_qasba">qasba</ref>
+               <placeName ref="#mannur">Greater Mannur</placeName>
+               <lb/>written in the Suhur year <date calendar="#fasli">1106</date>,<note>While the short-form used indicates the Suhur calendar, the year 1106 to
+                  accord with the regnal year written at the end of the document must be reckoned by
+                  the Fasli calendar. See essay on Document Features.
+               </note>
+               such that <persName ref="#pawariSethi">Pawari Sethi</persName>, [son of] Dan Sethi               
+               <lb/>objected that the neem [trees] in their gardens and compounds have been cut down
+               and taken,
+               <lb/>and that the entire garden has been looted. In response to their [complaint],
+               <lb/>we did not independently cut down all the trees in your garden.
+               <lb/><persName ref="#sidappa">Sidappa</persName>, brother of <persName ref="#rachappa">Rachappa</persName>, the <ref type="glossary" target="#gl_muqaddam">muqaddam</ref> of the village <placeName ref="#nagansur">Nagansur</placeName>,
+               <lb/>sold them to us. In particular:
+            </p>
+         </div>   
+          
+         <div xml:id="orig_div8" xml:lang="mar" type="particulars">
+            <p>
+               <lb/>२
+               <persName ref="#gaundappaMujgonda">गौडपा</persName>
+                नीब झाड
+               <lb/>१ <persName ref="#rayappaKaroti">रायापा करोटी गोड</persName>चे
+               <lb/>अद <unclear>ब׀׀</unclear> चीच झाड
+               <lb/>१ <persName ref="#brahmagopa">भरमागोप<gap/>गोड</persName>-
+               <lb/>चे अद <unclear>व नीबचे झाड</unclear>
+               <lb/>१ <persName ref="#chenappaChaundSethi">चेनपा चैऊड सेटी</persName> नीब
+               <lb/>२ <persName ref="#rayaKavadi">राया कवडी गोड</persName>चे अदान व नीब झाड
+               <lb/>--
+               <lb/>७  
+            </p>
+         </div>
+         
+         <div corresp="#orig_div8" xml:id="trans_div8">
+            <p>
+               <lb/>2
+               <persName ref="#gaundappaMujgonda">Gaundappa</persName>, neem trees
+               <lb/>1 <persName ref="#rayappaKaroti">Rayappa Karoti Gonda</persName>'s 
+               <lb/>one<gap/>tamarind tree
+               <lb/>1 <persName ref="#brahmagopa">Brahmagopa Gonda</persName>'s
+               <lb/>one <unclear>and neem tree</unclear>
+               <lb/>1 <persName ref="#chenappaChaundSethi">Chenappa Chaund Sethi</persName>, neem [tree]
+               <lb/>2 <persName ref="#rayaKavadi">Raya Kavadi Gonda's</persName> two and neem trees
+               <lb/>--
+               <lb/>7 
+            </p>   
+         </div>   
+         
+         <div xml:id="orig_div9" xml:lang="mar" type="maintext">
+            <p>
+               <lb/>येकून सनगे सात सदरहू <choice>
+                  <abbr>प्र׀׀</abbr>
+                  <expan>प्रमाणे</expan>
+               </choice>
+               <choice>
+                  <abbr>ख׀׀</abbr>
+                  <expan>खरिदी</expan>
+               </choice> करून आणीली आहे
+               <lb/>याचा कमपेश जालीयाने आपण जवाब करून हे लिहून दील्हे
+               <lb/>तकरीर सही
+            </p>   
+         </div>   
+         
+        <div corresp="#orig_div9" xml:id="trans_div9">
+           <p>
+              <lb/>All together the aforesaid seven trees were purchased.
+               <lb/>If anything more or less should happen, we will answer for it. This written
+               <lb/><ref type="glossary" target="#gl_takrir">takrir</ref> is approved. 
+           </p>
+         </div>
+
+         <div xml:id="orig_div10" xml:lang="mar" type="witness" rend="bottom">
+            <p>
+               <lb/>गाही
+               <lb/><persName ref="#parvappaAngonda">परवपा अनगोडा</persName>
+               <lb/><persName ref="#sinappaMudgalMahantappa">सिनपा मुदगल महनतपा</persName>
+            </p>
+         </div>
+
+         <div corresp="#orig_div10" xml:id="trans_div10">
+            <p>
+               <lb/>Witnesses
+               <lb/><persName ref="#parvappaAngonda">Parvappa Angonda</persName> 
+               <lb/><persName ref="#sinappaMudgalMahantappa">Sinappa Mudgal Mahantappa</persName>
+            </p>
+         </div>
+
+         <div xml:id="orig_div11" xml:lang="mar" type="endorsements" rend="right margin">
+            <p>
+               <lb/><choice>
+                  <abbr>द׀׀</abbr>
+                  <expan>दस्तखत</expan>
+               </choice>
+                मोकदम कसबे मजकूर
+               <lb/><figure>
+                  <figDesc>plough</figDesc>
+               </figure>
+               <lb rend="empty"/>
+               <lb/>
+               <choice>
+                  <abbr>द׀׀</abbr>
+                  <expan>दस्तखत</expan>
+               </choice>
+                कुलकर्णी
+               <choice>
+                  <abbr>क׀׀</abbr>
+                  <expan>कसबा</expan>
+               </choice>
+               <lb/>मजकूर 
+            </p>
+         </div>
+
+         <div corresp="#orig_div11" xml:id="trans_div11">
+            <p>
+               <lb/>Writing of the <ref type="glossary" target="#gl_muqaddam">muqaddam</ref> of the
+               said <ref type="glossary" target="#gl_qasba">qasba</ref>
+               <lb/><figure place="right margin">
+                  <figDesc>plough</figDesc></figure>
+               <lb rend="empty"/>
+               <lb/>Writing of the <ref type="glossary" target="#gl_kulkarni">kulkarni</ref> 
+               <lb/>of the said <ref type="glossary" target="#gl_qasba">qasba</ref>
+            </p>
+         </div>
+         
+      </body>
+   </text>
+</TEI>

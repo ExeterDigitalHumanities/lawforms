@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1664_dai_lns235ms_m">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of Shamsuddin to Purshottam Das to stop causing disturbances in
+               Hindola</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#dai"/>
+                  <collection ref="#pDas"/>
+                  <idno>LNS 235 MS m</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#julus">19 Muharram 7 julus</origDate>
+                     <origDate calendar="#hijri-qamri">19 Muharram 1075</origDate>
+                     <origDate calendar="#gregorian" when="1664-08-12">12 August 1664</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>An order of <persName ref="#shamsalDin">Shamsuddin</persName> to <persName ref="#purshottamDas">Purshottam Das</persName> to stop disturbing the conditions in district
+               (pargana) <placeName ref="#hindola">Hindola</placeName>. The order details the complaint of <persName ref="#surajBhan">Suraj Bhan</persName> against <persName ref="#purshottamDas">Purshottam
+                  Das</persName>, who held the position of landlord (chaudri) of <placeName ref="#hindola">Hindola</placeName> in partnership with him. <persName ref="#surajBhan">Suraj Bhan</persName> alleged
+               that <persName ref="#purshottamDas">Purshottam Das</persName> had failed to share the perquisites of the position and had
+               desolated a village.</p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="parvana"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term key="administration">Administration</term>
+               <term key="disputes">Disputes</term>
+               <term key="peasants">Peasants</term>
+               <term key="petitioning">Petitioning</term>
+            </keywords>
+         </textClass>
+
+         <particDesc>
+            <person role="issuer">
+               <persName ref="#shamsuddin">Shamsuddin</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+            </person>
+            <person role="supplicant">
+               <persName ref="#surajBhan">Suraj Bhan</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1664_dai_lns235ms_m_r.jpg"/>
+      <graphic url="lf_pDas_1664_dai_lns235ms_m_v.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1664_dai_lns235ms_m_r.jpg"/>
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>هو</p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="per" type="authorisation" rend="right margin">
+            <p><stamp type="seal"><mentioned>
+                     <gap/>
+                     <unclear>خان</unclear>
+                      مرید بادشاه
+                     <persName ref="#aurangzebAlamgir">عالمگیر</persName>
+                  </mentioned></stamp></p>
+         </div>
+         <div xml:lang="per" xml:id="orig_div3" type="maintext">
+            <p>
+               <lb/>چودهری
+               <persName ref="#purshottamDas">پرسوتم</persName>
+                بداند چون
+               <persName ref="#surajBhan">سورجبهان</persName>
+                آمده مستغاثی شد که چودهرای پرگنه
+               <placeName ref="#hindola">هندوله</placeName>
+               <lb/>بشرکت او برافع تعلق دارد الحال او در دستور چودهرای دخل نمی دهد تمام و کمال از
+               روی
+               <lb/>ستم و تعدی خود متصرف می شود و سوای این پنج دهه که از قدیم الایام در انعام
+               مشاراله مقرر است
+               <lb/>از انجمله یک موضع باسم 
+               <placeName ref="#anjana">آنجنا</placeName>
+               رافع تردد نموده آبادان کرده بود شریک مسطور از راه
+               عداوت
+               <lb/>رعیت آن دهه را ویران ساخته و تمام زراعت را ضاﺋﻊ نموده بنا برآن قلمی میگردد
+               <lb/>که بر تعدی وقوع اینمعنی خوب نکرده اگر
+               <unclear>بتوجه</unclear>
+                حساب ستم و تعدی بر حال مستغث روا داشته رافع را
+               <lb/>در دستور چودهرای دخل دهد و در آبادانی موضع
+               <placeName ref="#anjana">آنجنا</placeName>
+               بهیچگونه خلل نکند و اگر سُخن
+               حالی دارد
+               <lb/>بحضور آمده خاطر نشان نُماید معطل 
+               <unclear>و انمال</unclear>
+               جایز ندارد تحریرفی تاریخ
+               <date calendar="#julus">
+                  <num>۱۹</num>
+                   شهر محرم سنه هفت از جلوس والا</date>
+            </p>
+         </div>
+         <pb n="1v" facs="lf_pDas_1664_dai_lns235ms_m_v.jpg"/>
+         <div xml:id="orig_div4" xml:lang="per" type="clericalNotes" rend="bottom right">
+            <p>
+                به پروانگی بنده عقیدت آیّن
+               <persName ref="#shamsuddin">شمس الدین</persName>
+               <g ref="#faqat">فقط</g>
+            </p>
+         </div>
+         <div corresp="#orig_div1" xml:id="trans_div1">
+            <p>He [God] is</p>
+         </div>
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p>
+               <stamp type="seal">round black ink seal<mentioned><gap/>
+               <unclear>Khan</unclear>
+                disciple of Emperor
+               <persName ref="#aurangzebAlamgir">Alamgir</persName></mentioned></stamp>
+            </p>
+         </div>
+         <div corresp="#orig_div3" xml:id="trans_div3">
+            <p><lb/><ref type="glossary" target="#gl_chaudhri">Chaudhri</ref>
+               <persName ref="#purshottamDas">Purshottam [Das]</persName>
+                shall know that
+               <persName ref="#surajBhan">Suraj Bhan</persName>
+                came [and] sought redress that the <ref type="glossary" target="#gl_chaudhrai">chaudhrai</ref> of
+               <placeName ref="#hindola">Hindola</placeName>
+               <lb/>was held by the plaintiff [<persName ref="#surajBhan">Suraj Bhan</persName>] in partnership with him [<persName ref="#purshottamDas">Purshottam Das</persName>]
+               [but] now he [<persName ref="#purshottamDas">Purshottam Das</persName>] does not allow [<persName ref="#surajBhan">Suraj Bhan</persName>] access to the <ref type="glossary" target="#gl_dastur">dastur</ref> of the
+               <ref type="glossary" target="#gl_chaudhrai">chaudhrai</ref>. All of it,
+               <lb/>through oppression and force, has been possessed by himself, [<persName ref="#purshottamDas">Purshottam Das</persName>]. And,
+               besides this, [there are] 5 villages which from a long time have been in the <ref type="glossary" target="#gl_inam">inʿam</ref> of
+               the said person [<persName ref="#surajBhan">Suraj Bhan</persName>].
+               <lb/>Of these, the plaintiff had cultivated one village by the name of <placeName ref="#anjana">Anjana</placeName>. It was
+               populated [by the plaintiff, <persName ref="#surajBhan">Suraj Bhan</persName>]. From malice, the said co-parcener
+               [<persName ref="#purshottamDas">Purshottam Das</persName>]
+               <lb/>has rendered the subjects of that village desolated and destroyed all the
+               cultivation. On this basis, it is written
+               <lb/>that these kinds of incidents are not good. If, regarding the accounts,
+               oppression and extortion of the condition of the plaintiff [<persName ref="#surajBhan">Suraj Bhan</persName>] is allowed, he [<persName ref="#purshottamDas">Purshottam Das</persName>]
+               <lb/>shall give interference in the <ref type="glossary" target="#gl_dastur">dastur</ref> of <ref type="glossary" target="#gl_chaudhrai">chaudhrai</ref>. And do not cause disturbance in the population of the village of <placeName ref="#anjana">Anjana</placeName>
+               in any way. If word of the situation
+               <lb/>comes to the Lord, settle it in your mind that desolation <unclear>and that revenue</unclear> are
+               not permissible. Written on the
+               <date calendar="#julus">19th of the month of Muharram, Regnal Year 7</date>.
+            </p>
+         </div>
+         <div corresp="#orig_div4" xml:id="trans_div4">
+            <p>By the order of the servant of the Rights of Faith
+               <persName ref="#shamsalDin">Shamsuddin</persName>.
+               <g ref="#faqat">Nothing further.</g>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

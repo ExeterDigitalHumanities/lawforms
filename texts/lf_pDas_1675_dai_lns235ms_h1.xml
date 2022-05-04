@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1675_dai_lns235ms_h1"> 
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order to officials of district Dhar regarding the grant of land to Purshottam Das based on good performance</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Dominic Vendell</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#dai"/> 
+                  <collection ref="#pDas"/>
+                  <idno>LNS 235 MS h1</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#julus">1 Ramzan 19</origDate>
+                     <origDate calendar="#hijri-qamri">1 Ramzan 1086</origDate>
+                     <origDate calendar="#gregorian" when="1675-11-19">19 November 1675</origDate>
+                     <origPlace type="placeOfIssue" ref="#dhar"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p>The officials of district (pargana) <placeName ref="#pgDhar">Dhar</placeName>, division (sarkar) <placeName ref="#mandu">Mandu</placeName>, province (suba) <placeName ref="#malwa">Malwa</placeName> are notified that based on his good performance, the landlord (chaudhri) <persName ref="#purshottamDas">Purshottam Das</persName> has been granted a village in perpetuity for the support of himself and his children.</p></abstract>       
+        <textClass> 
+           <keywords scheme="#formal"><term key="parvana"/></keywords>
+           <keywords scheme="#functional"><term key="orders"/></keywords>
+           <keywords scheme="#thematic">
+              <term>Grants</term>
+              <term>Taxation and Tribute</term>
+           </keywords>
+        </textClass>
+        <particDesc>
+           <person role="issuer">
+              <persName ref="#islamKhan">Islam Khan</persName>
+           </person>
+           <person role="grantee">
+              <persName ref="#purshottamDas">Purshottam Das</persName>
+           </person>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1675_dai_lns235ms_h1_r.jpg"/>
+      <graphic url="lf_pDas_1675_dai_lns235ms_h1_v.jpg"/>
+   </facsimile>
+  <text>
+      <body>
+         
+         <pb n="1r" facs="lf_pDas_1675_dai_lns235ms_h1_r.jpg"/>
+         
+         <div xml:id="orig_div1" xml:lang="per" type="invocation" rend="top centre"><p>ا</p></div>
+         <div xml:id="trans_div1" corresp="#orig_div1"><p>Alif</p></div>
+         
+         <div xml:id="orig_div2" xml:lang="per" type="authorisation" rend="top right"><p><stamp type="seal"><mentioned>
+            <persName ref="#islamKhan">اسلام خان</persName>
+            بن حسین علی مرید شاه
+            <persName ref="#aurangzebAlamgir">عالمگیر</persName>
+            <date calendar="#julus">۱۴</date>
+            <date calendar="#hijri-qamri">۱۰۸۰</date>
+            </mentioned></stamp></p></div>
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p><stamp type="seal">Round black ink seal<mentioned><persName ref="#islamKhan">Islam Khan</persName>, son of Hussein Ali, disciple of <ref type="glossary" target="#gl_shah">Shah</ref> <persName ref="#aurangzebAlamgir">Alamgir</persName> <date calendar="#julus">[Regnal Year] 14</date> <date calendar="#hijri-qamri">1080</date><note>This seal was issued in 1669–70 CE.</note></mentioned></stamp></p></div>
+         
+         <div xml:id="orig_div3" xml:lang="per" type="maintext">
+            <p>
+               <lb/>متصدیان مهمات حال و استقبال پرگنه
+               <placeName ref="#pgDhar">دهار</placeName>
+               سرکار
+               <placeName ref="#mandu">مندو</placeName>
+               صوبه
+               <placeName ref="#malwa">مالوا</placeName>
+               بدانند که
+               <lb/>دریولا حقیقت دولتخواهی و نیکو خدمتی و آبادانکاری
+               <persName ref="#purshottamDas">پرسوتم داس</persName>
+               چودهری
+               <lb/>بعرض رسد که در سرانجام مهام آنجا مساعی جمله بظهور میرساند بنابران موضع
+               <placeName ref="#kusawada">کساودها</placeName>
+               <lb/>عمله پرگنه مذکور در وجه انعام و نانکار مشارالیه با فرزندان بدستور سابق مقرر فرمودیم
+               <lb/>باید که موضه مسطور را بموجب حسب الضمن از ابتدای فصلخریف
+               <date calendar="#turkish">توشقان ایل</date>
+               سنه
+               <date calendar="#hijri-qamri">۱۰۸۳</date>
+               بتصرف
+               <lb/>مشارالیه واگذارند که حاصلات آنرا سال بسال صرف
+               مایحتاج
+               خود نموده
+               <lb/>در تقدیم مراسم خیرات دولتخواهی مقدور کرم باشد 
+               <app><rdg cert="medium">عن</rdg><rdg cert="low">تحریر</rdg></app>
+               <date calendar="#julus">
+               غره رمضان سنه
+               <num>۱۹</num></date>
+               <g ref="#baiz">بیض</g>
+            </p>    
+         </div>
+         <div xml:id="trans_div3" corresp="#orig_div3">
+            <p>
+               <lb/>The important officials of the present and future of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#pgDhar">Dhar</placeName>, <ref type="glossary" target="#gl_sarkar">sarkar</ref> <placeName ref="#mandu">Mandu</placeName>, <ref type="glossary" target="#gl_suba">suba</ref> <placeName ref="#mandu">Malwa</placeName> should know that 
+               <lb/>at this time, the facts about the loyalty and good service and efforts to populate [the area] by the <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> <persName ref="#purshottamDas">Purshottam Das</persName> 
+               <lb/>have been brought to attention and [the fact] that he makes efforts to complete the important tasks there is evident. On that basis, the village of <placeName ref="#kusawada">Kusawadha</placeName> 
+               <lb/>in the administration of the said <ref type="glossary" target="#gl_pargana">pargana</ref> is given as <ref type="glossary" target="#gl_inam">inʿam</ref> and <ref type="glossary" target="#gl_nankar">nankar</ref> to the said person along with his descendants, as per past practice.  
+               <lb/>The said village, according to the <ref type="glossary" target="#gl_zimn">zimn</ref>, must be given into the possession of the said person from the beginning of the season of <ref type="glossary" target="#gl_kharif">kharif</ref> of the <date calendar="#turkish">hare year</date>, year <date calendar="#hijri-qamri">1083</date>,   
+               <lb/>so that the collections from therein year to year should be used for his expenses, 
+               <lb/>[and] he should be engaged generously in the promotion of the good works of loyalty. On the first night of the new moon of Ramzan in the year <date calendar="#julus">19</date>. <g ref="#baiz">Ended</g>.
+            </p>   
+         </div>
+         
+         <pb n="1v" facs="lf_pDas_1675_dai_lns235ms_h1_v.jpg"/>
+         
+         <div xml:id="orig_div4" xml:lang="per" type="clericalNotes" rend="bottom right">
+            <p>
+               <lb/><stamp type="seal"><mentioned><gap/>
+                  <persName ref="#muhammadAmin">محمد امین</persName>
+                  بنده
+                  <persName ref="#islamKhan">اسلام خان</persName>
+                  <date>۱۰۸۴</date>
+                  </mentioned></stamp>
+               <lb/>فی التاریخ
+               <lb/>غره رمضان
+               <lb/> سنه
+               <num>۱۹</num> <gap/>
+            </p>
+         </div>
+         <div xml:id="trans_div4" corresp="#orig_div4">
+            <p><lb/><stamp type="seal">Round black ink seal<mentioned><gap/>
+               <persName ref="#muhammadAmin">Muhammad Amin</persName>, servant of 
+               <persName ref="#islamKhan">Islam Khan</persName> [in the] year <date calendar="#hijri-qamri">1084</date><note>This seal was issued in 1673–74 CE.</note></mentioned></stamp>
+               <lb/>On the date of
+               <lb/>the first night of the new moon of Ramzan
+               <lb/> year 19 <gap/>
+            </p>      
+         </div>
+         
+         <div xml:id="orig_div5" xml:lang="per" type="clericalNotes" rend="middle right"><p>ضمن نویسی
+         </p></div>
+         <div xml:id="trans_div5" corresp="#orig_div5"><p>The writing of the <ref type="glossary" target="#gl_zimn">zimn</ref>
+         </p></div>
+         <div xml:id="orig_div6" xml:lang="per" type="clericalNotes" rend="top right"><p><unclear>قلم نماید</unclear></p></div>
+         <div xml:id="trans_div6" corresp="#orig_div6"><p><unclear>It was written.</unclear></p></div>
+         <div xml:id="orig_div7" xml:lang="per" type="laterAddition" rend="top centre">
+            <p>نمبر 
+               <num>۲</num></p>
+         </div>
+         <div xml:id="trans_div7" corresp="#orig_div7">
+            <p>Number 2</p>
+         </div>
+      </body>
+  </text>
+</TEI>

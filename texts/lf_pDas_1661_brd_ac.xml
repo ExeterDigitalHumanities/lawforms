@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1661_brd_ac">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Declaration of Nathu that he received payment for a house sold to Purshottam Das</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image </p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#brd"/>
+                  <collection ref="#pDas"/>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#hijri-qamri">9 Jumada al-awwal 1071</origDate>
+                     <origDate calendar="#gregorian" when="1661-01-10">10 January 1661</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>
+               <persName ref="#nathu">Nathu</persName>,
+                son of Maqbul, acknowledges receipt of
+               <measure type="currency" unit="rupee" quantity="13">13 rupees</measure>
+                for the house he built on landlord (chaudhri)
+               <persName ref="#purshottamDas">Purshottam Das's</persName>
+                land.</p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="iqrar"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="privateDeeds"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Building and Construction</term>
+               <term>Buying and Selling</term>
+               <term>Money</term>
+               <term>Property</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <person role="creditor">
+               <persName ref="#nathu">Nathu</persName>
+            </person>
+            <person role="debtor">
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#chaturBhuj">Chatur Bhuj</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#jogiDas">Jogi Das</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#sayyidIshaq">Sayyid Ishaq</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#sayyidBahadur">Sayyid Bahadur</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#parasRam">Paras Ram</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#paramanand">Paramanand</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1661_brd_ac.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1661_brd_ac.jpg"/>
+         <div xml:id="orig_div1" xml:lang="per" type="invocation" rend="top centre">
+            <p>ا</p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="per" type="maintext">
+            <p>
+               <lb/>غرض ازین نوشته آنکه منکه
+               <persName ref="#nathu">ناتهو</persName>
+                ولد مقبول ساکن بلده
+               <placeName ref="#burhanpur">برهانپور</placeName>
+                ام چون بر زمین چودهری
+               <persName ref="#purshottamDas">پرسوتمداس</persName>
+               <lb/> خانه کهپریل و چاردیواری انداخته بودم عمله آنرا قیمت نموده بحضور
+               <persName ref="#alamRaj">عالم راج</persName>
+                و
+               <persName ref="#mohan">موهن</persName>
+                دروگر
+               <lb/>برضا و رغبت خود بچودهری مذکور بها کرده دادم مبلغ
+               <g ref="#siyaq">۱۳</g>
+               <unclear>تمام</unclear><note>This amount is written in <ref type="glossary" target="#gl_siyaq">siyaq</ref> above the word مبلغ.</note>
+               <num>۷</num>
+               <num>۸</num>
+               نصف<note>This amount is written in <ref type="glossary" target="#gl_siyaq">siyaq</ref> below the word مبلغ.</note>
+               <measure type="currency" unit="rupee" quantity="13">سیزده روپیه</measure>
+                در قبض و تصرف
+               <lb/>خود در آوردم این چند کلمه بطریق سند نوشته دادم که ثانی الحال بوقت
+               <unclear>حجت</unclear>
+               <lb/> بکار اید تحریر فی التاریخ
+               <date calendar="#hijri-qamri">
+                  <num>٩</num>
+                   نهم شهر جمادی الاول سنه
+                  <num>۱۰۷۱</num>
+               </date>
+                هجری تحریر یافت </p>
+         </div>
+         <div xml:id="orig_div3" xml:lang="hin" type="maintext">
+            <p>
+               <lb/>लिखतं
+               <unclear><choice>
+                  <abbr>से</abbr>
+                  <expan>सेख</expan>
+               </choice></unclear>
+               <persName ref="#nathu">नाथु</persName>
+                वलद सेख मकबुल
+               <choice>
+                  <abbr>सा</abbr>
+                  <expan>साकिन</expan>
+               </choice>
+               <placeName ref="#burhanpur">बुरहानपुर</placeName>
+                आगे
+               <lb/>
+               <choice>
+                  <abbr>चो</abbr>
+                  <expan>चोधरी</expan>
+               </choice>
+               <persName ref="#purshottamDas">परसोतम दास</persName>
+                की जीमी पर घर खपरेल व छार देवा-
+               <lb/>ली डाली थी अमला उसे का मोल कीजा हजुर
+               <persName ref="#alamRaj">आल-
+                  <lb/>मराज</persName>
+                व
+               <persName ref="#mohan">मोहन</persName>
+                सुथार अपणी रजा रगवत सु चोध-
+               <lb/>री मजकुर कु मोल कर दीजा
+               <measure type="currency" unit="rupee" quantity="13">
+                  <choice>
+                     <abbr>रु</abbr>
+                     <expan>रुपया</expan>
+                  </choice>
+                   १३ तेरह</measure>
+                लिए पेसे
+               <lb/>पाऐ चंद कलमां बतरीक स्नद लीख दीजा सानी-
+               <lb/>लहाल वक्त हजत काम आवते
+               <date calendar="#hijri-qamri">९ जुमादीलवल सन १०७१</date>
+            </p>
+         </div>
+         <div xml:id="orig_div4" rend="top left" xml:lang="per" type="invocation">
+            <p>ا</p>
+         </div>
+         <div xml:id="orig_div5" rend="top left" xml:lang="per" type="endorsements">
+            <p>بمضمون مسطور مقر مذکور اقرار نمود
+               <g ref="#faqat">فقط</g>
+               <stamp type="seal"><mentioned>فتح الباب من فضل الله</mentioned></stamp></p>
+         </div>
+         <div xml:id="orig_div6" rend="right margin" xml:lang="per" type="witness">
+            <p>    
+               <lb/>گواه شد
+               <persName ref="#chaturBhuj">
+                  <unclear>چتر</unclear>
+                  بهوج</persName>
+               ولد شیامداس ساکن
+               <placeName ref="#khandwa"><unclear>کندوهه</unclear></placeName><lb/>
+               <stamp type="seal"><mentioned>
+                     <persName ref="#chaturBhuj">
+                        <unclear>چتر</unclear>
+                         بهوج</persName>
+                      ابن شیامداس
+                     <gap/>
+                  توس رام نام
+                  <date calendar="#hijri-qamri">
+                     <num>۱۰۶۸</num>
+                  </date></mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/>گواه شد
+               <persName ref="#jogiDas">جوگیداس</persName>
+               <lb rend="empty"/>
+               <lb/> شهد بما فیه
+               <persName ref="#sayyidIshaq">سید اسحاق</persName><lb/>
+               <stamp type="seal"><mentioned>
+                  <persName ref="#sayyidIshaq">اسحاق</persName>
+                  <gap/>
+                  آل محمد
+                  <date calendar="#julus"><num>۳۱</num></date>
+                  <date calendar="#hijri-qamri"><num>۱۰۶۷</num></date></mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/>گواه شد
+               <persName ref="#sayyidBahadur">سید بهادر</persName>
+               <lb rend="empty"/>
+               <lb/><foreign xml:lang="hin">साख
+                  <persName ref="#parasRam">परसराम</persName>
+                   व
+                  <persName ref="#paramanand">परमांनंद</persName>
+                  <choice>
+                     <abbr>का</abbr>
+                     <expan>कानुनगो</expan>
+                  </choice>
+                  <choice>
+                     <abbr>प्र</abbr>
+                     <expan>परगना</expan>
+                  </choice>
+                  <placeName ref="#pgDhar">धार</placeName>
+                  <app>
+                     <rdg cert="low">दोसी वस्नु</rdg>
+                     <rdg cert="medium">दीसी वस्तु</rdg>
+                  </app>
+               </foreign>
+            </p>
+         </div>
+         <div xml:id="orig_div7" xml:lang="per" type="endorsements" rend="right margin">
+            <p>
+               علامت بدستخط
+               <persName ref="#nathu">ناتهو</persName>
+                وجه مقبول شد
+            </p>
+         </div>
+         <pb n="1v" facs="lf_pDas_1661_ac_brd.jpg"/>
+         <div xml:id="orig_div8" xml:lang="hin" type="clericalNotes" rend="top centre">
+            <p>स्नद
+               <abbr>मी॰</abbr>
+               <persName ref="#nathu">नाथु</persName>
+                वा॰
+               <app>
+                  <rdg cert="high">अमलो</rdg>
+                  <rdg cert="low">असलो</rdg>
+               </app>
+                घर को मोल लीये
+               <measure type="currency" unit="rupee" quantity="13">
+                  <choice>
+                     <abbr>रु</abbr>
+                     <expan>रुपया</expan>
+                  </choice>
+                   १३</measure>
+                कु </p>
+         </div>
+         <div corresp="#orig_div1" xml:id="trans_div1">
+            <p>Alif</p>
+         </div>
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p>
+               <lb/>The purpose of this document is that I, who am
+               <persName ref="#nathu">Nathu</persName>, son of Maqbul, a resident of the city of
+               <placeName ref="#burhanpur">Burhanpur</placeName>, had built a tiled and four-walled house 
+               <lb/>on the land of the <ref type="glossary" target="#gl_chaudhri">chaudhri</ref>
+               <persName ref="#purshottamDas">Purshottam Das</persName>. Officials
+               having assigned a price to it,  I appraised it in the presence of
+               <persName ref="#alamRaj">Alam Raj</persName>
+                and
+               <persName ref="#mohan">Mohan</persName>
+                the carpenter
+               <lb/>and gave it to the said <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> of my own free will. I
+               took the amount of 
+               <measure type="currency" unit="rupee" quantity="13">thirteen rupees</measure>,
+               [that is] 13 in entirety, the half [of which is] 7 [rupees and] 8 [annas],<note>There were 16 annas to the rupee. The half of the total amount was specified to prevent later alteration. This clause in the document is written in shorthand according to the norms of <ref type="glossary" target="#gl_siyaq">siyaq</ref>.</note>
+                into my possession.
+               <lb/>I gave these few words in the form of a <ref type="glossary" target="#gl_sanad">sanad</ref> [so] that should there be a need in the future, they may
+               <lb/>be useful. Written on the date
+               <date calendar="#hijri-qamri">9 Jumada al-awwal in the year 1071 Hijri</date>.
+            </p>
+         </div>
+         <div corresp="#orig_div3" xml:id="trans_div3">
+           <p>
+              <lb/>Written [of] Shaikh <persName ref="#nathu">Nathu</persName>,
+               son of Shaikh Maqbul, resident of <placeName ref="#burhanpur">Burhanpur</placeName>,
+               that
+               <lb/>he had built a tiled and four-walled house on the land of
+                <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> <persName ref="#purshottamDas">Purshottam Das</persName>
+              <lb/>[and] the officials priced it. In the presence of
+               <persName ref="#alamRaj">Alam Raj</persName>
+               <lb/>and <persName ref="#mohan">Mohan</persName>
+               the carpenter, [he], of his own free will,
+               <lb/>appraised and gave it to the aforementioned <ref type="glossary" target="#gl_chaudhri"
+                  >chaudhri</ref>. <measure type="currency" unit="rupee" quantity="13">13
+                  rupees</measure> were received in payment.
+              <lb/>[These] few words were written as a <ref type="glossary" target="#gl_sanad">sanad</ref> [so that]
+               <lb/>in the future, at a time of need, [they] shall come in handy.
+               <date calendar="#hijri-qamri">9 of Jumadi [Jumada] al-awwal in the year 1071</date>.<note>While nearly identical in meaning to the Persian text, the Hindi text refers to Nathu and his father Maqbul as Shaikh. The text follows Hindi grammar but uses
+                  entire Persian phrases in some places.</note></p>
+         </div>
+         <div corresp="#orig_div4" xml:id="trans_div4">
+            <p>Alif</p>
+         </div>
+         <div corresp="#orig_div5" xml:id="trans_div5">
+            <p>The deponent made an <ref type="glossary" target="#gl_iqrar">iqrar</ref> about the matters that are
+               written.
+               <g ref="#faqat">Nothing further.</g>
+               <stamp type="seal">Round black ink seal<mentioned>The door is open with God’s grace.</mentioned></stamp><note>A pious legend. This seal can be seen on other family documents and may have belonged to a <ref type="glossary" target="#gl_qazi">qazi</ref>.</note>
+            </p>
+         </div>
+         <div corresp="#orig_div6" xml:id="trans_div6">
+            <p><lb/>Witnessed:
+               <persName ref="#chaturBhuj">
+                  <unclear>Chatur</unclear>
+                   Bhuj</persName>, son of Shyam Das, resident of <placeName ref="#khandwa">
+                  <unclear>Khandwa</unclear>
+               </placeName>
+               <lb rend="empty"/>
+               <lb/><stamp type="seal">Round black ink seal<mentioned>
+                     <persName ref="#chaturBhuj">
+                        <unclear>Chatur</unclear>
+                         Bhuj</persName>, son of Shyam Das
+                     <gap/>
+                      Tus Ram
+                     <gap/>
+                     <date calendar="#hijri-qamri">1068</date>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/> Witnessed:
+               <persName ref="#jogiDas">Jogi Das</persName>
+               <lb rend="empty"/>
+               <lb/> Witnessed the content:
+               <persName ref="#sayyidIshaq">Sayyid Ishaq</persName>
+               <lb/>
+               <stamp type="seal">Round black ink seal<mentioned>
+                     <persName ref="#sayyidIshaq">Ishaq</persName>
+                     <gap/>
+                      al Muhammad
+                     <date calendar="#julus">31</date>
+                     <date calendar="#hijri-qamri">1067</date>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/> Witnessed:
+               <persName ref="#sayyidBahadur">Sayyid Bahadur</persName>
+               <lb rend="empty"/>
+               <lb/> Witnessed:
+               <persName ref="#parasRam">Paras Ram</persName>
+                and
+               <persName ref="#paramanand">Paramanand</persName>
+               <ref type="glossary" target="#gl_qanungo">qanungo</ref> of <ref type="glossary"
+                  target="#gl_pargana">pargana</ref>
+               <placeName ref="#pgDhar">Dhar</placeName>
+               <unclear>shown the item</unclear>
+            </p>
+         </div>
+         <div corresp="#orig_div7" xml:id="trans_div7">
+            <p>The sign written by the hand of
+               <persName ref="#nathu">Nathu</persName> as a mark of acceptance
+                  <lb rend="empty"/><figure><figDesc>Drawing of a dagger</figDesc>
+                  </figure><note>This statement along with the drawing of the dagger shows that Nathu was probably illiterate.</note>
+            </p>
+         </div>
+         <div corresp="#orig_div8" xml:id="trans_div8">
+            <p><ref type="glossary" target="#gl_sanad">Sanad</ref>
+               <gap/>
+                of
+               <persName ref="#nathu">Nathu</persName>; officials valued the house at the price of <measure type="currency" unit="rupee" quantity="13">13 rupees</measure>.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

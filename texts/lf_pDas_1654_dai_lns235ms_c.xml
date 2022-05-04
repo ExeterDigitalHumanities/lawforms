@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1654_dai_lns235ms_c"> 
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of Dianat Khan to Purshottam Das about tax collection and apprehending thieves</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Nandini Chatterjee</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#dai"/>
+                  <collection ref="#pDas"/>
+                  <idno>LNS 235 MS c</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#julus">27 Muharram 28</origDate>
+                     <origDate calendar="#hijri-qamri">27 Muharram 1065</origDate>
+                     <origDate calendar="#gregorian" when="1654-12-07">7 December 1654</origDate>
+                     <origPlace type="placeOfReceipt" ref="#Dhar"/>
+                  </origin>
+               </history>
+             
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p>The landlord (chaudhri) <persName ref="#purshottamDas">Purshottam Das</persName> of district (pargana) <placeName ref="#pgDhar">Dhar</placeName> is praised for all he has done to improve agriculture and told to continue to do so, as well as to lodge apprehended thieves with a Mughal official.</p></abstract>       
+        <textClass>
+           <keywords scheme="#formal">
+              <term key="parvana"/>
+           </keywords>
+           <keywords scheme="#functional"><term key="orders"/></keywords>
+           <keywords scheme="#thematic">
+              <term>Agriculture</term>
+              <term>Policing and Crime</term>
+              <term>Taxation and Tribute</term>
+           </keywords>
+        </textClass>
+        <particDesc>    
+           <person role="issuer">   
+              <persName ref="#dianatKhan">Dianat Khan</persName>  
+           </person> 
+           <person role="recipient">   
+              <persName ref="#purshottamDas">Purshottam Das</persName>  
+           </person> 
+           <person role="supplicant">
+              <persName ref="#mirIbrahim">Mir Ibrahim</persName>
+           </person>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1654_dai_lns235ms_c_r.jpg"/>   
+      <graphic url="lf_pDas_1654_dai_lns235ms_c_v.jpg"/>  
+   </facsimile>
+  <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1654_dai_lns235ms_c_r.jpg"/>
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>الله اکبر</p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p>God is great</p>
+         </div>
+         
+         <div xml:id="orig_div2" xml:lang="per" type="authorisation" rend="right margin">
+            <p><stamp type="seal"><mentioned>
+               <persName ref="#dianatKhan">دیانت خان</persName>
+               مرید حضرت
+               <persName ref="#shahJahan">شاه جھان</persName>
+            </mentioned></stamp></p>
+         </div>
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p><stamp type="seal">Round black ink seal<mentioned><persName ref="#dianatKhan">Dianat Khan</persName>, disciple of Lord <persName ref="#shahJahan">Shah Jahan</persName></mentioned></stamp></p>
+         </div>
+         
+         <div xml:id="orig_div3" xml:lang="per" type="maintext">
+            <p>
+               <lb/>چودھری پرگنہ  
+               <placeName ref="#pgDhar">دھار</placeName>
+               از صوبہ
+               <placeName ref="#malwa">مالوہ</placeName>
+               را اعلام آنکہ چون حقیقت دولت خواھی و نیک سلوکی
+               <lb/>او سیادت و نقابت پناہ  وزارت و متعالی و نگاہ محبت و مودب اطوار 
+               <persName ref="#mirIbrahim">میر ابراھیم</persName>
+               بسیار
+               <lb/>باینجانب نوشتہ بودند کہ در تردد زراعت  فصل ربیع وغیرہ نھایت سعی دارد 
+               <lb/>بنا بران نوشتہ می شود کہ ھمبرین نمط در تردد زراعت و وصول مال واجبی 
+               <lb/>ساعی بودہ آنچنان احتیاط بکار برد کہ مال سرکار بوقت عاید شود 
+               <lb/>و زراعت و آبادانی روزبروز افزون گردد و خاطر خواہ شود 
+               <lb/>کہ موافق خدمات حسنہ بہ نتایج نیک سرافرازی خواھد یافت و دزدان را کہ 
+               <lb/>آوردہ  بسیادت و نقابت پناہ  
+               <persName ref="#mirIbrahim">میر</persName> 
+               مشار الیہ رجوع نمودہ مجری او بسیار شد
+               <lb/>خاطر خود جمع  داشتہ درین باب خود را معاف  بدارد
+               بتاریخ
+               <date calendar="#julus">
+               <num>۲۷</num>
+               شھر محرم 
+               سنه
+               <num>٢٨</num>
+               </date>
+               <g ref="#baiz">بیض</g>
+            </p>
+         </div>
+         <div xml:id="trans_div3" corresp="#orig_div3">
+            <p>
+               <lb/>It is indicated to the <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#pgDhar">Dhar</placeName> of <ref type="glossary" target="#gl_suba">suba</ref> <placeName ref="#malwa">Malwa</placeName> that since the facts about his loyalty and good behaviour<lb/> 
+               have been written by that Refuge of Lordliness and Excellence and Ministry and Exaltation and Care of Love and Friendship <persName ref="#mirIbrahim">Mir Ibrahim</persName><lb/>   
+               to me, that in the improvement of agriculture for the spring harvest etc., he [you] made a great deal of effort.<lb/>
+               On this basis, let it be written that [by] continuing to make such efforts in the organizing of agriculture and the collection of the taxes due,<lb/>
+               [you] pay such attention to work that the taxes of the government are collected on time<lb/>
+               and the agriculture and habitation increases day by day, and it shall be desired<lb/>
+               that according to good service, he [you] be glorified by good results. And the thieves that<lb/>
+               [you] had brought and lodged with the said <persName ref="#mirIbrahim">Mir [Ibrahim]</persName>, your work was well executed.<lb/>
+               Being settled in mind, [you] should consider himself excused in this matter. 27 Muharram of the year <date calendar="#julus">28</date>. <g ref="#baiz">Ended</g>.
+            </p>   
+         </div> 
+         
+         <pb n="1v" facs="lf_pDas_1654_dai_lns235ms_c_v.jpg"/>
+         
+         <div xml:id="orig_div5" xml:lang="per" type="clericalNotes" rend="top right">
+            <p><unclear>پروانه</unclear> <gap></gap></p>
+         </div>
+         <div xml:id="trans_div5" corresp="#orig_div5">
+            <p><unclear><ref type="glossary" target="#gl_parvana">Parvana</ref></unclear> <gap></gap> </p>
+         </div>
+         <div xml:id="orig_div6" xml:lang="per" type="clericalNotes" rend="right margin">
+            <p>
+               نقل گرفتہ شد
+               <lb rend="empty"/>
+            <app><rdg cert="low">ف</rdg> <rdg cert="medium">د</rdg></app>
+            </p>
+         </div>
+         <div xml:id="trans_div6" corresp="#orig_div6">
+            <p>Copy taken.<note>The precise meaning of the single letter under this note is unclear.</note></p>
+         </div>
+      </body>
+  </text>
+</TEI>

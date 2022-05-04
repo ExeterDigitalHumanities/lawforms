@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1663_dai_lns235ms_n1">
+
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of Asadullah to several banjaras regarding tax-free grain
+               purchases</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#dai"/>
+                  <collection ref="#pDas"/>
+                  <idno>LNS 235 MS n1</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#hijri-qamri">1 Ramzan 1073</origDate>
+                     <origDate calendar="#gregorian" when="1663-04-09">9 April 1663</origDate>
+                  </origin>
+               </history>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p><persName ref="#nayakSingha">Nayak Singha</persName> and other migratory grain and cattle merchants (banjaras) are not to be harassed for tax when
+               they buy grain in district (pargana) <placeName ref="#pgDhar">Dhar</placeName>.</p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="dastak"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term key="trade">Trade</term>
+               <term key="taxationAndTribute">Taxation and Tribute</term>
+               <term key="naturalResources">Natural Resources</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <person role="issuer">
+               <persName ref="#asadullah">Asadullah</persName>
+            </person>
+           <person role="recipient">
+              <persName ref="#nayakSingha">Nayak Singha</persName>
+           </person>
+        </particDesc>
+      </profileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <graphic url="lf_pDas_1663_dai_lns235ms_n1_r.jpg"/>
+      <graphic url="lf_pDas_1663_dai_lns235ms_n1_v.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1663_dai_lns235ms_n1_r.jpg"/>
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>هو</p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="per" type="maintext">
+            <p>
+               <lb/>دستک
+               <lb/>باسم
+               <persName ref="#nayakSingha">
+                  <app>
+                     <rdg cert="medium">نایک</rdg>
+                     <rdg cert="medium">نانک</rdg>
+                  </app>
+                   سینگها</persName>
+                وغیره بنجارها آنکه خاطر خود را
+               <lb/>بهمه جهت جمع داشته در پرگنه
+               <placeName ref="#pgDhar">دهار</placeName>
+                آمده غله خرید نمایند که
+               <lb/>هیچکس در دهات برای زکوه مزاحم نخواهد شد در این باب
+               <lb/>نهایت تاکید دانسته حسب المُسطور بعمل آورند
+               <lb/>تحریر فی التاریخ
+               <date calendar="#hijri-qamri">غره شهر رمضان المبارک سنه
+                  <num>۱۰٧٣</num>
+                   هجری</date>
+               <g ref="#faqat">فقطُ</g><note>Unusually, the scribe has placed a large pish (marker of the short vowel 'o')
+                  above the logograph.</note>
+            </p>
+         </div>
+         <div xml:id="orig_div3" xml:lang="ara" type="invocation" rend="right margin">
+            <p>هوُ</p>
+         </div>
+         <div xml:id="orig_div4" xml:lang="per" type="authorisation" rend="right margin">
+            <p>
+               <lb/>حسب المسطور مقرر دانسته
+               <lb/>بعمل آورند هچ کس خلاف
+               <lb/>این دستک نخواهد نمود بخاطر جمع در کار خود
+               <lb/>مقید بوده باشند الیه الیه
+               <g ref="#baiz">بیض</g>
+               <lb/><stamp type="seal"><mentioned>
+                     <persName ref="#asadullah">
+                        <unclear>اسد الله</unclear>
+                     </persName>
+                     <gap/>
+                     <persName ref="#nawazishKhan">نوازش خانی</persName>
+                  </mentioned></stamp></p>
+         </div>
+         <div corresp="#orig_div1" xml:id="trans_div1">
+            <p>He [God] is</p>
+         </div>
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p><lb/><ref type="glossary" target="#gl_dastak">Dastak</ref>
+               <lb/> in the name of
+               <persName ref="#nayakSingha">
+                  <app>
+                     <rdg cert="medium">Nayak</rdg>
+                     <rdg cert="medium">Nanak</rdg>
+                  </app>
+                   Singha</persName>
+               etc. <ref type="glossary" target="#gl_banjara">banjaras</ref>, that having settled their minds
+               <lb/>in all respects and come to <ref type="glossary" target="#gl_pargana">pargana</ref>
+               <placeName ref="#pgDhar">Dhar</placeName>, they should buy grain,
+               <lb/>and nobody in the villages will trouble [them] for taxes.
+               <lb/>Knowing this matter to be completely settled, do as written.
+               <lb/>Written on the
+               <date calendar="#hijri-qamri">1st of Ramzan Mubarak in the year 1073 Hijri</date>.
+               <g ref="#faqat">Nothing further.</g>
+               </p>
+         </div>
+         <div corresp="#orig_div3" xml:id="trans_div3">
+            <p>He [God] is</p>
+         </div>
+         <div corresp="#orig_div4" xml:id="trans_div4">
+            <p><lb/>Knowing it settled as written,
+               <lb/>do it. Nobody will oppose
+               <lb/>this <ref type="glossary" target="#gl_dastak">dastak</ref>. With assured minds, be engaged
+               <lb/>in your work. As aforementioned.
+               <g ref="#baiz">Ended.</g>
+               <lb/><stamp type="seal">Round black ink seal<mentioned><persName ref="#asadullah">
+                  <unclear>Asadullah</unclear>
+               </persName>
+               <gap/>
+                of
+               <persName ref="#nawazishKhan">Nawazish Khan</persName></mentioned></stamp>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1656_dai_lns235ms_k"> 
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order to officials of district Dhar settling tribute payable on villages granted to the landlord Purshottam Das</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Nandini Chatterjee</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#dai"/>
+                  <collection ref="#pDas"/>
+                  <idno>LNS MS 235 k</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#julus">29 Shawwal 30</origDate>
+                     <origDate calendar="#hijri-qamri">29 Shawwal 1066</origDate>
+                     <origDate calendar="#gregorian" when="1656-12-18">18 December 1656</origDate>
+                     <origPlace type="placeOfReceipt" ref="#dhar"/>
+                  </origin>
+               </history>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>        
+      </encodingDesc>
+      <profileDesc>
+         <abstract><p>In accordance with the prince's order (nishan) and orders (parvana) of the officers,
+            the tribute (pishkash) for the villages granted to the landlord (chaudhri) <persName ref="#purshottamDas">Purshottam Das</persName> is settled at 300 rupees.</p></abstract>       
+         <textClass> 
+            <keywords scheme="#formal"><term key="parvana"/></keywords>
+            <keywords scheme="#functional"><term key="orders"/></keywords>
+            <keywords scheme="#thematic">
+               <term>Administration</term>
+               <term>Money</term>
+               <term>Taxation and Tribute</term>
+            </keywords>
+         </textClass>
+         <particDesc>    
+            <person role="grantee">   
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+            </person>
+         </particDesc>
+         
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1656_dai_lns235ms_k_r.jpg"/>  
+      <graphic url="lf_pDas_1656_dai_lns235ms_k_v.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1656_dai_lns235ms_k_r.jpg"/>
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>اللهُ اکبر</p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p>God is great</p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="per" type="authorisation" rend="right margin">
+            <p><stamp type="seal"><mentioned><gap></gap><num>۲۹</num></mentioned></stamp></p>
+         </div>
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p><stamp type="seal">Round black ink seal<mentioned><gap></gap>[year] 29</mentioned></stamp></p>
+         </div>
+         
+         <div xml:id="orig_div3" xml:lang="per" type="maintext">
+            <p>
+               <lb/>متصدیان مهمات حال و استقبال پرگنه
+              <placeName ref="#pgDhar">دهار</placeName> 
+              را اعلام آنکه چون
+              <lb/> بموجب نشان عالیشان و پروانه متصدیان حضور چودهرای پرگنه مذکور بزبده الاقران
+              <persName ref="#purshottamDas">پرسوتم داس</persName>   
+              <lb/>مستفیض گشته می باید که بر دهات انعامی پیشکش مقرری
+               <measure type="currency" unit="rupee" quantity="300">سیصد روپیه</measure>
+               موافق حکم
+              <lb/>نشان عالیشان و پروانه دیوان حضور است بعمل آورند و زیاده از
+               <gap/>
+               <app><rdg cert="medium">مراحم</rdg><rdg cert="medium">مزاحم</rdg></app>
+               <measure type="currency" unit="rupee" quantity="300">سیصد روپیه</measure>
+              <lb/>نشوند که بفراغ خاطر در خدمت مرجوعه خود و آبادانی پرگنه و دولتخواهی 
+              <lb/>و خدمتکاری کوشیده دقیقه قوت و فروگذاشت ننماید تحریر فی تاریخ
+              <gap/>
+              <lb/><date calendar="#julus">
+                 شهر شوال سنه
+                 <num>٣۰</num>
+                 جلوس مبارک
+                 </date>
+              <g ref="#faqat">فقط</g>
+              <g ref="#faqat">فقط</g>
+              <g ref="#faqat">فقط</g>
+            </p>
+         </div>
+         <div xml:id="trans_div3" corresp="#orig_div3">
+            <p>
+               <lb/>The current and future officials of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#pgDhar">Dhar</placeName> are instructed that since
+               <lb/>by dint of the exalted <ref type="glossary" target="#gl_nishan">nishan</ref> and <ref type="glossary" target="#gl_parvana">parvana</ref> of the officers of the Lord, the Eminent among Contemporaries <persName ref="#purshottamDas">Purshottam Das</persName> has been blessed with the <ref type="glossary" target="#gl_chaudhrai">chaudhrai</ref> of the said <ref type="glossary" target="#gl_pargana">pargana</ref>,
+               <lb/>it is necessary that the settled <ref type="glossary" target="#gl_pishkash">pishkash</ref> on the <ref type="glossary" target="#gl_inami">inʿami</ref> villages be <measure type="currency" unit="rupee" quantity="300">300 rupees</measure> according to the orders of
+               <lb/>the exalted <ref type="glossary" target="#gl_nishan">nishan</ref> and the <ref type="glossary" target="#gl_parvana">parvana</ref> of the <ref type="glossary" target="#gl_diwan">diwan</ref> of the Lord. Be it [so] executed, and more <gap/> shall not be <app><rdg cert="medium">favoured</rdg><rdg cert="medium">troubled</rdg></app> [than] from <measure type="currency" unit="rupee" quantity="300">300 rupees</measure>
+               <lb/>so that with a free mind he can apply himself to the work he is appointed, [specifically] to the populating of the <ref type="glossary" target="#gl_pargana">pargana</ref> and to loyalty
+               <lb/>and to carrying out his service, and [he] should not waste a single minute’s strength. Written on the date <gap/>
+               <lb/>in the month of Shawwal in the <date calendar="#julus">30th</date> year of the blessed reign. <g ref="#faqat">Nothing further.</g> <g ref="#faqat">Nothing further.</g> <g ref="#faqat">Nothing further.</g>
+            </p>   
+         </div> 
+         <pb n="1r" facs="lf_pDas_1656_dai_lns235ms_k_v.jpg"/>
+         <div xml:id="orig_div5" xml:lang="per" type="clericalNotes" rend="right margin">
+            <p>بتاریخ 
+                  <num>۲۹</num>
+                  شهر شوال سنه
+                  <date calendar="#julus"><num>٣۰</num></date>
+               نقل بدفتر رسید
+               <lb rend="empty"/>د
+            </p>
+         </div>
+         <div xml:id="trans_div5" corresp="#orig_div5">
+            <p>On the 29th of the month of Shawwal of the year <date calendar="#julus">30</date>, the copy reached the office.<note>The precise meaning of the single letter under this note is unclear.</note></p>
+         </div>
+      </body>
+   </text>
+</TEI>

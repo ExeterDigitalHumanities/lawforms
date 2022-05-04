@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1787_brd_ncd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Declaration of Anwar Beg and Sayyid Azam that they have no claims on trees in
+               Sahib Rai's garden</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Nandini Chatterjee</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#brd"/>
+                  <collection ref="#pDas"/>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#fasli">19 Ramzan 1195</origDate>
+                     <origDate calendar="#samvat">1845</origDate>
+                     <origDate calendar="#gregorian" when="1787">1787</origDate>
+                     <origPlace type="placeOfIssue" ref="#dhar"/>
+                     <origPlace type="placeOfReceipt" ref="#dhar"/>
+                  </origin>
+               </history>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>
+               <persName ref="#anwarBeg">Anwar Beg</persName>
+                and
+               <persName ref="#sayyidAzam">Sayyid Azam</persName>
+                had made a claim on some mango trees in Sahib Rai’s garden. In the absence of
+               documents, the claim was not proved, and the claimants made a declaration (iqrar) in
+               the court of the judge (qazi) in front of landlords (zamindar) and record-keepers
+               (qanungo) and wrote a quittance deed (farigh-khatti) to
+               that effect. </p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="farighKhatti"/>
+               <term key="iqrar"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="privateDeeds"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Agriculture</term>
+               <term>Disputes</term>
+               <term>Gardens and Orchards</term>
+               <term>Property</term>
+            </keywords>
+         </textClass>
+
+         <particDesc>
+           <person role="issuer">
+              <persName ref="#anwarBeg">Anwar Beg</persName>
+           </person>
+           <person role="issuer">
+              <persName ref="#sayyidAzam">Sayyid Azam</persName>
+           </person>
+            <person role="witness">
+               <persName ref="#pratapChand">Pratap Chand</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#misriBai">Misri Bai</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#gulabRai">Gulab Rai</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <graphic url="lf_pDas_1787_brd_ncd_r.jpg"/>
+   </facsimile>
+
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1787_brd_ncd_r.jpg"/>
+         
+         <div xml:lang="per" type="invocation" xml:id="orig_div1" rend="top centre">
+            <p>ا</p>
+         </div>
+         <div corresp="#orig_div1" xml:id="transdiv1">
+            <p>Alif</p>
+         </div>
+         
+         <div xml:lang="per" type="maintext" xml:id="orig_div2">
+            <p>
+               <lb/>غرض از این نوشته آنکه منکه
+                  <persName ref="#anwarBeg">انور بیگ</persName>
+                   ولد حیات بیگ و
+               <persName ref="#sayyidAzam">سید اعظم</persName>
+                ایم چنانچه
+               <lb/>بموجب ورقه
+               <gap/>
+               خود دعوی درختان آنبه
+               <lb/>در باغ
+               <persName ref="#sahibRai">صاحب رای</persName>
+               ولد دیانت رای
+                نموده بودیم که پنج درختان
+               <lb/>وغیره مایان در مذکور مومن الیه هستند موافق گفته اینجانب مشارالیه
+               <lb/>سند درختان مزبور خواستند که سند آنبه ها از نزد خود
+               <lb/>بر آورده بیارند تا اشجار آنبه بگیرند آنچه از نزد بنده
+               <lb/>اسناد
+               <gap/>
+               <unclear>حاضر</unclear>
+               نشده تا بنده باطل شد بنابرین
+               <lb/>در محکمه پیش شریعت پناه فارخطی نوشته داده شد
+               <lb/>که آینده دعوه اشجارها نمایم باطل است بنابران
+               <lb/>قبل زمینداران و قانوگویان
+               <persName ref="#pratapChand">پرتاب چند</persName>
+               و
+               <persName ref="#gulabRai">گلاب رای</persName> 
+               و
+               <lb/><unclear>پنجان</unclear>
+               و
+               <gap/>
+               اقرار کرده می آید که آینده هیچ مناقشه
+               <lb/>و خرخشه نیست و نمانده لهذا اینچند کلمه بموجب فارخطی
+               <lb/>نوشته داده شد که ثانیاً حال سند باشد تحریر
+               <lb/>فی تاریخ نوزدهم ماه رمضان المبارک سنه
+               <date calendar="#fasli">۱۱۹۵</date><note>Unusually, the scribe has written the numbers from right to left, instead of the typical left to right order of numerals in Persian.</note>
+               فصلی
+               <lb/>یکهزار یکصد نود و پنج فصلی سمت
+               یکهزار هشت صد
+               <date calendar="#samvat-chaitradi">۱۸۴۵</date><note>As in the Fasli year above, here too, the scribe has written the numbers from right to left.</note>
+               <lb/>چهل و پنج تحریر شد </p>
+         </div>
+            <div corresp="#orig_div2" xml:id="transdiv2">
+               <p><lb/>The reason for writing this text is this, that we,
+                  <persName ref="#anwarBeg">Anwar Beg</persName>,
+                  son of Hayat Beg, and
+                  <persName ref="#sayyidAzam">Sayyid Azam</persName>,
+                  <lb/>had made a claim based on some documents to mango trees
+                  <lb/>in the garden of
+                  <persName ref="#sahibRai">Sahib Rai</persName>,
+                  son of Dianat Rai, [specifically] that five trees, 
+                  <lb/>etc., in the aforementioned place are ours. As said, the aforementioned person [<persName ref="#sahibRai">Sahib Rai</persName>]
+                  <lb/>asked to see the <ref type="glossary" target="#gl_sanad">sanad</ref> of the aforesaid trees. [He said] that [if] we
+                  <lb/>brought the documents, we could take the trees. Since
+                  <lb/>the documents could not be presented, we were [our claim was] voided. On the
+                  basis of this,
+                  <lb/>in the court of the <ref type="glossary" target="#gl_qazi">qazi</ref>, a <ref type="glossary" target="#gl_farighkhatti">farkhati</ref> was
+                  written and given
+                  <lb/>that if we make any claims to the trees in future, it will be void. On this
+                  basis,
+                  <lb/>in front of <ref type="glossary" target="#gl_zamindar">zamindars</ref> and <ref type="glossary" target="#gl_qanungo">qanungos</ref> <persName ref="#pratapChand">Pratap Chand</persName> and <persName ref="#gulabRai">Gulab Rai</persName> and
+                  <lb/><unclear>the panchayat</unclear> and <gap/> an <ref type="glossary" target="#gl_iqrar">iqrar</ref> was made that henceforth there is no quarrel
+                  <lb/>nor will it remain. Therefore, these few words were written as a <ref type="glossary" target="#gl_farighkhatti">farkhati</ref>
+                  <lb/>[so] that it be a record for the future. 
+                  <lb/>On the 19th of the month of Ramzan Mubarak in the year <date calendar="#fasli">1195</date> Fasli,
+                  <lb/>[or] one thousand nine hundred and five <ref type="glossary" target="#gl_fasli">Fasli</ref>, [or] Samvat <date calendar="#samvat-chaitradi">1845</date> one thousand eight hundred
+                  <lb/>forty-five,<note>Per ephemeris tables, the 19th of Ramzan during the Samvat-chaitradi year of 1845 fell on 23 June 1788.</note> it was written.
+               </p>
+            </div>
+
+            <div xml:lang="hin" type="witness" xml:id="orig_div3" rend="right margin">
+               <p>
+                  <lb/><choice>
+                     <abbr>चौ</abbr>
+                     <expan>चौधरी</expan>
+                  </choice>
+                  <persName ref="#pratapChand">परतापचंद</persName>
+                  <placeName ref="#pgDhar">धार</placeName>
+                  <lb rend="empty"/>
+                  <lb/>
+                  <choice>
+                     <abbr>सा</abbr>
+                     <expan>साक्षी</expan>
+                  </choice>
+                     ठकरानी 
+                  <persName ref="#misriBai">मिसरी बाई</persName>
+                  <choice>
+                     <abbr>ठ</abbr>
+                     <expan>ठाकुर</expan>
+                  </choice>
+                  <persName ref="#gulabRai">गुलाब राय</persName> 
+                  <choice>
+                  <abbr>प्र</abbr>
+                  <expan>परगना</expan>
+                  </choice>
+                  <placeName ref="#pgDhar">धार</placeName>
+                  <lb rend="empty"/>
+                  <lb/>
+                  <choice>
+                     <abbr>सा</abbr>
+                     <expan>साक्षी</expan>
+                  </choice>
+                 लाल <gap/> हीराचंद
+                  <lb rend="empty"/>
+                  <lb/>
+                  <choice>
+                     <abbr>सा</abbr>
+                     <expan>साक्षी</expan>
+                  </choice>
+                  <gap/>
+                  राय
+                  <gap/>
+                  राय
+                  <lb rend="empty"/>
+                  <lb/>
+                  <choice>
+                     <abbr>सा</abbr>
+                     <expan>साक्षी</expan>
+                  </choice>
+                  <gap/>
+               </p>
+            </div>
+            <div corresp="#orig_div3" xml:id="transdiv3">
+               <p> 
+                  <lb/>Witness: <ref type="glossary" target="#gl_chaudhri">Chaudhri</ref> <persName ref="#pratapChand">Pratap Chand</persName> <gap/> <placeName ref="#pgDhar">Dhar</placeName>
+                  <lb rend="empty"/>
+                  <lb/>Witness: <ref type="glossary" target="#gl_thakurani">Thakurani</ref> <persName ref="#misriBai">Misri Bai</persName>, <ref type="glossary" target="#gl_thakur">Thakur</ref> <persName ref="#gulabRai">Gulab Rai</persName>, <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#pgDhar">Dhar</placeName>
+                  <lb rend="empty"/>
+                  <lb/>Witness: Lal <gap/>Hira Chand
+                  <lb rend="empty"/>
+                  <lb/>Witness: <unclear>Salam</unclear> Rai <gap/> Rai
+                  <lb rend="empty"/>
+                  <lb/>Witness: <gap/>
+               </p>
+            </div>
+            <div xml:lang="per" type="endorsements" xml:id="orig_div4" rend="bottom right margin">
+               <p>
+                  <lb/>العبدان
+                  <lb/>میرزا
+                  <persName ref="#anwarBeg">انور بیک</persName>
+                  ولد حیات بیک و
+                  <persName ref="#sayyidAzam">سید اعظم</persName><note>The word 'سید' is written as an insertion above the line of text.</note>
+                  <lb/>ساکن 
+                  <placeName ref="#pgDhar">پیران دهار</placeName>
+               </p>
+            </div>
+            <div corresp="#orig_div4" xml:id="transdiv4">
+               <p>
+                  <lb/>The slaves<note>The expression al-ʿabd literally means 'the slaves' but was used to indicate a countersignature or the signature of the parties making the declaration.</note>
+                  <lb/><ref type="glossary" target="#gl_mirza">Mirza</ref> <persName ref="#anwarBeg">Anwar Beg</persName> son of Hayat Beg and <persName ref="#sayyidAzam">Sayyid Azam</persName>, 
+                  <lb/>residents of <placeName ref="#dhar">Piran-i Dhar</placeName><note>Piran, literally 'holy men' is a short form of a common ephithet for the town of Dhar, meaning the abode of the light of the holy men.</note>
+               </p>
+            </div>
+      </body>
+   </text>
+</TEI>

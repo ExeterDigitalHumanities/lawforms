@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_araDeeds_1886_zna_am_246_1268">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Registered copy of the acknowledgement of debt of Faraj bin Said Bajura to Jairam Shivji</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Fahad Bishara</persName>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#zna"/>
+                  <collection ref="#araDeeds"/>
+                  <idno>AM 2/3 f. 246</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>authorized copy</objectType>
+                     <origDate calendar="#gregorian" when="1886-12-29">29 December 1886</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p><persName ref="#farajbSaid">Faraj [bin] Said Bajura</persName> acknowledges his debt of 28 silver coins (qirsh) and his sale of a plot of land to <persName ref="#jairam">Jairam bin Shivji Al-Banyani</persName>.
+           At the behest of <persName ref="#krishnadas">Krishnadas</persName>, this deed of acknowledgement (iqrar) was registered with the British Vice Consul of <placeName ref="#zanzibar">Zanzibar</placeName> in 1886, 
+           eleven years after the document was written.<note>This deed was copied in the register on the same page as the <ref type="document" target="#lf_araDeeds_1886_zna_am_246_1267">registered copy of an acknowledgement of a loan taken by Jamadi from Mamla bin Nanji</ref>.</note></p></abstract>       
+        <textClass>
+           <keywords scheme="#formal"><term key="iqrar"/></keywords>
+           <keywords scheme="#functional"><term key="privateDeeds"/></keywords>
+           <keywords scheme="#thematic">
+              <term>Buying and Selling</term>
+              <term>Debt and Mortgage</term>
+              <term>Money</term>
+              <term>Property</term>
+           </keywords>
+        </textClass>
+        <particDesc>
+           <person role="debtor">
+              <persName ref="#farajbSaid">Faraj [bin] Said Bajura</persName>
+           </person>
+           <person role="creditor">
+              <persName ref="#jairam">Jairam bin Shivji Al-Banyani</persName>
+           </person>
+           <person role="writer">
+              <persName ref="#abdullahbAli">Abdullah bin Ali bin Salem bin Abdussalam</persName>
+           </person>
+           <person role="witness">
+              <persName ref="#ubaidbAwadh">Ubaid bin Awadh bin Ghanim</persName>
+           </person>
+           <person role="witness">
+              <persName ref="#ahmadbMubarak">Ahmad bin Mubarak Al-Rai</persName>
+           </person>
+           <person role="witness">
+              <persName ref="#fairuz">Fairuz</persName>
+           </person>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="246"/>
+         <div xml:id="orig_div1" xml:lang="eng" type="clericalNotes" rend="middle centre">
+            <p>Registered No. 1268 of <date calendar="#gregorian">1886</date></p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="ara" type="maintext">
+            <p>
+               <lb/>اقر
+               <persName ref="#farajbSaid">فرج سعيد باجوره</persName>
+               ان عليه 
+               <persName ref="#jairam">لزيرام بن سيوه البانياني</persName>
+               وكيل السركار ثمانية و عشرون قرشاً صرف
+               <lb/>البلد و قد باع له بحقه هذا اللذي في ارض 
+               <placeName ref="#bagamoyo">باجمويو</placeName>
+               مجاور بيت 
+               <persName ref="#nasserbHamad">ناصر بن حمد</persName>
+               و بيت 
+               <persName ref="#habashAlZadjali">حبش الزدجالي</persName> 
+               <lb/>بيعاً قطعاً تاريخ
+               <date calendar="#hijri-qamri">يوم
+               <num>٦</num> 
+               في شهر شعبان سنة
+               <num>١٢٩٢</num></date>
+            </p>
+         </div>
+         
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p>
+               <lb/>
+               <persName ref="#farajbSaid">Faraj [bin] Said Bajura</persName>
+                acknowledges that he owes
+               <persName ref="#jairam">Jairam bin Shivji Al-Banyani</persName>, the agent of the <ref type="glossary" target="#gl_sarkar">sarkar</ref>,
+               <measure type="currency" unit="qirsh" quantity="28">twenty-eight <ref type="glossary"
+                     target="#gl_qirsh">qirsh</ref></measure>, in the currency of
+               <lb/>the town, and that he has sold him his right in the land in
+               <placeName ref="#bagamoyo">Bagamoyo</placeName>
+                that neighbors the house of
+               <persName ref="#nasserbHamad">Nasser bin Hamad</persName>
+                and the house of
+               <persName ref="#habashAlZadjali">Habash Al-Zadjali</persName>
+               <lb/>[and this is] a complete sale on
+               <date calendar="#hijri-qamri">6 Shaʿban 1292</date>.<note>This date is equivalent to 7 September 1875 CE.</note>
+            </p>
+         </div>
+         
+         <div xml:id="orig_div3" xml:lang="ara" type="witness">
+            <p><lb/>و شهد بذلك
+               <persName ref="#ubaidbAwadh">عبيد بن عوض بن غانم</persName>
+                كتبه الحقير الى ربه
+               <lb/>
+               <persName ref="#abdullahbAli">عبدالله بن علي بن سالم بن عبدالسلام</persName> بيده
+            <lb/>
+              و شهد بذلك
+               <persName ref="#ahmadbMubarak">احمد بن مبارك الراعي</persName>
+               <lb/> و كتبه بيده
+                و شهد بذلك
+               <persName ref="#fairuz">فيروز</persName>
+                تابع
+               <persName ref="#sayyidBarghash">السيد برغش</persName>
+                و كتبه بيده </p>
+         </div>
+         <div xml:id="trans_div3" corresp="#orig_div3">
+            <p><lb/>And this was witnessed by
+               <persName ref="#ubaidbAwadh">Ubaid bin Awadh bin Ghanim</persName>, written by the wretched for his Lord,
+               <lb/><persName ref="#abdullahbAli">Abdullah bin Ali bin Salem bin Abdussalam</persName>, in his own hand.
+               <lb/>And this was witnessed by
+               <persName ref="#ahmadbMubarak">Ahmad bin Mubarak
+                <lb/>Al-Rai</persName>
+               and written by his own hand.
+               <lb/>And this was witnessed by <persName ref="#fairuz">Fairuz</persName>,
+               <lb/>the slave of <persName ref="#sayyidBarghash">Sayyid Barghash [Al-Busaidi, Sultan of Zanzibar]</persName> and written by his own hand.<note>These are scribal copies of the witness statements that were written on the original document.</note> 
+            </p>
+            </div>
+         
+        
+         <div xml:id="orig_div4" xml:lang="eng" type="clericalNotes" rend="bottom centre">
+            <p>
+               <lb/>Dated <date calendar="#hijri-qamri">6th Shaban 1292</date><note>This date is written in the same line as the last line of the Arabic maintext above.</note>
+               <lb rend="empty"/>
+               <lb/>Deed of Sale of a house at <placeName ref="#bagamoyo">Bagamoyo</placeName>
+               <lb/>Sold by <persName ref="#farajbSaid">Faraj Saeed Bajur</persName> for <measure type="currency" unit="qirsh" quantity="28">$28</measure>
+               <lb/>To <persName ref="#jairam">Jairam Sevji</persName> The Agent of <ref type="glossary" target="#gl_sarkar">Serkar [Sarkar]</ref>
+               <lb/>produced by <persName ref="#krishnadas">Kersendas [Krishnadas]</persName>
+            </p>
+         </div>
+         <div xml:id="orig_div5" xml:lang="eng" type="authorisation" rend="bottom centre">
+            <p>
+               <placeName ref="#zanzibar">Zanzibar</placeName> <date calendar="#gregorian">29th December 1886</date> <persName ref="#ernestBerkeley">Ernest Berkeley</persName><note>This name is signed.</note> <choice><abbr>H. M.</abbr><expan>Her Majesty's</expan></choice> Vice Consul <placeName ref="#zanzibar">Zanzibar</placeName> <figure><figDesc>A small rectangle, containing the numbers 5/~. Below the box the words 'on Deed' are written.</figDesc></figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

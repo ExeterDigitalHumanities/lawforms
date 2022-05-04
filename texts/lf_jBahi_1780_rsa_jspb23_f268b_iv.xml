@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_jBahi_1780_rsa_jspb23_f268b_iv">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Copy of an order of Shri Huzur to Agarwala Gopinath to send salt to the deity Shri Govinddevji</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#rsa"/>
+                  <collection ref="#jBahi"/>
+                  <idno>Jodhpur Sanad Parvana Bahi no. 23 f. 268b</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>authorized copy</objectType>
+                     <origDate calendar="#samvat-shravanadi">8 Magh sudi 1836</origDate>
+                     <origDate calendar="#gregorian" when="1780-01-29">29 January 1780</origDate>
+                     <origPlace type="placeOfReceipt" ref="#sambhar"/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="bibl" target="#horstmannGD">Horstmann, In Favour of Govinddevji</ref></bibl> 
+                  </listBibl>                  
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p>The Marwar royal court (Shri Huzur) orders Agarwala <persName ref="#gopinath">Gopinath</persName> to offer salt to the deity Govinddevji, in accordance with a prior order.<note>Although the image of this register entry is
+        not available on this website and is unpublished, an image, transcription and translation of the corresponding original issued document is published in <ref type="bibl" target="horstmannGD">Horstmann, p. 307</ref>.</note></p></abstract>       
+        <textClass>
+           <keywords scheme="#formal">
+              <term key="sanad"/>
+              <term key="bahi"/>
+           </keywords>
+           <keywords scheme="#functional">
+              <term key="orders"/>
+              <term key="adminRecords"/>
+           </keywords>
+           <keywords scheme="#thematic">
+              <term>Grants</term>
+              <term>Natural Resources</term>
+           </keywords>
+        </textClass>
+        <particDesc>
+           <person role="issuer">
+              <persName ref="#parsadiRam">Parsadi Ram</persName>
+           </person>
+           <person role="recipient">
+              <persName ref="#gopinath">Gopinath</persName>
+           </person>
+        </particDesc>
+        </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="268a"/>
+         <div xml:id="orig_div1" xml:lang="raj" type="clericalNotes" rend="top">
+            <p>दरीबै <placeName ref="#sambhar">सांभर</placeName> नांवां रा इजरदारां ऊपर</p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p>Markets of <placeName ref="#sambhar">Sambhar</placeName>, in the names of the <ref type="glossary" target="#gl_ijaradar">ijaradars</ref><note>This clerical heading categorises the entries on each folio.</note></p>
+         </div>
+         <pb n="268b"/>
+         <div xml:id="orig_div2" xml:lang="raj" type="maintext">
+            <p>
+               <lb/>मी। माहा सुद ८ रववार <choice><abbr>स॥</abbr><expan>संवत</expan></choice> १८३६
+               <lb rend="empty"/>
+               <lb/><unclear><placeName ref="#sambhar">सांभर</placeName></unclear> अगरवाला <persName ref="#gopinath">गोपीनाथ</persName> रै नांवै। तथा
+               <lb/>ठाकुर जी श्री गोविंद देव जी <placeName ref="#jaipur">सवाई जैपुर</placeName> विराजै जिंण रै सलूणी
+               <lb/>रो लूंण मंण ७५०) अखरे साढी सात सो पधरावंण
+               <lb/>रो हुकम हुवो है सु वरसावरस पधरायां कीजो श्री
+               <lb/>हजूर रो हुकम छै। <choice><abbr>दु॥</abbr><expan>दुवायत</expan></choice> <choice><abbr>पं॥</abbr><expan>पंडित</expan></choice> <persName ref="#parsadiRam">परसादी रांम</persName> आ[डी]-
+               <lb/>[ओ]ल सनद री नकल दफतर मैं ऊतराय पाछी सूंप देजो
+            </p>
+         </div>
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p>
+               <lb/>Date <date calendar="#samvat-shravanadi">Magh <ref type="glossary" target="#gl_sudi">sudi</ref> 8 Sunday Samvat [year] 1836</date>
+               <lb rend="empty"/>
+               <lb/>[To] <unclear><placeName ref="#sambhar">Sambhar</placeName></unclear> in the name of <ref type="glossary" target="#gl_agarwala">Agarwala</ref> <persName ref="#gopinath">Gopinath</persName>. Since
+               <lb/><ref type="glossary" target="#gl_thakur">Thakur</ref> <ref type="glossary" target="#gl_jiu">Ji</ref> Shri <ref type="glossary" target="#gl_govinddevji">Govinddevji</ref>,<note>The honourifics and name of the deity is elevated in the space between lines 1 and 2.</note> installed in <placeName ref="#jaipur">Sawai Jaipur</placeName>, to whom an offering of
+               <lb/><measure type="weight" unit="man" quantity="750">750 <ref type="glossary" target="#gl_man">mans</ref></measure>, in words seven and a half hundred, of the <unclear>salt lake's</unclear> salt
+               <lb/>has been ordered, so year after year make the offering. This
+               <lb/>is the order of <ref type="glossary" target="#gl_shriHuzur">Shri Huzur</ref>. Authorized by <ref type="glossary" target="#gl_pandit">Pandit</ref> <persName ref="#parsadiRam">Parsadi Ram</persName> 
+               <lb/><unclear>Margin</unclear>: After copying the <ref type="glossary" target="#gl_sanad">sanad</ref> in the <ref type="glossary" target="#gl_daftar">daftar</ref>, hand it over [i.e., to <persName ref="#gopinath">Gopinath</persName>].            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1644_brd_16">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of Abdussalam, an employee of Prince Murad Bakhsh, to Purshottam Das and
+               Paras Ram demanding tax records</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Nandini Chatterjee</persName>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#brd"/>
+                  <collection ref="#pDas"/>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#hijri-qamri">1054</origDate>
+                     <origDate calendar="#gregorian" when="1644">1644</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Order of
+               <persName ref="#abdusSalam">Abdussalam</persName>, an official of Sultan
+               <persName ref="#muradBakhsh">Murad Bakhsh</persName>, to the landlords (chaudhri)
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+                and
+               <persName ref="#parasRam">Paras Ram</persName>
+                to send the daily accounts and the records of tax collections, as the writer of the
+               letter did not have these records with him. They are also instructed to send news of
+               <placeName ref="#gujarat">Gujarat</placeName> if anybody comes from there.</p>
+         </abstract>
+
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="parvana"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Administration</term>
+               <term>Desertion and Depopulation</term>
+               <term>Records</term>
+               <term>Taxation and Tribute</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <person role="issuer">
+               <persName ref="#abdusSalam">Abdussalam</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="#parasRam">Paras Ram</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <graphic url="lf_pDas_1644_brd_16.jpg"/>
+   </facsimile>
+
+   <text>
+      <body>
+
+         <pb n="1r" facs="lf_pDas_1644_brd_16.jpg"/>
+
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>
+               <unclear>هو</unclear>
+            </p>
+         </div>
+         <div corresp="#orig_div1" xml:id="trans_div1">
+            <p>
+               <unclear>He [God] is</unclear>
+            </p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="per" type="maintext">
+            <p> <lb/>زبده الاقران چودری
+               <persName ref="#purshottamDas">پرشوتم داس</persName>
+               و چودری
+               <persName ref="#parasRam">پرسرام</persName>
+                بعافیت باشد
+               <lb/> هرچه گردید از خدا بباید الحال باز سیاهه روزنامچه و آمدن
+               <lb/> و جمع و جمیع و رشته را
+               <app>
+                  <rdg cert="medium">درست</rdg>
+                  <rdg cert="medium">دربست</rdg>
+               </app>
+               نموده بزودی زود بفرستد
+               <lb/> درین باب تغافل نکنند که از این نوشته ها و سیاهه
+               <lb/> اصلا و مطلقا در پیش فقیر نیست و نویسنده ها خود همه در خانه
+               <lb/>خود مانند شما این قدر کار نکنید تنهای که نصفا نصف
+               <lb/>نوشته بودید 
+                  <unclear>مهر امل</unclear><note>a possible misspelling of عامل</note>            
+                نموده حواله
+               <unclear>باله</unclear>
+                نموده چون در کنار
+               <lb/>
+               آب  شنیده شد
+                که کس
+                <persName ref="#narainModi">نراین مودی</persName>
+               <unclear>گریخته</unclear>
+                رفت
+               <lb/>باز بهمین سبب همه دلگیر شده این ها را نگاهداشتند
+               <lb/> هرکسی بیاید فرستاده خواهد شد اگر از 
+               <placeName ref="#gujarat">گجرات</placeName>
+               کسی آمده باشد
+               <lb/> خبر آنجا را بنویسند و شخصی که از
+               <placeName ref="#gujarat">گجرات</placeName>
+               بیاید
+               <note>From this line onwards, the text continues on the right margin of the
+                  document.</note>
+               <lb/> روانه اینجانب نمایند تغافل نکنند
+               <lb/> اگر از
+               <placeName ref="#ujjain">اوجین</placeName>
+               خبر برسد بنویسند
+               <lb/> تغافل نکنند و
+               <gap/>
+            </p>
+         </div>
+
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p> <lb/>Eminent among Contemporaries <ref type="glossary" target="#gl_chaudhri"
+                  >chaudhri</ref>
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+                and <ref type="glossary" target="#gl_chaudhri">chaudhri</ref>
+               <persName ref="#parasRam">Paras Ram</persName>, may they [i.e. you] be well.
+               <lb/> Whatever happens, [it] must come from [must have been ordained by] God. Now, once again, prepare the list of daily accounts
+               <!--<note>Since siyahat indicates travel, in the overall context of the document, siyahat-i roznamche has been read as the despatch of daily accounts.</note>ET: changed translation to list; not sure this note is necessary given use of siyaha for account book, list, inventory, etc</-->
+                  and arrivals and
+              <lb/>tax collections and records and send them as soon as possible.
+               <lb/> Do not neglect this since none of these notes and lists
+               <lb/> in their original and entirety are in front of this poor man [me], and his [my] own records are at home.
+               <lb/> You just do not work in such a way that you write in halves [i.e. vaguely].
+               <lb/><unclear>Attach the official seal [to the papers]</unclear>
+               [and] deposit them.<note>Literally, place them in a bag.</note>
+               <lb/>
+               Since it was heard at the edge of the water<note>This is likely an idiomatic expression</note> that some person <persName ref="#narainModi">Narain Modi</persName> <unclear>fled</unclear>
+               <lb/><gap/>An eye should be kept on things
+               <lb/> and whoever comes, should be sent. If anyone comes from <placeName ref="#gujarat">Gujarat</placeName>
+               <lb/> with news from there, write [about it].
+               <lb/> And if anybody comes from <placeName ref="#gujarat">Gujarat</placeName>, send them here.
+               <lb/> If any news arrives from <placeName ref="#ujjain">Ujjain</placeName>, write.
+               <lb/> Do not neglect it.
+               <gap/>
+            </p>
+         </div>
+
+         <div xml:id="orig_div3" xml:lang="per" type="authorisation" rend="right margin">
+            <p><stamp type="seal"><mentioned>
+                     <persName ref="#abdusSalam">عبد السلام</persName>
+                      بن
+                     <unclear>محمد</unclear>
+                     <gap/>
+                      خان
+                     <gap/>
+                      بنده سلطان
+                     <persName ref="#muradBakhsh">مراد بخش</persName>
+                      شهان
+                     <date calendar="#hijri-qamri">۱۰۵۴</date>
+                  </mentioned></stamp>
+            </p>
+         </div>
+         <div corresp="#orig_div3" xml:id="trans_div3">
+            <p><stamp type="seal">Round black ink seal<mentioned>
+                     <persName ref="#abdusSalam">Abdussalam</persName>
+                      son of <unclear>Muhammad</unclear>
+                     <gap/> Khan
+                      servant of Sultan
+                     <persName ref="#muradBakhsh">Murad Bakhsh</persName>
+                     <gap/>
+                     <date calendar="#hijri-qamri">1054</date>
+            </mentioned></stamp><note>It appears that the seal was applied after concluding the main text in the
+               right margin.</note></p>
+         </div>
+      </body>
+   </text>
+</TEI>

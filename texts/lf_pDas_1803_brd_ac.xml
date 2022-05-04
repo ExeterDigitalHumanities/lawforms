@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1803_brd_ac">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Declaration of Chand Bibi that she has sold her mansion in Dhar and some
+               lands to Thakur Pratap Chand</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Nandini Chatterjee</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#brd"/>
+                  <collection ref="#pDas"/>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#fasli">25 Zi al-qaʿda  1210</origDate>
+                     <origDate calendar="#hijri-qamri">25 Zi al-qaʿda 1217</origDate>
+                     <origDate calendar="#gregorian" when="1803-03-25">19 March 1803</origDate>
+                  </origin>
+               </history>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p><persName ref="#chandBibi">Chand Bibi</persName>
+                declares that she has sold her mansion (haveli) in
+               <placeName ref="#dhar">Dhar</placeName>
+                and some lands to Thakur
+               <persName ref="#pratapChand">Pratap Chand</persName> and received the payment of 50 rupees for the property.
+            </p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="iqrar"/>
+               <term key="baiNama"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="privateDeeds"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Buying and Selling</term>
+               <term>Money</term>
+               <term>Property</term>
+               <term>Women</term>
+            </keywords>
+         </textClass>
+
+         <particDesc>
+            <person role="seller">
+               <persName ref="#chandBibi">Chand Bibi</persName>
+            </person>
+            <person role="buyer">
+               <persName ref="#pratapChand">Pratap Chand</persName>
+            </person>
+            <person role="judge">
+               <persName ref="#bahauddinMuhammad">Bahuddin Muhammad Abdullah</persName>
+            </person>
+            <person role="judge">
+               <persName ref="#qaziMuhammad">Qazi Muhammad</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#wahidKhan">Wahid Khan</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#sheikhNazarMuhammad">Sheikh Nazar Muhammad</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#sheikhJamalMuhammad">Sheikh Jamal Muhammad</persName>
+            </person>
+         </particDesc>
+
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1803_brd_ac.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1803_brd_ac.jpg"/>
+
+         <div xml:id="orig_div1" xml:lang="per" type="endorsements" rend="top">
+            <p>
+               <lb/><stamp type="seal"><mentioned>
+                     <gap/>
+                  </mentioned></stamp>
+               <lb/>مهر نمود
+               <persName ref="#qaziMuhammad">قاضی محمد
+                  <unclear>سبان</unclear>
+               </persName>
+                عرف
+               <unclear>کهوژابان</unclear>
+               <lb rend="empty"/>
+               <lb/>
+               <stamp type="seal"><mentioned>
+                     <gap/>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/>
+               <stamp type="seal">
+                  <mentioned>
+                     <persName ref="#bahauddinMuhammad">بها الدین محمد عبدالله</persName>
+                     <gap/>
+                  </mentioned>
+               </stamp>
+               <lb/>خادم شرع مفتی مهر نمود
+               <lb rend="empty"/>
+               <lb/>العبد
+               <lb/><persName ref="#chandBibi">چاند بی بی</persName>
+               علامت
+            </p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p><lb/><stamp type="seal">Square black ink seal<mentioned>
+                     <gap/>
+                  </mentioned></stamp>
+               <lb/>Sealed [by]
+               <persName ref="#qaziMuhammad">Qazi Muhammad
+                  <unclear>Saban</unclear>
+               </persName>
+                alias
+               <unclear>Khuzhaban</unclear>
+               <lb rend="empty"/>
+               <lb/>
+               <stamp type="seal">Square black ink seal<mentioned>
+                     <gap/>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/>
+               <stamp type="seal">Square black ink seal<mentioned>
+                     <persName ref="#bahauddinMuhammad">Bahauddin Muhammad Abdullah</persName>
+                     <gap/>
+                  </mentioned></stamp>
+               <lb/>Servant of the law, the <ref type="glossary"
+                  target="#gl_mufti">mufti</ref>, sealed [the document]
+               <lb rend="empty"/>
+               <lb/>The slave,<note>The phrase al-ʿabd can denote a countersignature or the signature of the person making the declaration.</note>
+               <lb/>The sign of
+               <persName ref="#chandBibi">Chand Bibi</persName>
+               <lb rend="empty"/><figure>
+                  <figDesc>Image of a spinning wheel</figDesc>
+               </figure>
+            </p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="per" type="maintext">
+            <p>
+               <lb/>اقرار کرده و اعتراف صحیح شرعی نموده مخبرها باسم و نسب خود مسماة
+               <persName ref="#chandBibi">چاند بی بی</persName>
+               <lb/> زوجه
+               <persName ref="#khairullahKhan">خیرالله خان</persName>
+                مرحوم ولد بهادر خان قوم افغان متوطن دارالانوار پیران
+               <placeName ref="#dhar">دهار</placeName>
+               <lb/>سرکار
+               <placeName ref="#mandu">مندو</placeName>
+                مضافصوبه
+               <placeName ref="#malwa">مالوه</placeName>
+                براینمعنی که حویلی چهار چشمه ایستاده ستون
+               <lb/>سفالپوش بمعه اوساری و زمین افتاده خالص البیاض و شکسته سه چشمه بر
+               <lb/>که از اباء و اجداد بشوهر منمقره رسیده بود تا حالت تحریر قباله قابض و متصرف
+               <lb/>هستم آنحویلی مسطور را برضا و رغبت خویش بعیوض مبلغ
+               <measure type="currency" unit="rupee" quantity="50">پنجاه روپیه</measure>
+               <lb/>بدست تهاکر
+               <persName ref="#pratapChand">پرتاپچند</persName>
+                ولد تهاکر
+               <persName ref="#nihalChand">نهالچند</persName>
+                ابن تهاکر
+               <persName ref="#hamirChand">حمیر چند</persName>
+                و کنور
+               <persName ref="#sarupChand">شروپچند</persName>
+               <lb/>ولد تهاکر هرچند برادر حقیقی زمیندار مسطور فروختن و بیع شرعی کردم
+               <lb/>
+               <gap/>
+                و قیمت حویلی مذکور و زمین مسطور تمام و کمال وصول نمودم
+               <lb/>بمهر قاضی شرع و گواهی مسلمین نویسانیده بنده حواله تهاکر 
+               <persName ref="#pratapChand">پرتاپچند</persName>
+               نمودم
+               <lb/>من بعد اگر کسی از وارثان من دعوی نمایند غیر مسموع و باطل است
+               <lb/>بنابران اینچند کلمه بطریق قباله شرعی نویسانیده داده شد که عندالحاجت
+               <lb/>بکار آید تحریر بتاریخ
+               <date calendar="#fasli">بیست و پنجم ماه ذیقعده سنه
+                  <num>۱۲۱۰</num>
+                   فصلی</date>
+                مطابق
+               <date calendar="#hijri-qamri">سنه
+                  <num>۱۲۱۷</num>
+                   هجری</date>
+               </p>
+         </div>
+
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p>
+               <lb/>Declared and wholly and lawfully avowed in the self-same name and lineage of
+               <persName ref="#chandBibi">Chand Bibi</persName>,
+               <lb/>wife of the late
+               <persName ref="#khairullahKhan">Khairullah Khan</persName>, son of Bahadur Khan, of the <ref type="glossary" target="#gl_qaum">qaum</ref> 
+               Afghan, resident of Abode of Light of Holy Men
+               <placeName ref="#dhar">Dhar</placeName>,
+               <lb/><ref type="glossary" target="#gl_sarkar">sarkar</ref>
+               <placeName ref="#mandu">Mandu</placeName>, under the administration of <ref type="glossary" target="#gl_suba">suba</ref>
+               <placeName ref="#malwa">Malwa</placeName>,
+               to the effect that the <ref type="glossary" target="#gl_haveli">haveli</ref> on
+               columns with four fountains 
+               <lb/>and clad in tiles with fallow land and three broken fountains,
+               <lb/>which was inherited by my husband from his ancestors, and is in my possession
+               at the time of writing this <ref type="glossary" target="#gl_qabala">qabala</ref>,
+               <lb/>I sell that aforementioned house of my own free will in exchange for
+               <measure type="currency" unit="rupee" quantity="50">fifty rupees</measure>
+               <lb/>into the hands of <ref type="glossary" target="#gl_thakur">Thakur</ref>
+               <persName ref="#pratapChand">Pratap Chand</persName>, son of <ref type="glossary" target="#gl_thakur">Thakur</ref>
+               <persName ref="#nihalChand">Nihal Chand</persName>, son of <ref type="glossary" target="#gl_thakur">Thakur</ref>
+               <persName ref="#hamirChand">Hamir Chand</persName>, and
+               <lb/><ref type="glossary" target="#gl_kunwar">Kunwar</ref>
+               <persName ref="#sarupChand">Sarup Chand</persName>, son of <ref type="glossary" target="#gl_thakur">Thakur</ref> Har Chand, real
+               brother of the said <ref type="glossary" target="#gl_zamindar">zamindar</ref>.
+               <lb/><gap/> and I have received all of the money for the house and lands.
+               <lb/>Having got a document written by scribes with the seal of the <ref
+                  type="glossary" target="#gl_qazi">qazi</ref> of <ref type="glossary"
+                  target="#gl_sharia">shariʿa</ref> and the witness of Muslims, I gave it to <ref
+                  type="glossary" target="#gl_thakur">Thakur</ref>
+               <persName ref="#pratapChand">Pratap Chand</persName>.
+               <lb/>If after this, any of my successors make a claim, it will be inadmissable and
+               void.
+               <lb/> On this basis, these few words were written and given in the manner of a <ref type="glossary" target="#gl_qabala">qabala</ref> of the <ref type="glossary" target="#gl_sharia">shariʿa</ref>) so that in future
+               <lb/> it may be useful. Written on the
+               <date calendar="#fasli">25th of the month of Zi al-qaʿda, 1210 Fasli</date>, equivalent to
+               <date calendar="#hijri-qamri">1217 Hijri</date>.
+               </p>
+         </div>
+         <div xml:id="orig_div3" xml:lang="per" type="particulars" rend="bottom"><p>
+            <lb/>طول
+            <unclear><g ref="#siyaq">۲۴</g></unclear>
+            تمام
+            <lb/> عرض
+            <unclear><num><g ref="#siyaq">۱۴</g></num></unclear>
+            بمعه اثار دیوار
+            <lb/>حویلی چهار چشمه قایم سه
+            <num>۳</num>
+            چشمه شکسته
+            <lb/>طول
+            <unclear><g ref="#siyaq">۱۷</g></unclear>
+            درعه تمام
+            <lb/><unclear>صحسی</unclear>
+            چوک
+            <lb/>طول
+            <num>۷</num>
+            درعه عرض
+            <gap></gap>
+            درعه
+            <lb rend="empty"/>
+            <lb/> جانب مشرق جذ مشارالیه
+            <unclear>مشتر او باژه فنو</unclear>
+            مهتر
+            <unclear>نراف</unclear>
+            <lb/>حد شمال حد چوک حویلی تهاکر
+            <persName ref="#pratapChand">پرتاپچند</persName>
+            <lb/>جانب مفرب حویلی تهاکر
+            <persName ref="#pratapChand">پرتاپچند</persName>
+            زمیندار پرگنه
+            <placeName ref="#pgDhar">دهار</placeName>
+            <lb/>جانب جنوب باژه چوک بندا بهابوجی و درخت سرحنه 
+         </p></div>
+         <div xml:id="trans_div3" corresp="#orig_div3">
+            <p>
+               <lb rend="empty"/><figure place="bottom"><figDesc>Rectangle containing text specifying the dimensions of the plot of land being sold and surrounded by further text describing the boundaries of the plot.</figDesc></figure> 
+               <lb/>Length <unclear><g ref="#siyaq">24</g></unclear><note>Possibly 14. The unit of measurement is not mentioned.</note>
+               in all<note>This and the following line are written in the upper half of the box.</note>
+               <lb/>Width <unclear><g ref="#siyaq">14</g></unclear><note>Possibly 16. The unit of measurement not mentioned.</note>
+               <lb/>A house with four fountains, of which three are broken.<note>This and the following lines are written in the lower half of the box.</note>
+               <lb/>Length <unclear><g ref="#siyaq">17</g></unclear> <ref type="glossary" target="#gl_dira">dirʿa</ref> complete
+               <lb/><gap/> a square
+               <lb/>Length 7 <ref type="glossary" target="#gl_dira">dirʿa</ref>; width <gap/> <ref type="glossary" target="#gl_dira">dirʿa</ref>
+               <lb rend="empty"/> 
+               <lb/>On the east, the aforementioned person <gap/><note>These notes about the boundaries are written around the outside of the
+                  rectangle, starting from the top and proceeding anti-clockwise.</note>
+               <lb/>The northern boundary [is] the square of the <ref type="glossary" target="#gl_haveli"
+                  >haveli</ref> of <ref type="glossary" target="#gl_thakur">Thakur</ref>
+               <persName ref="#pratapChand">Pratap Chand</persName>
+               <lb/>On the west, the <ref type="glossary" target="#gl_haveli">haveli</ref> of <ref
+                  type="glossary" target="#gl_thakur">Thakur</ref>
+               <persName ref="#pratapChand">Pratap Chand</persName>, <ref type="glossary" target="#gl_zamindar">zamindar</ref> of <ref type="glossary"
+                  target="#gl_pargana">pargana</ref>
+               <placeName ref="#pgDhar">Dhar</placeName>
+               <lb/>On the south, the square of Banda Bhabuji and
+               <unclear>large</unclear>
+               trees.
+            </p>
+         </div>
+         
+         <div xml:id="orig_div4" xml:lang="per" type="witness" rend="right margin">
+            <p>
+               <lb/>گواه شد
+               <persName ref="#wahidKhan">واحد خان</persName>
+               <lb rend="empty"/>
+               <lb/>گواه شد شیخ
+               <gap/>
+               <lb rend="empty"/>
+               <lb/>گواه شد
+               <persName ref="#sheikhNazarMuhammad">شیخ نظر محمد</persName>
+               <lb rend="empty"/>
+               <lb/>گواه شد
+               <persName ref="#sheikhJamalMuhammad">شیخ جمال محمد</persName>
+            </p>
+         </div>
+         <div xml:id="trans_div4" corresp="#orig_div4">
+            <p>
+               <lb/>Witnessed by
+               <persName ref="#wahidKhan">Wahid Khan</persName><note>Witness signatures in the right margin read from top to bottom</note>
+               <lb rend="empty"/>
+               <lb/>Witnessed by Sheikh
+               <gap/>
+               <lb rend="empty"/>
+               <lb/>Witnessed by
+               <persName ref="#sheikhNazarMuhammad">Sheikh Nazar Muhammad</persName>
+               <lb rend="empty"/>
+               <lb/>Witnessed by
+               <persName ref="#sheikhJamalMuhammad">Sheikh Jamal Muhammad</persName>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

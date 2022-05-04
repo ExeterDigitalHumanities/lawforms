@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1804_brd_ac">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Declaration of Sultan Khan and his sister Haiyat Bibi about the sale of a plot of land for ten rupees</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Dominic Vendell</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                 <repository ref="#brd"/> 
+                  <collection ref="#pDas"/>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#hijri-qamri">29 Muharram 1219</origDate> 
+                     <origDate calendar="#gregorian"  when="1804-05-10">10 May 1804</origDate>                 
+                  </origin>
+               </history>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p><persName ref="#sultanKhan">Sultan Khan</persName> and his sister <persName ref="#haiyatBibi">Haiyat Bibi</persName>, residents of the town (qasba) of <placeName ref="#dhar">Dhar</placeName>, declare that they have sold an uninhabited plot of land to Thakur <persName ref="#pratapChand">Pratap Chand</persName> Ji, grandson of the landlord (chaudhri), for ten rupees.</p></abstract>       
+        
+        <textClass>
+           <keywords scheme="#formal">
+              <term key="iqrar"/>
+              <term key="qabala"/>
+           </keywords>
+           <keywords scheme="#functional">
+              <term key="privateDeeds"/>
+           </keywords>
+           <keywords scheme="#thematic">
+              <term>Buying and Selling</term>
+              <term>Money</term>
+              <term>Property</term>
+              <term>Women</term>
+           </keywords>
+        </textClass>
+        <particDesc>
+           <person role="buyer">
+              <persName ref="#pratapChand">Pratap Chand</persName>
+           </person>
+           <person role="buyer">
+              <persName ref="#kunwar">Kunwar</persName>
+           </person>
+           <person role="seller">
+              <persName ref="#sultanKhan">Sultan Khan</persName>
+           </person>   
+           <person role="seller">
+              <persName ref="#haiyatBibi">Haiyat Bibi</persName>  
+           </person>
+           <person role="witness">
+              <persName ref="#pratapChand">Pratap Chand</persName>  
+           </person>
+           <person role="witness">
+              <persName ref="#misriBai">Misri Bai</persName>  
+           </person>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+
+   <facsimile>
+      <graphic url="lf_pDas_1804_brd_ac_r.jpg"/>
+   </facsimile>
+  <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1804_brd_ac_r.jpg"/>
+         
+         <div xml:id="orig_div1" xml:lang="per" type="endorsements" rend="top centre"><p><stamp type="seal"><mentioned>
+            <gap/>
+            <unclear>الله</unclear> 
+            فدوی پادشاه غازی 
+            <persName ref="#muhammadShah">محمد شاه</persName>
+            </mentioned></stamp></p></div>
+         <div corresp="#orig_div1" xml:id="trans_div1">
+            <p><stamp type="seal">Black ink seal<mentioned><gap/> servant of the Emperor <persName ref="#muhammadShah">Muhammad Shah</persName></mentioned></stamp></p></div>
+         
+         <div xml:id="orig_div2" xml:lang="per" type="maintext">
+            <p>
+               <lb/>اقرار کرد و اعتراف صحیح شرعی نمود مخبر باسم و نسب خود مسمی
+               <persName ref="#sultanKhan">سلطان خان</persName>
+               <lb/>ولد جهان خان ابن چهتر خان افغان غوری معه
+               <persName ref="#haiyatBibi">حیات بی بی</persName>
+               <lb/>همشیره مشارالیه ساکن قصبه پیران
+               <placeName ref="#dhar">دهار</placeName>
+               سرکار
+               <placeName ref="#mandu">مندو</placeName>
+               مضاف
+               <lb/>صوبه
+               <placeName ref="#malwa">مالوه</placeName>
+               براینمعنی که یکقطعه زمین افتاده بی دار متصل حویلی
+               <lb/>تهاکر صاحب از ورثه متروکه بمایان رسیده بود انرا در حالت صحت
+               <lb/>نفس و ثبات عقل بلاشرکت غیری که در آن دیگری حقی و
+               <lb/>و ملکی ندارد بدست تهاکر
+               <persName ref="#pratapChand">پرتاب چند</persName>
+               جی و
+               <persName ref="#kunwar">کنور</persName>
+               جی ولد تهاکر
+               <lb/><persName ref="#nihalChand">نهالچند</persName>
+               جی ابن تهاکر
+               <persName ref="#hamirChand">همیرچند</persName>
+               جی چودهری پرگنه
+               <placeName ref="#pgDhar">دهار</placeName>
+               بعیوض مبلغ
+               <lb/><measure type="currency" unit="rupee" quantity="10">ده روپیه</measure>
+               رایج الوقت که نصف آن
+               <measure type="currency" unit="rupee" quantity="5">پنجروپیه</measure>
+               تاکیدالاصل میباشد
+               <lb/>فروختیم و بیع شرعی کردیم فروختن و بیع کردن صحیحاً شرعیاً جائزاً
+               <lb/>نافدا لاشرط فیها و لاخیار ثمن تقابض البدلین فیمابین
+               <lb/>واقع و مبلغمذکور از مشتریان مسطور تمام و کمال وصول یافته
+               <lb/>در قبض و تصرف خود آوردم و مشتری مذکور را مالک زمین
+               <lb/>مذبور نمودیم اگر ثانیا الحال بعد من از اولاد متروکه منمقر دعوی نماید
+               <lb/>دروغ و باطل گردد بنابران اینچند کلمه بطریق قباله بدستخط زمینداران
+               <lb/>و گواهی همسایگان نویسانیده داده شد که ثانیا الحال سند باشد
+               <lb/>تحریر بتاریخ  
+               <date calendar="#hijri-qamri">
+                  بیست و نهم شهر محرم الحرام سنه
+                  <num>۱۲۱۹</num></date>
+               هجری النبوی 
+            </p>
+         </div>   
+         <div corresp="#orig_div2"  xml:id="trans_div2">  
+            <p>
+               <lb/>Declared and wholly and lawfully avowed [by] the declarant with the self-same name and lineage: <persName ref="#sultanKhan">Sultan Khan</persName>, 
+               <lb/>son of Jahan Khan, son of Chhitur Khan Afghan Ghuri, together with <persName ref="#haiyatBibi">Haiyat Bibi</persName>,  
+               <lb/>sister<note>The Persian term used, 'hamshira', literally means of the same milk and implies that <persName ref="#haiyatBibi">Haiyat Bibi</persName> may have been the foster-sister of <persName ref="#sultanKhan">Sultan Khan</persName></note> of the aforementioned, resident in <placeName ref="#dhar">Dhar</placeName>, <ref type="glossary" target="#gl_qasba">qasba</ref> of <ref type="glossary" target="#gl_pir">pirs</ref>, in the <ref type="glossary" target="#gl_sarkar">sarkar</ref> <placeName ref="#mandu">Mandu</placeName> attached 
+               <lb/>to the <ref type="glossary" target="#gl_suba">suba</ref> <placeName ref="#malwa">Malwa</placeName>. That one plot of land, which is unused and without any habitation and adjoining the <ref type="glossary" target="#gl_haveli">haveli</ref> of 
+               <lb/><ref type="glossary" target="#gl_thakur">Thakur</ref> <ref type="glossary" target="gl_sahib">Sahib</ref>,<note>The reference here is likely to <ref type="glossary" target="#gl_thakur">Thakur</ref> <persName ref="#pratapChand">Pratap Chand</persName></note> had come to us by inheritance. That [plot], [we being] in a condition of perfect 
+               <lb/>health and sound mind, and there being no rightful and proprietary claim to it, 
+               <lb/>[shall be transferred] into the hands of <ref type="glossary" target="#gl_thakur">Thakur</ref> <persName ref="#pratapChand">Pratap Chand</persName> <ref type="glossary" target="#gl_jiu">Ji</ref> and <persName ref="#kunwar">Kunwar</persName> <ref type="glossary" target="#gl_jiu">Ji</ref>, sons of <ref type="glossary" target="#gl_thakur">Thakur</ref> 
+               <lb/><persName ref="#nihalChand">Nihal Chand</persName> <ref type="glossary" target="#gl_jiu">Ji</ref>, son of <ref type="glossary" target="#gl_thakur">Thakur</ref> <persName ref="#hamirChand">Hamir Chand</persName> <ref type="glossary" target="#gl_jiu">Ji</ref>, <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#pgDhar">Dhar</placeName>, in exchange for the amount of 
+               <lb/><measure type="currency" unit="rupee" quantity="10">ten rupees</measure> at the current rate, of which half is confirmed to be <measure type="currency" unit="rupee" quantity="5">five rupees</measure>,  
+               <lb/>and lawfully sold. The sale, perfectly and legally and permissibly, 
+               <lb/>is unconditional and irrevocable, and the price was exchanged between the two of us.
+               <lb/>the aforementioned amount from the aforementioned buyers is fully and totally collected, 
+               <lb/>and taken into our own possession and custody. And we declared the aforementioned buyers  
+               <lb/>to be the owners of the aforementioned land. If henceforth our heirs should make a claim, 
+               <lb/>it would be a falsehood and a lie. Accordingly, these words in the form of a <ref type="glossary" target="#gl_qabala">qabala</ref> with the signatures of the landlords 
+               <lb/>and the witnessing of the neighbors have been written such that henceforth it shall be a <ref type="glossary" target="#gl_sanad">sanad</ref>. 
+               <lb/>Written on the date of the <date calendar="#hijri-qamri">29th of Muharram in the Hijri year 1219</date>. 
+            </p> 
+         </div>
+         
+         <div xml:id="orig_div3" xml:lang="per" type="particulars" rend="bottom"><figure place="inspace"><figDesc>rectangle</figDesc></figure>
+            <p>
+               <lb/>حد مشرق برآمد دروازه تهاکر صاحب و رسته
+               <gap/>
+               <lb/>حد جنوبی دیوار صحن حویلی 
+               <persName ref="#shivPrashad">شیو پرشاد</persName>
+               و 
+               <persName ref="#sahibRai">صاحب رای</persName>               
+               <lb/>حد مغرب ملحق است دیوار پایگاه تهاکر صاحب
+               <lb/>حد شمال دیوار
+               <gap/>
+               و درخت انبلی
+               <lb rend="empty"/> <lb/><label>طول</label>
+               <lb/>
+               <g ref="#siyaq">۷</g>
+               درعه
+               <lb/>درخت انبلی و انار
+               <lb rend="empty"/> <lb/><label>عرض</label> 
+               <lb/>
+               <g ref="#siyaq">۱۸</g>
+               درعه
+            </p>
+         </div>   
+         <div corresp="#orig_div3" xml:id="trans_div3">
+            <p>
+               <figure place="bottom"><figDesc>Rectangle containing text specifying the dimensions of the plot of land being sold and surrounded by further text descrbing the boundaries of the plot.</figDesc></figure>
+               <lb/>The eastern boundary comes to the door of <ref type="glossary" target="#gl_thakur">Thakur</ref> <ref type="glossary" target="#gl_sahib">Sahib</ref><note><ref type="glossary" target="#gl_thakur">Thakur</ref> <persName ref="#pratapChand">Pratap Chand</persName></note> and <gap/>
+               <lb/>The southern boundary is the wall of the courtyard of the haveli of <persName ref="#shivPrashad">Shiv Prashad</persName> and <persName ref="#sahibRai">Sahib Rai</persName>
+               <lb/>The western boundary adjoins the wall of the portico of <ref type="glossary" target="#gl_thakur">Thakur</ref> <ref type="glossary" target="#gl_sahib">Sahib</ref>.
+               <lb/>The northern boundary is the wall <gap/> and a tamarind tree.
+               <lb rend="empty"/> <lb/>Length
+               <lb/>7 yards
+               <lb/>tamarind and pomegranate trees
+               <lb rend="empty"/> <lb/>Width
+               <lb/>18 yards
+            </p>
+         </div>   
+         
+         <div xml:id="orig_div4" xml:lang="per" type="endorsements" rend="right margin">
+            <p>
+               <lb/>العبد
+               <lb/><persName ref="#sultanKhan">سلطان خان</persName>
+               ولد جهان خان
+               <lb/>ابن چهتر خان افغان غوری
+               <lb/>
+               <persName ref="#haiyatBibi">حیاتی بی بی</persName>
+               همشیره مشارالیهه
+            </p>
+         </div>
+         
+         <div corresp="#orig_div4" xml:id="trans_div4">
+            <p>
+               <lb/>Servant of God<note>Literally, the slave. This expression is commonly used to indicate the signature, or possibly countersignature, of the person making the declaration.</note>
+               <lb/><persName ref="#sultanKhan">Sultan Khan</persName>, son of Jahan Khan,
+               <lb/>son of Chhitur Khan Afghan Ghuri
+               <lb/>and <persName ref="#haiyatBibi">Haiyati Bibi</persName>, sister of the aforementioned
+               <lb rend="empty"/><figure place="margin (right)"><figDesc>spinning wheel</figDesc></figure>
+               <figure place="margin (right)"><figDesc>dagger</figDesc></figure>
+            </p>   
+         </div>
+         
+         <div xml:id="orig_div5" xml:lang="hin" type="witness" rend="bottom right margin">
+            <p>
+               <lb/><choice>
+                  <abbr>सा.</abbr>
+                  <expan>साक्ष</expan>
+               </choice>
+               <choice>
+                  <abbr>चो.</abbr>
+                  <expan>चोधरी</expan>
+               </choice>
+               <persName ref="#pratapChand">परताप चंद</persName>
+               <choice>
+                  <abbr>प्र.</abbr>
+                  <expan>परगना</expan>
+               </choice>
+               <lb/><placeName ref="#pgDhar">धार</placeName> 
+               मुसतुरी मजकूर 
+               <lb rend="empty"/>
+               <lb/>
+               <choice>
+                  <abbr>सा.</abbr>
+                  <expan>साक्ष</expan>
+               </choice>
+               <choice>
+                  <abbr>क||</abbr>
+                  <expan>कानूनगो</expan>
+               </choice> मीसरी बा-
+               <lb/>ई जी <choice>
+                  <abbr>प्र||</abbr>
+                  <expan>परगना</expan>
+               </choice> 
+               <placeName ref="#pgDhar">धार</placeName>
+            </p>
+          </div>
+         <div corresp="#orig_div5" xml:id="trans_div5">
+           <p> 
+            <lb/>Witness: <ref type="glossary" target="#gl-chaudhri">chaudhri</ref> <persName ref="#pratapChand">Pratap Chand</persName> of <ref type="glossary" target="#gl_pargana">pargana</ref>
+            <lb/><placeName ref="#pgDhar">Dhar</placeName>, the aforementioned buyer
+            <lb rend="empty"/>
+            <lb/>Witness: <ref type="glossary" target="#gl_qanungo">qanungo</ref> <persName ref="#misriBai">Misri Bai</persName>
+            <lb/><ref type="glossary" target="#gl_jiu">Ji</ref> of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#pgDhar">Dhar</placeName>
+           </p>   
+         </div>     
+      </body>
+  </text>
+</TEI>

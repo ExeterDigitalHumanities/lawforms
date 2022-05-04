@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1733_brd_ncd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Declaration of Sheikh Alimullah about excessive taxation by the Marathas</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#brd"/>
+                  <collection ref="#pDas"></collection>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#gregorian" when="1733">1733</origDate>
+                     <origDate calendar="#fasli">1142</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p><persName ref="#sheikhAlimullah">Sheikh Alimullah's</persName> proclamation describes the advent of four Maratha generals in
+               district (pargana) <placeName ref="#pgDhar">Dhar</placeName> and the excessive tax and tribute demands made by their
+               officials. He reports that because of these demands, many peasants had to sell all
+               their possessions, and some fled. Despite this, only one-third of the 3000 rupees
+               demanded in tribute was paid and the jagirdars are under obligation for the remaining
+               portion.</p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="mahzarNama"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="judicialDox"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Agriculture</term>
+               <term>Desertion and Depopulation</term>
+               <term>Taxation and Tribute</term>
+               <term>War</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <person role="supplicant">
+               <persName ref="#sheikhAlimullah">Sheikh Alimullah</persName>
+            </person>
+            <person role="notary">
+               <persName ref="#sheikhFathAhmad">Sheikh Fath Ahmad</persName>
+            </person>
+            <person role="notary">
+               <persName ref="#muhammadDaim">Muhammad Daim</persName>
+            </person>
+            <person role="notary">
+               <persName ref="#sayyidMuhammadHanif">Sayyid Muhammad Hanif</persName>
+            </person>
+            <person role="witness"><persName ref="#asadDostdar">Asad Dostdar</persName></person>
+            <person role="witness">
+               <persName ref="#muqimKhan">Muqim Khan</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#muhammadYaqubKhan">Muhammad Yaqub Khan</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#muhammadVasil">Muhammad Vasil</persName>
+            </person>
+            <!--<person role="witness">
+               <persName ref="#afzalullah">Afzalullah</persName>
+            </person> confirm that person is named in seal, change to Fazlullah-->
+            <person role="witness">
+               <persName ref="#muhammadArif">Muhammad Arif</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#sayyidMahmud">Sayyid Mahmud</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#muhammadBaqir">Muhammad Baqir</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#sheikhAbdulKarim">Sheikh Abdul Karim</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#amir">Amir</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#fathMuhammad">Fath Muhammad</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#abdulGhani">Abdul Ghani</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#sheikhNimatullah">Sheikh Nimatullah</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#sheikhJamilullah">Sheikh Jamilullah</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#khalil">Khalil Munam</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#jaswantRai">Jaswant Rai</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#hamirChand">Hamir Chand</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1733_brd_ncd_r.jpg"/>
+      <graphic url="lf_pDas_1733_brd_ncd_v.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1733_brd_ncd_r.jpg"/>
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>
+               بسم الله الرحمن الرحیم
+               <lb rend="empty"/>مصلیاً علی النبیه الکریم </p>
+         </div>
+         <div corresp="#orig_div1" xml:id="trans_div1">
+            <p>In the name of God, the Most Gracious, the Most Merciful
+               <lb rend="empty"/>Praying on the Compassionate Holy Prophet</p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="per" type="endorsements" rend="top">
+            <p>
+               <lb/><stamp type="seal"><mentioned>
+                  <persName ref="#sheikhFathAhmad">شیخ فتح احمد</persName>
+                  قاضی خادم شرع دین محمد
+                     <date calendar="#julus">سنه
+                        <num>۱۶</num>
+                     </date>
+                     <date calendar="#hijri-qamri">
+                        <num>۱۱۴۶</num>
+                     </date>
+                  </mentioned></stamp><lb/>
+               بند التحریر المتن بیان واقع
+               <unclear>ت</unclear><note>This word is likely است, 'is'.</note>
+               <lb rend="empty"/> <lb/>
+               <stamp type="seal"><mentioned>
+                  <persName ref="#muhammadDaim">دایم</persName>
+                     <app>
+                        <rdg cert="low">اجی</rdg>
+                        <rdg cert="medium">قاضی</rdg>
+                     </app>
+                      خادم شرع محمد
+                     <unclear>
+                        <num>۱۱۴۲</num>
+                     </unclear>
+                  </mentioned></stamp><lb/>
+               انچه در متن است بیان واقعه
+               <lb rend="empty"/> <lb/>
+               <stamp type="seal"><mentioned>مهر نیابت قاضی خادم شرع شریف
+                      <persName ref="#sayyidMuhammadHanif">سید محمد حنیف</persName>
+                     <date calendar="#julus">
+                        <num>۱۶</num>
+                     </date>
+                     <date calendar="#hijri-qamri">
+                        <num>۱۱۴۷</num>
+                     </date>
+                  </mentioned></stamp>
+               <lb/> هَذَا بَیَانَ صادِق
+               <g ref="#faqat">فقط</g>
+            </p>
+         </div>
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p>
+               <lb/><stamp type="seal">Round black ink seal<mentioned><persName ref="#sheikhFathAhmad">Sheikh Fath Ahmad</persName> <ref type="glossary" target="#gl_qazi">Qazi</ref>, servant of
+                     the law of the faith of Muhammad,
+                     <date calendar="#julus">regnal year 16</date>,
+                     <date calendar="#hijri-qamri">1146 [Hijri]</date>
+                  </mentioned></stamp>
+               <lb/>Sworn [that] the writing of the document [is] a true declaration.
+               <lb rend="empty"/> <lb/><stamp type="seal">Round black ink seal<mentioned><persName ref="#muhammadDaim">[Muhammad] Daim</persName><note>The first portion of this person's name, Muhammad, is read from the top of the seal, where it is elevated for respect and also modifying 'the law'.</note>
+                  <app>
+                        <rdg cert="medium">Qazi</rdg>
+                        <rdg cert="low">Aji</rdg>
+                     </app>
+                      servant of the law of Muhammad
+                     <date calendar="#hijri-qamri">
+                        <unclear>1142</unclear>
+                     </date>
+                  </mentioned></stamp>
+               <note>There appears to be a religious inscription around the border of the seal,
+                  possibly including the shahada or Muslim declaration of faith.</note>
+               <lb/>Whatever is in the document [is] a true declaration.
+               <lb rend="empty"/> <lb/>
+               <stamp type="seal">Round black ink seal<mentioned>Seal of the deputy <ref type="glossary" target="#gl_qazi">Qazi</ref>, servant of
+                  the holy law, <persName ref="#sayyidMuhammadHanif">Sayyid Muhammad Hanif</persName>
+                     <date calendar="#julus">16</date>
+                     <date calendar="#hijri-qamri">1147</date>
+                  </mentioned></stamp><lb/>
+               This account is true.
+               <g ref="#faqat">Nothing further.</g>
+            </p>
+         </div>
+         <div xml:id="orig_div3" xml:lang="per" type="maintext">
+            <p>
+               <lb/>اشتهار میخواهد و استخبار میطلبید
+               <persName ref="#sheikhAlimullah">شیخ علیم الله</persName>
+                منصبدار شریک توجیه جاگیر
+               <persName ref="#badakhshiKhan">بدخشی خان</persName>
+                وغیره منسبداران چوکی خاص
+               <lb/>و متصدی محال جاگیر
+               <persName ref="#safiuddinMuhammadKhan">صفی الدین محمد خان</persName>
+                وغیره منصبداران بابت دیهات پرگنه
+               <placeName ref="#pgDhar">دهار</placeName>
+                سرکار
+               <placeName ref="#mandu">مندو</placeName>
+                مضاف صوبه
+               <placeName ref="#malwa">مالوا</placeName>
+               <lb/>از سادات کرام و مشایخ عظام ذو الاحترام و ارباب شرع و عدالت و اعیان پرگنه مرقوم
+               براینمعنی که از ابتدای
+               <lb/>شروع سال
+               <date calendar="#fasli">سنه
+                  <num>۱۱۴۲</num>
+                   فصلی</date>
+                خبر آمد آمد فوج بادشاهی در
+               <placeName ref="#malwa">مالوا</placeName>
+                شهرت یافته بجاگیرداران و رعایا تقویت شده بود
+               <lb/>و هنوز افواج بادشاهی از
+               <placeName ref="#shahjahanabad">شاهجهان آباد</placeName>
+                روانه نشده بود که
+               <persName ref="#malharRaoHolkar">ملهار</persName>
+                و
+               <persName ref="#ranojiShinde">رانو جی سیندهیه</persName>
+                و
+               <persName ref="#anandRaoPuwar">انند راو پلنوار</persName>
+                وغیره
+               <lb/>چهار نفر ناسرداران غنیم لییم بجمعیت امبوه از دریای نربدا عبور نمود در محالات
+               <placeName ref="#malwa">مالوا</placeName>
+                در آمده جابجا مکاسه داران
+               <lb/>بجمعیت کثیر سوار و پیاده ها تعین ساخته که جاگیر جاگیرداران بادشاهی ضبط کرده از
+               محصول دروبست بتصرف در آرند
+               <lb/>چنانچه مکاسه داران در محالات بهمین دستور بعمل آورده
+               <persName ref="#naruPandit">نارو</persName>
+                و
+               <persName ref="#sadashivPandit">سداسیو پندت</persName>
+                مکاسه داران پرگنه
+               <placeName ref="#pgDhar">دهار</placeName>
+                در دیهات
+               <lb/>پرگنه شحنه و غله دار فرستاده عمل جاگیرداران برداشته چون عاملان و زمینداران و رعایا اتفاق نموده پیش ناسرداران
+               <lb/>غنیم پیغام دادند که سابق در
+               <date calendar="#fasli">سنه
+                  <num>۱۱۴۱</num>
+                   فصلی</date>
+                منجمله
+               <foreign>کهندنی</foreign>
+                از جمله مال جاگیرداران
+               <measure type="rate" unit="rupee" quantity="35">سریصد سی و پنجروپیه</measure>
+                مقرر شده است و بعمل آمده
+               <lb/>الحال هم بدستور سابق بگیرند و تتمه را بجاگیرداران وا گذارند چنانچه درین رد بدل
+               دهات پرگنه بسیار زیر بار طلبانه آمدند
+               <lb/>ناسرداران غنیم لییم بعد جواب سوال گفتند که الحال جاگیرداران افواج بادشاهی را
+               برای کشتن مایان آورده چه سلوک
+               <lb/>و صُلح در میان مایان و شما مانده است که عمل میخواهند مدتی درین روبدل گزسته و بعد
+               روبدل بمکاسه داران
+               <lb/>پروانگی دادند که نظر بر تردد گماشته های جاگیرداران داشته در جمع مال نصف وا
+               گذارند و نصف را در وجه
+               <foreign>کهندنی</foreign>
+               <lb/>تحصیل کرده بگیرند مکاسه داران رعایا را شک ساخته بسختی تمام و طلبانه و وجه
+               <foreign>کهندنی</foreign>
+                خود تحصیل کرده گرفته چنانچه
+               <lb/>رعایا اکثر دیهات تاتخم ساهوکار فروخته
+               <foreign>کهندنی</foreign>
+                ادا ساخته و بعض رعایاء دیهات در وصول آن سرانجام در خود ندیده
+               <lb/>رو بفرار آوردند و اکثر مستاجر و مقدم برای ادای باقی در قید مکاسه دار هستند
+               باوجود دادن غله موجودات تا تخم
+               <lb/>ساهوکار مبلغ
+               <measure type="currency" unit="rupee" quantity="3000">سه هزار روپیه</measure>
+                در
+               <foreign>کهندنی</foreign>
+                باقی مانده بود از انجمله
+               <measure type="currency" unit="rupee" quantity="1000">یکهزار روپیه</measure>
+                از گماشتهای جاگیرداران منجمله
+               <lb/>تحصیل عاملان گرفته تتمه را تمسک نویسانده گرفتند ازین سبب مبلغی کلی در مال
+               جاگیرداران پرگنه باقی مانده هر کس که
+               <lb/>ازینمعنی اطلاع و اگاهی داشته باشد مُهر گواهی خود ثبت نماید
+               <foreign>کان ذلک</foreign>
+               <g ref="#faqat">فقط</g>
+            </p>
+         </div>
+         <div corresp="#orig_div3" xml:id="trans_div3">
+            <p>
+               <lb/><persName ref="#sheikhAlimullah">Sheikh Alimullah</persName>, <ref type="glossary" target="#gl_mansabdar">mansabdar</ref> part-owner of the <ref type="glossary" target="#gl_taujih">taujih</ref> of the
+               <ref type="glossary" target="#gl_jagir">jagir</ref> of <persName ref="#badakhshiKhan">Badakhshi Khan</persName>, etc., <ref type="glossary" target="#gl_mansabdar">mansabdars</ref> of the Chauki Khas,<note>I.e. members of the special bodyguard or inner circle. See for instance Irvine p. 260 and Maathir al-Amara 838,.</note>
+               <lb/>and the <ref type="glossary" target="#mutasaddi">mutasaddi</ref> of the <ref type="glossary" target="#gl_mahal">mahal</ref> of the <ref type="glossary" target="#gl_jagir">jagir</ref> of
+               <persName ref="#safiuddinMuhammadKhan">Safiuddin Muhammad Khan</persName> etc., <ref type="glossary" target="#gl_mansabdar">mansabdars</ref> for the villages of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#pgDhar">Dhar</placeName>, 
+               <ref type="glossary" target="#gl_sarkar">sarkar</ref>
+               <placeName ref="#mandu">Mandu</placeName> belonging to <ref type="glossary" target="#gl_suba">suba</ref> <placeName ref="#malwa">Malwa</placeName>
+               <lb/>wish to publicize and seek information from the kind elites and the great
+               honourable <ref type="glossary" target="#gl_sheikh">sheikhs</ref> and the masters of law and justice and grandees of the said
+               <ref type="glossary" target="#gl_pargana">pargana</ref>, that from the beginning
+               <lb/>of the year <date calendar="#fasli">1142</date> <ref type="glossary" target="#gl_fasli">Fasli</ref>, news came that the imperial army was marching to
+               <placeName ref="#malwa">Malwa</placeName>, and the <ref type="glossary" target="#gl_jagirdar">jagirdars</ref> and peasants were reassured.
+               <lb/>But the imperial army had not yet set out from <placeName ref="#shahjahanabad">Shahjahanabad</placeName> when <persName ref="#malharRaoHolkar">Malhar
+               [Rao Holkar]</persName> and <persName ref="#ranojiShinde">Ranoji Shinde</persName> and <persName ref="#anandRaoPuwar">Anand Rao Puwar</persName>, etc.,
+               <lb/>four wicked generals and base plunderers, crossed over the river Narmada with a mob of followers. Entering the <ref type="glossary" target="#gl_mahal">mahals</ref> of <placeName ref="#malwa">Malwa</placeName>, [and]
+               appointing <ref type="glossary" target="#gl_mokasadar">mokasadars</ref>
+               <lb/>together with their many horsemen and foot soldiers in every place so that they
+               seized the <ref type="glossary" target="#gl_jagir">jagirs</ref> of the imperial <ref type="glossary" target="#gl_jagirdar">jagirdars</ref>, they brought the entire revenues under
+               their control.
+               <lb/>Just as the <ref type="glossary" target="#gl_mokasadar">mokasadars</ref> implemented their work in the <ref type="glossary" target="#gl_mahal">mahals</ref>, accordingly, <persName ref="#naruPandit">Naru</persName>
+               and <persName ref="#sadashivPandit">Sadashiv Pandit</persName>, <ref type="glossary" target="#gl_mokasadar">mokasadars</ref> of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#pgDhar">Dhar</placeName>,
+               <lb/>sent a <ref type="glossary" target="#gl_shahna">shahna</ref> and <ref type="glossary" target="#gl_ghalledar">ghalledar</ref> to the
+               villages of the <ref type="glossary" target="#gl_pargana">pargana</ref> and dismissed the <ref type="glossary" target="#gl_amil"><app><rdg cert="high">amil</rdg><rdg cert="low">amils</rdg></app></ref> of the <ref type="glossary" target="#gl_jagirdar">jagirdars</ref>.
+               When the <ref type="glossary" target="#gl_amil">ʿamils</ref>, <ref type="glossary" target="#gl_zamindar">zamindars</ref> and peasants jointly represented in front of the wicked
+               generals and plunderers
+               <lb/>that before, in the year <date calendar="#fasli">1141 <ref type="glossary" target="#gl_fasli">Fasli</ref></date>, the total of the <ref type="glossary" target="#gl_khandani">khandani</ref> was was fixed as
+               <measureGrp><measure type="currency" unit="rupee" quantity="35">thirty-five rupees</measure> per <measure type="currency" unit="rupee" quantity="100">one hundred</measure></measureGrp> out of all the taxes
+               of the <ref type="glossary" target="#gl_jagirdar">jagirdars</ref>, and carried out
+               accordingly.
+               <lb/>Now too, they shall take according to prior custom, and give the remainder to
+               the <ref type="glossary" target="#gl_jagirdar">jagirdars</ref>. Consequently, the villages of the
+               <ref type="glossary" target="#gl_pargana">pargana</ref> came under the great weight of the [revenue] demand during this transition.
+               <lb/>After a conversation, the wicked generals and base invaders
+               said, 'The <ref type="glossary" target="#gl_jagirdar">jagirdars</ref> brought the imperial armies to kill us. What rule
+               <lb/>and compact remains between you and us that we wish to put into action?' At a
+               previous moment in this transition and after the transition,
+               <lb/>they gave permission to the <ref type="glossary" target="#gl_mokasadar">mokasadars</ref> to take care of the
+               resistance of the agents of the <ref type="glossary" target="#gl_jagirdar">jagirdars</ref>, hand over half the
+               taxes, and collect and take the other half as <ref type="glossary" target="#gl_khandani">khandani</ref>.
+               <lb/>The <ref type="glossary" target="#gl_mokasadar">mokasadars</ref> made the peasants doubtful, and collected the entire [revenue] demand and the amount of their own <ref type="glossary" target="#gl_khandani">khandani</ref> with strictness.
+               <lb/>So the peasants of most villages sold everything to the <ref type="glossary" target="#gl_sahukar">sahukar</ref> in order to pay
+               the <ref type="glossary" target="#gl_khandani">khandani</ref>, and some peasants of the villages did not see an end for themselves in
+               the collection of taxes
+               <lb/>and absconded. And many merchants and <ref type="glossary" target="#gl_muqaddam">muqaddams</ref> are imprisoned by the <ref type="glossary" target="#gl_mokasadar">mokasadars</ref>
+               for their arrears. Despite giving all the grain there was to
+               <lb/>to the <ref type="glossary" target="#gl_sahukar">sahukar</ref>, a sum of <measure type="currency" unit="rupee" quantity="3000">three thousand rupees</measure> was left of the <ref type="glossary" target="#gl_khandani">khandani</ref>; 
+               of this, <measure type="currency" unit="rupee" quantity="1000">one thousand
+                  rupees</measure> was taken from the agents of the <ref type="glossary" target="#gl_jagirdar">jagirdars</ref> for the collection of the <ref type="glossary" target="#gl_amil">amils</ref>; 
+               <lb/>and they had a <ref type="glossary" target="#gl_tamassuk">tamassuk</ref> written for the remainder. For this reason, all the dues of the
+               <ref type="glossary" target="#gl_jagirdar">jagirdars</ref> are outstanding. Anybody who has
+               <lb/>information about this matter, shall affix his seal of evidence. And so it was.
+               <g ref="#faqat">Nothing further.</g>
+            </p>
+         </div>
+         <div xml:id="orig_div4" xml:lang="per" type="clericalNotes" rend="top right">
+            <p>
+               <lb rend="empty"/>داخل سیاهه سوانح نموده شد
+               <g ref="#faqat">فقط</g>
+               <lb rend="empty"/>داخل سیاهه اخبار نموده شد
+               <g ref="#faqat">فقط</g>
+            </p>
+         </div>
+         <div corresp="#orig_div4" xml:id="trans_div4">
+            <p>
+               <lb rend="empty"/>Entered in the register of events.
+               <g ref="#faqat">Nothing further.</g>
+               <lb rend="empty"/> Entered in the register of news.
+               <g ref="#faqat">Nothing further.</g>
+            </p>
+         </div>
+         <div xml:id="orig_div5" xml:lang="per" type="witness" rend="right margin">
+            <p>
+               <lb/>گواه شد عامل
+               <persName ref="#muqimKhan">مقیم خان</persName>
+               <lb rend="empty"/> <lb/><stamp type="seal"><mentioned>
+                     <persName ref="#asadDostdar">اسد دوستدار</persName>
+                  رسول الله</mentioned></stamp>
+               <lb rend="empty"/> <lb/>بیان واقع است
+               <lb/><stamp type="seal"><mentioned>
+                     <persName ref="#muhammadYaqubKhan">محمد یعقوب خان</persName>
+                     <date calendar="#hijri-qamri">
+                        <num>۱۱۴۴</num>
+                     </date>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>شهد بمافیه
+               <lb/><stamp type="seal"><mentioned>
+                     <persName ref="#muhammadVasal">محمد واصل</persName>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>هذا بیان واقع
+               <g ref="#faqat">فقط</g>
+               <lb/><stamp type="seal"><mentioned>
+                        <gap/>
+                        فتح ز
+                  فضل الله<!-->is this actually a name?</-->
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>شهد بما فیه
+               <lb/>
+               <stamp type="seal"><mentioned>کنده بدل نفس
+                     <persName ref="#muhammadArif">محمد عارف</persName>
+                     <date calendar="#hijri-qamri">
+                        <num>۱۱۱۸</num>
+                     </date>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>بیان واقعست
+               <lb/><stamp type="seal"><mentioned>
+                     <gap/>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>بیان واقع است
+               <lb/><stamp type="seal"><mentioned>
+                     <gap/>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/> انچه در متن مسطور است
+               <lb/><stamp type="seal"><mentioned>
+                     <persName ref="#sayyidMahmud">
+                        سید محمود
+                        <app><rdg cert="medium">چشتی</rdg>
+                           <rdg cert="medium">حسینی</rdg>
+                        </app>
+                         </persName>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>گواه شد
+               <lb/><stamp type="seal"><mentioned>
+                     <persName ref="#muhammadBaqir">محمد باقر</persName>
+                      فدوی
+                     <gap/>
+                     <persName ref="#farrukhsiyar">محمد فرخ سیر</persName>
+                      بادشاه غازی
+                     <date calendar="#hijri-qamri">
+                        <num>۱۱۲
+                           <gap/>
+                        </num>
+                     </date>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>
+               <persName ref="#sheikhAbdulKarim">شیخ عبد الکریم</persName>
+               <unclear>خطیب</unclear>
+                جمعه قصبه پیران
+               <placeName ref="#dhar">دهار</placeName>
+               <lb/>
+               <unclear>شهد </unclear>
+               <gap/>
+                بمافیه
+               <g ref="#faqat">فقط</g>
+               <lb rend="empty"/> <lb/>گواه شد
+               <lb/><stamp type="seal"><mentioned>
+                     <persName ref="#amir">امیر</persName>
+                      فدوی
+                     <persName ref="#farrukhsiyar">محمد فرخ</persName>
+                     <gap/>
+                      بادشاه غازی
+                     <date calendar="#hijri-qamri">
+                        <num>۱۱۲۶</num>
+                     </date>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>شهد بمافیه
+               <lb/><stamp type="seal"><mentioned>
+                     <gap/>
+                     <persName ref="#fathMuhammad">
+                        <unclear>فتح</unclear>
+                         محمد</persName>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>شهد بمافیه
+               <lb/><stamp type="seal"><mentioned>
+                     <persName ref="#abdulGhani">عبد الغنی</persName>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>شهد بمافیه
+               <lb/>
+               <stamp type="seal"><mentioned>
+                     <persName ref="#sheikhNimatullah">شیخ
+                        <unclear>نعمت</unclear>
+                         الله</persName>
+                  </mentioned></stamp> ...
+               <lb rend="empty"/> <lb/>
+               <unclear>لاریب فیه</unclear>
+               <lb/>
+               <persName ref="#sheikhJamilullah">شیخ جمیل الله
+                  <lb/>السهروردی</persName>
+               <g ref="#faqat">فقط</g>
+               <lb rend="empty"/> <lb/>هذالمسطور
+               <unclear>صادق</unclear>
+               <lb/><stamp type="seal"><mentioned>
+                     <persName ref="#khalil">خلیل</persName>
+                  <unclear>منعم است</unclear>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>
+               <unclear>لاریب فیه</unclear>
+               <lb/><stamp type="seal"><mentioned>
+                     <gap/>
+                      عبد</mentioned></stamp>
+               <lb rend="empty"/> <lb/>
+               <choice>
+                  <abbr>सा</abbr>
+                  <expan>साख</expan>
+               </choice>
+               <choice>
+                  <abbr>का</abbr>
+                  <expan>कानुनगो</expan>
+               </choice>
+               <persName ref="#jaswantRai">जसवंत
+                  <app>
+                     <rdg cert="high">राय</rdg>
+                     <rdg cert="low">राम</rdg>
+                  </app>
+               </persName>
+               <choice>
+                  <abbr>प्र</abbr>
+                  <expan>परगना</expan>
+               </choice>
+               <placeName ref="#pgDhar">धार</placeName>
+               <lb rend="empty"/> <lb/>
+               <choice>
+                  <abbr>सा</abbr>
+                  <expan>साख</expan>
+               </choice>
+               <choice>
+                  <abbr>चा</abbr>
+                  <expan>चौधरी</expan>
+               </choice>
+               <persName ref="#hamirChand">हमीरचंद</persName>
+               <choice>
+                  <abbr>प्र</abbr>
+                  <expan>परगना</expan>
+               </choice>
+               <placeName ref="#pgDhar">धार</placeName>
+            </p>
+         </div>
+         <div corresp="#orig_div5" xml:id="trans_div5">
+            <p>
+               <lb/>Witnessed by <ref type="glossary" target="#amil">amil</ref>
+               <persName ref="#muqimKhan">Muqim Khan</persName>.
+               <lb rend="empty"/> <lb/><stamp type="seal">Square black ink seal<mentioned>
+                  <persName ref="#asadDostdar">Asad Dostdar</persName> [friend of the]
+                  Prophet of God<note>The phrase used is the end of the shahada and is likely meant to refer to this declaration of faith.</note></mentioned></stamp>
+               <lb rend="empty"/> <lb/>The declaration is true.
+               <lb/><stamp type="seal">Oval black ink seal<mentioned>
+                     <persName ref="#muhammadYaqubKhan">Muhammad Yaqub Khan</persName>
+                     <date calendar="#hijri-qamri">1144</date>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>Testified.
+               <lb/><stamp type="seal">Square black ink seal<mentioned>
+                     <persName ref="#muhammadVasil">Muhammad Vasil</persName>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>This statement is true.
+               <g ref="#faqat">Nothing further.</g>
+               <lb/><stamp type="seal">Octagonal black ink seal<mentioned>
+                        <gap/>
+                        victory by the grace of God.<note>Part of this phrase may have a second reading as the name of the person sealing, Fazlullah.</note>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>Testified.
+               <lb/>
+               <stamp type="seal">Round black ink seal<mentioned>
+                  <unclear>Dedicated servant</unclear><!--revisit translation: engraved on a pure heart?-->
+                     <persName ref="#muhammadArif">Muhammad Arif</persName>
+                     <date calendar="#hijri-qamri">
+                        <num>1118</num>
+                     </date>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>The statement is true.
+               <lb/><stamp type="seal">Round black ink seal<mentioned>
+                     <gap/>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>The statement is true.
+               <lb/><stamp type="seal">Oval black ink seal<mentioned>
+                     <gap/>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/> That which is described in the statement.
+               <lb/><stamp type="seal">Oval black ink seal<mentioned>
+                     <persName ref="#sayyidMahmud">
+                        <unclear>Sayyid Mahmud</unclear>
+                        <gap/>
+                         </persName>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>Witnessed.
+               <lb/><stamp type="seal">Large round black ink seal<mentioned>
+                     <persName ref="#muhammadBaqir">Muhammad Baqir</persName>
+                      servant of
+                     <gap/>
+                      Muhammad
+                     <persName ref="#farrukhsiyar">Farrukhsiyar</persName>
+                      <ref type="glossary" target="#gl_badshah">Badshah</ref> <ref type="glossary" target="#gl_ghazi">Ghazi</ref>
+                     <date calendar="#hijri-qamri">
+                        <num>112
+                           <gap/>
+                        </num>
+                     </date>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>
+               <persName ref="#sheikhAbdulKarim">Sheikh Abdul Karim</persName>
+               <unclear><ref type="glossary" target="#gl_khatib">khatib</ref></unclear>
+                of the assembly of the city of <ref type="glossary" target="#gl_pir">pirs</ref>
+               <placeName ref="#dhar">Dhar</placeName>
+               <lb/>
+               <unclear>Testimony </unclear>
+               <gap/>
+                given.
+               <g ref="#faqat">Nothing further</g>
+               <lb rend="empty"/> <lb/>Witnessed.
+               <lb/><stamp type="seal">Large round black ink seal<mentioned>
+                     <persName ref="#amir">Amir</persName>, servant of
+                     Muhammad <persName ref="#farrukhsiyar">Farrukh</persName>
+                     <gap/>
+                      <ref type="glossary" target="#gl_badshah">Badshah</ref> <ref type="glossary" target="#gl_ghazi">Ghazi</ref>
+                     <date calendar="#hijri-qamri">
+                        <num>1126</num>
+                     </date>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>Testified.
+               <lb/><stamp type="seal">Oval black ink seal<mentioned>
+                     <gap/>
+                     <persName ref="#fathMuhammad">
+                        <unclear>Fath</unclear>
+                         Muhammad</persName>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>Testified.
+               <lb/><stamp type="seal">Square black ink seal<mentioned>
+                     <persName ref="#abdulGhani">Abdul Ghani</persName>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>Testified.
+               <lb/><stamp type="seal"><mentioned>
+                     <persName ref="#sheikhNimatullah">Sheikh Nimatullah</persName> <gap/>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>
+               <unclear>Unquestionable.</unclear>
+               <lb/><persName ref="#sheikhJamilullah">Sheikh Jamilullah 
+                  <lb/>al-Saharwardi</persName>.
+               <g ref="#faqat">Nothing further.</g>
+               <lb rend="empty"/> <lb/>That which is written <unclear>is true</unclear>.
+               <lb/><stamp type="seal"><mentioned>
+                     <persName ref="#khalil">Khalil</persName>
+                     <unclear>is blessed</unclear>
+                  </mentioned></stamp>
+               <lb rend="empty"/> <lb/>
+               <unclear>Unquestionable.</unclear>
+               <lb/><stamp type="seal"><mentioned>
+                     <gap/>
+                      Abd</mentioned></stamp>
+               <lb rend="empty"/> <lb/>Witnessed: <ref type="glossary" target="#gl_qanungo">qanungo</ref>
+               <persName ref="#jaswantRai">Jaswant
+                  <app>
+                     <rdg cert="high">Rai</rdg>
+                     <rdg cert="low">Ram</rdg>
+                  </app>
+               </persName>,
+               <ref type="glossary" target="#gl_pargana">pargana</ref>
+               <placeName ref="#pgDhar">Dhar</placeName>
+               <lb rend="empty"/> <lb/>Witnessed: <ref type="glossary" target="#gl_chaudhri">chaudhri</ref>
+               <persName ref="#hamirChand">Hamir Chand</persName>,
+               <ref type="glossary" target="#gl_pargana">pargana</ref>
+               <placeName ref="#pgDhar">Dhar</placeName>
+            </p>
+         </div>
+         <pb n="1v" facs="lf_pDas_1733_brd_ncd_v.jpg"/>
+         <div xml:id="orig_div6" xml:lang="per" type="clericalNotes" rend="top right">
+            <p>
+               <lb/>حسب الحکم
+               <unclear>امرس</unclear>
+                اعلی
+               <lb/>بنام امارت و ایالت
+               <unclear><app><rdg cert="low">مرتست</rdg><rdg cert="low">فریتت</rdg></app></unclear>
+               <lb/>
+               <unclear><app><rdg cert="low">حسمت</rdg><rdg cert="low">حشمت</rdg></app>
+                  و شوکت
+                  <app><rdg cert="low">مرکب</rdg><rdg cert="low">مراتب</rdg></app>
+                  عمرا سادی والا نسار</unclear>
+               <lb/>راجه دهیراج
+               <persName ref="#jaiSinghII">جیسنگه</persName>
+                سوای  
+            </p>
+         </div>
+         <div corresp="#orig_div6" xml:id="trans_div6">
+            <p>
+               <lb/>According to the order of
+               <gap/>
+               <lb/> in the name of
+               <gap/>
+                of power and governance
+               <lb/>
+               <gap/>
+               <lb/> Raja Dhiraj
+               <persName ref="#jaiSinghII">Jai Singh</persName>
+                Sawai
+            </p></div>
+         <div xml:id="orig_div7" xml:lang="per" type="clericalNotes" rend="top centre">
+            <p><unclear>در باب دکل 
+               <gap></gap>
+               و غیره</unclear></p></div>
+         <div corresp="#orig_div7" xml:id="trans_div7"><p><unclear>Regarding</unclear>
+               <gap/>
+               <unclear>etc.</unclear>
+            </p>
+         </div>
+         <div xml:id="orig_div8" xml:lang="per" type="laterAddition" rend="middle centre">
+            <p>
+               <foreign>نمبر</foreign>
+               <num>۶</num>
+            </p>
+         </div>
+         <div corresp="#orig_div8" xml:id="trans_div8">
+            <p>Number 6</p>
+         </div>
+      </body>
+   </text>
+</TEI>

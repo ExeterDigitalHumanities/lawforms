@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1664_dai_lns235ms_e1">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of Bulaqi Chand to the officials of Hindola regarding the tenancy of the district</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Nandini Chatterjee</persName>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#dai"/>
+                  <collection ref="#pDas"/>
+                  <idno>LNS 235 MS e1</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#fasli">1073</origDate>
+                     <origDate calendar="#hijri-qamri">1075</origDate>
+                     <origDate calendar="#gregorian" when="1664">1664</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p><persName ref="#bulaqiChand">Bulaqi Chand</persName> orders the officials (chaudhris) and record-keepers (qanungos) of district (pargana) <placeName ref="#hindola">Hindola</placeName> to inform him whether the tenancy agreement of the district should be renewed or resumed by the state.
+        He also orders them to make sure the arrears of the tenancy are paid and to send various revenue records and documents.</p></abstract>       
+        <textClass>
+           <keywords scheme="#formal"><term key="parvana"/></keywords>
+           <keywords scheme="#functional"><term key="orders"/></keywords>
+           <keywords scheme="#thematic">
+              <term>Administration</term>
+              <term>Money</term>
+              <term>Taxation and Tribute</term>
+           </keywords>
+        </textClass>
+       <particDesc>
+           <person role="issuer">
+              <persName ref="#bulaqiChand">Bulaqi Chand</persName>
+           </person>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+<facsimile>
+   <graphic url="lf_pDas_1661_dai_lns235ms_e1_r.jpg"/>
+   <graphic url="lf_pDas_1661_dai_lns235ms_e1_v.jpg"/>
+   </facsimile>
+  <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1661_dai_lns235ms_e1_r.jpg"/>
+         <div xml:id="orig_div1" xml:lang="per" type="invocation" rend="top centre">
+            <p>ا</p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p>Alif</p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="per" type="maintext">
+            <p>               
+              <lb/>چودریان و قانوگویان پرگنه 
+               <placeName ref="#hindola">هندوله</placeName>
+               را معلوم نموده باشد که انها مچلکه 
+              <lb/>رضامندی اجاره پرگنه مذکور بحال داشتن به اجاره دار سابق که بخدمت بندگان 
+              <lb/>وزارت و اقبال پناه حسمت و شوکت دستگاه میرزا صاحب توشته ارسالداشته 
+              <lb/>بود بنظر مبارک ایشان کذشته چنانچه مچلکه ها به اینجانب سپرده دارنده را به پیش  
+              <lb/>انها فرستاده اگر در اجاره داشتن اجاره دار پیشین کفایت سرکار و رفاهت 
+              <lb/>رعایا بوده بحضور ملازمان التفات پناه 
+               <persName ref="#lalaMohanLal">لعله موهن لال</persName>
+               جیو اضافه قرار کرده گماشته اجاره دار 
+              <lb/>و  یک کس قانوگو همراه شده پیش ما بیایند و اگر در خالصه شریفه داشتن یا به کس دیگر اجاره 
+              <lb/>دادن برامد کار دانند چنان نویسند و اگر بخاطر شما برسد که ما انجا بیایم صلاح در انست 
+              <lb/>البته خواهند نوشت و حقیقت سلوک خوبی او صاف چمیده انها شنیده البته انچنان 
+              <lb/>برای پرداخت پرگنه
+               <placeName ref="#hindola">هندوله</placeName>
+               مقید و بجد شوند که موجب مجرا نیکو خدمت بخدمت و زارت پناه 
+              <lb/>شده امیدوار نتایج نیک شوند و مبلغ یکهزار و یکصد
+               روپیه نزد اجاره دار باقی سنه 
+               <date calendar="#fasli"><num>۱۰۷۳</num></date>
+               عملی 
+              <lb/>دارد باو تاکید نمایند که زود وجه باقی را با کس خود بخزانه عامره دار الفتح 
+               <placeName ref="#ujjain">اجین</placeName>
+               داخل کرده 
+              <lb/>قبض الوصول حاصل کند والا مال بادشاهی نزد کسی باقی 
+               <gap/>
+               ماند کور شده درته 
+               <unclear>خرچ</unclear>
+               آمده <note>After this point the text continues on the right margin.</note>
+              <lb/>زر  خواهد داد و موازنه ده ساله و مجمل سنه 
+               <date calendar="#fasli"><num>۱۰۷۲</num></date>
+               <lb/> و دستور العمل و نقل طومار وغیره انچه لوازمه کاغذ 
+              <lb/>بوده باشد نوشته با حقیقت پرداخت سال اینده حواله دارنده 
+              <lb/>نمایند و نقل پروانه نواب مستطاب عمده الملکی وزارت پناه فرستاده 
+              <lb/>ازو مضمون معلوم خواهد شد 
+            </p>
+         </div>
+         
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p>
+               <lb/>The <ref type="glossary" target="#gl_chaudhri">chaudhris</ref> and <ref type="glossary" target="#gl_qanungo">qanungos</ref> of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#hindola">Hindola</placeName> should know that the news [about the] <ref type="glossary" target="#gl_muchalka">muchalka</ref>
+               <lb/>of the <ref type="glossary" target="#gl_ijara">ijara</ref> of the said <ref type="glossary" target="#gl_pargana">pargana</ref> being made in free will with the old <ref type="glossary" target="#gl_ijaradars">ijaradars</ref> [which] they had sent to the servants 
+               <lb/>of the Refuge of Ministry and Glory and Haven of Bravery and Courage <ref type="glossary" target="#gl_mirza">Mirza</ref> <ref type="glossary" target="#gl_sahib">Sahib</ref> 
+               <lb/>has come to his blessed attention. Therefore, having deposited and held the <ref type="glossary" target="#gl_muchalka">muchalkas</ref> this way [with myself], they [the <ref type="glossary" target="#gl_muchalka">muchalkas</ref>]
+               <lb/>were sent to them. If the taking of <ref type="glossary" target="#gl_ijara">ijara</ref> by old <ref type="glossary" target="#gl_ijaradar">ijaradars</ref> is useful to the government and convenient  
+               <lb/>for the subjects, the increase (appointment) should be declared to the Lord of Servants, Refuge of Mercy <persName ref="#lalaMohanLal">Lala Mohan Lal</persName> <ref type="glossary" target="#gl_jiu">Jiu</ref>, (and) the <ref type="glossary" target="#gl_gumashta">gumashta</ref> of the <ref type="glossary" target="#gl_ijaradar">ijaradar</ref> 
+               <lb/>together with a <ref type="glossary" target="#gl_qanungo">qanungo</ref> should come before me. And if it becomes necessary to take [the district] into the noble
+                  <ref type="glossary" target="#gl_khalisa">khalisa</ref> or give the <ref type="glossary" target="#gl_ijara">ijara</ref> 
+               <lb/>to somebody else, write so, and if you are of the mind that we come there for resolution then 
+               <lb/>certainly write that. And having heard the description of their good behaviour and graceful walking [i.e., toeing the line], of course they 
+               <lb/>will be engaged and diligent with the amelioration of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#hindola">Hindola</placeName> such that it becomes a route for good service in the employment of the Refuge of Ministry 
+               <lb/>and be hopeful of good results. One thousand one hundred rupees are left in arrears by the <ref type="glossary" target="#gl_ijaradar">ijaradar</ref> [for the] <date calendar="#fasli">1073</date> <ref type="glossary" target="#gl_amali">ʿamali</ref> year. 
+               <lb/>Insist that he quickly get that amount entered into the royal treasury at the City of Victory, <placeName ref="#ujjain">Ujjain</placeName>, by a person of his. 
+               <lb/>And acquire the <ref type="glossary" target="#gl_qabzalwasul">qabzul-wasul</ref>. Beware that there would be no imperial taxes outstanding with anyone<gap/> 
+               <lb/>The money should be given. And the <ref type="glossary" target="#gl_muwazanaDahsala">muwazana dahsala</ref> and summary of the year <date calendar="#fasli">1072</date> 
+               <lb/>and the <ref type="glossary" target="#gl_dasturalamal">dasturul-amal</ref> and copy of <ref type="glossary" target="#gl_tumar">tumar</ref> etc. whatever necessary papers 
+               <lb/>there might be, write it down, and deposit it in the  
+               <lb/>coming year. And the copy of the <ref type="glossary" target="#gl_parvana">parvana</ref> of the gracious <ref type="glossary" target="#gl_nawab">Nawab</ref>, Eminence of the Realm, Refuge of Ministry has been sent 
+               <lb/>[and you] will learn about its contents from it. 
+            </p>
+         </div>
+         <div xml:id="orig_div3" type="authorisation" xml:lang="per" rend="right margin">
+            <p>
+               <stamp type="seal"><mentioned><gap/>
+                  <persName ref="#bulaqiChand">چند</persName>
+                  <date calendar="#hijri-qamri"><num>۱۰۷۵</num></date>
+                  بنده بادشاه
+                  <persName ref="#aurangzebAlamgir">عالم گیر</persName></mentioned></stamp> 
+            </p>
+         </div>
+         <div xml:id="trans_div3" corresp="#orig_div3">
+            <p>
+               <stamp type="seal">Round black ink seal<mentioned><persName ref="#bulaqiChand"><gap/>chand</persName> <date calendar="#hijri-qamri">1075</date><note>Although the document
+                     is undated, the Hijri-qamri date in the seal and the fasli years given in
+                     the document suggest 1664 CE, or shortly thereafter, as the likely date of
+                     composition.</note>, servant of <ref type="glossary"
+                        target="#gl_badshah">Badshah</ref>
+                     <persName ref="#aurangzebAlamgir">Alamgir</persName></mentioned></stamp>
+            </p>
+         </div>
+         <pb n="1v" facs="lf_pDas_1661_dai_lns235ms_e1_v.jpg"/>
+         <div xml:id="orig_div4" type="laterAddition" xml:lang="per" rend="top right">
+            <p>
+               <lb/>پروانه امارت پناه
+               <lb/>در باب مچلکه اجاره دار
+               <lb/>وغیره
+               <lb rend="empty"/>
+               <lb/>پروانه بولاقیچند 
+               <lb rend="empty"/>
+               <lb/><num>۳۸</num>
+            </p>
+         </div>
+         <div xml:id="trans_div4" corresp="#orig_div4">
+            <p>
+               <lb/><ref type="glossary" target="#gl_parvana">Parvana</ref> of the Refuge of Power
+               <lb/>regarding the <ref type="glossary" target="#gl_muchalka">muchalka</ref> of the <ref type="glossary" target="#gl_ijaradar">ijaradar</ref>,
+               <lb/>etc.
+               <lb rend="empty"/>
+               <lb/><ref type="glossary" target="#gl_parvana">Parvana</ref> of <persName ref="#bulaqiChand">Bulaqi Chand</persName><note>This person has been taken to be the same as the Bulaqi Chand named in several other documents from the same collection in a similar period, but this is not certain.</note>
+               <lb rend="empty"/>
+               <lb/>38
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

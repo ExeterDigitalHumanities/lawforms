@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1877_brd_ncd_mar_4">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Entry in the supplemental account book of Moti Chand Ankur regarding lines and seals</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Dominic Vendell</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                 <repository ref="#brd"/> 
+                  <collection ref="#pDas"/>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#fasli">1285</origDate> 
+                     <origDate calendar="#gregorian"  when="1878-06-02">2 June 1878</origDate>                 
+                  </origin>
+               </history>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p>Entry in the supplemental account book of <persName ref="#motiChandAnkur">Moti Chand Ankur</persName> regarding the drawing of lines and application of seals on the pages of the account book.</p></abstract>       
+        
+        <textClass>
+           <keywords scheme="#functional"><term key="adminRecords"/></keywords>
+           <keywords scheme="#formal"><term key="bahi"/></keywords>
+           <keywords scheme="#thematic">
+              <term>Records</term>
+           </keywords>
+        </textClass>
+        
+        <particDesc>
+           <person role="writer">
+              <persName ref="#balwantNarayan">Balwant Narayan</persName>
+           </person>
+        </particDesc>
+        
+     </profileDesc>
+  </teiHeader>
+
+   <facsimile>
+      <graphic url="lf_pDas_1877_brd_ncd_mar_4.jpg"/>
+   </facsimile>
+   
+  <text>
+      <body>
+         
+         <pb n="1r" facs="lf_pDas_1877_brd_ncd_mar_4.jpg"/>
+         
+         <div xml:id="orig_div1" xml:lang="mar" type="invocation" rend="right margin">
+            <p><stamp type="seal">
+               <mentioned>श्री <unclear>परसाद</unclear> मोर्तब सुद
+            </mentioned></stamp>
+            </p>
+         </div>
+         
+         <div corresp="#orig_div1" xml:id="trans_div1">
+            <p>
+               <stamp type="seal">Square black ink seal<mentioned><unclear>Blessing [of]</unclear> God.
+               Verified.</mentioned></stamp>
+            </p> 
+         </div>
+         
+         <div xml:id="orig_div2" xml:lang="mar" type="maintext">
+            <p>
+               <lb/>पुरवणी कीर्द वही चौधरी 
+               <persName ref="#motiChandAnkur">मोतीचंद अकुर</persName> 
+               चिरंजी-
+               <lb/>व <persName ref="#kunwar">कुवरजी</persName>
+               <choice>
+                  <abbr>म।।</abbr>
+                  <expan>मुकाम</expan>
+               </choice>
+               <choice>
+                  <abbr>पो।</abbr>
+                  <expan>परगना</expan>
+               </choice>
+               <placeName ref="#pgDhar">धार</placeName> 
+               सन 
+               <date calendar="#fasli">१२८५</date> 
+               फसली साल
+               <choice>
+                  <abbr>बा||</abbr>
+                  <expan><unclear>बरहुकूम</unclear></expan>
+               </choice>सदर 
+               <lb/>किर्दीची मलपृष्ठेची अवल आखर मलपृष्ठेचे येक येक 
+               <lb/>पान सोडून बाकी पानावर येकापासून अडतीस पानापरयंत 
+               <lb/>ओला घालून दर पानावर 
+               <unclear>
+                  <choice>
+                  <abbr>प्र।।</abbr>
+                  <expan>प्रत्येकी</expan>
+                  </choice> मोटे
+               <choice>
+                  <abbr>प्र।।</abbr>
+                  <expan>प्रत्येकी</expan>
+               </choice>
+               </unclear> 
+               मोटी खासगीची
+               <lb/>मोहेर 
+               <choice>
+                  <abbr>मो।</abbr>
+                  <expan>माहे</expan>
+               </choice>
+               जुन सन 
+               <date calendar="#gregorian">१८७७</date> 
+               <choice>
+                  <abbr>इ।।</abbr>
+                  <expan>इस्वी</expan>
+               </choice> 
+               महिन्यात करून दिल्ही परं- 
+               <lb/>तू त्यात लिहिणे पुरे न जाहल्याकारणांनी हली जास्त पाने येकू-
+               <lb/>ण चालीसापासून छपन पानापरयंत अनुक्रमाने ओला
+               <lb/>घालून दर पानावर 
+               <choice>
+                  <abbr>प्रा।</abbr>
+                  <expan>प्रत्येकी</expan>
+               </choice>
+               मोटी खासगीची मोहेर करून 
+               <lb/>दिल्ही असे 
+               <choice>
+                  <abbr>ता।</abbr>
+                  <expan>तारीख</expan>
+               </choice> 
+               २ 
+               <choice>
+                  <abbr>मो</abbr>
+                  <expan>माहे</expan>
+               </choice> 
+               जुन सन 
+               <date calendar="#gregorian">१८७८</date> 
+               <choice>
+                  <abbr>इ।।</abbr>
+                  <expan>इस्वी</expan>
+               </choice>
+               दस्तुर <persName ref="#balwantNarayan">ब-
+               <lb/>लवंत नारायण</persName> 
+               <choice>
+                  <abbr>नि||</abbr>
+                  <expan>निसबत</expan>
+               </choice> मोटी खासगी 
+               <lb/>रामचंद्र<gap/> 
+            </p>
+         </div>
+         
+         <div corresp="#orig_div2"  xml:id="trans_div2">  
+            <p>
+               <lb/>Supplemental account book of <ref type="glossary" target="#gl_chaudhri"
+                  >chaudhri</ref>
+               <persName ref="#motiChandAnkur">Moti Chand Ankur</persName>
+               ,
+               <lb/>son of
+               <persName ref="#kunwar">Kunwar</persName>
+               <ref type="glossary" target="#gl_jiu">Ji</ref>, resident in <ref type="glossary"
+                  target="#gl_pargana">pargana</ref>
+               <placeName ref="#pgDhar">Dhar</placeName>
+                for the year
+               <date calendar="#fasli">1285</date>
+               <gap/>
+                of the Fasli era. According to orders,
+               <lb/>leaving aside each and every outer page of the book from first to last,
+               <lb/>on the remaining pages from one until thirty-eight,
+               <lb/>lines have been drawn, and on each page, the seal of the senior <ref
+                  type="glossary" target="#gl_khasgi">khasgi</ref>
+               <note>In the neighbouring state of Gwalior, Khasgi referred to a very high-ranking
+                  official who managed the king’s household. See Amar Farooqui, Sindias and the Raj:
+                  Princely Gwalior 1800-1850 (Delhi: Primus Books, 2011), p. 59.</note>has been
+               affixed in the month of June of the Christian year
+               <date calendar="#gregorian">1877</date>. But
+               <lb/>since the writing in it is not completed; additional pages,
+               <lb/>with lines drawn and the consecutive numbers forty to fifty-six
+               <lb/>have been added, and the seal of the senior <ref type="glossary"
+                  target="#gl_khasgi">khasgi</ref> affixed on each
+               <lb/>page. Such [is the situation] on the date of the 2nd of the month of June in the
+               Christian year
+               <date calendar="#gregorian">1878</date>
+               , written by
+               <lb/>
+               <persName ref="#balwantNarayan">Balwant Narayan</persName>
+               , in the service of the senior <ref type="glossary" target="#gl_khasgi">khasgi</ref>
+               <lb/>Ramchandra
+               <gap/>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

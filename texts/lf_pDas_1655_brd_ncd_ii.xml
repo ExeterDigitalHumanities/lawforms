@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1655_brd_ncd_ii">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of an official of Murad Bakhsh to district Dhar regarding the flight of cultivators</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Dominic Vendell</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                 <repository ref="#brd"/>                   
+                  <collection ref="#pDas"/>
+                  <idno>no shelfmark</idno> 
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#julus">12 Rajab 29</origDate>
+                     <origDate calendar="#hijri-qamri">12 Rajab 1065</origDate>
+                     <origDate calendar="#gregorian"  when="1655-05-18">18 May 1655</origDate>                 
+                  </origin>
+               </history>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p>Following the absconding of cultivators at the time of the settlement of the revenue demand, the landlords and record-keepers of the district (pargana) <placeName ref="#pgDhar">Dhar</placeName> are ordered to encourage the cultivators to return by providing deeds of security (qaul-qarar).</p></abstract>       
+        
+        <textClass> 
+           <keywords scheme="#formal"><term key="parvana"/></keywords>
+           <keywords scheme="#functional"><term key="orders"/></keywords>
+           <keywords scheme="#thematic">
+              <term>Administration</term>
+              <term>Desertion and Depopulation</term>
+              <term>Peasants</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+  </teiHeader>
+
+   <facsimile>
+      <graphic url="lf_pDas_1655_brd_ncd_ii_r.jpg"/>
+      <graphic url="lf_pDas_1655_brd_ncd_ii_v.jpg"/>
+   </facsimile>
+  <text>
+      <body>
+         
+         <pb n="1r" facs="lf_pDas_1655_brd_ncd_ii_r.jpg"/>
+         
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre"><p>الله اکبر</p></div>
+         <div xml:id="trans_div1" corresp="#orig_div1"><p>God is great</p></div>
+         
+         <div xml:id="orig_div2" xml:lang="per" type="maintext">
+            <p>
+               <lb/>چودهریان و قانونگویان پرگنه
+               <placeName ref="#pgDhar">دهار</placeName>
+               را انهاء آنکه چون استمالت سال آينده
+               <lb/>رسیده و چنان شنیده میشود که رعایا اطراف و خوانب فراری شده میخواهد که در پرگنه مذکور
+               <lb/>آمده اباد شوند
+               <unclear>سائرین</unclear>
+               نوشته میشود که هر دیهه که ویوان اند دیهه رعایا را از جای دلاسار کرده
+               <lb/>می آرند و هر قولی که امانت پناه مولا
+               <persName ref="#abdusSalam">عبد السلام</persName>
+               از روی رفاهيت رعایا و ابادانی پرگنه بدیهه تا بجانب منظور است
+               <lb/>می باید که خاطر خود را جمع نموده هر رعایا که فراری شده باشد و نیز از سر نو سازد آنچه قول
+               <lb/>قرار 
+               <unclear>امانت</unclear>
+               پناه
+               <unclear>بدهند</unclear>
+               قول ما است درینباب نهایت قدغن دانسته تحریر فیتاریخ
+               <date calendar="#julus">
+                  <num>۱۲</num>
+               شهر رجب المرجب
+               <num>۲۹</num></date>
+            </p>   
+         </div>
+        <div xml:id="trans_div2" corresp="#orig_div2">
+           <p>
+              <lb/><ref type="glossary" target="#gl_chaudhri">Chaudhris</ref> and <ref type="glossary" target="#gl_qanungo">qanungos</ref> of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#pgDhar">Dhar</placeName>, it is announced that when the <ref type="glossary" target="#gl_istamalat">istamalat</ref> of the coming year  
+              <lb/>has arrived, and if it is heard that the cultivators of the tracts and districts have absconded, then it is desired that in the aforementioned <ref type="glossary" target="#gl_pargana">pargana</ref>, 
+              <lb/>they should come and prosper. <unclear>The rest</unclear> should be written such that in each village that is depopulated, the cultivators should be comforted  
+              <lb/>and brought [back]. And each <ref type="glossary" target="#gl_qaul">qaul</ref> that Refuge of Faith Maula <persName ref="#abdusSalam">Abdussalam</persName> by way of the tranquillity of the cultivators and the prosperity of the <ref type="glossary" target="#gl_pargana">pargana</ref> [has issued] <unclear>to the villages up to the district</unclear> is approved. 
+              <lb/>May it be that gathering their thoughts, each cultivator who fled should make a new beginning. Whatever <ref type="glossary" target="#gl_qaul">qaul-qarar</ref>
+              <lb/>the Refuge of <unclear>Faith shall give</unclear> is our <ref type="glossary" target="#gl_qaul">qaul</ref>. In this matter, take the utmost care. Written on the date 12 of the month of the venerable Rajab [in the year] <date calendar="#julus">29</date>. 
+           </p>   
+        </div>
+         
+        <div xml:id="orig_div3" xml:lang="per" type="invocation" rend="right margin"><p>ا</p></div>
+        <div xml:id="trans_div3" corresp="#orig_div3"><p>Alif</p></div>
+         
+        <div xml:id="orig_div4" xml:lang="per" type="authorisation" rend="right margin">
+           <p>
+              <lb/>هر قدر رعیت رجوع شود و انها پی که
+              <lb/>اجاره دارند و زراعت مینمایند هر قولی که امانت پناه
+              <lb/>مولانا
+              <persName ref="#abdusSalam">عبد السلام</persName>
+               <unclear>امین</unclear>
+               از روی رفاهیت
+               <unclear>با</unclear>
+               نشان داده
+              <lb/>و خواهد داد منظور است و قول بر نمیگردد
+              <g type="#faqat">فقط</g>
+              <lb/><stamp type="seal"><mentioned><gap></gap></mentioned></stamp>
+           </p>   
+        </div>
+        <div xml:id="trans_div4" corresp="#orig_div4">
+           <p>
+              <lb/>By every measure, the cultivator ought to be returned, and those that have the power  
+              <lb/>of a lease and are cultivating. Every <ref type="glossary" target="#gl_qaul">qaul</ref> that the Refuge of Faith 
+              <lb/>Maulana <persName ref="#abdusSalam">Abdussalam</persName> by way of tranquillity has indicated 
+              <lb/>and wants to give is approved. And the <ref type="glossary" target="#gl_qaul">qaul</ref> is not withdrawn. <g type="#faqat">Nothing further.</g>
+              <lb/><stamp type="seal">Round black ink seal. The inscription is illegible.<mentioned><gap></gap></mentioned></stamp>
+           </p>   
+        </div>   
+         <pb n="1v" facs="lf_pDas_1655_brd_ncd_ii_v.jpg"/>
+        <div xml:id="orig_div5" xml:lang="per" type="clericalNotes" rend="right margin">
+           <p>
+              بتاریخ ۱۲ شهر رجب المجرب سنه  
+              <date calendar="#julus">۲۹</date>
+              نقل بدفتر رسانید
+              <g type="#faqat">فقط</g>
+              <lb rend="empty"/>ف
+           </p>   
+        </div>
+        <div xml:id="trans_div5" corresp="#orig_div5">
+           <p>
+              On the date of 12 of the month of the venerable Rajab in the year <date calendar="#julus">29</date>, a copy was delivered to the <ref type="glossary" target="#gl_daftar">daftar</ref>. <g type="#faqat">Nothing further.</g><note>The meaning of the letter after this note is unclear.</note> 
+           </p>   
+        </div>   
+        
+        <div xml:id="orig_div6" xml:lang="per" type="laterAddition" rend="top">
+           <p>
+              پروانه وزارت اقبال پناه
+              <persName ref="#mirIbrahim">میر ابراهم</persName>
+              <unclear>جیو</unclear>
+              در باب تسلی و دلاسای
+              <gap/>
+              که آنچه امانت پناه
+              <unclear>احوبد</unclear>
+              جیو قولقرار
+              <unclear>داده</unclear>
+              استمالت
+              <gap/>
+           </p>
+        </div>
+        <div xml:id="trans_div6" corresp="#orig_div6"><p><ref type="glossary" target="#gl_parvana">Parvana</ref> of the office of Refuge of Prosperity <persName ref="#mirIbrahim">Mir Ibrahim</persName> <unclear>jiu</unclear> in the matter of comforting and consoling <gap/>,
+           that whatever <ref type="glossary" target="#gl_qaul">qaul-qarar</ref> the Refuge of Faith <gap></gap> jiu <unclear>shall give</unclear>, the <ref type="glossary" target="#gl_istamalat">istamalat</ref> <gap/></p></div>
+        
+      </body>
+  </text>
+</TEI>

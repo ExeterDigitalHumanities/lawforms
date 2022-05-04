@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_gujDeeds_1881_zna_am_287">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Registered copy of an acknowledgement of loan taken by Khoja Salehbhai Sachedina from Bohra Pirbhai Jivanji</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Hollian Wint</persName>
+               <persName>Dominic Vendell</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#zna"/>
+                  <collection ref="#gujDeeds"/>
+                  <idno>AM (General Deeds) no. 287</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#samvat">Chaitra 1937</origDate> <!--Confirm calendar-->
+                     <origDate calendar="#gregorian" when="1881-04-10">10 April 1881</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>The merchant <persName ref="#khojaSalehbhaiSachedina">Khoja Salehbhai Sachedina</persName> acknowledges that he has received a loan of 4,000 dollars from <persName ref="#bohraPirbhaiJivanji">Bohra Pirbhai Jivanji</persName> and mortgages a property until such time as he shall repay the sum plus any accumulated interest. The deed was registered with the British consulate at Zanzibar on the day after its composition. The image of the document is not available to display on this website.</p>
+         </abstract>
+
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="girwiNama"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="privateDeeds"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Debt and Mortgage</term>
+               <term>Money</term>
+               <term>Property</term>
+               <term>Trade</term>
+            </keywords>
+         </textClass>
+
+         <particDesc>
+            <person role="debtor">
+               <persName ref="#khojaSalehbhaiSachedina">Khoja Salehbhai Sachedina</persName>
+            </person>
+            <person role="creditor">
+               <persName ref="#bohraPirbhaiJivanji">Bohra Pirbhai Jivanji</persName>
+            </person>
+            <person role="writer">
+               <persName ref="#ismailjiJivanji">Ismailji Jivanji</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <div xml:id="orig_div1" xml:lang="guj" type="invocation" rend="top left">
+            <p><g ref="#ganesh"></g></p>
+         </div>
+         <div corresp="#orig_div1" xml:id="trans_div1">
+            <p>[Ganesh symbol for an auspicious beginning]</p>
+         </div>
+         
+         <div xml:id="orig_div2" xml:lang="guj" type="maintext">
+            <p>
+               <lb/><persName ref="#bohraPirbhaiJivanji">વોરા પીરભાઈ જીવણજી</persName> હા. <persName ref="#ismailjiJivanji">અશમાલજી જીવણજી</persName> જોગ લા. હુ નીચે શઈકરનાર <persName ref="#khojaSalehbhaiSachedina">ખોજા શા
+               <lb/>લેભાઈ શચેદના</persName>. જત અમે તમારા પાશેથી રાલ <measure type="currency" unit="dollars" quantity="4000">૪૦૦૦)</measure> અંકે રાલ ચાર હજાર તેરીકના લીધા છે તેની તેરીક મા
+               <lb/>શ -૧) સૂત રાલ ૧૦૦) શોની -પ્રા. ટકા ∘∥≡ અંકે રાલ અડધ ને ત્રન આના લેખે ઠેરાવી લીધા છે તેની બં
+               <lb/>દી માશ -૭- શાતની કીધી છે ઉપર જણાએલા રાલની - <date calendar="#samvat">તેરીક શા. ૧૯૨૭ ના ચઈતર તા. ૧૦ વાર રવેઉ નરોજ 
+               <lb/>૨૩૪થી</date> અમારા ઉપરે ચડે છે - ઉપર જણાએલા રાલને પેટે અંમે અંમારી જગ્યાજી <placeName ref="#sokomohogo">શોકમોગા</placeName> મદે છે
+               <lb/>જી તમારી જગ્યા <placeName ref="#sokomohogo">શોકમોગા</placeName> વારીને અડીને લાગેલી છે તો તમુને મારગીજ ખાઠી આપી છે તેના
+               <lb/>અશલી ખત તમુને આપેઆ છે તેમાં તેની હદ તથા દસીઉ જણાએલીઉ છે તી મુજ્બ તી તમુને
+               <lb/>મારગીજ લખી આપી છે ઉપર જણાએલા રાલ તેરીક સુધા. તમને આપેથી અમારી મારગીજ છુ
+               <lb/>ટી થાએ- આએ લખત અમે અમારી રાજી ખુસી થી તથા અકળ હુશીઆરીથી લખી આપીઉ છે તી બા
+               <lb/>પ ના બોલ સુત- પાલવે શઈ. <date calendar="#samvat">શા. ૧૯૩૭ના વીરખે ચઈતર તા. ૧૦ વાર રાવેઉના. ૨૩૪.</date> <date calendar="#gregorian">તા. ૧૦ એપરળ
+               <lb/>શને ૧૮૮૧ ઇશવી-</date> દા. <persName ref="#khojaJanmohammadbhaiSachedina">ખોજા જાનમામધભાઈ શચેદનાના</persName> ધણીના કઆથી લખી આપેઆ છે- 
+               <lb/>(શહી) લા. <persName ref="#khojaSalehbhaiSachedina">ખોજા શાલે શચેદીના</persName> ની શહી- દસેતક પોતાના- ઉપર જણાએલા ખાત -૨- તી અરબી અખરના લખેલા છે
+               <lb/>દા. પોતાના—
+            </p>
+         </div>
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p>
+               <lb/>Towards <persName ref="#bohraPirbhaiJivanji">Bohra Pirbhai Jivanji</persName> by the hand of <persName ref="#ismailjiJivanji">Ismailji Jivanji</persName> it is written that I the below signed <persName ref="#khojaSalehbhaiSachedina">Khoja 
+               <lb/>Salehbhai Sachedina</persName> took <measure type="currency" unit="dollars" quantity="4000"><ref type="glossary" target="#gl_mariaTheresaDollar">MTD</ref> 4000</measure>, in words four thousand dollars on interest, its interest 
+               <lb/>is written and settled at the rate of [symbol], in words half dollar and three annas per one hundred dollars per month, the  
+               <lb/>agreement is for months – 7 – seven. The interest of above stated dollars from <date calendar="#samvat">Samvat 1937 Chaitra dated 10 Sunday and 
+               <lb/>day 234</date> accumulates upon me. In exchange for the above stated dollars, my plots in <placeName ref="#sokomohogo">Sokomohogo</placeName>, 
+               <lb/>which is adjacent to your <placeName ref="#sokomohogo">Sokomohogo</placeName> property, that I mortgage to you, the
+               <lb/>original deeds have been given to you, in that their boundaries and directions are stated, according to that
+               <lb/>the mortgage is given in writing to you. When the above stated interest money is given to you, my mortgage becomes
+               <lb/>released. This deed I am giving willingly and happily and intelligently in writing, [in] that
+               <lb/>the son must abide by the words of the father. <date calendar="#samvat">Samvat 1937 [Virkhe] Chaitra dated 10 Sunday 235</date>, dated <date calendar="#gregorian">10 April 
+               <lb/>Year 1881 AD</date>. The writer <persName ref="#khojaJanmohammadbhaiSachedina">Khoja Janmohammadbhai Sachedina</persName> gives this writing from the [words] of the creditor.
+               <lb/>(Signed) Signed by the writer <persName ref="#khojaSalehbhaiSachedina">Khoja Saleh Sachedina</persName> – written by himself – of the above 2 deeds, the last is written in Arabic
+               <lb/>Written himself —
+            </p>
+         </div>
+         <div xml:id="orig_div3" xml:lang="eng" type="clericalNotes" rend="left margin">
+            <p>
+               <lb/>Produced by <persName ref="#khojaSalehSachedina">Sachedina</persName> and registered at his request at the office of H.M. Agency and Consulate G. at <placeName ref="#zanzibar">Zanzibar</placeName>
+               <lb/>this <date calendar="#gregorian">11th day of April 1881</date>
+               <lb/><persName ref="#fredHolmwood">Fred. Holmwood</persName> H.M. Consul
+               <lb/><placeName ref="#zanzibar">Zanzibar</placeName>
+            </p>
+         </div>
+         <div corresp="#orig_div3" xml:id="trans_div3">
+            <p>[No translation.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

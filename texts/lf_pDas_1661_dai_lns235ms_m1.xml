@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1661_dai_lns235ms_m1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of Asadullah to Purshottam Das and Paras Ram to pay the fee for land
+               measurement</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#dai"/>
+                  <collection ref="#pDas"/>
+                  <idno>LNS 235 MS m1</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#hijri-qamri">4 Jumada al-sani 1071</origDate>
+                     <origDate calendar="#gregorian" when="1661-02-04">4 February 1661</origDate>
+                     <origPlace type="placeOfReceipt" ref="#pgDhar"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+                and
+               <persName ref="#parasRam">Paras Ram</persName>
+                are instructed to send fees for land-measuring and for rent-free lands from the
+               villages of district (pargana)
+               <placeName ref="#pgDhar">Dhar</placeName>
+                without delay.</p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="parvana"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Taxation and Tribute</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <person role="recipient">
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="#parasRam">Paras Ram</persName>
+            </person>
+            <person role="issuer">
+               <persName ref="#asadullah">Asadullah</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1661_dai_lns235ms_m1_r.jpg"/>
+      <graphic url="lf_pDas_1661_dai_lns235ms_m1_v.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1661_dai_lns235ms_m1_r.jpg"/>
+         <div xml:lang="ara" type="invocation" xml:id="orig_div1" rend="top centre">
+            <p>الله اکبر</p>
+         </div>
+         <div xml:lang="per" type="maintext" xml:id="orig_div2">
+            <p>
+               <lb/>زبده الاماثل و الاقران
+               <persName ref="#purshottamDas">پرسوتم</persName>
+                چودری و
+               <persName ref="#parasRam">پرسرام</persName>
+                قانونگوی
+               <lb/>پرگنه
+               <placeName ref="#pgDhar">دهار</placeName>
+                بدانند که سلامی از بابت نظر پیمایش تفریق
+               <lb/> از هر ده پرگنه مذکور بخواجه
+               <persName ref="#jhabarNarayan">
+                  <unclear>جهبر</unclear>
+                   ناراین</persName>
+                واصل نمایند که
+               <lb/>بحضور بفرستند دراین باب نهایت تاکید
+               <app>
+                  <rdg cert="low">داشته</rdg>
+                  <rdg cert="high">دانسته</rdg>
+               </app>
+               <lb/>حسب المسطور عمل نمایند و از نوشته تخلف نورزند
+               <lb/>تحریر فی التاریخ
+               <date calendar="#hijri-qamri">
+                  <num>۴</num>
+                   ماه جمادی الثانی سنه
+                  <num>۱۰۷۱</num>
+               </date>
+               <g ref="#faqat">فقط</g>
+            </p>
+         </div>
+         <div xml:lang="per" type="authorisation" xml:id="orig_div3" rend="right margin">
+            <p>
+               <lb/>حسب المسطور مقرر شناسند
+               <lb/> نهایت تاکید دانند
+               <unclear>آنچه</unclear>
+               <app>
+                  <rdg cert="low">نکارد ارضه</rdg>
+                  <rdg cert="medium">بکار داخله</rdg>
+               </app>
+               <lb/><stamp type="seal"><mentioned>
+                  مرید باخلاص
+                  <persName ref="#asadullah">اسد الله</persName>
+                  <persName ref="#nawazishKhan">نوازس خانی</persName>
+                  <gap/>
+                  <date calendar="#hijri-qamri">
+                     <num>۱۰۷۱</num>
+                  </date>
+               </mentioned></stamp>
+            </p>
+         </div>
+         <pb n="1v" facs="lf_pDas_1661_dai_lns235ms_m1_v.jpg"/>
+         <div xml:lang="per" type="clericalNotes" xml:id="orig_div4" rend="top right">
+            <p>
+               پروانه وکالت دستگاه میرزا جیو
+               <lb rend="empty"/>
+               <unclear>بار</unclear>
+                سلامی بنظر پیمایش</p>
+         </div>
+         <div xml:lang="per" type="clericalNotes" xml:id="orig_div5" rend="top right">
+            <p>به
+               <persName ref="#purshottamDas">پرسوتم</persName>
+                چودری و
+               <persName ref="#parasRam">پرسرام</persName>
+                قانونگوی پرگنه
+               <placeName ref="#pgDhar">دهار</placeName>
+               <unclear>برسد</unclear>
+            </p>
+         </div>
+         <div corresp="#orig_div1" xml:id="trans_div1">
+            <p>God is great</p>
+         </div>
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p><lb/>Eminent among Equals and Contemporaries
+               <persName ref="#purshottamDas">Purshottam [Das]</persName>
+                <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> and
+               <persName ref="#parasRam">Paras Ram</persName>
+                <ref type="glossary" target="#gl_qanungo">qanungo</ref> 
+                <lb/>of <ref type="glossary" target="#gl_pargana">pargana</ref>
+               <placeName ref="#pgDhar">Dhar</placeName>, know that the fee for the tribute for the measurement of the divisions for holders of excessive rent free lands 
+               <lb/>from each village of the aforementioned <ref type="glossary" target="#gl_pargana">pargana</ref> should be delivered to Khwaja
+               <persName ref="#jhabarNarayan">
+                  <unclear>Jhabar</unclear>
+                   Narayan</persName>
+                [so] that he 
+                <lb/>can send it to the Lord. Being extremely diligent in this matter, 
+                <lb/>execute as written. And do not cause any delays [in executing that which is] written. 
+               <lb/>Written on the
+               <date calendar="#hijri-qamri">4th of the month of Jumada al-sani, year 1071</date>.
+               <g ref="#faqat">Nothing further.</g>
+            </p>
+         </div>
+         <div corresp="#orig_div3" xml:id="trans_div3">
+            <p><lb/>Know it to be established as written, [and]
+               <lb/>be especially diligent in this matter.
+               <lb/><stamp type="seal">Round black ink seal<mentioned>
+                  <persName ref="#asadullah">Asadullah</persName> special disciple of
+                  <persName ref="#nawazishKhan">Nawazish Khan</persName>
+                  <gap/>
+                  <date calendar="#hijri-qamri">1071</date>
+               </mentioned></stamp>
+            </p>
+         </div>
+         <div corresp="#orig_div4" xml:id="trans_div4">
+            <p><ref type="glossary" target="#gl_parvana">Parvana</ref> of the representative of the court <ref type="glossary" target="#gl_mirza">Mirza</ref> <ref type="glossary" target="#gl_jiu">Jiu</ref>;
+               <lb rend="empty"/> <unclear>registered</unclear> fee for the tribute of measurement. </p>
+         </div>
+         <div corresp="#orig_div5" xml:id="trans_div5">
+            <p>
+               <unclear>Deliver</unclear>
+                to
+               <persName ref="#purshottamDas">Purshottam</persName>
+                <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> and
+               <persName ref="#parasRam">Paras Ram</persName>
+                <ref type="glossary" target="#gl_qanungo">qanungo</ref> of <ref type="glossary" target="#gl_pargana">pargana</ref>
+               <placeName ref="#pgDhar">Dhar</placeName>.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

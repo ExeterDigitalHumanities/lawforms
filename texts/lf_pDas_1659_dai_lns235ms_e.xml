@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1659_dai_lns235ms_e">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of Nawazish Khan to Purshottam Das and Paras Ram to collect taxes and
+               populate the area</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Dominic Vendell</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#dai"/>
+                  <collection ref="#pDas"/>
+                  <idno>LNS 235 MS e</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#hijri-qamri">30 Rajab 1069</origDate>
+                     <origDate calendar="#gregorian" when="1659-04-23">23 April 1659</origDate>
+                  </origin>
+               </history>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>In response to an earlier petition (ʿarzdasht) about certain villages,
+               <persName ref="#nawazishKhan">Nawazish Khan</persName>
+                in consultation with the judge (qazi) orders that the landlord (chaudhri)
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+                and the record-keeper (qanungo)
+               <persName ref="#parasRam">Paras Ram</persName>
+                of the district (pargana) <placeName ref="#pgDhar">Dhar</placeName> concentrate on
+               collecting taxes and populating the area.</p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="parvana"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Petitioning</term>
+               <term>Taxation and Tribute</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <person role="issuer">
+               <persName ref="#nawazishKhan">Nawazish Khan</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="#parasRam">Paras Ram</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1659_dai_lns235ms_e_r.jpg"/>
+      <graphic url="lf_pDas_1659_dai_lns235ms_e_v.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <pb n="1r" facs="lf_pDas_1659_dai_lns235ms_e_r.jpg"/>
+
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>الله اکبر</p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p>God is great</p>
+         </div>
+
+         <div xml:id="orig_div2" xml:lang="per" type="authorisation">
+            <p>
+               <stamp type="seal"><mentioned>
+                  <persName ref="#nawazishKhan">نوازش خان</persName>
+                      مُرید حضرت
+                     <persName ref="#shahJahan">شاه جهان</persName>
+                  </mentioned></stamp></p>
+         </div>
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p>
+               <stamp type="seal">Round black ink seal<mentioned>
+                     <persName ref="#nawazishKhan">Nawazish Khan</persName>, disciple of Lord
+                     <persName ref="#shahJahan">Shah Jahan</persName>
+                  </mentioned></stamp>
+            </p>
+         </div>
+
+         <div xml:id="orig_div3" xml:lang="per" type="maintext">
+            <p><lb/>زبده الاقران
+               <persName ref="#purshottamDas">پرسوتم داس</persName>
+                چودهری و
+               <persName ref="#parasRam">پرسرام</persName>
+                قانونگوی پرگنه <placeName ref="#pgDhar">دهار</placeName>
+               <lb/>بعنایت امیدوار بوده بدانند عرضه داشتی که درینولا
+               <lb/>ارسال داشته بودند بنظر در آمد و آنچه در باب دهات
+               <lb/>نانکار خود معروض داشته بودند قبل ازین به شرافت پناه قاضی جیو
+               <lb/>در حضور گفته شده در اینولا که ایشان در انجا میرسند آنچه
+               <lb/>مقرر خواهند نمود منظور است باید که خاطر خود را
+               <lb/>بهمه جهت جمع داشته در مالگذاری و آبادان کاری خود را
+               <lb/>معاف و مقصر ندارند دراین باب تاکید
+               <lb/>دانند تحریر فی التاریخ
+               <date calendar="#hijri-qamri">
+               <num>۳۰</num>
+                ماه رجب سنه
+               <num>۱۰۶۹</num>
+               </date>
+               <g ref="#faqat">فقط</g>
+               <g ref="#faqat">فقط</g>
+            </p>
+         </div>
+         <div xml:id="trans_div3" corresp="#orig_div3">
+            <p><lb/>Eminent among Contemporaries
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+               <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> and
+               <persName ref="#parasRam">Paras Ram</persName>
+               <ref type="glossary" target="#gl_qanungo">qanungo</ref> of <ref type="glossary"
+                  target="#gl_pargana">pargana</ref>
+               <placeName ref="#pgDhar">Dhar</placeName>,
+               <lb/>having hoped for kindness, know that the <ref type="glossary"
+                  target="#gl_arzdasht">ʿarzdasht</ref> that had been
+               <lb/>sent has come to [<persName ref="#nawazishKhan">Nawazish Khan's</persName>] attention. And whatever was represented about
+               their <ref type="glossary" target="#gl_nankar">nankar</ref> 
+               <lb/>villages previously had been said to
+               the Refuge of Nobility <ref type="glossary" target="#gl_qazi">Qazi</ref> <ref type="glossary" target="#gl_jiu">Jiu</ref>
+               <lb/>in the presence of the Lord. Now that he [<ref type="glossary" target="#gl_qazi">Qazi</ref> <ref type="glossary" target="#gl_jiu">Jiu</ref>] has reached there, whatever
+               <lb/>he shall decide is approved. It is necessary that [<persName ref="#purshottamDas">Purshottam Das</persName> and <persName ref="#parasRam">Paras Ram</persName>]
+               settle their minds
+               <lb/>in every way and do not consider themselves excused or remiss in the collection
+               of taxes and the work of populating [the area].
+               <lb/>Know it to be confirmed in this matter. 
+               <lb/>Written on the <date calendar="#hijri-qamri">30th of the month of
+               Rajab in the year
+               1069.</date>
+               <g ref="#faqat">Nothing further</g>.
+               <g ref="#faqat">Nothing further</g>.</p>
+         </div>
+
+         <div xml:id="orig_div4" xml:lang="ara" type="invocation" rend="right margin">
+            <p>هو</p>
+         </div>
+         <div xml:id="trans_div4" corresp="#orig_div4">
+            <p>He [God] is</p>
+         </div>
+
+         <div xml:id="orig_div5" xml:lang="per" type="authorisation" rend="right margin">
+            <p><lb/>حسب المسطور مقرر دانسته بخاطر
+               <lb/>جمع در خدمت مقید باشند بموجب قرار داد
+               <lb/>و تحریر قاضی جیو منظور است
+               <g ref="#faqat">فقط</g>
+               <g ref="#faqat">فقط</g>
+            </p>
+         </div>
+         <div xml:id="trans_orig5" corresp="#orig_div5">
+            <p><lb/>Knowing it to be appointed as written, [they should] be
+               <lb/>engaged in service by settling [their] minds.
+               <lb/>The writing and contract of <ref type="glossary" target="#gl_qazi">Qazi</ref>
+               <ref type="glossary" target="#gl_jiu">Jiu</ref> is approved.
+               <g ref="#faqat">Nothing further</g>.
+               <g ref="#faqat">Nothing further</g>.</p>
+         </div>
+
+         <pb n="1v" facs="lf_pDas_1659_dai_lns235ms_e_v.jpg"/>
+
+         <div xml:id="orig_div6" xml:lang="per" type="laterAddition" rend="top left">
+            <p>نمبر
+                 <num>۵</num>
+            </p>
+         </div>
+         <div corresp="#orig_div6" xml:id="trans_div6">
+            <p>
+               Number 5
+            </p>
+         </div>
+
+         <div xml:id="orig_div7" xml:lang="per" type="clericalNotes" rend="top right">
+            <p>پروانه
+               <persName ref="#nawazishKhan">نوازش خان</persName>
+               دیهات نانکار</p>
+         </div>
+         <div xml:id="trans_div7" corresp="#orig_div7">
+            <p><ref type="glossary" target="#gl_parvana">Parvana</ref> of
+               <persName ref="#nawazishKhan">Nawazish Khan</persName>
+               on the villages of
+               <ref type="glossary" target="#gl_nankar">nankar</ref>. </p>
+         </div>
+
+         <div xml:id="orig_div8" xml:lang="per" type="clericalNotes" rend="right margin">
+            <p>بتاریخ
+               <date calendar="#hijri-qamri">
+                  <num>۳۰</num>
+                   رجب سنه
+                  <num>۱۰۶۹</num>
+               </date>
+                بدفتر دیوان رسید</p>
+         </div>
+         <div xml:id="trans_div8" corresp="#orig_div8">
+            <p>Reached the office of the <ref type="glossary" target="#gl_diwan">diwan</ref> on
+               <date calendar="#hijri-qamri">
+                  <num>30</num>
+                   Rajab in the year
+                  <num>1069</num></date>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

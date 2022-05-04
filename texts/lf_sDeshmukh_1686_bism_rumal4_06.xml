@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_sDeshmukh_1686_bism_rumal4_06">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Statement of Rudrappa Sethi to Hiroji Deshmukh regarding mercantile rights and
+               certain dues associated with a new market area</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Elizabeth Thelen</persName>
+               <persName>Dominic Vendell</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#bism"/>
+                  <collection ref="#sDeshmukh"/>
+                  <idno>SD rumal 4 no. 6</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#hijri-qamri">1097</origDate>
+                     <origDate calendar="#gregorian" notBefore="1685-11" notAfter="1686-11">1685–86</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>
+               <persName ref="#rudrappaSethi">Rudrappa Sethi</persName>, a merchant based in a market (peth) in
+               <placeName ref="#solapur">Solapur</placeName>, states that in conjunction with the demolition and construction of a new market
+               area, he agrees to transfer the office of market superintendent (sethiya) to the
+               landlord (deshmukh) <persName ref="#hirojiDeshmukh">Hiroji</persName> along with small amounts of betel-nuts
+               and oil and customs charges levied on the coming and going of gunny sacks.</p>
+         </abstract>
+
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="mahzarNama"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="privateDeeds"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Disputes</term>
+               <term>Petitioning</term>
+               <term>Taxation and Tribute</term>
+               <term>Trade</term>
+            </keywords>
+         </textClass>
+
+         <particDesc>
+            <person role="issuer">
+               <persName ref="#rudrappaSethi">Rudrappa Sethi</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="#hirojiDeshmukh">Hiroji Deshmukh</persName>
+            </person>
+            <person role="notary">
+               <persName ref="#sayyidAhmad">Sayyid Ahmad</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#annadaniDevaru">Annadani Devaru</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#manchayyaDevaru">Manchayya Devaru</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <graphic url="lf_sDeshmukh_1686_bism_rumal4_06_r1.jpg"/>
+      <graphic url="lf_sDeshmukh_1686_bism_rumal4_06_r2.jpg"/>
+
+   </facsimile>
+   <text>
+      <body>
+         <div xml:id="orig_div1" xml:lang="per" type="invocation" rend="top centre">
+            <p>ا</p>
+         </div>
+         <div corresp="#orig_div1" xml:id="trans_div1">
+            <p>Alif</p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="per" type="endorsements" rend="top left">
+            <p>
+               <stamp type="seal"><mentioned>قاضی
+                     <persName ref="#sayyidAhmad">سید احمد</persName>
+                      خادم شرع محمد
+                     <date calendar="#hijri-qamri">
+                        <num>۱۱۰۳</num>
+                     </date>
+                  </mentioned></stamp>
+            </p>
+         </div>
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p><stamp type="seal">Round black ink seal<mentioned>Qazi
+                     <persName ref="#sayyidAhmad">Sayyid Ahmad</persName>
+                      servant of the law of Muhammad
+                     <date calendar="#hijri-qamri">1103</date><note>1103 is later than the
+                        date of the main text, which suggests that the seal may have been added
+                        later or that this is a copy.</note></mentioned></stamp></p>
+         </div>
+         <div xml:id="orig_div3" xml:lang="per" type="maintext">
+            <p><lb/>منکه
+               <persName ref="#rudrappaSethi">رودرپه</persName>
+                ولد ویرپه ستهه پتهه یک شنبه واقعه
+               <placeName ref="#solapur">سولاپور</placeName>
+                صوبه
+               <placeName ref="#subaAurangabad">خجسته بنیاد</placeName>
+                  ام چون
+               <persName ref="#hirojiDeshmukh">بهیروجی دیسموکهه</persName>
+               <lb/>قلعه سولاپور را محضر نوشته میدهم که نزدیک دروازه تلجاپوری اهالی موالی و مهاجن
+               قصبه وغیره
+               <lb/>همه
+               <app>
+                  <rdg cert="medium">اتفاق</rdg>
+                  <rdg cert="low">التزاق</rdg>
+               </app><note>The word appears to be written التقاق here and in other related documents found
+                  in the same rumal. However, we have not found this word attested. On the basis of
+                  context, it is possible it is a misspelling of 'اتفاق', meaning 'agreeing', or,
+                  less likely, 'التزاق', meaning 'adhering.'</note>
+                شده پتهه نو اباد نمودند متصدیان پتهه یک شنبه آمده در
+               <unclear>سکنه</unclear>
+                نو اباد آمده سکونت
+               <lb/>گرفتند بعدزان بنده و مهاناده نزد شما آمده کیفیت پتهه جانب خود را به عنوان ظاهر
+               <lb/>نموده بایشان قرار کرده که اگر چه پتهه نو اباد  که نزدیک دروازه است ايشان تلاش
+               <lb/>نموده ویران سازند پتهه اینجانب را اباد نماید موافق شد امد دستور بازار شده باشد
+               <lb/>وطن مهاجنکی پتهه مذکور خواهم داد قرار نموده ایشان بموجب اظهار انجانب بحاکم و
+               <lb/>و مهاجنان قصبه را گفته پتهه نو اباد را ویران نموده پتهه یک شنبه اباد نمودند بنده
+               <lb/>با اتفاق رعایاء انجا بحضور اهالی موالی آمده برضاء و رغبت وطن مهاجنکی
+               <lb/>پتهه مذکور بشما نوشته داده شد </p>
+         </div>
+         <div corresp="#orig_div3" xml:id="trans_div3">
+            <p><lb/>I am
+               <persName ref="#rudrappaSethi">Rudrappa</persName>, son of Virappa Sethi of the Sunday <ref type="glossary" target="gl_peth">peth</ref> occurring in
+               <placeName ref="#solapur">Solapur</placeName>
+               in the <ref type="glossary" target="#gl_suba">suba</ref>
+               <placeName ref="#subaAurangabad">Khujasta Bunyad [Aurangabad]</placeName>.
+               <lb/>Whereas I am writing a <ref type="glossary" target="#gl_mahzarNama">mahzar</ref> to
+               <persName ref="#hirojiDeshmukh">Hiroji Deshmukh</persName>
+               of the <placeName ref="#solapur">Solapur</placeName> fort: that near the Tuljapuri gateway all the people and the <ref type="glossary" target="#gl_mahajan">mahajans</ref>
+               of the <ref type="glossary" target="#gl_qasba">qasba</ref>, etc.
+               <lb/>
+               <app>
+                  <rdg cert="medium">resolved</rdg>
+                  <rdg cert="low">adhering </rdg>
+               </app>
+               together and appointed a newly constructed <ref type="glossary" target="#gl_peth">peth</ref>. The <ref type="glossary" target="#gl_mutasaddi">mutasaddis</ref> of the
+               Sunday <ref type="glossary" target="#gl_peth">peth</ref> came and entering in
+               <unclear>the dwellings</unclear>
+               of the new construction, they
+               <lb/>became content. Afterwards, the servant [<persName ref="#rudrappaSethi">Rudrappa</persName>] and the <ref type="glossary"
+                  target="#gl_mahanad">mahanad</ref> came to you and presented an account of their
+               own <ref type="glossary" target="#gl_peth">peth</ref> in a clear manner,
+               <lb/>and came to an agreement that although they have investigated the newly
+               constructed <ref type="glossary" target="#gl_peth">peth</ref> that is near the gateway,
+               <lb/>they shall demolish [it]. And the <ref type="glossary" target="#gl_peth">peth</ref>
+               of this party [<persName ref="#rudrappaSethi">Rudrappa</persName>] should be populated. It is agreed [that] the
+               <unclear>income</unclear>
+               of the custom of the market [that] would have been,
+               <lb/>I will give the patrimony of the <ref type="glossary" target="#gl_mahajan"
+                  >mahajan</ref> rights of the aforementioned market. Presenting an agreement, they, on
+               the basis of my statement, said to the <ref type="glossary" target="#gl_hakim"
+                  >hakim</ref> and
+               <lb/>the <ref type="glossary" target="#gl_mahajan">mahajans</ref> of the town that the new construction should be demolished, and the
+               Sunday <ref type="glossary">peth</ref> should be constructed. The servant [<persName ref="#rudrappaSethi">Rudrappa</persName>],
+               <lb/>by the consent of the subjects of that place, came into the presence of all the people and, with
+               satisfaction and regard,
+               <lb/>wrote to you [to give] the patrimony of the <ref type="glossary" target="#gl_mahajan">mahajan</ref> rights of the aforementioned
+               market. </p>
+         </div>
+         
+         <div xml:id="orig_div4" xml:lang="per" type="particulars">
+            <p><lb/>کما فصلت
+               <lb rend="empty"/>
+               <lb/>عقب ستهه نام و سر و پاو 
+               <lb rend="empty"/>
+               <lb/>بروز بازار 
+               <lb/>فی دوکان تلی 
+                     <measure type="volume" unit="tanak" quantity="9">
+                        <num>۹</num>
+                         تانک</measure>
+                  <lb/>فی دوکان
+                     <unclear>بقال ان</unclear>
+                      یک
+                     <unclear>سوپاری</unclear>
+              <lb rend="empty"/>
+               <lb/>فی گونی پنجروه منجمله یک روه </p>
+         </div>
+         <div corresp="#orig_div4" xml:id="trans_div4">
+            <p><lb/>Particulars
+               <lb rend="empty"/>
+               <lb/>the title of renowned <ref type="glossary" target="#gl_sethi">sethi</ref> and robes of honour
+               <lb rend="empty"/>
+               <lb/>On market days
+               <lb/><measure type="volume" unit="tanak" quantity="9">9 tanaks</measure>
+               [of oil] per oil shop <note>1 tanak is about 2 ounces.</note>
+               <lb/>one <unclear>betel nut</unclear> per <unclear>provisions</unclear> shop
+               <lb rend="empty"/>
+               <lb/>Concerning the gunny-bags, out of every five rukas, <measure type="currency" unit="ruka" quantity="1">one ruka</measure></p>
+         </div>
+         
+         <div xml:id="orig_div5" xml:lang="per" type="maintext">
+            <p>بدینموجب مان وغیره خورده وطن مهاجنکی را تا که افتاب و ماهتاب در دنیا قائم اند
+               مینموده باشند سنه
+               <date calendar="#hijri-qamri">
+                  <num>۱۰۹۷</num>
+                   هجری</date>
+            </p>
+         </div>
+         <div corresp="#orig_div5" xml:id="trans_div5">
+            <p>On the basis of enjoying [these] perquisites, etc., they shall be the patrimony of
+               the <ref type="glossary" target="#mahajan">mahajan</ref> rights as long as the sun and moon remain fixed in
+               the world. The year
+               <date calendar="#hijri-qamri">1097 Hijri</date>.</p>
+         </div>
+         
+         <div xml:id="orig_div6" xml:lang="mar" type="maintext">
+            <p><lb/>सुरत हाल महजर पत्र राजश्री
+               <persName ref="#hirojiDeshmukh">हिरोजी देसमुख</persName>
+                कीले
+               <placeName ref="#solapur">सो-
+                  <lb/>लापूर</placeName>
+                सां || मजकूर सुबे <placeName ref="#subaAurangabad">खोजस्त बुनीयाद</placeName> यांस प्रती
+               <lb/>
+               <persName ref="#rudrappaSethi">रुद्रपा</persName>
+                वलद वीरपा सेटी
+               <choice>
+                  <abbr>व||</abbr>
+                  <expan>वस्ती</expan>
+               </choice>
+                पेठ आदीतवार उरफ किले मजकूर 
+               <lb/>सन हजार
+               <date calendar="#hijri-qamri">१०९७</date>
+                कारणे लिहून दिलहे महजरपत्र यैसाजे
+               <lb/>
+               <choice>
+                  <abbr>क||</abbr>
+                  <expan>कसबा</expan>
+               </choice>
+                मजकुरीचे हाकीमानी व माहजनानी तुलजापुरचे दर-
+               <lb/>वाजा नजीक नवी पेठ वसीवीले आपली पेठ व बाजार मोडू-
+               <lb/>न राहिले वरी आपण आपले पेठेचे माहनाड तुम्हापासी येऊन
+               <lb/>आपले पेठेचे वर्तमान सांगोन तुम्हास करार केला कीं नवी
+               <lb/>पेठ तुम्ही तलाश करून हाकीमास सांगोन सुदामद प्रमाणे
+               <lb/>आपले पेठेचे बाजार करार हावें नवी पेठ मोडावें यैसें
+               <lb/>केली यांनी तुम्हास आपले पेठेचे माहजनकी द्यावी यैसे
+               <lb/>करार केले त्यास तुम्ही करार प्रमाणे हाकीमास सांगोन बहुत
+               <lb/>तलाश करून तुम्ही नवी पेठ मोडून आपले पेठेचे बाजार
+               <lb/>सुदामद प्रमाणें करार करून दिलहे त्यावरून आपण व 
+               <lb/>माहनाड हालीमवाली हजूर येऊन आपले रजावंदीने माहजन-
+               <lb/>कीचे महजरपत्र वतन तुम्हास दीधले असे
+               <choice>
+                  <abbr>तं||</abbr>
+                  <expan>तपसील</expan>
+               </choice>
+               </p>
+           </div>
+         
+         <div corresp="#orig_div6" xml:id="trans_div6">
+            <p><lb/>Statement in the form of a <ref type="glossary" target="gl_mahzarNama"
+                  >mahzar-patra</ref> to the honourable
+               <persName ref="#hirojiDeshmukh">Hiroji Deshmukh</persName>
+               of the fort
+               <lb/>
+               <placeName ref="#solapur">Solapur</placeName>
+               in the aforementioned <ref type="glossary" target="gl_sarkar">sarkar</ref> in the <ref type="glossary" target="#gl_suba">suba</ref> <placeName ref="#subaAurangabad">Khujasta Bunyad [Aurangabad]
+</placeName>               <lb/>[from]
+               <persName ref="#rudrappaSethi">Rudrappa</persName>, son of Virappa Sethi, resident in the Adityawar <ref type="glossary" target="#gl_peth">peth</ref>, or the aforementioned fort,
+               <lb/>in the Hijri year
+               <date calendar="#hijri-qamri">1097</date>. Because a <ref type="glossary" target="#gl_mahzarNama">mahzar-patra</ref> is written
+               as follows:
+               <lb/>The <ref type="glossary" target="#gl_hakim">hakims</ref> and <ref type="glossary" target="#gl_mahajan">mahajans</ref> of the aforementioned fort
+               <lb/>settled a new <ref type="glossary" target="#gl_peth">peth</ref> near the Tuljapur
+               gateway. They demolished and left my <ref type="glossary" target="#gl_peth">peth</ref>
+               and market.
+               <lb/>I [and] the <ref type="glossary" target="#gl_mahanad">mahanad</ref> of our <ref type="glossary" target="#gl_peth">peth</ref> came to you
+               <lb/>and told you the news about my <ref type="glossary" target="#gl_peth">peth</ref>
+               and agreed with you that
+               <lb/>you should investigate the new <ref type="glossary" target="#gl_peth">peth</ref>,
+               tell the <ref type="glossary" target="#gl_hakim">hakims</ref>, and in an orderly fashion,
+               <lb/>an agreement [about] the market of my new <ref type="glossary" target="#gl_peth">peth</ref> should take place, and the new <ref type="glossary" target="#gl_peth">peth</ref> should be demolished. In this matter it is
+               <lb/>done. They should give the <ref type="glossary" target="#gl_mahajan">mahajan</ref>
+               rights of our peth to you. In this matter,
+               <lb/>an agreement is made. So you according to the agreement told the <ref type="glossary" target="#gl_hakim">hakims</ref>, made great
+               <lb/>investigations, demolished the new <ref type="glossary" target="#gl_peth">peth</ref>, and [for] my market in the <ref type="glossary" target="#gl_peth">peth</ref>
+               <lb/>made an agreement in an orderly fashion. On that basis, I and
+               <lb/>the <ref type="glossary" target="#gl_mahanad">mahanad</ref> and all the people
+               presented ourselves and with [my] consent, gave
+               <lb/>the <ref type="glossary" target="#mahzarNama">mahzar-patra</ref> for the <ref type="glossary" target="#gl_mahajan">mahajan</ref> rights and the patrimony [therein]
+               to you. So, the details:
+               </p>
+            </div>
+                        
+           <div xml:id="orig_div7" xml:lang="mar" type="particulars">
+              <p><lb/>सेठीया याचे नाव
+               <lb/>पान सीरपाऊ
+               <lb rend="empty"/>
+               <lb/>बाजाराचे दीवसी
+               <lb/>दर दुकानास
+               <list>
+               <lb/><item>तेली याचे दुकानास 
+                  <g ref="#ali">[अळी]</g><g ref="#ali">[अळी]</g><g ref="#ali">[अळी]</g>
+                  <measure type="volume" unit="tanak" quantity="9">९</measure>
+                  </item>
+                <lb/><item>बकालाचे दुकानास सुपारी येक</item>   
+               </list>
+               <lb rend="empty"/>
+               <lb/>गोणी दरा मद बरा-
+               <lb/>मद होईल दर गोणी-
+               <lb/>स रुके
+               <g ref="#ali">[अळी]</g>
+               ५ पैकी
+               <lb/>येक रुका
+            </p>
+         </div>
+         
+         <div corresp="#orig_div7" xml:id="trans_div7">
+            <p><lb/>The name of <ref type="glossary" target="#sethiya">sethiya</ref>,
+               <lb/>betel-leaf, robes
+               <lb rend="empty"/>
+               <lb/>On market days,
+               <lb/>from each store:<list>
+                  <lb/><item>from the oil shops, 
+                     <g ref="#ali">[fractional symbol]</g> <g ref="#ali">[fractional symbol]</g> <g ref="#ali">[fractional symbol]</g> 9</item> 
+                  <lb/><item>from the merchants' shops, one betel-nut</item>
+               </list>
+               <lb rend="empty"/>
+               <lb/>[Concerning] the gunny-bags that will come   
+               <lb/>and go, [from] each gunny-bag
+               <lb/>out of every <g ref="#ali">[fractional symbol]</g> 5 <ref type="glossary" target="#gl_ruka">rukas</ref>,   
+               <lb/>one <ref type="glossary" target="#gl_ruka">ruka</ref>
+            </p>
+         </div>
+
+         <div xml:id="orig_div8" xml:lang="mar" type="maintext">
+            <p><lb/>येणेप्रमाणे मान माननूक खाऊन वतन महजनकीचे तुम्ही 
+               <lb/>लेंकराचे लेकरी सूर्य चंद्र असो जो परीयंत सुखे
+               <lb/>असणें यासी काही नव दीगर गोष्टी करूं तरी आपणा-
+               <lb/>सी श्री<space/>साक्षे असे हे लिहिले महजरपत्र सही
+               <lb/><persName ref="#rudrappaSethi">रुद्रपा सेठ</persName>
+               लिहीले सही<note>This line is written by a different, and perhaps <persName ref="#rudrappaSethi">Rudrappa Sethi's</persName> own, hand.</note>
+            </p>
+         </div>
+         
+         <div corresp="#orig_div8" xml:id="trans_div8">
+            <p><lb/>According to the foregoing, enjoy the fees and perquisites, and possession of
+               the <ref type="glossary" target="#gl_mahajan">mahajan</ref> rights
+               <lb/>you and the sons of your sons [under] the sun and the moon [shall enjoy]. So be
+               it. As long as
+               <lb/>you shall be happy, should anyone else raise an issue, I shall be
+               <lb/>[beholden by] the witness of god. This <ref type="glossary" target="#gl_mahzarNama">mahzar-patra</ref> as written is approved.
+               <lb/>
+               <persName ref="#rudrappaSethi">Rudrappa Sethi</persName>
+                [so] written approves.</p>
+         </div>
+
+         <div xml:id="orig_div9" xml:lang="kan" type="witness" rend="right margin">
+            <p><lb rend="empty"/>ಗಾವಿ <persName ref="#annadaniDevaru">ಆಂನದಾನಿದೆವರೂ</persName> ಮಠ ಅದಿತ್ಯವಾರ <figure>
+               </figure>
+               <lb rend="empty"/>
+               <lb rend="empty"/>ಗಾವಿ <persName ref="#manchayyaDevaru">ಮಂಚೈಯ್ಯ</persName> ಮಠದ <persName ref="#manchayyaDevaru">ದೆವರೂ</persName> ಆದಿತ್ಯವಾರ <figure>
+               </figure>
+            </p>
+         </div>
+
+         <div corresp="#orig_div9" xml:id="trans_div9">
+            <p><lb rend="empty"/>Witness, <persName ref="#annadaniDevaru">Annadani Devaru</persName> of the Adityawar <ref type="glossary" target="#gl_matha">matha</ref> <figure place="right margin">
+               <figDesc>five-pointed star</figDesc></figure>
+               <lb rend="empty"/>
+               <lb rend="empty"/>Witness, <persName ref="#manchayyaDevaru">Manchayya Devaru</persName> of the Adityawar <ref type="glossary" target="#gl_matha"
+                  >matha </ref><figure place="right margin">
+                     <figDesc>five-pointed star</figDesc></figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

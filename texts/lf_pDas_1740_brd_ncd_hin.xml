@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1740_brd_ncd_hin"> 
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order to Pandit Gangadharji, land-holder of Dhar, confirming receipt of taxes for three villages</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Nandini Chatterjee</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#brd"/> 
+                  <collection ref="#pDas"/>
+                  <idno>none</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#fasli">1150</origDate>
+                     <origDate calendar="#gregorian" when="1740">1740</origDate>
+                     <origPlace type="placeOfIssue" ref="#dhar"/>
+                     <origPlace type="placeOfReceipt" ref="#dhar"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p>Rajashri Pandit <persName ref="#gangadhar">Gangadharji</persName>, tax-proceeds holder (mokasadar) of <placeName ref="#pgDhar">Dhar</placeName>, confirms that the assessed taxes for 3 villages for the autumn and spring harvest of Fasli year 1150 have been received in accordance with the official assessment and the contract with headman (muqaddam) <persName ref="#babuKhan">Babu Khan</persName>, son of Fazil Khan. </p></abstract>       
+        <textClass>
+           <keywords scheme="#formal"><term key="farighKhatti"/></keywords>
+           <keywords scheme="#functional"><term key="adminRecords"/></keywords>
+           <keywords scheme="#themactic">
+              <term>Administration</term>
+              <term>Agriculture</term>
+              <term>Taxation and Tribute</term>
+           </keywords>
+        </textClass>
+<particDesc>
+           <person role="recipient">
+              <persName ref="#gangadhar">Gangadhar</persName>
+           </person>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+
+   <facsimile>
+      <graphic url="lf_pDas_1740_brd_ncd_hin_r.jpg"/>
+   </facsimile> 
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1740_brd_ncd_hin_r.jpg"/>
+         <div xml:lang="per" type="invocation" xml:id="orig_div1" rend="top centre"><p>ا</p></div>
+         <div corresp="#orig_div1" xml:id="transdiv1"><p>Alif</p></div>
+         <div xml:id="orig_div2" xml:lang="hin" type="authorisation" rend="top centre"> 
+            <p><stamp type="seal"><mentioned><gap></gap></mentioned></stamp></p>
+         </div>
+         <div corresp="#orig_div2" xml:id="trans_div2"> <p><stamp type="seal">Square black ink seal with a 5-line illegible inscription<mentioned><gap></gap></mentioned></stamp></p></div>
+         <div xml:id="orig_div3" xml:lang="hin" type="maintext">
+            <p>
+               <lb/>राज श्री <persName ref="#gangadhar">पंडत गंगाधरजी</persName> <choice><abbr>बै॰</abbr><expan>बेटा</expan></choice> <persName ref="#sadashivPandit">सदासीवजी</persName> मु-
+               <lb/>कासदार <choice><abbr>प्र॰</abbr><expan>परगना</expan></choice> <placeName ref="#pgDhar">धार</placeName> आगे जमा बमुजब तसखीस
+               <lb/>राजश्री राव साहबजी <persName rend="elevated" ref="#yashwantRaoPuwar">श्री यासवंतराव पुवार</persName> बमुजब
+               <lb/>कबुलीयत <choice><abbr>मु॰</abbr><expan>मुकद्दम</expan></choice> <choice><abbr>मी॰</abbr><expan>मिरजा</expan></choice> <persName ref="#babuKhan">बाबु खा</persName> <choice><abbr>बै॰</abbr><expan>बेटा</expan></choice> फाजलखा <choice><abbr>मौ॰</abbr><expan>मौजा</expan></choice>
+               <lb/><placeName ref="#ratnagaon">रतनागावा</placeName> वगर बा॰<note>This word is written as if it is an abbreviation, but the reading of its full form is not clear.</note> <choice><abbr>फ॰</abbr><expan>फसल</expan></choice> खरीफ रबी <choice><abbr>स॰</abbr><expan>सन</expan></choice> <date calendar="#fasli">११५०</date> <choice><abbr>फ॰</abbr><expan>फसली</expan></choice>
+               <lb/>का सब दामदाम भर पाया फारखती लीख दीवी
+               <lb/>खातीर जमा सु साल आयंदा कीतरु दत कमा-
+               <lb/>या करणा
+               <lb/><choice><abbr>मौ॰</abbr><expan>मौजा</expan></choice> <placeName ref="#ratnagra">रतनागरो</placeName> <choice><abbr>मौ॰</abbr><expan>मौजा</expan></choice> <placeName ref="#khanpur">खानुपुर</placeName> <choice><abbr>मौ॰</abbr><expan>मौजा</expan></choice> <unclear>अकबपुर</unclear>
+               <lb/>छ ९ <del>सन</del> <add>माहे</add> साबान 
+            </p>
+         </div>
+         <div corresp="#orig_div3" xml:id="trans_div3">
+            <p>
+               <lb/><ref type="glossary" target="#gl_rajashri">Rajashri</ref> <persName ref="#gangadhar">Pandit Gangadharji</persName> son of <persName ref="#sadashivPandit">Sadashivji </persName> <ref type="glossary" target="#gl_mokasadar">mokasadar</ref>
+               <lb/>of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#pgDhar">Dhar</placeName>, is ordered as follows: the assessed taxes have been received, in accordance with the [official] assessment
+               <lb/>of <ref type="glossary" target="#gl_rajashri">Rajashri</ref> Rao Sahibji, <persName rend="elevated" ref="#yashwantRaoPuwar">Yashwant Rao Puwar</persName>,<note>For respect, this name is written in the top right corner of the document.</note> [and] according to the
+               <lb/><ref type="glossary" target="#gl_qabuliyat">qabuliyat</ref> of <ref type="glossary" target="#gl_muqaddam">muqaddam</ref> Mirza <persName ref="#babuKhan">Babu Khan</persName>, son of Fazil Khan of
+               <lb/>Village <placeName ref="#ratnagaon">Ratnagaon</placeName>,<note>Although spelled differently, this is likely the same place as village <placeName ref="#ratnagra">Ratnagaro</placeName> mentioned below.</note> etc., for the harvests of <ref type="glossary" target="#gl_kharif">Kharif</ref> and <ref type="glossary" target="#gl_rabi">Rabiʿ</ref> for the year 1150 <ref type="glossary" target="#gl_fasli">Fasli</ref>
+               <lb/>every coin is received. A <ref type="glossary" target="#gl_farighkhatti">pharkhati</ref> has been written.<note>It is not entirely clear whether this document is the said <ref type="glossary" target="#gl_farighkhatti">pharkhati</ref>, or is about it.</note>
+               <lb/>From contentment, how much tribute<note>An alternate reading of दत is gift or endowment.</note>
+               <lb/>shall be earned in the coming year.
+               <lb/>Village <placeName ref="#ratnagra">Ratnagaro</placeName> Village <placeName ref="#khanpur">Khanpur</placeName> Village <unclear>Akabpur</unclear>
+               <lb/>On the <date>9th of Shaʿban</date><note>This last line is written in Modi script. The writer appears to have written the word for "year" by mistake and then crossed it out.</note>
+            </p></div>
+         <div xml:id="orig_div4" xml:lang="hin" type="authorisation" rend="bottom centre"> 
+            <p><stamp type="seal"><mentioned>मोरतब <unclear>सुद</unclear></mentioned></stamp></p></div>
+         <div corresp="#orig_div4" xml:id="trans_div4"><p><stamp type="seal">Square black ink seal<mentioned><unclear>It was prepared.</unclear></mentioned></stamp></p></div>
+      </body>
+  </text>
+</TEI>

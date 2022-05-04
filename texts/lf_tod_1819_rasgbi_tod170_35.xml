@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_tod_1819_rasgbi_tod170_35">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Copy of a letter of Padam Singh to James Tod announcing the birth of an heir</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#rasgbi"/>
+                  <collection ref="#tod"/>
+                  <idno>Tod ms. 170, document 35</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>copy</objectType>
+                     <origDate calendar="#samvat-chaitradi">4 Chaitra badi 1875</origDate>
+                     <origDate calendar="#gregorian" when="1819-03-15">15 March 1819</origDate>
+                     <origPlace type="placeOfIssue" ref="#salumbar"/>
+                     <origPlace type="placeOfReceipt" ref="#udaipur"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p><persName ref="#padamSingh">Padam Singh</persName>, ruler of <placeName ref="#salumbar">Salumbar</placeName> and a noble of <placeName ref="#udaipur">Udaipur</placeName>, writes to the British colonial official <persName ref="#jamesTod">James Tod</persName> announcing that a son and heir was born the previous night. 
+           The letter opens with formalities expressing <persName ref="#padamSingh">Padam Singh's</persName> loyalty.<note>This is a copy of an original document received by <persName ref="#jamesTod">Tod</persName>. Two documents are copied on the same folio; this is the lower document on the page.</note></p></abstract>       
+        <textClass>
+           <keywords scheme="#formal"><term key="khat"/></keywords>
+           <keywords scheme="#functional"><term key="letters"/></keywords>
+           <keywords scheme="#thematic">
+              <term>Administration</term>
+              <term>Inheritance</term>
+           </keywords>
+        </textClass>
+        <particDesc>
+           <person role="issuer">
+              <persName ref="#padamSingh">Padam Singh</persName>
+           </person>
+           <person role="recipient">
+              <persName ref="#jamesTod">James Tod</persName>
+           </person>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+   <facsimile>
+      <graphic url="lf_tod_1818_rasgbi_tod170_34.jpg"/>
+   </facsimile>
+  <text>
+      <body>
+         <pb n="1r" facs="lf_tod_1818_rasgbi_tod170_34.jpg"/>
+         <div xml:id="orig_div1" xml:lang="eng" type="laterAddition" rend="middle centre">
+            <p>Ar. 35 <ref type="glossary" target="#gl_rawat">Rawat</ref> <persName ref="#padamSingh">Paddam Sing [Padam Singh]</persName> to <choice><abbr>Col.</abbr><expan>Colonel</expan></choice> <persName ref="#jamesTod">Tod</persName><gap/></p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="raj" type="laterAddition" rend="middle centre">
+            <p><placeName ref="#salumbar">सुलंबर</placeName> का रावत जी श्री <persName ref="#padamSingh">पदम सिंघ</persName> जी रा खलीता की नकल</p>
+         </div>
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p>Copy of the <ref type="glossary" target="#gl_kharita">kharita</ref> of <ref type="glossary" target="#gl_rawat">Rawat</ref> <ref type="glossary" target="#gl_jiu">Ji</ref> Shri <persName ref="#padamSingh">Padam Singh</persName> <ref type="glossary" target="#gl_jiu">Ji</ref> of <placeName ref="#salumbar">Salumbar</placeName></p>
+         </div>
+         <div xml:id="orig_div3" xml:lang="raj" type="maintext">
+            <p>
+               <lb/>स्वस्ति श्री <placeName ref="#udaipur">उदैपुर</placeName> सुथाने सरब ओपमा जोग्य राजश्री <persName ref="#jamesTod">जिमस टाट</persName> साहब ब-
+               <lb/>हादर जोग्य श्री <placeName ref="#salumbar">सलुंबर</placeName> थी रावत श्री <persName ref="#padamSingh">पदम सिंघ</persName> जी लिखावतं श्री राम राम बा-
+               <lb/>चजो अठा रा स्माचर श्री जी री सुनिजरक रे भला छै राज रा सदा भला चाहिजै
+               <lb/>तो म्हानै सुख छै म्हांरै राज सिवाय कई बात नही सदा हेत इकलास रखावो ज-
+               <lb/>णी थी यादा विसेख रखावसी अप्रंच अठै <date calendar="#samvat-chaitradi">चैत बदि ३ रवे</date> ती पाछली राति पो-
+               <lb/>हर डोढ रह्ता कंवर हूवो है राज चैन पावैगा अठा सरीखो कामकाज छै सो
+               <lb/>लिखोगा अठा उठा रो एक ही विवहार जाणोगा <date calendar="#samvat-chaitradi"><choice><abbr>सं</abbr><expan>संवत</expan></choice> १८७५ रा चेत बदि ४ सोमे</date> 
+            </p>
+         </div>
+         <div xml:id="trans_div3" corresp="#orig_div3">
+            <p>
+               <lb/>Hail! [To] the incomparable eminent <ref type="glossary" target="#gl_rajashri">Rajashri</ref> <persName ref="#jamesTod">James Tod</persName> <ref type="glossary" target="#gl_sahib">Sahib</ref> <ref type="glossary" target="#gl_bahadur">Bahadur</ref> [in] the good place of Shri <placeName ref="#udaipur">Udaipur</placeName>, 
+               <lb/><ref type="glossary" target="#gl_rawat">Rawat</ref> Shri <persName ref="#padamSingh">Padam Singh</persName> <ref type="glossary" target="#gl_jiu">Ji</ref> writes from the eminent Shri <placeName ref="#salumbar">Salumbar</placeName>. Proclaim Shri Ram Ram.<note>I.e., greetings.</note>
+               <lb/>By the merciful attention of Shri <ref type="glossary" target="#gl_jiu">Ji</ref><note>Here, 'Shri Ji' likely refers to the ruler of <placeName ref="#udaipur">Udaipur</placeName>.</note>, the news here is good. May the <ref type="glossary" target="#gl_raj">Raj</ref> always be good,
+               <lb/>then I am happy. I have nothing without the <ref type="glossary" target="#gl_raj">Raj</ref>. Let friendship always be kept,
+               <lb/>which will be especially remembered. Therefore: here on <date calendar="#samvat-chaitradi">Chaitra <ref type="glossary" target="#gl_badi">badi</ref> 3, Sunday</date>, [when]
+               <lb/>one-and-a-half <ref type="glossary" target="#gl_pahar">pahars</ref> remained last night, a <ref type="glossary" target="#gl_kunwar">kunwar</ref> was born. The <ref type="glossary" target="#gl_raj">Raj</ref> will be relieved [by this news]. When there is business here,
+               <lb/>so I will write. Here and there, the same dealings will be known. <date calendar="#samvat-chaitradi">Samvat [year] 1875's Chaitra <ref type="glossary" target="#gl_badi">badi</ref> 4, Monday.</date>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

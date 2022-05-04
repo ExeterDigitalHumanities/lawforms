@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1657_dai_lns235ms_l"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Order of Amar Singh to the landlords and residents of district Dhar about a transfer of land-holding</title>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Nandini Chatterjee</persName>
+                </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+            </titleStmt>    
+            <editionStmt>
+                <p>Transcribed from manuscript image.</p>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+                    <msIdentifier>
+                        <repository ref="#dai"/>
+                        <collection ref="#pDas"/>
+                        <idno>LNS MS 235 l</idno>
+                    </msIdentifier>
+                    <history>
+                        <origin>
+                            <origDate calendar="#hijri-qamri">24 Safar 1068</origDate>
+                            <origDate calendar="#gregorian" when="1657-12-01">1 December 1657</origDate>
+                            <origPlace type="placeOfReceipt" ref="#pgDhar"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="formal">
+                    <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+                </taxonomy>
+                <taxonomy xml:id="functional">
+                    <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+                </taxonomy>
+            </classDecl>        
+        </encodingDesc>
+        <profileDesc>
+            <abstract><p>Order of the Rajput Mughal noble <persName ref="#amarSingh">Amar Singh</persName> to the landlords and residents of district (pargana) <placeName ref="#pgDhar">Dhar</placeName>, notifying them of the transfer of a land-holding (jagir) from Prince <persName ref="#muradBakhsh">Murad Bakhsh</persName> to another grantee along with instructions to obey the new officials.</p></abstract>       
+            <textClass>
+                <keywords scheme="#formal"><term key="parvana"/></keywords>
+                <keywords scheme="#functional"><term key="orders"/></keywords>
+                <keywords scheme="#thematic">
+                    <term>Administration</term>
+                </keywords>
+            </textClass>
+            <particDesc>    
+                <person role="issuer">   
+                    <persName ref="#amarSingh">Amar Singh</persName></person></particDesc>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="lf_pDas_1657_dai_lns235ms_l_r.jpg"/>  
+        <graphic url="lf_pDas_1657_dai_lns235ms_l_v.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            
+            <pb n="1r" facs="lf_pDas_1657_dai_lns235ms_l_r.jpg"/>
+            
+            <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+                <p>الله اکبر</p>
+            </div>
+            
+            <div xml:id="trans_div1" corresp="#orig_div1">
+                <p>God is great</p>
+            </div>
+            
+            <div xml:id="orig_div2" xml:lang="hin" type="authorisation" rend="bottom right margin">
+                <p><stamp type="seal"><mentioned>
+                    श्रीरामउपासक चंदरावत राव
+                    <persName ref="#amarSingh">अमरसींघ</persName>
+                    <unclear>जी</unclear>
+                    हरीसींघजी
+                    <gap/>
+                </mentioned></stamp></p>
+            </div>
+            <div xml:id="trans_div2" corresp="#orig_div2">
+                <p><stamp type="seal">Rectangular black ink seal with trishul symbol<mentioned>Worshipper of Shri Ram, Chandrawat Rao <persName ref="#amarSingh">Amar Singh</persName><unclear>ji</unclear> [son of] Hari Singhji <gap/></mentioned></stamp></p>
+            </div>
+            
+            <div xml:id="orig_div3" xml:lang="per" type="maintext">
+                <p>
+                    <lb/>چودهریان و قانونگویان و مقدمان و رعایا و مزارعان و سایرساکنه عموم
+                   <lb/>پرگنه
+                   <placeName ref="#pgDhar">دهار</placeName>
+                   من اعمل سرکار
+                   <placeName ref="#mandu">مندو</placeName>
+                   بدانند که چون در این ولا نشان والاشان
+                   <lb/>واجب الاطاعت و الاذعان به شرف صدور پیوست  که پرگنه 
+                    <placeName ref="#sanwer">سانویر</placeName> 
+                   <lb/>وغیره بموجب مفصله ضمن از تغیر وکلای نواب قدسی القاب جهانپناه
+                   <lb/>سلطان
+                   <persName ref="#muradBakhsh" rend="elevated">مراد بخش</persName>
+                   حسب الحکم جهانمطع عالم مطیع
+                   <space/>
+                   در جاگیر وکلای نواب
+                   <lb/>عالمیان ماب سرکار والاشاهی از ابتداء  فصلخریف
+                   <date calendar="#turkish">تخا قوی</date> 
+                   <lb/><date calendar="#turkish">یل</date>
+                   مقرر گشته چنانچه نقل نشان والاشانرا نیز مصدور نموده ایم
+                   <lb/>و امر جلیل القدر صادر است که بنده درگاه محافظت حال و مال رعایا 
+                   <lb/>و حراست پرگنات مذکور نماید و متعاقب فوجدار و کروریان 
+                   <lb/>و امینان از حضور پرنور می رسند بنا علیه مرقوم می گردد که بخاطر 
+                   <lb/>جمع در استمالت و آبادانی پرگنه مذکور سعی بکار برند و احدی بعملان
+                   <lb/>سابق عمل ندهند اگر خلاف حکم والا خواهد نمود و از عهده بر نخواهد آمد
+                   <lb/>خبر شرط است و عقب پروانه جمعت اینجانب رسیده دانند
+                    <lb/>تحریر فی التاریخ
+                   <date calendar="#hijri-qamri">بیست و چارم شهر صفر المظفر سنه
+                   <num>۱۰۶۸</num></date>
+                </p>
+            </div>
+            <div xml:id="trans_div3" corresp="#orig_div3">
+                <p>
+                    <lb/><ref type="glossary" target="#gl_chaudhri">Chaudhris</ref> and <ref
+                        type="glossary" target="#gl_qanungo">qanungos</ref> and <ref type="glossary"
+                        target="#gl_muqaddam">muqaddams</ref> and subjects and agriculturists and
+                    all general residents
+                    <lb/>of <ref type="glossary" target="#gl_pargana">pargana</ref>
+                    <placeName ref="#pgDhar">Dhar</placeName>
+                     in the administration of <ref type="glossary" target="#gl_sarkar">sarkar</ref>
+                    <placeName ref="#mandu">Mandu</placeName>
+                    , know that since now the exalted <ref type="glossary" target="#gl_nishan"
+                        >nishan</ref>
+                    <lb/>worthy of obedience has been issued, allocating <ref type="glossary"
+                        target="#gl_pargana">pargana</ref>
+                    <placeName ref="#sanwer">Sanwer</placeName>
+                    <lb/>etc. as per the details on the <ref type="glossary" target="#gl_zimn"
+                        >zimn</ref>, [because] of the transfer of the heavenly titled <ref
+                        type="glossary" target="#gl_nawab">Nawab</ref>, Refuge of the World,
+                    <lb/>Sultan
+                    <persName ref="#muradBakhsh" rend="elevated">Murad Bakhsh</persName>
+                     according to the orders that the world obeys [of the emperor]
+                    <space/>
+                    ,<note>This space is likely left to indicate the name of the emperor.</note> in
+                    the <ref type="glossary" target="#gl_jagir">jagir</ref> of the representative of
+                    the majestic <ref type="glossary" target="#gl_nawab">Nawab</ref>,
+                    <lb/>the exalted <ref type="glossary" target="#gl_sarkar">Sarkar</ref>, from the
+                    beginning of the autumn harvest of the
+                    <date calendar="#turkish">Fowl Year</date>
+                    .
+                    <lb/>Therefore, we have also issued a copy of the exalted <ref type="glossary"
+                        target="#gl_nishan">nishan</ref>
+                    <lb/>and the dignified order has been issued that the servants of the court
+                    should protect the condition and property of the subjects
+                    <lb/>and take care of the said <ref type="glossary" target="#gl_pargana"
+                        >parganas</ref> and the <ref type="glossary" target="#gl_faujdar"
+                        >faujdar</ref>, <ref type="glossary" target="#gl_karori">karoris</ref>,
+                    <lb/>and <ref type="glossary" target="#gl_amin">amins</ref> of the Lord who will
+                        arrive.<note>For more on the regular appointment of <ref type="glossary"
+                            target="#gl_amin">amins</ref> and other officials to districts and their
+                        relationships with district landlords, see Irfan Habib, The Agrarian System
+                        of Mughal India, pp. 316-341.</note> On this basis, it is written that
+                    <lb/>with a settled mind, they should work towards the conciliation and
+                    population of the <ref type="glossary" target="#gl_pargana">pargana</ref>, and
+                    they should pay attention
+                    <lb/>to the previous officials. If they oppose the exalted order or turn away
+                    from their promise,
+                    <lb/>it is stipulated that following the orders, soldiers will arrive.
+                    <lb/>Written on the 24th of the month of Safar in the year
+                    <date calendar="#hijri-qamri">1068</date>
+                    . </p>   
+            </div> 
+            <div xml:id="orig_div4" xml:lang="per" type="endorsements" rend="right margin">
+                <p>
+                    <lb/>مکرر ارقام میرود که از همه ابواب خواطر خودها مطمئن دارند
+                    <lb/> و از هیچ وجه دغدغ بخاطر راه ندهند انشا الله تعالی
+                    <lb/>در آنچه کفایت سرکار والا و رفاهت آنها خواهد 
+                    <lb/>بود کرده خواهد شد خاطر جمع دارند
+                </p>
+            </div>
+            <div xml:id="trans_div4" corresp="#orig_div4">
+                <p>
+                    <lb/>It is being written again that in every way, let their minds be content.
+                    <lb/>And let not confusion enter their minds in any way. God willing,
+                    <lb/>whatever brings advantage to the state and their [the addressees’] welfare, 
+                    <lb/>that will be done. Rest assured.<note>This note was possibly written by the noble himself.</note>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1660_brd_ac_8">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of Nawazish Khan to Purshottam Das regarding the grant of a house</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#brd"/>
+                  <collection ref="#pDas"/>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#hijri-qamri">26 Zi al-hijja 1070</origDate>
+                     <origDate calendar="#gregorian" when="1660-09-02">2 September 1660</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p><persName ref="#nawazishKhan">Nawazish Khan</persName> orders that landlord (chaudhri) <persName ref="#purshottamDas">Purshottam Das</persName> should have possession of a mansion (haveli). After tearing down the mansion, he should send the wood from it to the Lord.</p></abstract>       
+        <textClass>
+           <keywords scheme="#formal"><term key="parvana"/></keywords>
+           <keywords scheme="#functional"><term key="orders"/></keywords>
+           <keywords scheme="#thematic">
+              <term>Building and Construction</term>
+              <term>Grants</term>
+              <term>Natural Resources</term>
+              <term>Petitioning</term>
+           </keywords>
+        </textClass>
+        <particDesc>
+           <person role="issuer">
+              <persName ref="#nawazishKhan">Nawazish Khan</persName>
+           </person>
+           <person role="recipient">
+              <persName ref="#purshottamDas">Purshottam Das</persName>
+           </person>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+<facsimile>
+      <graphic url="lf_pDas_1660_brd_ac_8_r.jpg"/>
+      <graphic url="lf_pDas_1660_brd_ac_8_v.jpg"/>
+   </facsimile>
+  <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1660_brd_ac_8_r.jpg"/>
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>الله اکبر</p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p>God is great</p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="per" type="authorisation" rend="right margin">
+            <p><stamp type="seal"><mentioned>
+               <persName ref="#nawazishKhan">
+                  <unclear>نوازش</unclear>
+                  خان</persName>
+               مرید حضرت محمد 
+               <persName ref="#aurangzebAlamgir">اورنگ زیب عالم گیر</persName>
+               <unclear>باد</unclear>
+               شاه غازی
+               <num>۱۰۷۰</num>
+            </mentioned></stamp></p>
+         </div>
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p><stamp type="seal">Round black ink seal<mentioned><persName ref="#nawazishKhan"><unclear>Nawazish</unclear> Khan</persName> disciple of Lord Muhammad <persName ref="#aurangzebAlamgir">Aurangzeb Alamgir</persName> <ref type="glossary" target="#gl_badshah">[Bad]shah</ref> <ref type="glossary" target="#gl_ghazi">Ghazi</ref> <date calendar="#hijri-qamri">1070</date><note>A very clear impression of the same seal is found on <ref type="document" target="#lf_pDas_1660_brd_ac_ii">Order of Nawazish Khan to Purshottam Das granting a house</ref>. Gaps in the reading of the seal impression are supplied through comparison.</note></mentioned></stamp></p>
+         </div>
+         <div xml:id="orig_div3" xml:lang="per" type="maintext">
+            <p>
+               <lb/>زبدة الاقران
+               <persName ref="#purshottamDas">پرسوتم</persName>
+               چودری پرگنه
+               <placeName ref="#pgDhar">دهار</placeName>
+               بعنایت و مهربانی امیدوار
+               <lb/>بوده بداند که درینولا بعرض رسید که حویلی که در ان
+               <persName ref="#bulaqiChand">بولاقیچند</persName>
+               می بود
+               <lb/>متعلقه او است لهذا از روی عنایت حویلی مذکور باو مرحمت فرمودیم
+               <lb/> باید که حویلی مزبور مسمار نموده چوب انچه باشد بحضور برساند و
+               <lb/>بدستور سابق انجا را متصرف شود و بدولتخواهی و کفایت
+               <lb/>سرکار مقید و سرگرم باشد درین باب نهایت
+               <lb/>تاکید دانسته از
+               <unclear>فرموده</unclear>
+               تخلف نورزد تحریر فی التاریخ
+               <date calendar="#hijri-qamri">
+                  <num>۲۶</num>
+                  دی حجه سنه 
+                  <num>۱۰۷۰</num></date>
+               <g ref="#faqt">فقط</g>
+               <g ref="#faqt">فقط</g>
+            </p>
+         </div>
+         <div xml:id="trans_div3" corresp="#orig_div3">
+            <p>
+               <lb/>Eminent among Contemporaries
+               <persName ref="#purshottamDas">Purshottam [Das]</persName>
+               <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> of <ref type="glossary" target="#gl_pargana">pargana</ref>
+               <placeName ref="#pgDhar">Dhar</placeName>
+               , being hopeful of favour and kindness,
+               <lb/>know that at this time it was petitioned that the <ref type="glossary" target="#gl_haveli">haveli</ref> in which
+               <persName ref="#bulaqiChand">Bulaqi Chand</persName>
+                was [living],
+               <lb/>belongs to him [i.e.,
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+               ]. Therefore, by way of assistance, we ordered the aforesaid <ref type="glossary" target="#gl_haveli">haveli</ref> [to be] presented to him.
+               <lb/>It is necessary that the aforesaid <ref type="glossary" target="#gl_haveli">haveli</ref> is torn down [and] however much wood there shall be, is sent to the
+               Lord. And
+               <lb/>according to past custom that place shall be taken into his possession and he
+               shall be engaged and
+               <lb/>occupied with loyalty towards and prosperity of the government. In this matter
+               <lb/>knowing it firmly settled, do not neglect to do what is ordered. Written on the
+               date
+               <date calendar="#hijri-qamri">26 Zi al-hijja year 1070</date>
+               .
+               <g ref="#faqt">Nothing further.</g>
+               <g ref="#faqt">Nothing further.</g>
+            </p>
+         </div>
+         <div xml:id="orig_div4" xml:lang="ara" type="invocation" rend="right margin">
+            <p>هو</p>
+         </div>
+         <div xml:id="trans_div4" corresp="#orig_div4">
+            <p>He [God] is</p>
+         </div>
+         <div xml:id="orig_div5" xml:lang="per" type="authorisation" rend="right margin">
+            <p>حسب المسطور مقرر
+               <unclear>شناسند</unclear>
+               <g ref="#faqt">فقط</g></p>
+         </div>
+         <div xml:id="trans_div5" corresp="#orig_div5">
+            <p><unclear>Know</unclear> it appointed as written. <g ref="#faqt">Nothing further.</g></p>
+         </div>
+         <pb n="1v" facs="lf_pDas_1660_brd_ac_8_v.jpg"/>
+         <div xml:id="orig_div6" xml:lang="per" type="clericalNotes" rend="right margin">
+            <p>
+               <lb/>نقل
+               <unclear>سیاهه</unclear>
+              <lb/>بتاریخ
+               <date calendar="#hijri-qamri"><num>۲۷</num>
+               دی الحجه سنه 
+                  <num>۱۰۷۰</num>
+               </date>               
+               <lb/>نقلدفتر دیوان
+               <unclear>رسید</unclear>  
+            </p>
+         </div>
+         <div xml:id="trans_div6" corresp="#orig_div6">
+            <p>
+               <lb/>Register copy
+               <lb/>On the date <date calendar="#hijri-qamri">27 Zi al-hijja year 1070</date>
+               <lb/>a copy reached the <ref type="glossary" target="#gl_daftar">daftar</ref> of the <ref type="glossary" target="#gl_diwan">diwan</ref>.
+            </p>
+         </div>
+         <div xml:id="orig_div7" xml:lang="per" type="laterAddition" rend="top right">
+            <p>پروانه بنام چودری
+               <persName ref="#purshottamDas">پرسوتمداس</persName>
+               در باب معافی حویلی</p>
+         </div>
+         <div xml:id="trans_div7" corresp="#orig_div7">
+            <p><ref type="glossary" target="#gl_parvana">Parvana</ref> in the name of <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> <persName ref="#purshottamDas">Purshottam Das</persName> regarding a tax-exempt <ref type="glossary" target="#gl_haveli">haveli</ref></p>
+         </div>
+         <div xml:id="orig_div8" xml:lang="hin" type="laterAddition" rend="top left">
+            <p>प्रवानो <choice><abbr>बा॰</abbr><expan><unclear>बाबत</unclear></expan></choice> माफ हवेली</p>
+         </div>
+         <div xml:id="trans_div8" corresp="#orig_div8">
+            <p><ref type="glossary" target="#gl_parvana">Parvana</ref> <unclear>regarding</unclear> a tax-free <ref type="glossary" target="#gl_haveli">haveli</ref></p>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_hamdani_1850_01">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Declaration regarding the use of land for a graveyard, mosque, and hammam</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Hannah Archambault</persName>
+               <persName>Nandini Chatterjee</persName>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#hfc"/>
+                  <collection ref="#hamdani"/>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#gregorian" when="1850-05-22">22 May 1850</origDate>
+                     <origDate calendar="#hijri-qamri">10 Rajab 1266</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>A declaration recording an agreement between
+               <persName ref="#mullaJawad">Mulla Jawad</persName>,
+               <persName ref="#mullaAhsanullah">Mulla Ahsanullah</persName>
+                and
+               <persName ref="#mullaAbbas">Mulla Abbas</persName>
+                about using land they owned in the neighbourhood (muhalla) of Hassanabad for a
+               graveyard, a mosque and a public bath (hammam). The agreement relates to properties
+               that were part of a charitable endowment (waqf).</p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="iqrar"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="privateDeeds"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Buying and Selling</term>
+               <term>Property</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <person role="partyToAgreement">
+               <persName ref="#mullaJawad">Mulla Jawad</persName>
+            </person>
+            <person role="partyToAgreement">
+               <persName ref="#mullaAhsanullah">Mulla Ahsanullah</persName>
+            </person>
+            <person role="partyToAgreement">
+               <persName ref="#mullaAbbas">Mulla Abbas</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#mustafa">Mustafa</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#sayyidMahdi">Sayyid Mahdi</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#muhammadHussein">Muhammad Hussein</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#ali">Ali</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#aliAskar">Ali Askar</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#azam">Azam</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#yusufBaba">Yusuf Baba</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_hamdani_1850_01.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_hamdani_1850_01.jpg"/>
+         <div xml:lang="per" xml:id="orig_div1" type="maintext">
+            <p>
+               <lb/>باعث تحریر این چند سطور آنکه چون زمین مقبره جد مرحومی
+               <persName ref="#mullaAbdulGhani">ملا عبد الغنی</persName>
+                مغفور در محله
+               <placeName ref="#hassanabad">حسن آباد</placeName>
+               <lb/>باختتام رسیده بود موجب آن
+               <persName ref="#mullaJawad">ملا جواد</persName>
+                مرحوم یک قطعه زمین در آن محله
+               <lb/>بابت مقبره خرید نمود و
+               <persName ref="#mullaAhsanullah">ملا احسن الله</persName>
+                و
+               <persName ref="#mullaAbbas">ملا عباس </persName>
+               را هم در همان محله زمینی
+               <lb/>موجود بود در آن ایّام
+               <persName ref="#mullaJawad">ملا جواد</persName>
+                را هوس تعمیر مسجد و حمام وقفی در
+               <placeName ref="#hassanabad">حسن آباد</placeName>
+               <lb/>مگر زمینی که لایق تعمیر آن می بود مسیر نشده با
+               <persName ref="#mullaAhsanullah">ملا احسن الله</persName>
+                و
+               <persName ref="#mullaAbbas">ملا عباس</persName>
+               <lb/>مصلحت نمودند که بر زمین موجوده شما مسجد و حمام تیار می سازیم و زمین
+               <lb/>نو خرید ما برای مقبره مثل سابقه مشترک در میان ما و شما ماند چنانچه در همان
+               <lb/>ایام زمین
+               <persName ref="#mullaAhsanullah">ملا احسن الله</persName>
+                و
+               <persName ref="#mullaAbbas">ملا عباس</persName>
+                تحت تعمیر مسجد و حمام آمده است
+               <lb/>و زمین
+               <persName ref="#mullaJawad">ملا جواد</persName>
+                زیر مقبره مانده الحال نظر بر گردش اوضاع زمانه نموده
+               <lb/>این کاغذ در میان برادری خود باقرار جانبین تحریر کرده شد که
+               <lb/>عند الحاجت بکار آید
+               <g ref="#faqat">فقط</g>
+                المرقوم
+               <date calendar="#hijri-qamri">دهم شهر رجب المرجب سنه
+                  <num>۱۲۶۶</num>
+               </date>
+            </p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p><lb/>The reason for writing these few lines is that, the graveyard of the respected
+               ancestor
+               <persName ref="#mullaAbdulGhani">Mulla Abdul Ghani</persName>, who has been forgiven [by God], 
+               <lb/>was exhausted [i.e. became full] in the <ref type="glossary" target="#gl_muhalla">muhalla</ref> of
+               <placeName ref="#hassanabad">Hassanabad</placeName>. On that account,
+               <persName ref="#mullaJawad">Mulla Jawad</persName>, [now] deceased, bought a piece of land in that <ref type="glossary" target="#gl_muhalla">muhalla</ref> 
+               <lb/>for the purpose of a graveyard while
+               <persName ref="#mullaAhsanullah">Mulla Ahsanullah</persName>
+                and
+               <persName ref="#mullaAbbas">Mulla Abbas</persName> both
+               already possessed land in that very <ref type="glossary" target="#gl_muhalla">muhalla</ref>. 
+               <lb/>In those days,
+               <persName ref="#mullaJawad">Mulla Jawad</persName> desired to construct a mosque and charitable [waqfi] hammam in
+               <placeName ref="#hassanabad">Hassanabad</placeName>, 
+               <lb/>but the land which was suitable for constructing these was not available. He
+               consulted with <persName ref="#mullaAhsanullah">Mulla Ahsanullah</persName>
+                and <persName ref="#mullaAbbas">Mulla Abbas</persName> 
+               <lb/>[saying] that I will build a dedicated mosque and a hammam on your existing
+               land, and the land 
+               <lb/>that I have newly purchased will remain for a graveyard, just like the old
+               legacy, between you and I. Thus, in those very 
+               <lb/>days on the land of
+               <persName ref="#mullaAhsanullah">Mulla Ahsanullah</persName>
+                and
+               <persName ref="#mullaAbbas">Mulla Abbas</persName>, the foundation of the mosque and hammam [was constructed].
+               <lb/>And the land of
+               <persName ref="#mullaJawad">Mulla Jawad</persName>
+                remained under [dedicated to] graves. Currently, with a view to the changing habits of the age, 
+               <lb/>this document was written within the community with the <ref type="glossary" target="#gl_iqrar">iqrars</ref> of the two
+               parties, so that 
+               <lb/>in time of need, it may be useful.
+               <g ref="#faqat">Nothing further.</g>
+                Written on the
+               <date calendar="#hijri-qamri">10th of the month of Rajab al-Murajjab, year
+                  1266</date>.
+               </p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="per" type="witness" rend="right margin">
+            <p><lb/><stamp type="seal"><mentioned>
+                     <persName ref="#mustafa">مصطفی</persName>
+                     <date calendar="#hijri-qamri">
+                        <num>۱۲۲۲</num>
+                     </date>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/><stamp type="seal"><mentioned>
+                     <persName ref="#sayyidMahdi">سید مهدی</persName>
+                     <date calendar="#hijri-qamri">
+                        <num>۱۲۶۲</num>
+                     </date>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/><stamp type="seal"><mentioned>
+                     <persName ref="#muhammadHussein">محمد حسین</persName>
+                     <date calendar="#hijri-qamri">
+                        <num>۱۲
+                           <unclear>۱۲</unclear>
+                        </num>
+                     </date>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/><stamp type="seal"><mentioned>
+                     <persName ref="#ali">علی</persName>
+                     <date calendar="#hijri-qamri">
+                        <num>۱۲۴۰</num>
+                     </date>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/><stamp type="seal"><mentioned>
+                     <persName ref="#aliAskar">علی عسکر</persName>
+                     <date calendar="#hijri-qamri">
+                        <num>۱۲۶۲</num>
+                     </date>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/><stamp type="seal"><mentioned>
+                     <gap/>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/><stamp type="seal"><mentioned>سبیل مصطفی
+                     <date calendar="#hijri-qamri">
+                        <num>۱۲۶۳</num>
+                     </date>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/><stamp type="seal"><mentioned>
+                     <gap/>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/><stamp type="seal"><mentioned>
+                     <persName ref="#azam">عظم</persName>
+                     <unclear>
+                        <num>۱۲۶</num>
+                     </unclear>
+                     <gap/>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/>العبد
+               <persName ref="#yusufBaba">یوسف بابا</persName>
+                شاهد است
+               <lb rend="empty"/>
+               <lb/><stamp type="seal"><mentioned>
+                     <gap/>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/><stamp type="seal"><mentioned>سبیل تقی
+                     <date calendar="#hijri-qamri">
+                        <num>۱۲۵۲</num>
+                     </date>
+                  </mentioned></stamp></p>
+         </div>
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p>
+               <lb/><stamp type="seal">oval black ink seal<mentioned>
+                     <persName ref="#mustafa">Mustafa</persName>
+                     <date calendar="#hijri-qamri">1222</date>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/><stamp type="seal">oval black ink seal<mentioned>
+                     <persName ref="#sayyidMahdi">Sayyid Mahdi</persName>
+                     <date calendar="#hijri-qamri">1262</date>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/><stamp type="seal">oval black ink seal<mentioned>
+                     <persName ref="#muhammadHussein">Muhammad Hussein</persName>
+                     <date calendar="#hijri-qamri">12
+                        <unclear>12</unclear>
+                     </date>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/><stamp type="seal">oval black ink seal<mentioned>
+                     <persName ref="#ali">Ali</persName>
+                     <unclear>
+                        <date calendar="#hijri-qamri">1240</date>
+                     </unclear>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/><stamp type="seal">oval black ink seal<mentioned>
+                     <persName ref="#aliAskar">Ali Askar</persName>
+                     <date calendar="#hijri-qamri">1262</date>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/><stamp type="seal">oval black ink seal<mentioned>
+                     <gap/>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/><stamp type="seal">oval black ink seal<mentioned>In the path of Mustafa [The
+                     Prophet]
+                     <date calendar="#hijri-qamri">1263</date>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/><stamp type="seal">rectangular black ink seal<mentioned>
+                     <gap/>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/><stamp type="seal">oval black ink seal<mentioned>
+                     <persName ref="#azam">Azam</persName>
+                     <unclear>126</unclear>
+                     <gap/>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/>The slave,
+               <persName ref="#yusufBaba">Yusuf Baba</persName>
+                is witness.
+               <lb rend="empty"/>
+               <lb/><stamp type="seal">oval black ink seal<mentioned>
+                     <gap/>
+                  </mentioned></stamp>
+               <lb rend="empty"/>
+               <lb/><stamp type="seal">rectangular black ink seal<mentioned>In the path of the
+                     God-fearing
+                     <date calendar="#hijri-qamri">1252</date>
+                  </mentioned></stamp>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

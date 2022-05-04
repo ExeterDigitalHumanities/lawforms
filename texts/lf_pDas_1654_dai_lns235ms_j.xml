@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1654_dai_lns235ms_j"> 
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of an employee of Murad Bakhsh to the officials and residents of Dhar about rights to water</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Nandini Chatterjee</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#dai"/> 
+                  <collection ref="#pDas"/>
+                  <idno>LNS 235 MS j</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#julus">4 Safar 28</origDate>
+                     <origDate calendar="#hijri-qamri">4 Safar 1065</origDate>
+                     <origDate calendar="#gregorian" when="1654-12-14">14 December 1654</origDate>                 
+                  </origin>
+               </history>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p>Order of <persName ref="#mirIbrahim">Mir Ibrahim</persName>, an employee of Prince <persName ref="#muradBakhsh">Murad Bakhsh</persName>, to the headmen (muqaddam), landlords (chaudhri), record-keepers (qanungo) and residents of the district (pargana) <placeName ref="#pgDhar">Dhar</placeName>, notifying them that the peasants of the village <placeName ref="#tornod">Tornod</placeName> may not attempt to use water from the tank that adjoins the villages <placeName ref="#naugaon">Naugaon</placeName> 
+           and <placeName ref="#khilchipur">Qilchipur [Khilchipur]</placeName> because the residents of those villages have owned these water rights since antiquity.</p></abstract>       
+        <textClass> 
+           <keywords scheme="#formal"><term key="parvana"/></keywords>
+           <keywords scheme="#functional"><term key="orders"/></keywords>
+           <keywords scheme="#thematic">
+              <term>Disputes</term>
+              <term>Natural Resources</term>
+              <term>Peasants</term>
+           </keywords>
+        </textClass>
+        
+        <particDesc>
+           <person role="issuer">
+              <persName ref="#mirIbrahim">Mir Ibrahim</persName>
+           </person>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1654_dai_lns235ms_j_r.jpg"/>
+      <graphic url="lf_pDas_1654_dai_lns235ms_j_v.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1654_dai_lns235ms_j_r.jpg"/> 
+         
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre"> 
+            <p>الله اکبر</p>
+         </div>
+         <div corresp="#orig_div1"  xml:id="trans_div1"><p>God is great</p></div>
+         
+         <div xml:id="orig_div2" xml:lang="per" type="maintext">
+            <p>
+               <lb/>چودهریان و قانونوگویان و مقدمان و  رعایا پرگنه
+               <placeName ref="#pgDhar">دهار</placeName>
+               را اعلام آنکه
+               <lb/>تالابی که متصل موضع
+               <placeName ref="#naugaon">نوگانوہ</placeName>
+               و
+               <placeName ref="#khilchipur">قلچی پور</placeName>
+               معموله پرگنه مذکور است متعلق به اراضی
+               <lb/><placeName ref="#naugaon">نوگانوہ</placeName>
+               و
+               <placeName ref="#khilchipur">قلچی پور</placeName>
+               از قدیم الایام تا حال بوده و می باشد در این وقت رعایای موضع  
+               <lb/><placeName ref="#tornod">ترنود</placeName>
+               اراده نموده که آب تالاب را به آراضی ده خود برده زراعت نمایند  
+               <lb/>بنا بر ین نوشته می شود که احدی  بهیچ وجه دخل  بآب تالاب سوی رعایای که  
+               <lb/>از قدیم متصرف بوده ننماید و مزاحم بحال آنها نرساند و خود را شریک و بهم  
+               <lb/>در آن تالاب نشمارند که موجب تنبیہ  و تادیب ایشان می گردد و پته مقرر نموده که<note>The text continues onto the right margin.</note>
+               <lb/>موازی
+               <measure type="land" unit="bigha" quantity="10">ده بیگہ</measure>
+               زمین شنکر هر سال سوای جمع
+               <lb/>در موضع
+               <placeName ref="#naugaon">نوگنده</placeName>
+               نگارد تحریر
+               <date calendar="#julus"><num>۴</num> 
+               صفر سنه
+               <num>۲۸</num></date>
+               <lb/>حسب المسطور عمل نمایند
+               <g ref="#faqat">فقط</g>
+            </p>
+            
+         </div>
+         <div corresp="#orig_div2"  xml:id="trans_div2">  
+            <p>
+               <lb/>It is announced to the <ref type="glossary" target="#gl_chaudhri">chaudhris</ref> and <ref type="glossary" target="#gl_qanungo">qanungos</ref> and <ref type="glossary" target="#gl_muqaddam">muqaddams</ref> and subjects of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#pgDhar">Dhar</placeName> that  
+               <lb/>the tank adjoining the villages of <placeName ref="#naugaon">Naugaon</placeName> and <placeName ref="#khilchipur">Qilchipur [Khilchipur]</placeName>, [which are] under the administration of the said <ref type="glossary" target="#gl_pargana">pargana</ref>, has been and shall be dedicated to the agricultural lands of  
+               <lb/><placeName ref="#naugaon">Naugaon</placeName> and <placeName ref="#khilchipur">Qilchipur [Khilchipur]</placeName> from the olden days until now. At the present time, the subjects of the village
+               <lb/><placeName ref="#tornod">Tornod</placeName> have demonstrated their intention to seize the water of the tank for the land in their own village and undertake agriculture.
+               <lb/>Based on this, let it be written that no one should, for any reason, take possession of the water of the tank other than the subjects who
+               <lb/>since olden times had been in possession [of the tank], and should not cause obstacles to their [the subjects’] situation and should not count themselves among the partners [co-owners] 
+               <lb/>of this tank and not become the reason for chastisement and correction. And a <ref type="glossary" target="#gl_patta">patta</ref> was issued that  
+               <lb/><measure type="land" unit="bigha" quantity="10">ten bighas</measure> of land should be preserved tax-free every year in the village <placeName ref="#naugaon">Naugaon</placeName>.
+               <lb/>Written on the <date calendar="#julus">4th of Safar in the year 28</date>.
+               <lb/>Do as written. <g ref="#faqat">Nothing further.</g><note>This final line can be read as part of the authorisation.</note>
+            </p>
+         </div>
+         <div xml:id="orig_div3" xml:lang="per" type="authorisation" rend="right margin">
+            <p>
+               <stamp type="seal"><mentioned><persName ref="#mirIbrahim">ابراهیم</persName>
+                  بنده صدق سلطان 
+                  <persName ref="#muradBakhsh">مراد بخش</persName>
+                  <gap/></mentioned></stamp>
+            </p>
+         </div> 
+         <div corresp="#orig_div3"  xml:id="trans_div3">
+            <p>
+               <stamp type="seal">Round black ink seal<mentioned><gap/> <persName ref="#mirIbrahim">Ibrahim</persName> true servant of Sultan <persName ref="#muradBakhsh">Murad Bakhsh</persName></mentioned></stamp>
+            </p></div>
+         <pb n="1v" facs="lf_pDas_1654_dai_lns235ms_j_v.jpg"/> 
+         
+         <div xml:id="orig_div4" xml:lang="per" type="clericalNotes" rend="right margin">
+            <p>   
+               بتاریخ
+               <date calendar="#julus"><num>۴</num>
+                  شهر صفر سنه
+                  <num>۲۸</num>
+               </date>
+               <gap/>
+               نقل بدفتر  
+            </p>
+         </div>
+         
+         <div corresp="#orig_div4"  xml:id="trans_div4"> 
+            <p>On the <date calendar="#julus">4th of the month of Safar in the year 28</date>, a copy [reached] the office.</p>
+         </div>
+         
+      </body>
+   </text>
+</TEI>

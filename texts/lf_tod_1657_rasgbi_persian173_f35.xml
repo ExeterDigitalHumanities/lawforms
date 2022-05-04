@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_tod_1657_ras_persian173_f35">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Copy of a letter of Raja Jai Singh I to Prince Dara Shukoh regarding troop
+               movements and revenue assignments</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#rasgbi"/>
+                  <collection ref="#tod"/>
+                  <idno>Persian mss. 173, f. 35r-36r</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>copy</objectType>
+                     <origDate calendar="#hijri-qamri">20 Rabi al-awwal 1068</origDate>
+                     <origDate calendar="#gregorian" when="1657-12-26">26 December 1657</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Maharaja
+               <persName ref="#jaiSinghI">Jai Singh I</persName>
+                writes to the Mughal prince
+               <persName ref="#daraShukoh">Dara Shukoh</persName>, acknowledging the orders received in the prince's earlier order. He confirms that he will not halt more than a couple days in <placeName ref="#allahabad">Allahabad</placeName>, 
+               expresses approval regarding the appointments of nobles, promises to reprimand a rebellious group in <placeName ref="#patna">Patna</placeName>, and thanks the
+               prince for granting the district (pargana) of <placeName ref="#niwai">Niwai</placeName> as part of his revenue assignment (jagir).<note>This petition was written during the War of Succession during a period when <persName ref="#jaiSinghI">Jai Singh I</persName> was allied with <persName ref="#daraShukoh">Dara Shukoh</persName>.
+                This letter was copied in a manuscript miscellany that was acquired and likely produced in a colonial context, possibly for James Tod. It appears to be a response to the order (nishan) of <persName ref="#daraShukoh">Dara Shukoh</persName> to <persName ref="#jaiSinghI">Jai Singh I</persName> dated 7 Rabiʿ al-awwal 1068, which is held in the Rajasthan State Archives. See <ref type="bibl" target="#rsaFarmans">A Descriptive List of Farmans, Manshurs and Nishans, p. 35, S.No. 226</ref>.</note>
+               </p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="arzdasht"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="letter"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Administration</term>
+               <term>Grants</term>
+               <term>War</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <person role="issuer">
+               <persName ref="#jaiSinghI">Jai Singh I</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="#daraShukoh">Dara Shukoh</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_tod_1657_rasgbi_persian173_f35_r.jpg"/>
+      <graphic url="lf_tod_1657_rasgbi_persian173_f35_v.jpg"/>
+      <graphic url="lf_tod_1657_rasgbi_persian173_f36_r.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="35r" facs="lf_tod_1657_rasgbi_persian173_f35_r.jpg"/>
+         <div xml:id="orig_div1" xml:lang="per" type="laterAddition" rend="top right">
+            <p>عرضداشت راجه
+               <persName ref="#jaiSinghI">جیسنگه</persName>
+                بخدمت شاه بُلند اقبال
+               <persName ref="#daraShukoh">محمد دارا شکوه</persName>
+            </p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p><ref type="glossary" target="#arzdasht">ʿArzdasht</ref> of Raja <persName ref="#jaiSinghI">Jai Singh</persName> in the service of Shah Buland Iqbal <persName ref="#daraShukoh">Muhammad Dara Shukoh</persName> </p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="per" type="maintext">
+            <p>
+               <lb/>تحریر
+               <lb/>
+               <date>هشتم ربیع الاول سنه
+                  <num>۱۰۶۸</num>
+               </date>
+                آنکه عرضداشت کمترین بندهایی دُرست اعتقاد
+               <persName ref="#jaiSinghI">جیسنگه</persName>
+                آنکه
+               <lb/>مراسم تسلیمات بندگی و غلامی بجا آورده بعرض بار یافتگان نواب اقدسی القاب
+               <lb/>جهانبانی و کشور ستانی صاحب عالم و عالمیان بادشاهزاده جهان و جهانیان
+               <lb/>میرسانید که نشان عالیشان مرحمت عنوان قدرتو امان که بسرفرازی پیر غلام
+               <lb/>شرف صدور یافته بود بتاریخ
+               <date> نوزدهم
+                  <num>۱۹</num>
+                   شهر ربیع الاول</date>
+                بمنزل
+               راجپور
+                سایه وصول
+               <lb/>انداخت قواعد تسلیمات بندگی بجا آورده بر سر نهاده فرق عزت و سعادت
+               <lb/>برافراخت صاحب جهانیان سلامت امر و الا قدر که حسب الحکم اشرف اقدس
+               <lb/>شرف نفاذ پیوسته که بعد از رسیدن
+               <placeName ref="#allahabad">اله آباد</placeName>
+                زیاده بر سه چهار روز مقام نکرده 
+               <pb n="35v" facs="lf_tod_1657_rasgbi_persian173_f35_v.jpg"/>
+               <lb/>روانه پیش شوند صاحب عالمیان سلامت بموجبی که امر شده زیاده
+               <lb/>از سه چهار روز نخواهد ماند و جمعی که از منصبداران برکاب ظفر انتساب نواب قدسی
+               القاب
+               <lb/>صاحبزاده جهانیان متعین شُده اند امر والا قدر بتاکید شرف نفاذ باید که
+               انمردم
+               <lb/>بزودی شرف از مُلازمت صاحبزاده عالمیان یابد از افراد وقایع 
+               <unclear>چنین</unclear>
+               <lb/>ظاهر شُد که
+               <persName ref="#sujanSingh">سُجانسنگه بُندیله</persName>
+                را تعینات
+               <placeName ref="#malwa">مالوه</placeName>
+                کرده اند اگر چندی از
+                <unclear>ریزه</unclear>
+                منصبداران
+               <lb/>در عوض او نگاهدارند مُناسب است چون او بنده بکار است و جمعیت خوب دارد
+               <lb/>و مُلکش باین ضلع نزدیک و مُتصل است درین مهم بوُدن از صلاح دولت است
+               <lb/>و امر جلیل القدر شرف صدور یافته که جمعی که از
+               <placeName ref="#bengal">بنگاله</placeName>
+                به
+               <placeName ref="#patna">پتنه</placeName>
+                آمده اند تنبه و کوسمال
+               <lb/>واجبی داده از انجا برارند صاحب جهان و جهانیان سلامت از رسیدن انجا
+               <lb rend="empty"/>
+               <lb/>بموجبی که
+               <note>This is the catch-word used to indicate the order of folios.</note>
+               <pb n="36r" facs="lf_tod_1657_rasgbi_persian173_f36_r.jpg"/>
+               <lb/>بموجبی که امر است بعمل خواهد آورد و از روی کمال عنایات و توجهات
+               <lb/>امر رفیع القدر شرف ایراد یافته که پرگنه
+               <placeName ref="#niwai">نوائی</placeName>
+                را در اضافه جاگیر گرفتم
+               <lb/>شُکر مُراحم بیکران بکُدام زبان عرض ایستادهای مجلس حضور رساند از
+               <lb/>درگاه الله تعالی امیدوارم که بخدمتی سرفرازی یافته سُرخروی دارین
+               <lb/>حاصل نماید الهی ظل ظلیل آن صاحب جهانیان را بر مفارق بندهای درست اعتقاد
+               <lb/>مخلد و مستدام داراد زیاده چه عرض نماید آفتاب عُمر و اقبال دُرخسده و 
+               <gap/>
+               داراد 
+            </p>
+         </div>
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p>
+               <lb/>Written
+               <lb/>the <date calendar="#hijri-qamri">eighth of Rabiʿ al-awwal of the year 1068</date><note>Here, there is likely a scribal error, writing eight (hashtom) instead of twentieth (bistom), given that the document references the nineteenth of the same month.</note>. This, that the <ref type="glossary" target="#gl_arzdasht">ʿarzdasht</ref> of the humblest servant of true belief <persName ref="#jaiSinghI">Jai Singh</persName>, who had
+               <lb/>performed the rituals of the greetings of devotion and servitude, shall be presented to the audience of the <ref type="glossary" target="#gl_nawab">Nawab</ref> of the Most Pure Titles, 
+               <lb/>the Ruler of the World and Conquerer of the Countries, Lord of the Universe and of Mortal Creation, Prince of the Earth and Mortals [i.e., <persName ref="#daraShukoh">Dara Shukoh</persName>],
+               <lb/>[stating] that the imperial nishan of the exalted mercy of power and grace, which had been issued for the exaltation 
+               <lb/> of [your] oldest slave, cast the shadow of arrival on the date <date calendar="#hijri-qamri">nineteen, 19, of the month Rabiʿ al-awwal</date> in the place of Rajpur<note>The location of this place is unclear as it is a very common placename. It
+                  was likely somewhere in the Gangetic plains between Delhi and
+                  Allahabad.</note>. 
+               <lb/>Enacting the rules of the obeisance of servitude, on the bowed head the height of honour and prosperity
+               <lb/>was elevated. The Lord of Mortals [be] well. The command of the exalted rank, which was implemented according to the noble, eminent order, 
+               <lb/>[was] that after arriving in <placeName ref="allahabad">Allahabad</placeName>, they should depart after halting no more than three or four days.
+               <lb/>Lord of Creation [be] well. By reason that it was ordered, they will not stay
+               <lb/>more than three or four days. And the assembly, which from among the <ref type="glossary" target="#gl_mansabdar">mansabdars</ref> had been attached
+               <lb/>to the victorious stirrup of the <ref type="glossary" target="#gl_nawab">Nawab</ref> of Eminent Glory, the Prince of Creation, shall diligently implement the command of the exalted rank so that those men
+               <lb/>quickly shall attain honour from attendance [on] the Son of the Lord of Mortals. From the news-writers thus
+               <lb/>it became known that they had made the appointment of <placeName ref="#malwa">Malwa</placeName> to <persName ref="#sujanSingh">Sujan Singh Bundela</persName>. If they keep some of the <unclear>crumbs</unclear> of the
+               <lb/>of the <ref type="glossary" target="#gl_mansabdar">mansabdars</ref> in his compensation, it is appropriate because he is a useful servant and has a good assembly [of troops]
+               <lb/>and his land is near and abutting this district. In this is the necessary work of the good of the state.
+               <lb/>And the illustrious order had been issued that the assembly [of people]<note>This likely refers to the prince Shah Shuja and his army.</note> that had come from <placeName ref="#bengal">Bengal</placeName> to <placeName ref="#patna">Patna</placeName>
+               <lb/>should be given appropriate admonishment [and] return from there. The Lord of the World and Creation [be] well. When [they] arrive there, 
+               <lb rend="empty"/>
+               <lb/>in accordance with
+               <lb/>in accordance with what is ordered, it will be implemented. And from the perfection of favours and kindnesses
+               <lb/>the command of the sublime rank produced the honour that I received the <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#niwai">Niwai</placeName> in the increase of [my] <ref type="glossary" target="#gl_jagir">jagir</ref>.
+               <lb/>By what tongue shall thanksgiving for the boundless favours be offered standing in the assembly of the Lord?
+               <lb/>From the court of the glory of God, I hope that attaining honourable service, contentment
+               <lb/>will be attained in this. May he, the Divine, the Shadow of Shadows, keep that Lord of Creation, forever and perpetually among the distinguished servants of the true faith.  
+               <lb/>What more can be asked. May he remain the Sun of the Age and the Resplendent Prosperity and<gap/>.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

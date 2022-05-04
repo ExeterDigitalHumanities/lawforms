@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_mandloi_1735_batchAdd">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter of Bajirao Ballal to Tejkaran Mandloi of district Indore about the delivery of government monies</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Dominic Vendell</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                 <repository ref="#bri"/>                   
+                  <collection ref="#mandloi"/>
+                  <idno>no shelfmark</idno> 
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#suhur">1136</origDate>
+                     <origDate calendar="#gregorian" notBefore="1735-05" notAfter="1736-05">Between May 1735 and May 1736</origDate>
+                     <origPlace type="placeOfReceipt" ref="#indore">Indore</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p>Chief minister (pradhan) <persName ref="#bajiraoBallal">Bajirao Ballal</persName> requests that the landlord <persName ref="#tejkaranMandloi">Tejkaran Mandloi</persName> of district (pargana) <placeName ref="#indore">Indore</placeName> provide an escort for the conveyance of government monies to <placeName ref="#burhanpur">Burhanpur</placeName>.</p></abstract>       
+        
+        <textClass> 
+           <keywords scheme="#functional"><term key="letters"/></keywords>
+           <keywords scheme="#formal"><term key="takidPatra"/></keywords>
+           <keywords scheme="#thematic">
+              <term>Money</term>
+              <term>Policing and Crime</term>
+              <term>Taxation and Tribute</term>
+           </keywords>
+        </textClass>  
+           
+        <particDesc>
+           <person role="issuer">
+              <persName ref="#bajiraoBallal">Bajirao Ballal</persName>
+           </person>
+           <person role="recipient">
+              <persName ref="#tejkaranMandloi">Tejkaran Mandloi</persName>
+           </person>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+
+   <facsimile>
+      <graphic url="lf_mandloi_1735_batchAdd.jpg"/>
+   </facsimile>
+   
+  <text>
+      <body>
+         <pb n="1r" facs="lf_mandloi_1735_batchAdd.jpg"/>
+         
+         <div xml:id="orig_div1" xml:lang="mar" type="invocation" rend="top"> 
+            <p>श्री</p>
+            
+         </div>
+         <div corresp="#orig_div1"  xml:id="trans_div1"><p>Shri</p></div>
+         
+         <div xml:id="orig_div2" xml:lang="mar" type="authorisation" rend="left margin">
+            <p><stamp type="seal"><mentioned> श्री राजा
+                     <persName ref="#shahuBhonsle">शाहु</persName>
+                      नरपति [नृपति] हर्षनिधान
+                     <persName ref="#bajiraoBallal">बाजीराव बळाळ</persName>
+                      मुख्य प्रधा[न]</mentioned></stamp>
+            </p>
+         </div> 
+         <div corresp="#orig_div2"  xml:id="trans_div2"><p><stamp type="seal">Round black ink seal<mentioned>Chief minister <persName ref="#bajiraoBallal">Bajirao Ballal</persName>, receptacle of joy of Raja <persName ref="#shahuBhonsle">Shahu</persName>, ruler of men</mentioned></stamp></p></div>
+         
+         <div xml:id="orig_div3" xml:lang="mar" type="maintext">
+            <p>
+               <lb/><choice>
+                  <abbr>द</abbr>
+                  <expan>दंडवत</expan>
+               </choice><note>The standalone 'द' is known as a दकार, or dakar, in the Marathi epistolographic tradition. Molesworth states that it stands for the salutation दंडवत, or dandavat, which an inferior would use when writing to a superior, for example if a non-Brahman writes to a Brahman. However, it has also been observed that a shloka attributed to the Yadava minister Hemadripant recommends this salutation when writing to anyone for whom one feels affection, which may be a more appropriate reading in this case. For further discussion with respect to a late-eighteenth century letter from Peshwa Madhavrao Narayan to the Dutch VOC, see <ref type="bibl" target="#bellarykar2019">Bellarykar, "Two Marathi Letters," p. 26-7</ref>.</note> 
+               <choice>
+                  <abbr>म||</abbr>
+                  <expan>मश्रूल</expan>
+               </choice> 
+               अनाम<note>The honorific मश्रूल अनाम, or mashrul anam, is a Marathi vernacularization of the Arabic مشهور الانام, or mashhur al-anam, referring to a known or celebrated person. It was commonly used in government documents when addressing district-level dignitaries and officials. For uses of the Arabic phrase in two Persian Qutb Shahi orders, see <ref type="bibl" target="#khan1963">Khan, "Farmans and Sanads of the Deccan Sultans," pp. 38-40</ref>.</note>
+               <persName ref="#tejkaranMandloi">तेजकरण मंडुलोई</persName> 
+               <choice>
+                  <abbr>प||</abbr>
+                  <expan>परगना</expan>
+               </choice> 
+               <lb/><placeName ref="#indore">इदूर</placeName> 
+               यााँस 
+               <persName ref="#bajiraoBallal">बाजीराव बलाल</persName> 
+               प्रधान 
+               <lb/><choice>
+                  <abbr>सु||</abbr>
+                  <expan>सुहूर</expan>
+               </choice> 
+               <date calendar="#suhur">सीत सलासीन मया अलफ</date> 
+               <choice>
+                  <abbr>र||</abbr>
+                  <expan>राजश्री</expan>
+               </choice> 
+               <persName ref="#bhayajiNaik">भ- 
+               <lb/>याजी नाईक</persName> यांजपासी सरकारचा यैवज 
+               <lb/><placeName ref="#burhanpur">बऱ्हानपुरांस</placeName> पावाव्यांचा पाटवीला आ- 
+               <lb/>हे तरी तुम्हीं बदरका देऊन <placeName ref="#burhanpur">बऱ्हानपुरांस</placeName> 
+               <lb/>पोहचावणें जे वलेस जो यैवज रवाना करी- 
+               <lb/>तील ते वलेस बदरका देऊन पोहचावीत- 
+            </p>
+         </div>
+         
+         <div corresp="#orig_div3"  xml:id="trans_div3">  
+            <p>
+               <lb/>Greetings. [To] Celebrated among Mortals <persName ref="#tejkaranMandloi">Tejkaran Mandloi</persName> of <ref type="glossary" target="#gl_pargana">pargana</ref> 
+               <lb/><placeName ref="#indore">Indore</placeName> [from] <persName ref="#bajiraoBallal">Baijrao Ballal</persName> <ref type="glossary" target="#gl_pradhan">pradhan</ref> 
+               <lb/>in the Suhur year of <date calendar="#suhur">six, thirty, one hundred, one thousand</date>.  
+               <lb/>The government’s money that is with <ref type="glossary" target="#gl_rajashri">Rajashri</ref> <persName ref="#bhayajiNaik">Bhayaji Naik</persName> 
+               <lb/>and should be delivered to <placeName ref="#burhanpur">Burhanpur</placeName> has been  
+               <lb/>sent. So you should provide an escort and deliver [the money] to <placeName ref="#burhanpur">Burhanpur</placeName>. 
+               <lb/>When the money is despatched, 
+               <lb/>then the escort should be provided [and the money delivered].<note>The remainder of the document is likely on the verso. Unfortunately, no image is available.</note> 
+            </p> 
+            </div>
+      </body>
+  </text>
+</TEI>

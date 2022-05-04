@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1663_dai_lns235ms_k1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of Asadullah to Purshottam Das and Paras Ram to collect taxes</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#dai"/>
+                  <collection ref="#pDas"/>
+                  <idno>LNS 235 MS k1</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#hijri-qamri">13 Zi al-qaʿda 1073</origDate>
+                     <origDate calendar="#gregorian" when="1663-06-19">19 June 1663</origDate>
+                     <origPlace type="placeOfReceipt" ref="#pgDhar"/>
+                  </origin>
+               </history>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p><persName ref="#purshottamDas">Purshottam Das</persName> and <persName ref="#parasRam">Paras Ram</persName> are instructed to pay taxes and clear the tax arrears in
+               district (pargana) <placeName ref="#pgDhar">Dhar</placeName>.</p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="parvana"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term key="taxationAndTribute">Taxation and Tribute</term>
+               <term key="petitioning">Petitioning</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <person role="recipient">
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="#parasRam">Paras Ram</persName>
+            </person>
+            <person role="issuer">
+               <persName ref="#asadullah">Asadullah</persName>
+            </person>
+         </particDesc>
+
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1663_dai_lns235ms_k1_r.jpg"/>
+      <graphic url="lf_pDas_1663_dai_lns235ms_k1_v.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1663_dai_lns235ms_k1_r.jpg"/>
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>هو</p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p>He [God] is</p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="per" type="maintext">
+            <p>
+               <lb/>زبدة الاماثل و الاقران
+               <persName ref="#purshottamDas">پرسوتمداس</persName>
+                چودری و
+               <persName ref="#parasRam">پرسرام</persName>
+                قانونگوی پرگنه
+               <placeName ref="#pgDhar">دهار</placeName>
+               <lb/>را آخر انهاء آنکه عرضه داشتی که درین ولا در باب وصول مال نوشته ارسال داشته بودند
+               <lb/>بمطالعه در آمد می باید که چنانچه قبولیت نوشته داده اند مال را
+               <lb/>بوصول رسایند و عزر بیجا نکنند و چنان سعی نمایند که بوقت پرگنه بی باقی شود و
+               <lb/>به تردد آبادانی و کشتکار زراعت اینده بکوشد در این باب نهایت تاکید دانند
+               <lb/>تحریر فی التاریخ
+               <date calendar="#hijri-qamri">
+                  <num>۱۳</num>
+                   شهر ذی قعده سنه
+                  <num>۱۰۷۳</num>
+                   هجری</date>
+               <unclear>ما و</unclear>
+               <g ref="#baiz">بیض</g><note>The ink and style of this baiz suggest it was written by the same person as the
+                  endorsement. The 'pesh' above baiz is unusual.</note>
+            </p>
+         </div>
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p>
+               <lb/>Eminent among Equals and Contemporaries,
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+                <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> and
+               <persName ref="#parasRam">Paras Ram</persName>
+               <ref type="glossary" target="#gl_qanungo">qanungo</ref> of <ref type="glossary" target="#gl_pargana">pargana</ref>
+               <placeName ref="#pgDhar">Dhar</placeName>
+               <lb/>are informed that the <ref type="glossary" target="#gl_arzdasht">ʿarzdasht</ref> that they had recently written and sent in
+               the matter of the collection of taxes
+               <lb/>has come to our attention. It is necessary that they [i.e. <persName ref="#purshottamDas">Purshottam Das</persName> and <persName ref="#parasRam">Paras Ram</persName>] should collect taxes [according to] whatever had been written in the <ref type="glossary" target="#gl_qabuliyat">qabuliyat</ref>, 
+               <lb/>and they should make no inappropriate excuses.
+               And make such efforts that  the <ref type="glossary" target="#gl_pargana">pargana</ref> becomes without
+               arrears by the designated time.
+               <lb/>And make efforts in future for the organisation of the populating and cultivation [of the <ref type="glossary" target="#gl_pargana">pargana</ref>].
+               Know it extremely confirmed in this matter.
+               <lb/>Written on the date of
+               <date calendar="#hijri-qamri">13 of the month of Zi al-qaʿda of the year 1073 Hijri</date>. <gap/>
+               <g ref="#baiz">Ended.</g>
+            </p>
+         </div>
+         <div xml:id="orig_div3" xml:lang="ara" type="invocation" rend="right margin">
+            <p>هوُ</p>
+         </div>
+         <div corresp="#orig_div3" xml:id="trans_div3">
+            <p>He [God] is</p>
+         </div>
+         <div xml:id="orig_div4" xml:lang="per" type="authorisation" rend="right margin">
+            <p><lb/>حسب المُسطور مُقرر دانسته
+               <lb/>بعمل آورند در بی باقی و تردد آینده
+               <lb/>پرگنه مُجری خود دانند الیه الیه   
+               <unclear>انچه</unclear>
+               نگارد
+               <g ref="#baiz">بیض</g>
+               <lb/><stamp type="seal"><mentioned>
+                  <persName ref="#asadullah">اسد الله</persName>
+                  <persName ref="#nawazishKhan">نوازس خانی</persName>
+                  <date calendar="#hijri-qamri">
+                     <num>۱۰۷۲</num>
+                  </date>
+               </mentioned></stamp>
+            </p>
+         </div>
+         <div corresp="#orig_div4" xml:id="trans_div4">
+            <p><lb/>Knowing it settled as written, 
+               <lb/>put it to action. In the matter of making the <ref type="glossary" target="#gl_pargana">pargana</ref>
+               without arrears and future organisation of the <ref type="glossary" target="#gl_pargana">pargana</ref>, 
+               <lb/>you know what is to be done. As aforementioned, whatever shall be written.
+               <g ref="#baiz">Ended.</g>
+               <lb/><stamp type="seal">Round black ink seal<mentioned>
+                  <persName ref="#asadullah">Asadullah</persName>
+                 of <persName ref="#nawazishKhan">Nawazish Khan</persName>
+                  <date calendar="#hijri-qamri">1072</date>
+            </mentioned></stamp><note>The location and orientation of the seal suggests it accompanies the
+               authorising note and by extension that the author of the note was Asadullah.</note>
+            </p>
+         </div>
+         <pb n="1v" facs="lf_pDas_1663_dai_lns235ms_k1_v.jpg"/>
+         <div xml:id="orig_div5" xml:lang="per" type="clericalNotes" rend="top right">
+            <p>پروانه وکالت دستگاه میرزا جیو در جواب عرضه داشت و تاکید
+               <unclear>تحصیل</unclear>
+                که موجب قبولیت
+               <unclear>بی باقی نمایند</unclear>
+            </p>
+         </div>
+         <div corresp="#orig_div5" xml:id="trans_div5">
+            <p><ref type="glossary" target="#gl_parvana">Parvana</ref> of the Representative of the Court <ref type="glossary" target="#gl_mirza">Mirza</ref> <ref type="glossary" target="#gl_jiu">Ji</ref> in response to the <ref type="glossary" target="#gl_arzdasht">ʿarzdasht</ref> and
+               confirmation [that] the collection [of taxes] that [are] required by the <ref type="glossary" target="#gl_qabuliyat">qabuliyat</ref>,
+               <unclear>should be made without arrears</unclear>. </p>
+         </div>
+         <div xml:id="orig_div6" xml:lang="per" type="laterAddition" rend="top centre">
+            <p><foreign>نمبر</foreign>
+               <num>۲</num>
+            </p>
+         </div>
+         <div corresp="#orig_div6" xml:id="trans_div6">
+            <p>Number 2</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1929 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lawforms project - Taxonomies</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Nandini Chatterjee</persName>
+               <persName>Elizabeth Thelen</persName>
+               <persName>Dominic Vendell</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding support and website development by</resp>
+               <persName>Lizzy Williamson</persName>
+               <persName>Eva Bodenschatz</persName>
+               <persName>Richard Holding</persName>
+               <persName>Julia Hopkin</persName>
+               <persName>Gary Stringer</persName>
+            </respStmt>
+            <funder>ERC</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Exeter</publisher>
+            <pubPlace>Exeter</pubPlace>
+            <date when="2022">2022</date>
+            <ptr target="https://lawforms.exeter.ac.uk/"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This is an open access work licensed under a Creative Commons Attribution 4.0
+                     International license. Images are not covered by this license; please consult
+                     the website for further details.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Created by and for the Forms of Law project</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div xml:id="functional">
+            <head>Lawforms Taxonomy: functional</head>
+
+            <list xml:id="orders">
+               <head>Orders</head>
+
+               <!-- Insert corresponding <item> elements from formal types list in here-->
+               <!-- Example below -->
+               <item xml:id="farman">
+                  <name role="default">Farman</name>
+                  <name xml:lang="eng">Imperial Order</name>
+                  <note>These were imperial orders. The name derived from the Persian verb
+                     ‘farmudan’, to order. In evidence from at least the Saljuk period (10th-12th
+                     centuries CE), farmans developed specific styles and conventions in the
+                     Ottoman, Safavid and Mughal empires, and distinct sub-types depending on the
+                     content and context of the order. For example, in the fifteenth century, the
+                     famous Ahmadnagar courtier Mahhmud Gawan described the eight pillars (features)
+                     of a farman. In the sixteenth century, the chief Mughal courtier, Abul Fazl,
+                     described two different kinds of farmans in use; the farman-i zabti and
+                     farman-i bayazi; the former used for at least three different purposes.
+                     Collections of farmans reveal clear differences in layout, seals, calendars and
+                     the use of set phrases between the Mughal and Bijapuri farmans. Farmans tended
+                     to be vague on details, and hence often had very detailed notes on the verso
+                     (zimn). They were also elaborated through supplementary orders from various
+                     grades of officials.</note>
+                  <listBibl>
+                     <bibl type="academic" n="#mirKhanFarman"/>
+                     <bibl type="academic" n="#mohiuddin">
+                        <biblScope>pp.45-84</biblScope>
+                     </bibl>
+                     <bibl type="academic" n="#diplomatic2012"/>
+                     <bibl type="academic" n="#abulfazl">
+                        <biblScope>Vol. I, pp.269-75</biblScope>
+                     </bibl>
+                     <bibl type="academic" n="#gawan"> </bibl>
+                  </listBibl>
+               </item>
+
+               <item xml:id="nishan">
+                  <name role="default">Nishan</name>
+                  <name xml:lang="eng">Princely Order</name>
+                  <note>A nishan was a Mughal term for orders issued by princes of the royal house,
+                     or by some exceptionally powerful queens and princesses.</note>
+               </item>
+
+               <item xml:id="parvana">
+                  <name role="default">Parvana</name>
+                  <name xml:lang="eng">Noble Order</name>
+                  <note>Orders issued by nobles, not of the Mughal household, and including by
+                     Rajput nobles, later kings in their own right. Notably, in the Bijapur
+                     Sultanate, the word ‘parvangi’ was used to refer to a farman’s imperative
+                     content. Rajput imperial nobles who were semi-autonomous even during Mughal
+                     rule, continued to use parvanas when they became independent rulers in the
+                     eighteenth century.</note>
+                  <listBibl>
+                     <bibl type="academic" n="#mohiuddin">
+                        <biblScope>pp.85-86</biblScope>
+                     </bibl>
+                     <bibl type="academic" n="#horstmannGD">
+                        <biblScope>pp.49-61</biblScope>
+                     </bibl>
+                  </listBibl>
+               </item>
+
+               <item xml:id="dastak">
+                  <name role="default">Dastak</name>
+                  <name xml:lang="eng">Order by Lower Officials</name>
+                  <note>Routine orders by lower level officials were referred to as Dastak. Such
+                     orders could pertain to a variety of matters, such as right of travel - for
+                     which a 'dastak-i rahdari' was issued. Dastaks permitting duty-free transit of
+                     commercial goods came to be wildly replicated and abused by East India Company
+                     officials in Bengal in the mid-eighteenth century, leading to a conflict with
+                     the incumbent Nawab of Bengal, Mir Qasim.</note>
+                  <listBibl>
+                     <bibl type="academic" n="#ibnHasan">
+                        <biblScope>p.367</biblScope>
+                     </bibl>
+                     <bibl type="academic" n="#mukherjeeT">
+                        <biblScope>p.423-4</biblScope>
+                     </bibl>
+                     <bibl type="academic" n="#mohiuddin">
+                        <biblScope>pp.97-8</biblScope>
+                     </bibl>
+                  </listBibl>
+               </item>
+
+               <item xml:id="sanad">
+                  <name role="default">Sanad</name>
+                  <name xml:lang="eng">Document (generically)</name>
+                  <note>In Mughal contexts, this term referred generically to any type of document.
+                     However, in Rajasthani contexts, it came to mean a royal order from the
+                     Maharaja and in Marathi it was used for state-issued documents that conferred
+                     entitlements. </note>
+               </item>
+
+               <item xml:id="takidPatra">
+                  <name role="default">Takid Patra</name>
+                  <name xml:lang="eng">Royal Letter (Maratha)</name>
+                  <note>Takidpatras were royal letters associated with the Maratha state of the late
+                     seventeenth and eighteenth centuries. They were routinely sent to groups of
+                     district-level officials, and also to more elite notables, often with specific
+                     instructions for executing the decisions of a separate order or grant. In terms
+                     of form, they resembled the royal order (adnyapatra); however, they sometimes
+                     added a respectful greeting more commonly found in interpersonal letters. The
+                     standard title with which they referred to the officials addressed was derived
+                     from the Persian phrase "mashhur al-anam" (famous among mortals), which was in
+                     use during the earlier Deccan Sultanate period.</note>
+                  <listBibl>
+                     <bibl type="academic" n="#kulkarni1999">
+                        <biblScope>pp. 75-7, 89-95, 103-5, 123, 147-151</biblScope>
+                     </bibl>
+                  </listBibl>
+               </item>
+
+               <!-- Add more <item> elements here -->
+
+            </list>
+
+            <list xml:id="privateDeeds">
+               <head>Private Deeds</head>
+
+               <!-- Insert corresponding <item> elements from formal types list in here-->
+               <item xml:id="baiNama">
+                  <name role="default">Baiʿ Nama</name>
+                  <name xml:lang="eng">Sale Deed</name>
+                  <note>The word baiʿ means 'sale' in Arabic. An alternative terms for Indo-Persian
+                     sale deeds was 'Khat-i kharidgi'. Sale deeds were frequently written in the
+                     form of iqrars, that is, legally binding declarations, in the presence of
+                     parties, witnesses and a judge or qazi. They were often, although not always,
+                     sealed and verified by the qazi. Baiʿ Namas from the Indian subcontinent were
+                     frequently bi-lingual and written in two or more scripts. Names of witnesses
+                     were written in multiple scripts, and were accompanied by caste or community
+                     symbols. Certain kinds of sales, for example, sales of goods held in security
+                     for loans, or revocable sales, were legally suspect (in Islamic law). This was
+                     because they were (correctly) suspected of being devices for getting around the
+                     Islamic prohibition of interest. They existed, nevertheless, and are in
+                     evidence from across the subcontinent and the Indian Ocean. </note>
+                  <listBibl>
+                     <bibl type="academic" n="#mohiuddin">
+                        <biblScope>pp.114-117</biblScope></bibl>
+                     <bibl type="academic" n="#bishara2017">
+                        <biblScope>pp.90-99</biblScope>
+                     </bibl>
+                  </listBibl>
+               </item>
+
+               <item xml:id="chakNama">
+                  <name role="default">Chak Nama</name>
+                  <name xml:lang="eng">Land Measurement Deed</name>
+                  <note>Grants of land were usually vague in terms of locational details. Once such
+                     a grant was made by the emperor or a noble, local revenue officials and village
+                     headmen were tasked with identifying a suitable plot of land, measuring it out,
+                     and writing out a document which described the location and adjoining
+                     properties. This document was the Chak Nama; the process of such measuring and
+                     recording was called 'chakbandi.' The Chak Nama documents was usually witnessed
+                     by locals and sealed by a qazi.</note>
+                  <listBibl>
+                     <bibl type="academic" n="#mohiuddin">
+                        <biblScope>pp.91-92</biblScope>
+                     </bibl>
+                  </listBibl>
+               </item>
+
+               <item xml:id="farighKhatti">
+                  <name xml:lang="per" role="default">Farigh Khatti</name>
+                  <name xml:lang="hin">Pharkhati</name>
+                  <name xml:lang="eng">Quittance Deed</name>
+                  <note>A farigh-khatti was the written record of the fulfilment of obligations.
+                     They might be written when a loan was repaid, or a business partnership was
+                     terminated. The point of writing such a document was to produce a legal
+                     document to the effect that no dues remained payable from one party to another.
+                     In Bengali, Gujarati, Hindi, Marathi and Rajasthani, they were referred to as
+                     pharkhat, pharikhat or pharkati. In Marathi- and Gujarati-writing areas, they
+                     were used to record divorce settlements. These documents were usually, although
+                     not always, witnessed and sealed by a qazi.</note>
+                  <listBibl>
+                     <bibl type="academic" n="#chatterjee2021">
+                        <biblScope>pp. 548-50</biblScope>
+                     </bibl>
+                  </listBibl>
+               </item>
+
+               <item xml:id="girwiNama">
+                  <name role="default">Girwi Nama</name>
+                  <name xml:lang="eng">Mortgage or pawn deed</name>
+                  <note>Girwi is the Hindi term for rahn. See Rahn Nama.</note>
+               </item>
+
+               <item xml:id="hundi">
+                  <name role="default">Hundi</name>
+                  <name xml:lang="eng">Bill of exchange</name>
+                  <note>A hundi was a bill of exchange, used to transfer funds, often across long
+                     distances. They were issued by a merchant banker in exchange for a deposit and
+                     could be encashed at a different location. Originating in South Asia, hundis
+                     were widely used throughout the Mughal Empire and, by the nineteenth century,
+                     around the Indian Ocean and in parts of Central Asia and Russia. Although
+                     primarily a commercial instrument, they also played a role in state-financing,
+                     such as in the eighteenth-century Rajput kingdoms.</note>
+                  <listBibl>
+                     <bibl type="academic" n="#shahnawaz2021"/>
+                  </listBibl>
+               </item>
+
+               <item xml:id="iqrar">
+                  <name xml:lang="per" role="default">Iqrar</name>
+                  <name xml:lang="eng">Declaration</name>
+                  <note> An iqrar was a legally binding declaration (sometimes translated as
+                     ‘confession’) in Islamic law, and hence of highest probative value. Document
+                     recording such declarations also came to be called iqrars or iqrar-namas, and
+                     were used to record sales, debts and other inter-personal transactions. These
+                     were inevitably sealed by the qazi. In the Indian sub-continent, they were
+                     frequently bi-lingual, and included multiple attestations in the margins of the
+                     documents, also in various scripts and accompanied by seals and symbols. It
+                     appears that in the Arabic-writing parts of the Indian Ocean, iqrars came to be
+                     used primarily as record of debt.</note>
+                  <listBibl>
+                     <bibl type="academic" n="#bishara2017">
+                        <biblScope>pp.58-63</biblScope>
+                     </bibl>
+                     <bibl type="academic" n="#iow"/>
+                  </listBibl>
+               </item>
+
+               <item xml:id="katba">
+                  <name xml:lang="per" role="default">Katba</name>
+                  <name xml:lang="eng">Statement</name>
+                  <note> In the western Deccan, individual statements and undertakings were
+                     committed to paper by means of a flexible genre known as the katba (from the
+                     Arabic kitab). In private disputes, opposing parties presented katbas attesting
+                     to a claim and acknowledging the authority of the court or judicial assembly,
+                     as in the case of Adi Sethi's statement in our corpus. But katbas were also
+                     integral to state revenue administration. Village record-keepers routinely
+                     produced katbas in which cultivators and headmen would undertake to pay a
+                     certain sum of money or produce to the state following the next harvest.
+                     Finally, in the compound karja-katba form, this document type could serve as an
+                     interpersonal loan contract.</note>
+                  <listBibl>
+                     <bibl type="#academic" n="#fukazawa1963">
+                        <biblScope>p. 52</biblScope>
+                     </bibl>
+                     <bibl type="#academic" n="#fukazawa1965">
+                        <biblScope>p. 52</biblScope>
+                     </bibl>
+                     <!--<bibl type="#academic" n="#kulkarni1965">
+                        <biblScope>p. 223</biblScope>
+                     </bibl>-->
+                  </listBibl>
+               </item>
+
+
+               <item xml:id="laDawaSulhNama">
+                  <name xml:lang="per" role="default">La Daʿwa Sulh Nama</name>
+                  <name xml:lang="eng">Quittance Deed</name>
+                  <note>Quittance deeds were produced after the resolution or termination of
+                     disputes, to record that the parties had no further claims on each other. To
+                     some extent, they were interchangeable with farigh-khattis, but the latter had
+                     a wider usage, for example as tax rexeipts, divorce deeds, and records of debt
+                     repayment. Also see farigh-khatti.</note>
+                  <listBibl>
+                     <bibl type="academic" n="#mohiuddin">
+                        <biblScope>p. 112</biblScope>
+                     </bibl>
+                  </listBibl>
+               </item>
+
+               <item xml:id="qabala">
+                  <name role="default">Qabala</name>
+                  <name xml:lang="eng">Deed</name>
+                  <note>This is the generic Arabic and Persian term for a legal document, usually
+                     one involving an inter-personal contract.</note>
+               </item>
+
+               <item xml:id="rahnNama">
+                  <name role="default">Rahn Nama</name>
+                  <name xml:lang="eng">Mortgage or pawn deed</name>
+                  <note>A rahn nama recorded property held as security against a loan. The property
+                     so deposited with the lender could be recovered by the borrower, subject to
+                     repayment of the loan, in some cases, within a given time period only. The
+                     legal validity of rahn transactions was suspect in Islamic law, since they
+                     opened up the possibility of riba, or usury. Rahn Namas usually included
+                     detailed physical descriptions of the contracting parties. The Hindi word for
+                     rahn is girwi, also see Girwi Nama.</note>
+                  <listBibl>
+                     <bibl type="academic" n="#mohiuddin">
+                        <biblScope>pp. 119-120</biblScope>
+                     </bibl>
+                     <bibl type="academic" n="#ibnHasan">
+                        <biblScope>p. 367</biblScope>
+                     </bibl>
+                  </listBibl>
+               </item>
+
+
+
+               <item xml:id="tamassuk">
+                  <name role="default">Tamassuk</name>
+                  <name xml:lang="eng">Bond/Record of Debt</name>
+                  <note>A tamassuk was a bond recording a range of obligations. At the simplest,
+                     they could be the record of a loan taken; they could also be bonds of paid or
+                     unpaid service - a kind of deed of self-enslavement. As with many other
+                     documents for recording transactions, a tamassuk was usually an iqrar (a
+                     binding declaration) recorded in front of an Islamic judge (qazi) and validated
+                     by him in writing.</note>
+                  <listBibl>
+                     <bibl type="academic" n="#mohiuddin">
+                        <biblScope>pp.122-4</biblScope>
+                     </bibl>
+                     <bibl type="academic" n="#chatterjee2021"/>
+                  </listBibl>
+               </item>
+
+               <item xml:id="taqsimNama">
+                  <name role="default">Taqsim Nama</name>
+                  <name xml:lang="eng">Partition Deed</name>
+                  <note>A taqsim nama was a record of the division of property among heirs, usually
+                     after a death or a dispute. It was usually sealed and authorised by a qazi, and
+                     included a list of properties involved, presented in a tabular format.</note>
+                  <listBibl>
+                     <bibl type="academic" n="#mohiuddin">
+                        <biblScope>pp.122-4</biblScope>
+                     </bibl>
+                  </listBibl>
+               </item>
+            </list>
+
+
+
+            <list xml:id="adminRecords">
+               <head>Administrative Records</head>
+
+               <!-- Insert corresponding <item> elements from formal type list in here-->
+               <item xml:id="awarja">
+                  <name role="default">Awarja</name>
+                  <name xml:lang="eng">Record of Taxes Collected</name>
+                  <note>An awarja is a record or tally of taxes due from a small area, usually a
+                     village. These office documents were written on paper on low quality, usually
+                     in very cursive, careless handwriting, with siyaq characters for the amounts of
+                     money involved - all these features making them very difficult to read. There
+                     are hundreds of awarjas in the Inayat Jung Collection, which pertains to the
+                     Golconda province, conquered by the Mughals in 1687, and later the Hyderabad
+                     state.</note>
+                  <listBibl>
+                     <bibl type="academic" n="#richardsGolconda">
+                        <biblScope>pp.167, 194</biblScope>
+                     </bibl>
+                  </listBibl>
+               </item>
+
+               <item xml:id="bahi">
+                  <name role="default">Bahi</name>
+                  <name xml:lang="eng">register, account book</name>
+                  <note>A bahi is a physical format of record-keeping, more than a particular genre.
+                     It is typically a long narrow book, bound at the short side, which constitutes
+                     the top and read vertically. When not in use, it was rolled up for storage.
+                     Bahis were widely used to keep accounts by merchants and government officials,
+                     especially those with ties to Rajasthan. They were also used in government
+                     offices to record copies of orders and letters and, in these uses, often have
+                     clerical notes or headings identifying the departments, places, and/or persons
+                     involved.</note>
+                  <listBibl>
+                     <bibl type="academic" n="#thelen2021">
+                        <biblScope>pp. 809-11</biblScope>
+                     </bibl>
+                  </listBibl>
+               </item>
+
+               <item xml:id="qaulQarar">
+                  <name role="default">Qaul Qarar</name>
+                  <name xml:lang="eng">Tax Contract</name>
+                  <note>These were contracts between village landlords and imperial tax officials or
+                     jagirdars, for the payment of the agreed amount of revenues into the treasury
+                     of the state or the jagirdar. In the Mughal period, these documents often
+                     started with the words 'qaul qarar patta-yi ijara', indicating the leasing out
+                     (ijara) of tax collection duties. In colonial times, they came to be termed
+                     ‘cowles’ and were handed to significant villagers by district officials. These
+                     documents were frequently bi-lingual - Persian and the local language, and
+                     often use siyaq numerals to indicate the amount payable.</note>
+                  <listBibl>
+                     <bibl type="academic" n="#mohiuddin">
+                        <biblScope>pp. 124</biblScope>
+                     </bibl>
+                  </listBibl>
+               </item>
+
+               <item xml:id="tasdiq">
+                  <name role="default">Tasdiq</name>
+                  <name xml:lang="eng">Note of Verification</name>
+                  <note>Various kinds of verification notes were produced by Islamic judges (qazis)
+                     and other officials in the Mughal empire. Sometimes, a tasdiq was produced to
+                     check and validate a copy of an older deed. In other cases, paymaster-general
+                     of the army (bakshi) issued tasdiqs to verify the number of soldiers in the
+                     employ of a noble on provincial duty.</note>
+                  <listBibl>
+                     <bibl type="academic" n="#mohiuddin">
+                        <biblScope>pp. 101, 104</biblScope>
+                     </bibl>
+                  </listBibl>
+               </item>
+
+               <item xml:id="qabzAlWasul">
+                  <name role="default">Qabz al-Wasul</name>
+                  <name xml:lang="eng">Receipts for cash or goods received</name>
+                  <note>These are short receipts for tax monies deposited with the treasurer - at
+                     district, provincial or other administrative level. </note>
+               </item>
+
+               <item xml:id="yadi">
+                  <name role="default">Yadi</name>
+                  <name xml:lang="eng">Memorandum</name>
+                  <note>The yadi, yad, or yad-dasht was a memorandum. It derives from the Persian
+                     noun 'yad' and verb phrase 'yad dashtan,' which mean 'memory' and 'to
+                     remember,' respectively. Mughal chancelleries relied on the yad-dasht to record
+                     the details of numerous and wide-ranging administrative operations, from the
+                     branding and verification of horses (yad-dasht-i dagh wa tashiha) to the
+                     receipt of monies (yad-dasht-i wusul) to the attendance, promotion, and death
+                     of soldiers. Local notables and officials verified the information contained in
+                     yad-dashts by applying seals and writing endorsements. For example, memoranda
+                     on the collection of revenue from lands granted in the Deccan (yad-dasht-i hal
+                     wa hasil) featured Marathi endorsements of district-level record-keepers
+                     (deshpande). Whereas the Mughal yad-dasht was thoroughly administrative in
+                     function, its offshoot genre of yad or yadi in the Maratha Empire was used for
+                     both administrative and diplomatic purposes. Maratha rulers exchanged yadis
+                     containing the proposed terms and conditions of an anticipated alliance or
+                     reconciliation following conflict.</note>
+               </item>
+
+
+            </list>
+
+            <list xml:id="letters">
+               <head>Letters</head>
+
+               <!-- Insert corresponding <item> elements from formal type list in here-->
+               <item xml:id="arzdasht">
+                  <name role="default">ʿArzdasht</name>
+                  <name xml:lang="eng">Petition</name>
+                  <note>Petitioning rulers and social superiors was an essential part of statecraft
+                     in Mughal India and even afterwards, during the colonial era. There were
+                     elaborate rules for the correct drafting of such petitions. They had to be
+                     sufficiently respectful and self-deprecatory, but also properly calibrated to
+                     the relative status of the petitioner and the recipient. Petitions sometimes
+                     contained specific requests, but very often, all formal communication with the
+                     ruler or a social superior had to be in the form of a petition. The tradition
+                     of petitioning continued well into the colonial period.</note>
+                  <listBibl>
+                     <bibl type="academic" n="#mohiuddin">
+                        <biblScope unit="page">p. 151</biblScope>
+                     </bibl>
+                     <bibl type="academic" n="#mas2019"/>
+                  </listBibl>
+               </item>
+
+               <item xml:id="khat">
+                  <name role="default">Khat</name>
+                  <name>Kharita</name>
+                  <name xml:lang="eng">Letter</name>
+                  <note>The word khat derives from one of the many Arabic words for writing. As
+                     such, it can be a generic word for note, or document, such as khat-i kharidgi -
+                     note/deed of sale. More often, however, khat implies a letter. It is sometimes
+                     used interchangeably with kharita, which inevitably means letter, usually a
+                     diplomatic or official letter. There are hundreds of Persian and Rajasthani
+                     kharitas, written between the states of Rajasthan, stored at the Rajasthan
+                     State Archives, Bikaner, India.</note>
+               </item>
+
+               <item xml:id="patra">
+                  <name role="default">Patra</name>
+                  <name xml:lang="eng">Letter</name>
+                  <note>Quite like the word 'nama' in Persian, the word 'patra' can mean letter, but
+                     it can also indicate a legal document. When implying document, it is used as a
+                     generic suffix, such as inam patra.</note>
+               </item>
+
+            </list>
+
+            <list xml:id="judicialDox">
+               <head>Judicial Documents</head>
+               <!-- Insert corresponding <item> elements from formal type list in here-->
+
+               <item xml:id="mahzarNama">
+                  <name role="default">Mahzar Nama</name>
+                  <name>Mahzar Patra</name>
+                  <name xml:lang="eng">Collective Testimony</name>
+                  <note>A Mahzar Nama is similar to an affidavit. It consists of a statement of
+                     facts regarding a property, a person or certain events, solicited by specific
+                     persons, and attested to by their professional and social associates. Such a
+                     document was usually prepared in the context of a legal dispute, sometimes to
+                     replace missing or damaged legal deeds. It was nearly always sealed and
+                     verified by an Islamic judge, a qazi. Mughal Mahzar Namas often began with a
+                     quote from the Quran exhorting witnesses not to conceal testimony. They were
+                     different from mahzars in the Marathi-writing parts of the country, which were
+                     records of decisions made by judicial assemblies. In Sunni Hanafi legal texts
+                     such as the imperially sponsored Fatawa-yi Alamgiri, mahzars are similarly
+                     described as documents that recorded the proceedings of a legal dispute.</note>
+                  <listBibl>
+                     <bibl type="academic" n="#mohiuddin">
+                        <biblScope>pp.110-112</biblScope>
+                     </bibl>
+                     <bibl type="academic" n="#chatterjee2016"/>
+                  </listBibl>
+               </item>
+
+               <item xml:id="takrir">
+                  <name xml:lang="mar" role="default">Takrir</name>
+                  <name xml:lang="eng">Statement</name>
+                  <note>Statement or narrative of an individual case, usually offered to a judicial
+                     assembly towards the resolution of a dispute.</note>
+               </item>
+
+            </list>
+
+            <list xml:id="other">
+               <head>Other</head>
+
+               <!-- Insert corresponding <item> elements from formal type list in here-->
+
+               <item xml:id="akhbarat">
+                  <name role="default">Akhbarat</name>
+                  <name xml:lang="eng">Newsletters</name>
+                  <note>The word khabar means 'news' in Arabic, and also in Persian and Urdu; akhbar
+                     is the plural of that word. Important nobles (see mansabdars) and external
+                     rulers posted wakils (representatives) at the Mughal court, who sent back
+                     regular reports of happenings. The best known of such Mughal-era newsletters
+                     are those that were sent back to the Kacchwaha court at Jaipur. Several of
+                     these were procured by the colonial official James Tod, and are currently
+                     housed at the Royal Asiatic Society Library, London. Several remained, however,
+                     in Jaipur, and are currently housed at the Rajasthan State Archives, Bikaner,
+                     where they have been digitised and may be consulted online. The tradition
+                     continued into the colonial period, for the early nineteenth century,
+                     newsletters reporting on the Mughal court in Delhi as well as mobile Maratha
+                     and Afghan encampments in central India continued to be produced for the
+                     English East India Company government and its agents. Some of these
+                     Company-period akhbarat are collected in the Persian manuscripts section of the
+                     British Library.</note>
+                  <listBibl>
+                     <bibl type="academic" n="#fisher2019"/>
+                     <bibl type="academic" n="#pernau"/>
+                     <bibl type="academic" n="#khare6"/>
+                  </listBibl>
+               </item>
+
+
+               <item xml:id="ishtihar">
+                  <name xml:lang="per" role="default">Ishtihar</name>
+                  <name xml:lang="eng">Proclamation, Public Notice</name>
+                  <note>These appear to be a nineteenth-century innovation, used to make public
+                     declarations of new legislation, or of new arrangements in princely states.
+                     They were frequently printed, and hence intended for wider distribution.
+                  </note>
+               </item>
+            </list>
+
+         </div>
+
+         <div>
+            <list xml:id="occupations">
+
+               <item>
+                  <name>clerk</name>
+               </item>
+               <item>
+                  <name>courtesan (luli)</name>
+               </item>
+               <item>
+                  <name>cultivator</name>
+               </item>
+               <item>
+                  <name>emperor</name>
+               </item>
+               <item>
+                  <name>judge (qazi)</name>
+               </item>
+               <item>
+                  <name>goldsmith</name>
+               </item>
+               <item>
+                  <name>grocer</name>
+               </item>
+               <item>
+                  <name>headman (patel, muqaddam, chaudhri)</name>
+               </item>
+               <item>
+                  <name>ironsmith</name>
+               </item>
+               <item>
+                  <name>landlord (zamindar)</name>
+               </item>
+               <item>
+                  <name>merchant</name>
+               </item>
+               <item>
+                  <name>noble (mansabdar)</name>
+               </item>
+               <item>
+                  <name>official</name>
+               </item>
+               <item>
+                  <name>outlaw</name>
+               </item>
+               <item>
+                  <name>prince</name>
+               </item>
+               <item>
+                  <name>princess</name>
+               </item>
+               <item>
+                  <name>queen</name>
+               </item>
+               <item>
+                  <name>record keeper (qanungo)</name>
+               </item>
+               <item>
+                  <name>religious leader (Muslim)</name>
+               </item>
+               <item>
+                  <name>religious leader (Hindu)</name>
+               </item>
+               <item>
+                  <name>religious leader (Zoroastrian)</name>
+               </item>
+               <item>
+                  <name>religious leader (Sikh)</name>
+               </item>
+               <item>
+                  <name>religious leader (Christian)</name>
+               </item>
+               <item>
+                  <name>servant</name>
+               </item>
+               <item>
+                  <name>slave</name>
+               </item>
+               <item>
+                  <name>soldier</name>
+               </item>
+               <item>
+                  <name>tailor</name>
+               </item>
+               <item>
+                  <name>watchman</name>
+               </item>
+            </list>
+         </div>
+
+         <div>
+            <list xml:id="glossary">
+               <head>Lawforms Taxonomy: glossary for emic terms</head>
+
+               <item xml:id="gl_adhikari">
+                  <name role="default">adhikari</name>
+                  <name xml:lang="eng">official, superintendancy, holding an office</name>
+               </item>
+
+               <item xml:id="gl_agarwala">
+                  <name role="default">Agarwala</name>
+                  <name xml:lang="eng">a merchant subcaste</name>
+               </item>
+
+               <item xml:id="gl_amali">
+                  <name role="default">ʿamali</name>
+                  <name xml:lang="eng">the revenue year, i.e. the fasli calendar</name>
+                  <note>likely derived from ʿamil or revenue official</note>
+               </item>
+
+               <item xml:id="gl_amil">
+                  <name role="default">ʿamil</name>
+                  <name xml:lang="eng">revenue official</name>
+               </item>
+
+               <item xml:id="gl_amin">
+                  <name role="default">amin</name>
+                  <name xml:lang="eng">revenue official</name>
+               </item>
+
+               <item xml:id="gl_amir">
+                  <name role="default">amir</name>
+                  <name xml:lang="eng">noble</name>
+               </item>
+
+               <item xml:id="gl_arz">
+                  <name role="default">ʿarz</name>
+                  <name xml:lang="eng">written representation, petition</name>
+               </item>
+
+               <item xml:id="gl_arzdasht">
+                  <name role="default">ʿarzdasht</name>
+                  <name xml:lang="eng">petition</name>
+                  <note>used for any formal address from an inferior to a superior</note>
+               </item>
+
+               <item xml:id="gl_babti">
+                  <name role="default">babti</name>
+                  <name xml:lang="eng">any additional item of revenue</name>
+               </item>
+
+               <item xml:id="gl_badi">
+                  <name role="default">badi</name>
+                  <name xml:lang="eng">dark half of the lunar month</name>
+                  <note>when the moon is waning</note>
+               </item>
+
+               <item xml:id="gl_badshah">
+                  <name role="default">badshah</name>
+                  <name xml:lang="eng">emperor</name>
+                  <note>alternately, padshah</note>
+               </item>
+
+               <item xml:id="gl_bahadur">
+                  <name role="default">bahadur</name>
+                  <name xml:lang="eng">brave, valiant, courageous; an honourific</name>
+               </item>
+
+               <item xml:id="gl_bahi">
+                  <name role="default">bahi</name>
+                  <name xml:lang="eng">a register or book</name>
+               </item>
+
+               <item xml:id="gl_banjara">
+                  <name role="default">banjara</name>
+                  <name xml:lang="eng">itinerant grain and cattle merchant</name>
+               </item>
+
+               <item xml:id="gl_berat">
+                  <name role="default">berat</name>
+                  <name xml:lang="eng">a government order; in the Ottoman Empire, it referred to an
+                     order of grant or appointment from the Sultan, but in the Deccan, it often
+                     referred to an order enjoining the payment of a sum of money</name>
+               </item>
+
+               <item xml:id="gl_bhai">
+                  <name role="default">bhai</name>
+                  <name xml:lang="eng">a term of respect</name>
+                  <note>literally, brother</note>
+               </item>
+
+               <item xml:id="gl_bhandari">
+                  <name role="default">Bhandari</name>
+                  <name xml:lang="eng">a Jain subcaste</name>
+                  <note>members of this community were prominent officials in the Rajput kingdom of
+                     Marwar</note>
+               </item>
+
+               <item xml:id="gl_bigha">
+                  <name role="default">bigha</name>
+                  <name xml:lang="eng">a measure of land, corresponding to between 1600 and 3200
+                     acres depending upon the region</name>
+               </item>
+
+               <item xml:id="gl_biswa">
+                  <name role="default">biswa</name>
+                  <name xml:lang="eng">one-twentieth of a bigha; used to indicate a share or portion
+                     in the rights to a village</name>
+               </item>
+
+               <item xml:id="gl_chakla">
+                  <name role="default">chakla</name>
+                  <name xml:lang="eng">territorial division comprising several parganas
+                     (districts)</name>
+               </item>
+
+               <item xml:id="gl_chaudhrai">
+                  <name role="default">chaudhrai</name>
+                  <name xml:lang="eng">office of chaudhri or landlord</name>
+               </item>
+
+               <item xml:id="gl_chaudhri">
+                  <name role="default">chaudhri</name>
+                  <name xml:lang="eng">landlord</name>
+                  <note>similar to desai, deshmukh</note>
+               </item>
+
+               <item xml:id="gl_chaudhrgiri">
+                  <name role="default">chaudhr-giri</name>
+                  <name xml:lang="eng">the holding of the post of chaudhri or landlord</name>
+               </item>
+
+               <item xml:id="gl_chavar">
+                  <name role="default">chavar</name>
+                  <name>chahur</name>
+                  <name xml:lang="eng">a measure of land equal to 120 square bighas</name>
+               </item>
+
+               <item xml:id="gl_daftar">
+                  <name role="default">daftar</name>
+                  <name xml:lang="eng">register</name>
+                  <note>particularly in the compound "daftar-khana," also refers to a record-keeping
+                     office and repository</note>
+               </item>
+
+               <item xml:id="gl_dam">
+                  <name role="default">dam</name>
+                  <name xml:lang="eng">copper coin</name>
+               </item>
+
+               <item xml:id="gl_darogha">
+                  <name role="default">darogha</name>
+                  <name xml:lang="eng">superintendent</name>
+               </item>
+
+               <item xml:id="gl_dastak">
+                  <name role="default">dastak</name>
+                  <name xml:lang="eng">order</name>
+               </item>
+               <note>generally, a lower-level order</note>
+
+               <item xml:id="gl_dastur">
+                  <name role="default">dastur</name>
+                  <name xml:lang="eng">custom</name>
+                  <note>also, a customary fee</note>
+               </item>
+
+               <item xml:id="gl_dasturalamal">
+                  <name role="default">dastur al-amal</name>
+                  <name xml:lang="eng">record of revenue assessment</name>
+               </item>
+
+               <item xml:id="gl_desai">
+                  <name role="default">desai</name>
+                  <name xml:lang="eng">landlord</name>
+                  <note>Similar to deshmukh</note>
+               </item>
+
+               <item xml:id="gl_deshmukh">
+                  <name role="default">deshmukh</name>
+                  <name xml:lang="eng">landlord</name>
+                  <note>similar to chaudhri, desai</note>
+               </item>
+
+               <item xml:id="gl_deshmukhi">
+                  <name role="default">deshmukhi</name>
+                  <name xml:lang="eng">the office of deshmukh or landlord</name>
+               </item>
+
+               <item xml:id="gl_deshpande">
+                  <name role="default">deshpande</name>
+                  <name xml:lang="eng">record keeper</name>
+                  <note>similar to qanungo</note>
+               </item>
+
+               <item xml:id="gl_deshpandegiri">
+                  <name role="default">deshpande-giri</name>
+                  <name xml:lang="eng">the holding of the office of deshpande or record
+                     keeper</name>
+               </item>
+
+               <item xml:id="gl_dhangar">
+                  <name role="default">Dhangar</name>
+                  <name xml:lang="eng">a herder, a herder caste</name>
+               </item>
+
+               <item xml:id="gl_dira">
+                  <name role="default">dirʿa</name>
+                  <name xml:lang="eng">a unit of measurement</name>
+               </item>
+
+               <item xml:id="gl_diwan">
+                  <name role="default">diwan</name>
+                  <name xml:lang="eng">Head of imperial or provincial revenue department, or manager
+                     of finances in a noble's household</name>
+               </item>
+
+               <item xml:id="gl_diwanitan">
+                  <name role="default">diwan-i tan</name>
+                  <name xml:lang="eng">Head of a revenue department, specifically responsible for
+                     revenue assignments, in contradistinction to the diwan-i khalsa responsible for
+                     crown lands</name>
+                  <note>In practice, a single person could hold both the diwan-i tan and diwan-i
+                     khalsa posts. See Zahiruddin Malik, The Reign of Muhammad Shah (1719-1748),
+                     pg.293.</note>
+               </item>
+
+               <item xml:id="gl_diwani">
+                  <name role="default">diwani</name>
+                  <name xml:lang="eng">revenue department</name>
+               </item>
+
+               <item xml:id="gl_falaj">
+                  <name role="default">falaj</name>
+                  <name xml:lang="eng">a type of irrigation canal</name>
+               </item>
+
+               <item xml:id="gl_farighkhatti">
+                  <name role="default">farigh khatti</name>
+                  <name xml:lang="eng">no-claims deed</name>
+               </item>
+
+               <item xml:id="gl_farman">
+                  <name role="default">farman</name>
+                  <name xml:lang="eng">imperial order</name>
+               </item>
+
+               <item xml:id="gl_farzand">
+                  <name role="default">farzand</name>
+                  <name xml:lang="eng">son/child/successor</name>
+               </item>
+
+               <item xml:id="gl_fasli">
+                  <name role="default">Fasli</name>
+                  <name xml:lang="eng">Mughal solar calendar, established by Emperor Akbar</name>
+               </item>
+
+               <item xml:id="gl_faujdar">
+                  <name role="default">faujdar</name>
+                  <name xml:lang="eng">police-cum-military officer</name>
+               </item>
+
+               <item xml:id="gl_ghalledar">
+                  <name role="default">ghalledar</name>
+                  <name xml:lang="eng">storekeeper of grain</name>
+                  <note>also spelled ghalladar</note>
+               </item>
+
+               <item xml:id="gl_ghazi">
+                  <name role="default">ghazi</name>
+                  <name xml:lang="eng">religious warrior; an honorific</name>
+               </item>
+
+               <item xml:id="gl_girasiya">
+                  <name role="default">girasiya</name>
+                  <name xml:lang="eng">outlaw warrior</name>
+                  <note>a marginal military group, possibly of mixed Rajput and Bhil ancestry</note>
+               </item>
+
+               <item xml:id="gl_gopal">
+                  <name role="default">Gopal</name>
+                  <name xml:lang="eng">a Hindu deity</name>
+               </item>
+
+               <item xml:id="gl_govinddevji">
+                  <name role="default">Govinddevji</name>
+                  <name xml:lang="eng">a Hindu deity</name>
+               </item>
+
+               <item xml:id="gl_gumashta">
+                  <name role="default">gumashta</name>
+                  <name xml:lang="eng">agent</name>
+               </item>
+
+               <item xml:id="gl_hakim">
+                  <name role="default">hakim</name>
+                  <name xml:lang="eng">governor, official</name>
+               </item>
+
+               <item xml:id="gl_hasal">
+                  <name role="default">hasal</name>
+                  <name xml:lang="eng">a type of tax</name>
+               </item>
+
+               <item xml:id="gl_haveli">
+                  <name role="default">haveli</name>
+                  <name xml:lang="eng">mansion</name>
+               </item>
+
+               <item xml:id="gl_hon">
+                  <name role="default">hon</name>
+                  <name xml:lang="eng">a type of widely circulating gold coin minted by the
+                     Vijayanagara kingdom</name>
+                  <note>see Phillip B. Wagoner, "Money Use in the Deccan, c. 1350-1687: The Role of
+                     Vijayanagara hons in the Bahmani Currency System"</note>
+               </item>
+
+               <item xml:id="gl_hundi">
+                  <name role="default">hundi</name>
+                  <name xml:lang="eng">a bill of exchange used to transfer money</name>
+               </item>
+
+               <item xml:id="gl_huzur">
+                  <name role="default">huzur</name>
+                  <name xml:lang="eng">(lit.) the presence; Lord</name>
+               </item>
+
+               <item xml:id="gl_ijara">
+                  <name role="default">ijara</name>
+                  <name xml:lang="eng">tenancy</name>
+               </item>
+
+               <item xml:id="gl_ijaradar">
+                  <name role="default">ijaradar</name>
+                  <name xml:lang="eng">a leaseholder of revenue rights or land</name>
+               </item>
+
+               <item xml:id="gl_inam">
+                  <name role="default">inʿam</name>
+                  <name xml:lang="eng">reward, grant of tax-free land</name>
+               </item>
+
+               <item xml:id="gl_inamdar">
+                  <name role="default">inʿamdar</name>
+                  <name xml:lang="eng">the holder of a grant of tax-free land</name>
+               </item>
+
+               <item xml:id="gl_inami">
+                  <name role="default">inʿami</name>
+                  <name xml:lang="eng">referring to tax-exempt village lands or revenues</name>
+                  <note>derived from inʿam</note>
+               </item>
+
+               <item xml:id="gl_iqrar">
+                  <name role="default">iqrar</name>
+                  <name xml:lang="eng">legal declaration</name>
+               </item>
+
+               <item xml:id="gl_istamalat">
+                  <name role="default">istamalat</name>
+                  <name xml:lang="eng">provisional settlement of annual revenue demand</name>
+                  <note>For more information on this revenue-specific usage of the term, which also
+                     means "encouragement" or "conciliation," see Richard Jenkins, Report on the
+                     Territories of the Rajah of Nagpore, pg. 159</note>
+               </item>
+
+               <item xml:id="gl_jagir">
+                  <name role="default">jagir</name>
+                  <name xml:lang="eng">rights to collect taxes from a certain area as payment for
+                     imperial services and associated expenses</name>
+               </item>
+
+
+               <item xml:id="gl_jagirdar">
+                  <name role="default">jagirdar</name>
+                  <name xml:lang="eng">holder of rights to collect taxes from a certain area as
+                     payment for his/her services and expenses</name>
+                  <note>usually also a mansabdar</note>
+               </item>
+
+               <item xml:id="gl_jamadar">
+                  <name role="default">jamadar</name>
+                  <name xml:lang="eng">commander of a body of troops</name>
+               </item>
+
+               <item xml:id="gl_jamedari">
+                  <name role="default">jamedari</name>
+                  <name xml:lang="eng">office of a jamadar</name>
+                  <note>may also correspond to dues paid to soldiers hired to protect crops from
+                     invading armies</note>
+               </item>
+
+               <item xml:id="gl_jiu">
+                  <name role="default">jiu</name>
+                  <name>ji</name>
+                  <name xml:lang="eng">an honorific added to a name or title to show respect</name>
+               </item>
+
+               <item xml:id="gl_julahi">
+                  <name role="default">Julahi</name>
+                  <name>Julaha</name>
+                  <name xml:lang="eng">a weaver, the weaver caste</name>
+               </item>
+
+               <item xml:id="gl_kacheri">
+                  <name role="default">kacheri</name>
+                  <name xml:lang="eng">district-level revenue office and magistracy</name>
+                  <note>An office in Rajput states and other north Indian kingdoms but not the
+                     Mughals. Also called kachahri and, in British colonial usage, kutcherry</note>
+               </item>
+
+               <item xml:id="gl_kamavisdar">
+                  <name role="default">kamavisdar</name>
+                  <name xml:lang="eng">head revenue collector at the district level</name>
+                  <note>Predominantly refers to said collectors in the eighteenth-century Maratha
+                     empire. See <ref type="bibl" target="#gordon1977">Gordon, "The Slow
+                        Conquest."</ref></note>
+               </item>
+
+               <item xml:id="gl_karori">
+                  <name role="default">karori</name>
+                  <name xml:lang="eng">Revenue head of the Mughal Imperial household domains</name>
+                  <note>possibly also a noble's diwan, see N.A. Siddiqi, Land Revenue Administration
+                     under the Mughals</note>
+               </item>
+
+               <item xml:id="gl_kashtkamati">
+                  <name role="default">kasht-kamati</name>
+                  <name xml:lang="eng">cultivation by hired labour or servants</name>
+               </item>
+
+               <item xml:id="gl_katba">
+                  <name role="default">katba</name>
+                  <name xml:lang="eng">legally binding declaration</name>
+               </item>
+
+               <item xml:id="gl_khalifa">
+                  <name role="default">khalifa</name>
+                  <name xml:lang="eng">a deputy, Caliph</name>
+                  <note>used as a respectful title</note>
+               </item>
+
+               <item xml:id="gl_khalisa">
+                  <name role="default">khalisa</name>
+                  <name xml:lang="eng">in Mughal parlance, crown land that was directly managed by
+                     the central government</name>
+                  <note>also khalsa in Rajasthani and Hindi usage</note>
+               </item>
+
+               <item xml:id="gl_khanazad">
+                  <name role="default">khanazad</name>
+                  <name xml:lang="eng">(lit.) born in the (imperial) household; a high-ranking
+                     noble</name>
+               </item>
+
+               <item xml:id="gl_khandani">
+                  <name role="default">khandani</name>
+                  <name xml:lang="eng">tribute</name>
+               </item>
+
+               <item xml:id="gl_khandi">
+                  <name role="default">khandi</name>
+                  <name xml:lang="eng">a measure of weight</name>
+                  <note>typically equal to either twenty or eight maunds</note>
+               </item>
+
+               <item xml:id="gl_kharif">
+                  <name role="default">kharif</name>
+                  <name xml:lang="eng">autumn</name>
+               </item>
+
+               <item xml:id="gl_kharita">
+                  <name role="default">kharita</name>
+                  <name>a high-status letter</name>
+                  <note>Also can refer to the pouch or silk bag used to hold such letters. In
+                     Rajasthani, sometimes called a khalita.</note>
+               </item>
+
+               <item xml:id="gl_khatib">
+                  <name role="default">khatib</name>
+                  <name xml:lang="eng">Muslim preacher</name>
+               </item>
+
+               <item xml:id="gl_khasgi">
+                  <name role="default">khasgi</name>
+                  <name xml:lang="eng">officer of the royal household</name>
+               </item>
+
+               <item xml:id="gl_krishna">
+                  <name role="default">Krishna</name>
+                  <name xml:lang="eng">a Hindu deity</name>
+               </item>
+
+               <item xml:id="gl_kulkarni">
+                  <name role="default">kulkarni</name>
+                  <name xml:lang="eng">village record-keeper</name>
+               </item>
+
+               <item xml:id="gl_kunwar">
+                  <name role="default">kunwar</name>
+                  <name xml:lang="eng">an unmarried boy or prince</name>
+               </item>
+
+               <item xml:id="gl_mahajan">
+                  <name role="default">mahajan</name>
+                  <name xml:lang="eng">wealthy merchant, moneylender</name>
+               </item>
+
+               <item xml:id="gl_mahal">
+                  <name role="default">mahal</name>
+                  <name xml:lang="eng">a revenue district or set of villages</name>
+               </item>
+
+               <item xml:id="gl_mahanad">
+                  <name role="default">mahanad</name>
+                  <name xml:lang="eng">judicial assembly</name>
+                  <note>similar to gota, majalis</note>
+               </item>
+
+               <item xml:id="gl_mahar">
+                  <name role="default">mahar</name>
+                  <name xml:lang="eng">a village watchman, messenger or guide</name>
+               </item>
+
+               <item xml:id="gl_maharawat">
+                  <name role="default">Maharawat</name>
+                  <name xml:lang="eng">an honorific for a Rajput chief or noble</name>
+               </item>
+
+               <item xml:id="gl_mahzar">
+                  <name role="default">mahzar</name>
+                  <name xml:lang="eng">testimony, record, people present</name>
+               </item>
+
+               <item xml:id="gl_mahzarNama">
+                  <name role="default">mahzar nama</name>
+                  <name xml:lang="eng">an affidavit</name>
+                  <note>also sometimes called a mahzar-patra</note>
+               </item>
+
+               <item xml:id="gl_mal">
+                  <name role="default">mal</name>
+                  <name xml:lang="eng">land revenue</name>
+               </item>
+
+               <item xml:id="gl_mamlatdar">
+                  <name role="default">mamlatdar</name>
+                  <name xml:lang="eng">district-level revenue collector</name>
+               </item>
+
+               <item xml:id="gl_man">
+                  <name role="default">man</name>
+                  <name xml:lang="eng">a measure of weight</name>
+                  <note>The size of the measure varied by region and period; in the documents here
+                     it was likely equal to 25–35 pounds. Also called a maund.</note>
+               </item>
+
+               <item xml:id="gl_mandloi">
+                  <name role="default">mandloi</name>
+                  <name xml:lang="eng">landlord</name>
+                  <note>similar to chaudhri, desai, deshmukh</note>
+               </item>
+
+               <item xml:id="gl_mansab">
+                  <name role="default">mansab</name>
+                  <name xml:lang="eng">Mughal imperial office and rank</name>
+               </item>
+
+               <item xml:id="gl_mansabdar">
+                  <name role="default">mansabdar</name>
+                  <name xml:lang="eng">holder of a mansab or imperial rank, a noble</name>
+                  <note>usually also a jagirdar</note>
+               </item>
+
+               <item xml:id="gl_mariaTheresaDollar">
+                  <name role="default">Maria Theresa dollar (MTD)</name>
+                  <name xml:lang="eng">A silver coin widely used in Africa and the Middle East until
+                     the middle of the twentieth century.</name>
+                  <note>Also called Maria Theresa thaler (MTT), this coin was first minted in
+                     Austria in the 1740s.</note>
+               </item>
+
+               <item xml:id="gl_masur">
+                  <name role="default">masur</name>
+                  <name xml:lang="eng">a type of legume</name>
+               </item>
+
+               <item xml:id="gl_matha">
+                  <name role="default">matha</name>
+                  <name xml:lang="eng">monastic order</name>
+               </item>
+
+               <item xml:id="gl_mauza">
+                  <name role="default">mauzaʿ</name>
+                  <name xml:lang="eng">village</name>
+                  <note>Mughal fiscal-administrative division</note>
+               </item>
+
+               <item xml:id="gl_mirza">
+                  <name role="default">mirza</name>
+                  <name xml:lang="eng">title for a prince; gentleman</name>
+                  <note>occasionally, a scholar, writer</note>
+               </item>
+
+               <item xml:id="gl_mokasadar">
+                  <name role="default">mokasadar</name>
+                  <name xml:lang="eng">revenue assignee</name>
+                  <note>similar to jagirdar; derives from Bijapur administrative practice carried
+                     over into the Maratha empire</note>
+               </item>
+
+               <item xml:id="gl_muamala">
+                  <name role="default">muaʿmala</name>
+                  <name xml:lang="eng">district, especially in Bijapur administrative
+                     nomenclature</name>
+               </item>
+
+               <item xml:id="gl_muchalka">
+                  <name role="default">muchalka</name>
+                  <name xml:lang="eng">a bond or agreement, esp. to perform some action for the
+                     government</name>
+               </item>
+
+               <item xml:id="gl_mufti">
+                  <name role="default">mufti</name>
+                  <name xml:lang="eng">a magistrate</name>
+                  <note>typically a scholar of Islamic law who provides legal opinions</note>
+               </item>
+
+               <item xml:id="gl_muhalla">
+                  <name role="default">muhalla</name>
+                  <name xml:lang="eng">a neighbourhood</name>
+               </item>
+
+               <item xml:id="gl_mung">
+                  <name role="default">mung</name>
+                  <name xml:lang="eng">a type of legume</name>
+               </item>
+
+               <item xml:id="gl_muqaddam">
+                  <name role="default">muqaddam</name>
+                  <name xml:lang="eng">village headman</name>
+               </item>
+
+               <item xml:id="gl_muqaddami">
+                  <name role="default">muqaddami</name>
+                  <name xml:lang="eng">office of muqaddam (village headman)</name>
+               </item>
+
+
+               <item xml:id="gl_murid">
+                  <name role="default">murid</name>
+                  <name xml:lang="eng">disciple</name>
+                  <note>a term derived from Sufi or Muslim mystic tradition</note>
+               </item>
+
+               <item xml:id="gl_mushrif">
+                  <name role="default">mushrif</name>
+                  <name xml:lang="eng">inspector</name>
+               </item>
+
+               <item xml:id="gl_mutasaddi">
+                  <name role="default">mutasaddi</name>
+                  <name xml:lang="eng">local revenue official</name>
+                  <note>As a state post, often in charge of trade and the collection of customs in a
+                     city or port. Can also refer to a clerk or accountant.</note>
+               </item>
+
+               <item xml:id="gl_muwazanaDahsala">
+                  <name role="default">muwazana dahsala</name>
+                  <name xml:lang="eng">tax records for a decade</name>
+               </item>
+
+               <item xml:id="gl_naib">
+                  <name role="default">naib</name>
+                  <name xml:lang="eng">deputy</name>
+               </item>
+
+               <item xml:id="gl_nankar">
+                  <name role="default">nankar</name>
+                  <name xml:lang="eng">tax-free land held by the chaudhri</name>
+               </item>
+
+               <item xml:id="gl_nawab">
+                  <name role="default">nawab</name>
+                  <name xml:lang="eng">title of a high-ranking noble or governor</name>
+               </item>
+
+               <item xml:id="gl_nishan">
+                  <name role="default">nishan</name>
+                  <name xml:lang="eng">princely order</name>
+               </item>
+
+               <item xml:id="gl_pahar">
+                  <name role="default">pahar</name>
+                  <name xml:lang="eng">a unit of approximately three hours</name>
+                  <note>a day and a night consisted of four pahars each</note>
+               </item>
+
+               <item xml:id="gl_paimayish">
+                  <name role="default">paimayish</name>
+                  <name xml:lang="eng">measurement</name>
+               </item>
+
+               <item xml:id="gl_panchayat">
+                  <name role="default">panchayat</name>
+                  <name xml:lang="eng">judicial assembly</name>
+                  <note>Today, it refers more generally to a local governing body.</note>
+               </item>
+
+               <item xml:id="gl_pandit">
+                  <name role="default">pandit</name>
+                  <name xml:lang="eng">a scholar or learned person, usually a man of Brahman
+                     caste</name>
+               </item>
+
+               <item xml:id="gl_panduranga">
+                  <name role="default">Panduranga</name>
+                  <name xml:lang="eng">a Hindu deity, also called Vithobha</name>
+               </item>
+
+               <item xml:id="gl_pargana">
+                  <name role="default">pargana</name>
+                  <name xml:lang="eng">district</name>
+               </item>
+
+               <item xml:id="gl_parvana">
+                  <name role="default">parvana</name>
+                  <name xml:lang="eng">order</name>
+               </item>
+
+               <item xml:id="gl_patil">
+                  <name role="default">patil</name>
+                  <name xml:lang="eng">village headman</name>
+               </item>
+
+               <item xml:id="gl_patra">
+                  <name role="default">patra</name>
+                  <name xml:lang="eng">letter or document</name>
+               </item>
+
+               <item xml:id="gl_patta">
+                  <name role="default">patta</name>
+                  <name xml:lang="eng">deed of land rights</name>
+                  <note>This can be a deed of lease or a deed of gift. It is also sometimes used for
+                     deeds for official posts.</note>
+               </item>
+
+               <item xml:id="pattayat">
+                  <name role="default">pattayat</name>
+                  <name xml:lang="eng">landlord or one who holds a patta</name>
+                  <note>Most widely used in Rajasthan, especially Mewar, where pattayats were
+                     similar to jagirdars.</note>
+               </item>
+
+               <item xml:id="gl_patwari">
+                  <name role="default">patwari</name>
+                  <name xml:lang="eng">village accountant</name>
+                  <note>similar to a kulkarni</note>
+               </item>
+
+               <item xml:id="gl_peth">
+                  <name role="default">peth</name>
+                  <name xml:lang="eng">market</name>
+               </item>
+
+               <item xml:id="gl_pir">
+                  <name role="default">pir</name>
+                  <name xml:lang="eng">an elder; often refers to the head of a Sufi religious
+                     order</name>
+               </item>
+
+               <item xml:id="gl_pirzada">
+                  <name role="default">pirzada</name>
+                  <name xml:lang="eng">a descendant of a Muslim holy man, often an officiant or
+                     attendant at a Sufi shrine</name>
+               </item>
+
+               <item xml:id="gl_pishgigiri">
+                  <name role="default">pishgi-giri</name>
+                  <name xml:lang="eng">taking money paid in advance, rent</name>
+               </item>
+
+               <item xml:id="gl_pishkash">
+                  <name role="default">pishkash</name>
+                  <name xml:lang="eng">tribute</name>
+               </item>
+
+               <item xml:id="gl_pradhan">
+                  <name role="default">pradhan</name>
+                  <name xml:lang="eng">minister</name>
+                  <note>"Mukhya pradhan" along with "pant pradhan" and "peshwa" were titles
+                     routinely assumed by the chief minister of the Maratha empire.</note>
+               </item>
+
+               <item xml:id="gl_prant">
+                  <name role="default">prant</name>
+                  <name xml:lang="eng">province</name>
+               </item>
+
+               <item xml:id="gl_qabala">
+                  <name role="default">qabala</name>
+                  <name xml:lang="eng">a deed of sale</name>
+               </item>
+
+               <item xml:id="gl_qabuliyat">
+                  <name role="default">qabuliyat</name>
+                  <name xml:lang="eng">written agreement, contract</name>
+               </item>
+
+               <item xml:id="gl_qabzalwasul">
+                  <name role="default">qabz al-wasul</name>
+                  <name xml:lang="eng">receipt of deposit</name>
+               </item>
+
+               <item xml:id="gl_qanungo">
+                  <name role="default">qanungo</name>
+                  <name xml:lang="eng">record-keeper</name>
+                  <note>similar to deshpande</note>
+               </item>
+
+               <item xml:id="gl_qanungoi">
+                  <name role="default">qanungoi</name>
+                  <name xml:lang="eng">the office of record-keeper</name>
+               </item>
+
+               <item xml:id="gl_qarar">
+                  <name role="default">qarar</name>
+                  <name xml:lang="eng">an agreement or contract</name>
+               </item>
+
+               <item xml:id="gl_qaul">
+                  <name role="default">qaul</name>
+                  <name xml:lang="eng">tax contract or deed of assurance</name>
+                  <note>alternately known as qaul-nama, qaul-qarar</note>
+               </item>
+
+               <item xml:id="gl_qaum">
+                  <name role="default">qaum</name>
+                  <name xml:lang="eng">people, tribe, kin-group</name>
+               </item>
+
+               <item xml:id="gl_qasba">
+                  <name role="default">qasba</name>
+                  <name xml:lang="eng">town, small city</name>
+               </item>
+
+               <item xml:id="gl_qazi">
+                  <name role="default">qazi</name>
+                  <name xml:lang="eng">Islamic judge</name>
+               </item>
+
+               <item xml:id="gl_qirsh">
+                  <name role="default">qirsh (pl. qurush)</name>
+                  <name xml:lang="eng">a silver coin, equivalent to a Maria Theresa Dollar</name>
+               </item>
+
+               <item xml:id="gl_rabi">
+                  <name role="default">rabi</name>
+                  <name xml:lang="eng">spring</name>
+               </item>
+
+               <item xml:id="gl_raj">
+                  <name role="default">raj</name>
+                  <name xml:lang="eng">king, ruler, realm or kingdom, government, rule</name>
+               </item>
+
+               <item xml:id="gl_rajashri">
+                  <name role="default">rajashri</name>
+                  <name xml:lang="eng">an honorific of royal dignity routinely applied in Marathi
+                     documents to any person deserving of courtesy and respect</name>
+                  <note>occasionally used in Rajasthani documents</note>
+               </item>
+
+               <item xml:id="gl_rajput">
+                  <name role="default">Rajput</name>
+                  <name xml:lang="eng">a Hindu warrior caste</name>
+               </item>
+
+               <item xml:id="gl_ram">
+                  <name role="default">Ram</name>
+                  <name xml:lang="eng">a Hindu deity</name>
+               </item>
+
+               <item xml:id="gl_rawat">
+                  <name role="default">Rawat</name>
+                  <name xml:lang="eng">an honorific title for a Rajput noble, chief or prince</name>
+               </item>
+
+               <item xml:id="gl_ruka">
+                  <name role="default">ruka</name>
+                  <name xml:lang="eng">small unit of currency</name>
+                  <note>measure of currency corresponding to twelfth part of an anna; measure of
+                     land corresponding to five or more bighas</note>
+               </item>
+
+               <item xml:id="gl_sahib">
+                  <name role="default">sahib</name>
+                  <name xml:lang="eng">lord or master</name>
+                  <note>also a generic honourific conveying the respect and authority due to the
+                     addressee; sometimes spelled saheb</note>
+               </item>
+
+               <item xml:id="gl_sahukar">
+                  <name role="default">sahukar</name>
+                  <name xml:lang="eng">moneylender</name>
+               </item>
+
+               <item xml:id="gl_sal">
+                  <name role="default">sal</name>
+                  <name xml:lang="eng">a species of tree</name>
+                  <note>corresponds to the scientific name shorea robusta; source of timber</note>
+               </item>
+
+               <item xml:id="gl_salami">
+                  <name role="default">salami</name>
+                  <name xml:lang="eng">fee</name>
+               </item>
+
+               <item xml:id="gl_sanad">
+                  <name role="default">sanad</name>
+                  <name xml:lang="eng">generically, a document</name>
+               </item>
+
+               <item xml:id="gl_sarih">
+                  <name role="default">sarih</name>
+                  <name xml:lang="eng">manumitted slave</name>
+                  <note>Formerly enslaved persons in Zanzibar used this term together with the name
+                     of their former master in legal deeds.</note>
+               </item>
+
+               <item xml:id="gl_sarkar">
+                  <name role="default">sarkar</name>
+                  <name xml:lang="eng">territorial division, larger than district; generic term for
+                     a sovereign or government</name>
+                  <note>Mughal term</note>
+               </item>
+
+               <item xml:id="sarup">
+                  <name role="default">sarup</name>
+                  <name xml:lang="eng">the earring worn by the nath yogis</name>
+               </item>
+
+               <item xml:id="gl_sethi">
+                  <name role="default">sethi</name>
+                  <name xml:lang="eng">merchant, banker</name>
+               </item>
+
+               <item xml:id="gl_sethigiri">
+                  <name role="default">sethi-giri</name>
+                  <name xml:lang="eng">holding the office of sethiya</name>
+               </item>
+
+               <item xml:id="gl_sethiya">
+                  <name role="default">sethiya</name>
+                  <name xml:lang="eng">head of a body of merchants and superintendent of a
+                     marketplace</name>
+               </item>
+
+               <item xml:id="gl_shahna">
+                  <name role="default">shahna</name>
+                  <name xml:lang="eng">representative or servant of the tax collector</name>
+               </item>
+
+               <item xml:id="gl_sharia">
+                  <name role="default">shariʿa</name>
+                  <name xml:lang="eng">Islamic law</name>
+               </item>
+
+               <item xml:id="gl_sheesham">
+                  <name role="default">sheesham</name>
+                  <name xml:lang="eng">a type of tree, North Indian rosewood</name>
+                  <note>species D. Sissoo, a cultivated tree used for furniture-making and
+                     fuel</note>
+               </item>
+
+               <item xml:id="gl_sheikh">
+                  <name role="default">sheikh</name>
+                  <name xml:lang="eng">Muslim religious leader, saint</name>
+               </item>
+
+               <item xml:id="gl_sher">
+                  <name role="default">sher</name>
+                  <name xml:lang="eng">a measure of weight</name>
+                  <note>also refers to deductions made by revenue officials from grain paid as
+                     tax-in-kind to government</note>
+               </item>
+
+               <item xml:id="gl_shiqdar">
+                  <name role="default">shiqdar</name>
+                  <name xml:lang="eng">revenue officer</name>
+               </item>
+
+               <item xml:id="gl_shriHuzur">
+                  <name role="default">Shri Huzur</name>
+                  <name xml:lang="eng">honoured lord</name>
+                  <note>used to refer to a ruler and to his court or establishment</note>
+               </item>
+
+               <item xml:id="gl_shrimant">
+                  <name role="default">shrimant</name>
+                  <name xml:lang="eng">lord, the illustrious</name>
+               </item>
+
+               <item xml:id="gl_shrinathji">
+                  <name role="default">Shrinathji</name>
+                  <name xml:lang="eng">a form of the Hindu deity Krishna</name>
+                  <note>Shrinathji is closely associated with the ruling family of Mewar.</note>
+               </item>
+
+               <item xml:id="gl_shuhur">
+                  <name role="default">Shuhur</name>
+                  <name xml:lang="eng">Southern Indian solar calendar</name>
+               </item>
+
+               <item xml:id="gl_sihbandi">
+                  <name role="default">sih-bandi</name>
+                  <name xml:lang="eng">revenue allocation for maintaining soldiers</name>
+               </item>
+
+               <item xml:id="gl_siyahaHuzur">
+                  <name role="default">siyaha huzur</name>
+                  <name xml:lang="eng">a register of daily proceedings of a royal court</name>
+               </item>
+
+               <item xml:id="gl_siyaq">
+                  <name role="default">siyaq</name>
+                  <name xml:lang="eng">a Perso-Arabic accounting shorthand that uses cryptic symbols
+                     to represent numbers</name>
+               </item>
+
+               <item xml:id="gl_suba">
+                  <name role="default">suba</name>
+                  <name xml:lang="eng">province</name>
+                  <note>Mughal term</note>
+               </item>
+
+               <item xml:id="gl_subadar">
+                  <name role="default">subadar</name>
+                  <name xml:lang="eng">provincial governor</name>
+               </item>
+
+               <item xml:id="gl_sudi">
+                  <name role="default">sudi</name>
+                  <name xml:lang="eng">light half of the lunar month</name>
+                  <note>when the moon is waxing</note>
+               </item>
+
+               <item xml:id="gl_takrir">
+                  <name role="default">takrir</name>
+                  <name xml:lang="eng">statement or narrative of a case</name>
+               </item>
+
+               <item xml:id="gl_tali">
+                  <name role="default">tali</name>
+                  <name xml:lang="eng">a fee paid to the village accountant (patwari) from the tax
+                     due</name>
+                  <note>For full definition, see Wilson's Revenue and Judicial Glossary. Wilson
+                     indicates that this definition is speculative.</note>
+               </item>
+
+               <item xml:id="gl_tamassuk">
+                  <name role="default">tamassuk</name>
+                  <name xml:lang="eng">bond or record of debt</name>
+               </item>
+
+               <item xml:id="gl_taujih">
+                  <name role="default">taujih</name>
+                  <name xml:lang="eng">revenue assessment</name>
+               </item>
+
+               <item xml:id="gl_thakur">
+                  <name role="default">thakur</name>
+                  <name xml:lang="eng">an honorific title, often referring to a Rajput landlord or
+                     chief</name>
+                  <note>also used to honour Hindu deities in Rajasthan</note>
+               </item>
+
+               <item xml:id="gl_thakurani">
+                  <name role="default">thakurani</name>
+                  <name xml:lang="eng">an honorific, female equivalent of thakur</name>
+               </item>
+
+               <item xml:id="gl_toor">
+                  <name role="default">toor</name>
+                  <name xml:lang="eng">a type of lentil</name>
+               </item>
+
+               <item xml:id="gl_tughra">
+                  <name role="default">tughra</name>
+                  <name xml:lang="eng">calligraphic signature, ultimately deriving from the practice
+                     of the eastern Turkish tribes of Central Asia</name>
+                  <note>For more information, and an example from a Safavid decree, see <ref
+                        type="bibl" target="bhallooRezai2019">Bhalloo and Rezai, "Inscribing
+                        Authority," pp. 837-840</ref></note>
+               </item>
+
+               <item xml:id="gl_tumar">
+                  <name role="default">tumar</name>
+                  <name xml:lang="eng">rent rolls</name>
+               </item>
+
+               <item xml:id="gl_urf">
+                  <name role="default">ʿurf</name>
+                  <name xml:lang="eng">custom</name>
+                  <note>Islamic legal term</note>
+               </item>
+
+               <item xml:id="gl_waraqa">
+                  <name role="default">waraqa</name>
+                  <name xml:lang="eng">document, especially financial deeds and contracts</name>
+               </item>
+
+               <item xml:id="gl_watan">
+                  <name role="default">watan</name>
+                  <name xml:lang="eng">homeland, held as special non-transferable revenue
+                     assignment</name>
+                  <note>Mughal fiscal-administrative term</note>
+               </item>
+
+               <item xml:id="gl_watandar">
+                  <name role="default">watandar</name>
+                  <name xml:lang="eng">landlord holding a special non-transferable revenue
+                     assignment</name>
+               </item>
+
+               <item xml:id="gl_wazir">
+                  <name role="default">Wazir</name>
+                  <name xml:lang="eng">chief imperial noble, adviser to the emperor</name>
+               </item>
+
+               <item xml:id="gl_yadi">
+                  <name role="default">yadi</name>
+                  <name xml:lang="eng">memorandum</name>
+               </item>
+
+               <item xml:id="gl_zamin">
+                  <name role="default">zamin</name>
+                  <name xml:lang="eng">guarantor</name>
+               </item>
+
+               <item xml:id="gl_zaminan">
+                  <name role="default">zaminan</name>
+                  <name xml:lang="eng">guarantors</name>
+               </item>
+
+               <item xml:id="gl_zamindar">
+                  <name role="default">zamindar</name>
+                  <name xml:lang="eng">landlord</name>
+               </item>
+
+               <item xml:id="gl_zamindari">
+                  <name role="default">zamindari</name>
+                  <name xml:lang="eng">the post of landlord</name>
+               </item>
+
+               <item xml:id="gl_zimn">
+                  <name role="default">zimn</name>
+                  <name xml:lang="eng">verso of the document</name>
+                  <note>This is where the details of a grant were often entered.</note>
+               </item>
+            </list>
+
+         </div>
+
+         <div>
+            <list xml:id="keywords">
+               <head>Thematic Keywords</head>
+               <item>
+                  <name>Administration</name>
+               </item>
+               <item>
+                  <name>Agriculture</name>
+               </item>
+               <item>
+                  <name>Buildings</name>
+               </item>
+               <item>
+                  <name>Buying and Selling</name>
+               </item>
+               <item>
+                  <name>Debt and Mortgage</name>
+               </item>
+               <item>
+                  <name>Desertion and Depopulation</name>
+               </item>
+               <item>
+                  <name>Disputes</name>
+               </item>
+               <item>
+                  <name>Forts</name>
+               </item>
+               <item>
+                  <name>Gardens and Orchards</name>
+               </item>
+               <item>
+                  <name>Grants</name>
+               </item>
+               <item>
+                  <name>Inheritance</name>
+               </item>
+               <item>
+                  <name>Money</name>
+               </item>
+               <item>
+                  <name>Natural Resources</name>
+               </item>
+               <item>
+                  <name>Peasants</name>
+               </item>
+               <item>
+                  <name>Petitioning</name>
+               </item>
+               <item>
+                  <name>Policing and Crime</name>
+               </item>
+               <item>
+                  <name>Property</name>
+               </item>
+               <item>
+                  <name>Records</name>
+               </item>
+               <item>
+                  <name>Soldiers</name>
+               </item>
+               <item>
+                  <name>Taxation and Tribute</name>
+               </item>
+               <item>
+                  <name>Trade</name>
+               </item>
+               <item>
+                  <name>War</name>
+               </item>
+               <item>
+                  <name>Women</name>
+               </item>
+            </list>
+         </div>
+
+      </body>
+   </text>
+</TEI>

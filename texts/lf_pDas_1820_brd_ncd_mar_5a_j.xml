@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1820_brd_ncd_mar_5a_j">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Memorandum concerning agriculture and revenue administration in district Dhar</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Dominic Vendell</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                 <repository ref="#brd"/> 
+                  <collection ref="#pDas"/>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#suhur">Shaʿban 1220</origDate>
+                     <origDate calendar="#fasli">1227</origDate>
+                     <origDate calendar="#gregorian"  when="1820">May/June 1820</origDate>                 
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p>Memorandum of revenue collection practices and information about agriculture in district (pargana) <placeName ref="#pgDhar">Dhar</placeName>, including rupee amounts for crops of different qualities and dues to the record-keeper (qanungo).</p></abstract>       
+        
+        <textClass> 
+           <keywords scheme="#formal"><term key="yadi"/></keywords>
+           <keywords scheme="#functional"><term key="adminRecords"/></keywords>
+           <keywords scheme="#thematic">
+              <term>Agriculture</term>
+              <term>Records</term>
+              <term>Taxation and Tribute</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+  </teiHeader>
+
+   <facsimile>
+      <graphic url="lf_pDas_1820_brd_ncd_mar_5a.jpg"/>
+      <graphic url="lf_pDas_1820_brd_ncd_mar_5b.jpg"/>
+      <graphic url="lf_pDas_1820_brd_ncd_mar_5c.jpg"/>
+      <graphic url="lf_pDas_1820_brd_ncd_mar_5d.jpg"/>
+      <graphic url="lf_pDas_1820_brd_ncd_mar_5e.jpg"/>
+      <graphic url="lf_pDas_1820_brd_ncd_mar_5f.jpg"/>
+      <graphic url="lf_pDas_1820_brd_ncd_mar_5g.jpg"/>
+      <graphic url="lf_pDas_1820_brd_ncd_mar_5h.jpg"/>
+      <graphic url="lf_pDas_1820_brd_ncd_mar_5i.jpg"/>
+      <graphic url="lf_pDas_1820_brd_ncd_mar_5j.jpg"/>
+   </facsimile>
+  <text>
+      <body>
+         
+         <pb n="1r" facs="lf_pDas_1820_brd_ncd_mar_5a.jpg"/>
+         
+         <div xml:id="orig_div1" xml:lang="mar" type="invocation" rend="top centre"><p>श्री</p></div>
+         <div corresp="#orig_div1"  xml:id="trans_div1"><p>Shri</p></div>
+         
+         <div xml:id="orig_div3" xml:lang="mar" type="maintext">
+            <p>
+               <lb/>यादी <placeName ref="#pgDhar">धार</placeName> प्रगण्यातील रीत <choice>
+                  <abbr>सु||</abbr>
+                  <expan>सुहूर</expan>
+               </choice>
+               <lb/>
+               <date calendar="#suhur">आशेरीन मयातैन व अलफ</date>
+                सन
+               <date calendar="#fasli">१२२७</date>
+               <lb/>माहे साबान उर्फ अधीक जेष्ठ मास
+               <lb/>
+               <space/><space/><measure type="currency" unit="rupee">रुपये</measure>
+               <lb rend="empty"/> 
+               <lb/>१ मका दर बीघा
+               <lb/><measure type="currency" unit="rupee" quantity="5">५</measure> उतम <measure
+                  type="currency" unit="rupee" quantity="4">४</measure> मध्यम
+               <lb/><measure type="currency" unit="rupee" quantity="3">३</measure> कनीष्ठ <measure
+                  type="currency" unit="rupee" quantity="1/4">.।</measure><measure type="currency"
+                  unit="anna" quantity="2">--</measure> खर्च
+               <lb rend="empty"/> 
+               <lb/>१ अफीण
+               <lb/><measure type="currency" unit="rupee" quantity="5">५</measure> उतम <measure
+                  type="currency" unit="rupee" quantity="4">४</measure> मध्यम
+               <lb/><measure type="currency" unit="rupee" quantity="3">३</measure> कनीष्ठ <measure
+                  type="currency" unit="rupee" quantity="2">२</measure>
+               <lb/><measure type="currency" unit="rupee" quantity="1/4"
+                  >.।</measure><measure type="currency" unit="anna" quantity="2">--</measure> खर्च
+               <lb rend="empty"/> 
+               <lb/>१ बाड
+               <lb/><measure type="currency" unit="rupee" quantity="5">५</measure> काला बीघा <measure
+                  type="currency" unit="rupee" quantity="4">४</measure> सफेत बीघा
+               <lb/><measure type="currency" unit="rupee" quantity="3">३</measure> बाशा वगैरे <measure
+                  type="currency" unit="rupee" quantity="1/4">.|</measure><measure type="currency"
+                  unit="anna" quantity="2">--</measure> खर्च
+               <lb/><measure type="currency" unit="rupee" quantity="3">३</measure>
+               <measure type="currency" unit="rupee" quantity="2.5">२||</measure>
+               <measure type="currency" unit="rupee" quantity="2">२</measure>
+               <lb rend="empty"/><pb n="2r" facs="lf_pDas_1820_brd_ncd_mar_5b.jpg"/>
+               <lb rend="empty"/> 
+               <lb/>१ साल
+               <lb/><measure type="currency" unit="rupee" quantity="5">५</measure> उतम पुन्यासी <measure
+                  type="currency" unit="rupee" quantity="4">४</measure> मध्यम
+               <lb/><measure type="currency" unit="rupee" quantity="3">३</measure> कनिष्ठ देवगडी <measure
+                  type="currency" unit="rupee" quantity="1/4">.|</measure><measure type="currency"
+                  unit="anna" quantity="2">--</measure> खर्च
+               <lb rend="empty"/> 
+               <lb/>१ आलसांद
+               <lb/><measure>५</measure> उतम <measure type="currency" unit="rupee" quantity="4"
+                  >४</measure> मध्यम
+               <lb/><measure><measure type="currency" unit="rupee" quantity="1/4"
+                  >.|</measure></measure><measure type="currency" unit="anna" quantity="2"
+                  >--</measure> खर्च
+               <lb rend="empty"/> 
+               <lb/>१ मसूर
+               <lb/><measure type="currency" unit="rupee" quantity="1.25">१|</measure> उतम <measure
+                  type="currency" unit="rupee" quantity="1">१</measure> मध्यम
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">.|</measure><measure
+                  type="currency" unit="anna" quantity="2">--</measure> खर्च १ <measure
+                  type="currency" unit="rupee" quantity="3/4">.|||.</measure>
+               <lb rend="empty"/> 
+               <lb/>१ गहू
+               <lb/><measure type="currency" unit="rupee" quantity="1.25">१|</measure> उतम <measure
+                  type="currency" unit="rupee" quantity="1">१</measure> मध्यम
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">.|</measure><measure
+                  type="currency" unit="anna" quantity="2">--</measure> खर्च १ <measure
+                  type="currency" unit="rupee" quantity="3/4">.|||.</measure>
+               <lb rend="empty"/><pb n="3r" facs="lf_pDas_1820_brd_ncd_mar_5c.jpg"/>
+               <lb rend="empty"/> 
+               <lb/>१ चणे
+               <lb/><measure type="currency" unit="rupee" quantity="1.25">१|</measure> उतम <measure
+                  type="currency" unit="rupee" quantity="4">४</measure> मध्यम
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">.|</measure><measure
+                  type="currency" unit="anna" quantity="2">--</measure> खर्च १ <measure
+                  type="currency" unit="rupee" quantity="3/4">.|||.</measure>
+               <lb rend="empty"/> 
+               <lb/>१ आलसी
+               <lb/><measure type="currency" unit="rupee" quantity="1.25">१|</measure> उतम <measure
+                  type="currency" unit="rupee" quantity="1">१</measure> मध्यम
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">.|</measure><measure
+                  type="currency" unit="anna" quantity="2">--</measure> खर्च १ <measure
+                  type="currency" unit="rupee" quantity="3/4">.|||.</measure>
+               <lb rend="empty"/> 
+               <lb/>१ डवार तूर मुग
+               <lb/><measure type="currency" unit="rupee" quantity="1.25">१|</measure> उतम <measure
+                  type="currency" unit="rupee" quantity="1">१</measure> मध्यम
+               <lb/><measure type="currency" unit="rupee" quantity="3/4">.|||.</measure> कनीष्ट <measure
+                  type="currency" unit="rupee" quantity="1/4">.|</measure><measure type="currency"
+                  unit="anna" quantity="2">--</measure> खर्च
+               <lb rend="empty"/> 
+               <lb/>१ चमेली
+               <lb/><measure type="currency" unit="rupee" quantity="1.25">१|</measure> उतम <measure
+                  type="currency" unit="rupee" quantity="1">१</measure> मध्यम
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">.|</measure><measure
+                  type="currency" unit="anna" quantity="2">--</measure> खर्च 
+               <lb rend="empty"/><pb n="4r" facs="lf_pDas_1820_brd_ncd_mar_5d.jpg"/>
+               <lb rend="empty"/> 
+               <lb/>१ तील
+               <lb/><measure type="currency" unit="rupee" quantity="1.25">१|</measure> उतम <measure
+                  type="currency" unit="rupee" quantity="1">१</measure> मध्यम
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">.|</measure><measure
+                  type="currency" unit="anna" quantity="2">--</measure> खर्च
+               <lb rend="empty"/> <lb/>१ अजवान
+               <lb/><measure type="currency" unit="rupee" quantity="1.5">१||</measure> उतम <measure
+                  type="currency" unit="rupee" quantity="1.25">१|</measure> मध्यम
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">.|</measure><measure
+                  type="currency" unit="anna" quantity="2">--</measure> खर्च <pb n="5r"
+                  facs="lf_pDas_1820_brd_ncd_mar_5e.jpg"/>
+               <lb rend="empty"/> 
+               <lb/>१ आदरख
+               <lb/><measure type="currency" unit="rupee" quantity="5">५</measure> उतम <measure
+                  type="currency" unit="rupee" quantity="4">४</measure> मध्यम
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">.|</measure><measure
+                  type="currency" unit="anna" quantity="2">--</measure> खर्च
+               <lb rend="empty"/> 
+               <lb/>१ हलद
+               <lb/><measure type="currency" unit="rupee" quantity="5">५</measure> उतम <measure
+                  type="currency" unit="rupee" quantity="4">४</measure> मध्यम
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">.|</measure><measure
+                  type="currency" unit="anna" quantity="2">--</measure> खर्च
+               <lb rend="empty"/> 
+               <lb/>१ मिरच्या
+               <lb/><measure type="currency" unit="rupee" quantity="5">५</measure> उतम <measure
+                  type="currency" unit="rupee" quantity="4">४</measure> मध्यम
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">.|</measure><measure
+                  type="currency" unit="anna" quantity="2">--</measure> खर्च ० लंग <pb n="6r"
+                  facs="lf_pDas_1820_brd_ncd_mar_5f.jpg"/>
+               <lb rend="empty"/> 
+               <lb/>१ सकरकंद
+               <lb/><measure type="currency" unit="rupee" quantity="5">५</measure> उतम <measure
+                  type="currency" unit="rupee" quantity="4">४</measure> मध्यम
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">.|</measure><measure
+                  type="currency" unit="anna" quantity="2">--</measure> खर्च
+               <lb rend="empty"/> 
+               <lb/>१ रागणी
+               <lb/><measure type="currency" unit="rupee" quantity="5">५</measure> उतम <measure
+                  type="currency" unit="rupee" quantity="4">४</measure> मध्यम
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">.|</measure><measure
+                  type="currency" unit="anna" quantity="2">--</measure> खर्च
+               <lb rend="empty"/> 
+               <lb/>१ ठाकुर व कानगो याचा हाक दस्तुर
+               <lb/>वगैरे
+               <lb/>१ दामी गावचा आकडा जमाबं-
+               <lb/>दी <choice>
+                  <abbr>प्रो||</abbr>
+                  <expan>प्रमाणे</expan>
+               </choice> सरकारचा ठरेल त्यात
+               <lb/>शेकडा रुपये <measure type="currency" unit="rupee" quantity="5">५</measure>
+               <lb/><measure type="currency" unit="rupee" quantity="3">३</measure> मडलोई <measure
+                  type="currency" unit="rupee" quantity="2">२</measure> कानगो
+               <lb rend="empty"/> 
+               <lb/>१ सीवाय भेट दर गावी ठाकुर व 
+               <lb rend="empty"/><pb n="7r" facs="lf_pDas_1820_brd_ncd_mar_5g.jpg"/>
+               <lb/>कानगो व त्याचे कारभारी सुधा
+               <lb/>
+               <measure type="currency" unit="rupee" quantity="9">९</measure> कानगो <measure
+                  type="currency" unit="rupee" quantity="9">९</measure> ठाकुर
+               <lb rend="empty"/> 
+               <lb/>१ गावगना जीरायत आहे त्याचा
+               <lb/>तपसील अलाहीदा पत्रकावर बी-
+               <lb/>घे आहेत.
+               <lb/><measure type="currency" unit="rupee" quantity="3000">३०००</measure> मडलोई <measure
+                  type="currency" unit="rupee" quantity="2000">२०००</measure> कानगो
+               <lb rend="empty"/> 
+               <lb/>१ दंडफुराई सरकारची ठरेल त्या
+               <lb/>आकड्याची चौथाई परभारे घे-
+               <lb/>तात.
+               <lb/>.||. कानगो .||. ठाकुर
+               <lb rend="empty"/><pb n="8r" facs="lf_pDas_1820_brd_ncd_mar_5h.jpg"/>
+               <lb/>१ चांभार बाई याजकडे दर गावी
+               <lb/>.||. मडलोई .||. कानगो
+               <lb rend="empty"/> 
+               <lb/>१ ककरजी ठरेल त्याची चौथाई पर-
+               <lb/>भारे घेतात ठाकुर व कानगो
+               <lb/>१ मडलोई याजकडे चौथाई
+               <lb/>१ कानगो यानी बर-
+               <lb/>हुकुमास रुपया <measure type="currency" unit="rupee" quantity="1"
+                  >१</measure>
+               <lb/>वर्षात
+               <lb rend="empty"/> 
+               <lb/>१ साठेराकडे हक ठाकुर याचा दर शेकडा
+               <lb/>रुपये <measure type="currency" unit="rupee" quantity="12.5">१२||</measure>
+               <choice>
+                  <abbr>प्रो|</abbr>
+                  <expan>प्रमाणे</expan>
+               </choice>
+               <lb rend="empty"/><pb n="9r" facs="lf_pDas_1820_brd_ncd_mar_5i.jpg"/>
+               <lb/>१ इनामी गाव
+               <lb/>२ ठाकुर
+               <lb/>१ <choice>
+                  <abbr>मो|</abbr>
+                  <expan>मौज</expan>
+               </choice>
+               <placeName ref="#dhamanda">धामणदा</placeName>
+               <lb/>१ <choice>
+                  <abbr>मो|</abbr>
+                  <expan>मौज</expan>
+               </choice>
+               <placeName ref="#padalya">पाडल्या</placeName>
+               <lb/>--
+               <lb/>२
+               <lb/>१ <choice>
+                  <abbr>मो|</abbr>
+                  <expan>मौज</expan>
+               </choice>
+               <placeName ref="#kalsada">कलसाडा</placeName> कानगो
+               <lb/>--
+               <lb/>३
+               <lb rend="empty"/> 
+               <lb/>१ गावगन्ना सरकारची जमा ठरेल त्याजवर
+               <lb/>जमेदारी व बाबती दर शेकडा रुपये <measure type="currency" unit="rupee"
+                  quantity="5">५</measure>
+               <choice>
+                  <abbr>प्रो|</abbr>
+                  <expan>प्रमाणे</expan>
+               </choice>
+               <lb/>घेतात तीसरे साली पेसकसी हजार दोन ह-
+               <lb/>जार आमदानी पाहून सरकारात घेतात कलम
+               <lb rend="empty"/> 
+               <lb/>१ पाटील गावगनाचे याजकडे खाती बाग ई-
+               <lb/>नाम जमीन गाव पाहून <measure type="land" unit="bigha" quantity="25"
+                  >पंचवीस</measure>
+               <measure type="land" unit="bigha" quantity="50">पनास</measure>
+               <lb/>बीघे आहे
+               <gap/>
+               <lb/>तीसरे साली अजमास पाहून घेतात 
+               <lb rend="empty"/><pb n="10r" facs="lf_pDas_1820_brd_ncd_mar_5j.jpg"/>
+               <lb rend="empty"/> 
+               <lb/>१ पटवारी गावगना राहाता त्याची ये-
+               <lb/>कदर बीघा
+               <gap/>
+               <measure type="land" unit="sher" quantity="5">पाच</measure> शेर
+               <lb/>आहे. ती कीरसाणाजवळून घेता ती-
+               <lb/>सरे साली साडे तीन तीन अडीच या <choice>
+                  <abbr>प्रो|</abbr>
+                  <expan>प्रमाणे</expan>
+               </choice>
+               <lb/> अमल सरकारात घेता कलम
+               <lb rend="empty"/> 
+               <lb/>१ सन
+               <date calendar="#fasli">१२०७</date>
+                साली जरीब गावगना जाल [जाला]
+               <lb/>त्याचा तपसीलवार पत्रक अलाहीदा
+               <lb/>पाठवीली आहेत यासीवाय जंगल गर्म व
+               <lb/>गोवच्या व डोंगर व नाले व तलाव वगैरे जरी-
+               <lb/>बात नाही म्हणोन कलम समजले सागावे </p>
+         </div>      
+         
+         <div corresp="#orig_div3"  xml:id="trans_div3">
+            <p>
+               <lb/>List of practices in <placeName ref="#pgDhar">Dhar</placeName> <ref type="glossary" target="#gl_pargana">pargana</ref>. In the Suhur year 
+               <lb/><date calendar="#suhur">twenty, two hundred and one thousand</date> [i.e., 1220], or the year <date calendar="#fasli">1227</date><note>1227 appears to be a Fasli year; however, it does not correspond to the Suhur
+                  year 1220 written earlier in the document using terms derived from the Arabic
+                  words for numbers. Whereas Shaʿban 1227 converts to June/July 1817 of the
+                  Gregorian calendar, Shaʿban 1220 yields a date of May/June 1820. The document
+                  also references the Hindu intercalary month Adhik Jyeshta, which is inserted to
+                  reconcile lunar and solar modes of reckoning time. Within the period in question,
+                  the months Adhik Jyeshta and Shaʿban coincided at the end of the Suhur year 1220;
+                  hence, we determine that the document is most accurately dated to May/June
+                  1820.</note> 
+               <lb/>in the month of Shaʿban, or Adhik Jyeshta. 
+               <lb/><space/><space/>Rupees
+               <lb rend="empty"/> 
+               <lb/>1 Corn, each <ref type="glossary" target="#gl_bigha">bigha</ref> 
+               <lb/><measure type="currency" unit="rupee" quantity="5">5</measure> superior <measure type="currency" unit="rupee" quantity="4">4</measure> middling 
+               <lb/><measure type="currency" unit="rupee" quantity="3">3</measure> inferior <measure type="currency" unit="rupee" quantity="1/4">¼</measure> [rupees], <measure type="currency" unit="anna" quantity="2">2</measure> [annas] expenses
+               <lb rend="empty"/> 
+               <lb/>1 Opium 
+               <lb/><measure type="currency" unit="rupee" quantity="5">5</measure> superior <measure type="currency" unit="rupee" quantity="4">4</measure> middling 
+               <lb/><measure type="currency" unit="rupee" quantity="3">3</measure> inferior <measure type="currency" unit="rupee" quantity="2">2</measure> [gap in document] 
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">¼</measure> [rupees], <measure type="currency" unit="anna" quantity="2">2</measure> [annas] expenses
+               <lb rend="empty"/> 
+               <lb/>1 Pulse 
+               <lb/><measure type="currency" unit="rupee" quantity="5">5</measure> black <ref type="glossary" target="#gl_bigha">bighas</ref> <measure type="currency" unit="rupee" quantity="4">4</measure> white <ref type="glossary" target="#gl_bigha">bighas</ref> 
+               <lb/>3 [gap] <measure type="currency" unit="rupee" quantity="1/4">¼</measure> [rupees], <measure type="currency" unit="rupee" quantity="2">2</measure> [annas] expenses 
+               <lb/><measure type="currency" unit="rupee" quantity="3">3</measure> <measure type="currency" unit="rupee" quantity="2.5">2 ½</measure> <measure type="currency" unit="rupee" quantity="2">2</measure>
+               <lb rend="empty"/> 
+               <lb/>1 <ref type="glossary" target="#gl_sal">Sal</ref> 
+               <lb/><measure type="currency" unit="rupee" quantity="5">5</measure> superior <measure type="currency" unit="rupee" quantity="4">4</measure> middling 
+               <lb/><measure type="currency" unit="rupee" quantity="3">3</measure> inferior <measure type="currency" unit="rupee" quantity="1/4">¼</measure> [rupees], <measure type="currency" unit="anna" quantity="2">2</measure> [annas] expenses
+               <lb rend="empty"/> 
+               <lb/>1 Black-eyed bean 
+               <lb/><measure type="currency" unit="rupee" quantity="5">5</measure> superior <measure type="currency" unit="rupee" quantity="4">4</measure> middling 
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">¼</measure> [rupees], <measure type="currency" unit="anna" quantity="2">2</measure> [annas] expenses
+               <lb rend="empty"/> 
+               <lb/>1 <ref type="glossary" target="#gl_masur">Masur</ref> 
+               <lb/><measure type="currency" unit="rupee" quantity="1.25">1 ¼</measure> superior <measure type="currency" unit="rupee" quantity="1">1</measure> middling 
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">¼</measure> [rupees], <measure type="currency" unit="rupee" quantity="2">2</measure> [annas] expenses <measure type="currency" unit="rupee" quantity="3/4">¾</measure> 
+               <lb rend="empty"/> 
+               <lb/>1 Wheat 
+               <lb/><measure type="currency" unit="rupee" quantity="1.25">1 ¼</measure> superior <measure type="currency" unit="rupee" quantity="1">1 </measure>middling 
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">¼</measure> [rupees], <measure type="currency" unit="anna" quantity="2">2</measure> [annas] expenses <measure type="currency" unit="rupee" quantity="3/4">¾</measure> 
+               <lb rend="empty"/> 
+               <lb/>1 Chickpea 
+               <lb/><measure type="currency" unit="rupee" quantity="1.25">1 ¼</measure> superior <measure type="currency" unit="rupee" quantity="4">4</measure> middling 
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">¼</measure> [rupees], <measure type="currency" unit="anna" quantity="2">2</measure> [annas] expenses <measure type="currency" unit="rupee" quantity="3/4">¾ 
+               </measure>               
+               <lb rend="empty"/> 
+               <lb/>1 Flax 
+               <lb/><measure type="currency" unit="rupee" quantity="1.25">1 ¼</measure> superior <measure type="currency" unit="rupee" quantity="1">1</measure> middling 
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">¼</measure> [rupees], <measure type="currency" unit="anna" quantity="2">2</measure> [annas] expenses <measure type="currency" unit="rupee" quantity="3/4">¾</measure> 
+               <lb rend="empty"/> 
+               <lb/>1 <unclear>Davar</unclear>, <ref type="glossary" target="#gl_toor">Toor</ref>, <ref type="glossary" target="#gl_mung">Mung</ref>
+               <lb/><measure type="currency" unit="rupee" quantity="1.24">1 ¼</measure> superior <measure type="currency" unit="rupee" quantity="1">1</measure> middling 
+               <lb/><measure type="currency" unit="rupee" quantity="3/4">¾</measure> inferior <measure type="currency" unit="rupee" quantity="1/4">¼</measure> [rupees], <measure type="currency" unit="anna" quantity="2">2</measure> [annas] expenses
+               <lb rend="empty"/> 
+               <lb/>1 Jasmine 
+               <lb/><measure type="currency" unit="rupee" quantity="1.25">1 ¼</measure> superior <measure type="currency" unit="rupee" quantity="1">1</measure> middling 
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">¼</measure> [rupees], <measure type="currency" unit="anna" quantity="2">2</measure> [annas] expenses
+               <lb rend="empty"/> 
+               <lb/>1 Sesame 
+               <lb/><measure type="currency" unit="rupee" quantity="1.25">1 ¼</measure> superior <measure type="currency" unit="rupee" quantity="1">1</measure> middling 
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">¼</measure> [rupees], <measure type="currency" unit="anna" quantity="2">2</measure>[annas] expenses
+               <lb rend="empty"/>
+               <lb/>1 Ajwain 
+               <lb/><measure type="currency" unit="rupee" quantity="1.5">1 ½</measure> superior <measure type="currency" unit="rupee" quantity="1.25">1 ¼</measure> middling 
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">¼</measure> [rupees], <measure type="currency" unit="anna" quantity="2">2</measure> [annas] expenses
+               <lb rend="empty"/> 
+               <lb/>1 Ginger 
+               <lb/><measure type="currency" unit="rupee" quantity="5">5</measure> superior <measure type="currency" unit="rupee" quantity="4">4</measure> middling 
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">¼</measure> [rupees], <measure type="currency" unit="anna" quantity="2">2</measure> [annas] expenses
+               <lb rend="empty"/> 
+               <lb/>1 Turmeric 
+               <lb/><measure type="currency" unit="rupee" quantity="5">5</measure> superior <measure type="currency" unit="rupee" quantity="4">4</measure> middling 
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">¼</measure> [rupees], <measure type="currency" unit="anna" quantity="2">2</measure> [annas] expenses
+               <lb rend="empty"/> 
+               <lb/>1 Chili 
+               <lb/><measure type="currency" unit="rupee" quantity="5">5</measure> superior <measure type="currency" unit="rupee" quantity="4">4</measure> middling 
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">¼</measure> [rupees], <measure type="currency" unit="anna" quantity="2">2</measure> [annas] expenses 0 no more
+               <lb rend="empty"/> 
+               <lb/>1 Sweet potato 
+               <lb/><measure type="currency" unit="rupee" quantity="5">5</measure> superior <measure type="currency" unit="rupee" quantity="4">4</measure> middling 
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">¼</measure> [rupees], <measure type="currency" unit="anna" quantity="2">2</measure> [annas] expenses
+               <lb rend="empty"/> 
+               <lb/>1 <unclear>Ragani</unclear> 
+               <lb/><measure type="currency" unit="rupee" quantity="5">5</measure> superior <measure type="currency" unit="rupee" quantity="5">5</measure> middling 
+               <lb/><measure type="currency" unit="rupee" quantity="1/4">¼</measure> [rupees], <measure type="currency" unit="anna" quantity="2">2</measure> [annas] expenses
+               <lb rend="empty"/> 
+               <lb/>1 Rights, perquisites, etc., of the <ref type="glossary" target="#gl_thakur">thakur</ref> and <ref type="glossary" target="#gl_qanungo">qanungo</ref>, 
+               <lb/>etc. 
+               <lb/>1 According to the general assessment, 
+               <lb/>the amount of arrears due to government from each village will be fixed. 
+               <lb/>Out of every hundred rupees, <measure type="currency" unit="rupee" quantity="5">5</measure> 
+               <lb/><measure type="currency" unit="rupee" quantity="3">3</measure> <ref type="glossary" target="#gl_mandloi">mandloi</ref> <measure type="currency" unit="rupee" quantity="2">2</measure> <ref type="glossary" target="#gl_qanungo">qanungo</ref>
+               <lb rend="empty"/> 
+               <lb/>1 In addition, a visitation-offering from each village to the <ref type="glossary" target="#gl_thakur">thakur</ref>  
+               <lb/>and <ref type="glossary" target="#gl_qanungo">qanungo</ref> and his assistants also 
+               <lb/><measure type="currency" unit="rupee" quantity="9">9</measure> <ref type="glossary" target="#gl_qanungo">qanungo</ref> <measure type="currency" unit="rupee" quantity="9">9</measure> <ref type="glossary" target="#gl_thakur">thakur</ref>
+               <lb rend="empty"/> 
+               <lb/>1 Each village [has] agricultural land. Its 
+               <lb/>details [are written] on a separate list 
+               <lb/>in <ref type="glossary" target="#gl_bigha">bighas</ref>. 
+               <lb/><measure type="currency" unit="rupee" quantity="3000">3000</measure> <ref type="glossary" target="#gl_mandloi">mandloi</ref> <measure type="currency" unit="rupee" quantity="2000">2000</measure> <ref type="glossary" target="#gl_qanungo">qanungo</ref>
+               <lb rend="empty"/> 
+               <lb/>1 Government fines will be fixed. Of that  
+               <lb/>amount, a quarter is taken by 
+               <lb/>others. 
+               <lb/>½ <ref type="glossary" target="#gl_qanungo">qanungo</ref> ½ <ref type="glossary" target="#gl_thakur">thakur</ref>
+               <lb rend="empty"/> 
+               <lb/>1 To the Chambhar woman from each village 
+               <lb/>½ <ref type="glossary" target="#gl_mandloi">mandloi</ref> ½ <ref type="glossary" target="#gl_qanungo">qanungo</ref> 
+               <lb rend="empty"/> 
+               <lb/>1 <unclear>Kakarji</unclear> will be fixed. Of that, a quarter 
+               <lb/>is taken by others, [namely] the <ref type="glossary" target="#gl_thakur">thakur</ref> and the <ref type="glossary" target="#gl_qanungo">qanungo</ref> 
+               <lb/>1 To <ref type="glossary" target="#gl_mandloi">mandloi</ref>, one quarter 
+               <lb/>1 <ref type="glossary" target="#gl_qanungo">qanungo</ref> according to 
+               <lb/>orders [takes] <measure type="currency" unit="rupee" quantity="1">one</measure> rupee 
+               <lb/>in a year
+               <lb rend="empty"/> 
+               <lb/>1 The right to <unclear>sathora</unclear>. Out of every hundred, 
+               <lb/><measure type="currency" unit="rupee" quantity="12.5">12 1/2</measure> rupees  
+               <lb/>1 <ref type="glossary" target="#gl_inam">Inʿam</ref> villages 
+               <lb/>2 <ref type="glossary" target="#gl_thakur">thakur</ref> 
+               <lb/>1 village <placeName ref="#dhamanda">Dhamanda</placeName> 
+               <lb/>1 village <placeName ref="#padalya">Padalya</placeName>
+               <lb/>--
+               <lb/>2 
+               <lb/>1 village <placeName ref="#kalsada">Kalsada</placeName>, <ref type="glossary" target="#gl_qanungo">qanungo</ref>
+               <lb/>--
+               <lb/>3
+               <lb rend="empty"/> 
+               <lb/>1 The government’s revenue from each village will be fixed. On that, 
+               <lb/>the <ref type="glossary" target="#gl_jamedari">jamedari</ref> and <ref type="glossary" target="#gl_babti">babti</ref>, viz. out of every hundred rupees <measure type="currency" unit="rupee" quantity="5">5 </measure> 
+               <lb/>are taken. Every third year, a <ref type="glossary" target="#gl_pishkash">pishkash</ref> of a thousand or two 
+               <lb/>thousand will be taken by the government in a flourishing season. Item. 
+               <lb rend="empty"/> 
+               <lb/>1 To each village’s <ref type="glossary" target="#gl_patil">patil</ref> for non-agricultural use, 
+               <lb/>there are <ref type="glossary" target="#gl_inam">inʿam</ref> lands [in the amount of] <measure type="land" unit="bigha" quantity="25">twenty-five</measure> or <measure type="land" unit="bigha" quantity="50">fifty</measure> 
+               <lb/><ref type="glossary" target="#gl_bigha">bighas</ref> <gap/>
+               <lb/>Every third year, an estimate will be made, and it will be taken.
+               <lb rend="empty"/> 
+               <lb/>1 [Belonging to] the <ref type="glossary" target="#gl_patwari">patwari</ref> who resides in each village, are in total 
+               <lb/><ref type="glossary" target="#gl_bigha">bighas</ref> <gap/> <measure type="land" unit="sher" quantity="5">five</measure> <ref type="glossary" target="#gl_sher">shers</ref>. 
+               <lb/>Taking [this] from the cultivators 
+               <lb/>every third year [in the following manner]: three and a half, [then] three, [then] two and a half, [etc.,] in this fashion  
+               <lb/>it will be implemented by the government. Item.
+               <lb rend="empty"/> 
+               <lb/>1 In the year <date calendar="#fasli">1207</date>, the land-survey happened in each village. 
+               <lb/>It has been sent separately in a detailed statement. 
+               <lb/>Besides that, jungle <gap/> and <gap/> 
+               <lb/>and hills and streams and lakes etc.  
+               <lb/>are not in the land-survey, so [this] item is understood. And should be told <gap/>             
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

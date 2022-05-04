@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1655_dai_lns235ms_i">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Order of an employee of Dara Shukoh to Purshottam Das and Paras Ram about payments and pursuit of outlaws</title>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Nandini Chatterjee</persName>
+                </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+            </titleStmt>    
+            <editionStmt>
+                <p>Transcribed from manuscript image.</p>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+                    <msIdentifier>
+                        <repository ref="#dai"/>
+                        <collection ref="#pDas"/>
+                        <idno>LNS 235 MS i</idno>
+                    </msIdentifier>
+                    <history>
+                        <origin>
+                            <origDate calendar="#julus">29</origDate>
+                            <origDate calendar="#hijri-qamri">1066</origDate>
+                            <origDate calendar="#gregorian" notBefore="1655" notAfter="1656">1655–56</origDate>
+                            <origPlace type="placeOfReceipt" ref="#dhar"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="formal">
+                    <bibl>Law Forms project formal text categories <ptr
+                        target="../metadata/taxonomy.xml#formal"/></bibl>
+                </taxonomy>
+                <taxonomy xml:id="functional">
+                    <bibl>Law Forms project functional text categories <ptr
+                        target="../metadata/taxonomy.xml#functional"/></bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <abstract>
+                <p>The landlord (chaudhri) <persName ref="#purshottamDas">Purshottam Das</persName> and record-keeper (qanungo) <persName ref="#parasRam">Paras Ram</persName> are updated about the ongoing actions against two outlaw warriors (girasiya) who have been harassing the peasants. They are further instructed to pay taxes and clear the tax arrears in
+                    district (pargana) <placeName ref="#pgDhar">Dhar</placeName>.<note>For more context on this document, see <ref type="bibl" target="#faruquiM2012">Munis Faruqui, The Princes of the Mughal Empire, p. 96</ref>.</note></p>
+            </abstract>
+            <textClass>
+                <keywords scheme="#formal">
+                    <term key="parvana"/>
+                </keywords>
+                <keywords scheme="#functional">
+                    <term key="orders"/>
+                </keywords>
+                <keywords scheme="#thematic">
+                    <term>Agriculture</term>
+                    <term>Peasants</term>
+                    <term>Policing and Crime</term>
+                    <term>Soldiers</term>
+                    <term>Taxation and Tribute</term>
+                </keywords>
+            </textClass>
+            <particDesc>
+                <person role="recipient">
+                    <persName ref="#purshottamDas">Purshottam Das</persName>
+                </person>
+                <person role="recipient">
+                    <persName ref="#parasRam">Paras Ram</persName>
+                </person>
+            </particDesc>   
+        </profileDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="lf_pDas_1655_dai_lns235ms_i_r.jpg"/>
+        <graphic url="lf_pDas_1655_dai_lns235ms_i_v.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <pb n="1r" facs="lf_pDas_1655_dai_lnsms235_i_r.jpg"/>
+            
+            <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+                <p>الله اکبر</p>
+            </div>
+            <div xml:id="trans_div1" corresp="#orig_div1">
+                <p>God is great</p>
+            </div>
+            
+            <div xml:id="orig_div2" xml:lang="per" type="maintext">
+                <p>
+                    <lb/>خطی که زبده الاقران چودهری
+                    <persName ref="#purshottamDas">پرسوتمداس</persName>
+                    و
+                    <persName ref="#parasRam">پرسرام</persName>
+                    قانونگوی
+                    <lb/>مشتمل بر حقیقت 
+                   <persName ref="#akhaiBhan">اکهی بهان</persName>
+                    و
+                     <persName ref="#udaiSingh">اودی سنگه</persName>
+                     گراسیه ها بجمعت همکن قریب سی سوار که
+                    <lb/>بحال رعایا مزاحمت می رساند و سواری نمودن رفعت پناه
+                    <persName ref="#muhammadAqil">محمد عاقل</persName>
+                    و شجعات دستگاه
+                    <lb/><persName ref="#harnathSingh">هرناته سنگه</persName>
+                    بچهار فوج و رسیدن
+                    <persName ref="#khwajaNandLal">خواجه نندلعل</persName>
+                    بر
+                    <persName ref="#udaiSingh">اودی سنگه</persName>
+                    گراسیه و بجهنم رسیدن
+                    <lb/>دو سوار از آن گراسیه و بکار آمدن چهار سوار از آن
+                    <persName ref="#harnathSingh">هرناته سنگه</persName>
+                    و اخبارات جوانب
+                    <lb/>و اطراف فرستاده بودید رسید مضمون معلوم گردید یقین که تا حال رفعت و اقبال پناه خان جیو
+                    <lb/>و شجعات دستگاه
+                    <persName ref="#harnathSingh">هرناته سنگه</persName>
+                    فکر گراسیه ها براصل نموده باشد و شما نیز درگشت سواری
+                    <lb/>دیه بدهی و تردد آن فرصت ندهند که مجرای خدمت بظهور آید و آنها چه وجود اند
+                    <lb/>و چه جمعیت دارند که مزاحمت بحال رعایا توانند رسانید از مقدمان دیه بدهی مچلکه بگیرد
+                    <lb/>که در رقبه هر کس عبور نماند و خبر نکند مجرم بکار گردد از این چنین تردد زود کشته خواهد شد
+                    <lb/>یا کناره می گیرند و نیز در باب توجیه شروع نمودن از اجناس مشنگ و کتان و تیله گرگیهون نشان می برند
+                    <lb/>نویشته بودید نیم مفهوم انجامید هرگاه که در سال گذشته آفت کلیه بود با وجود آن یازده هزار و سی صد روپیه 
+                    <lb/><unclear>کژی</unclear>
+                    زیاده مطابق نوشته عزت آثار
+                    <persName ref="#khwajaBhagmal">خواجه بهاگمل</persName>
+                    کروری توجیه شده بود درین سال که بانعایت الهی و
+                    <lb/>اقبال لایزال والا زراعت فصل ربیع
+                    <date calendar="#turkish">ایت یل</date>
+                    خوب و بلا آفت است نه هزار روپیه 
+                    <lb/>توجهی قرار داده اینمعنی چه دور از حساب است لایق آنکه نظر بر موجودات  داشته و تخمیناً
+                    <lb/>دیه بدهی بی کم زیاده که بعد پرتال تفاوت ظاهر شود توجیه قرار دهند نوعی نماند که ستم
+                    <lb/>شریکی واقع نگردد و گردوآری مال سرکار فیض آثار بر وقت شود و تمام مدار فصل ربیع مذکور
+                    <lb/>بر جسن گندم و جو و کوکنار است مطابق موجودات بعمل خواهد آمد در این باب زیاده چه نوشته شود 
+                   </p>
+            </div>
+            <div corresp="#orig_div2" xml:id="trans_div2">
+                <p> 
+                    <lb/>The letter that the Eminent among Contemporaries <persName ref="#purshottamDas">Purshottam Das</persName> and <persName ref="#parasRam">Paras Ram</persName> <ref type="glossary" target="#gl_qanungo">qanungo</ref> had written
+                    <lb/>containing the facts about <persName ref="#akhaiBhan">Akhai Bhan</persName> and <persName ref="#udaiSingh">Udai Singh</persName>, <ref type="glossary" target="#gl_girasiya">girasiyas</ref> [who] together with their body of companions [of] around thirty horsemen
+                    <lb/>had caused trouble to the peasants; and [about] the mounting [taking action] against them by the Exalted Refuge <persName ref="#muhammadAqil">Muhammad Aqil</persName> and the Location of Bravery
+                    <lb/><persName ref="#harnathSingh">Harnath Singh</persName> with four regiments; and [about] the arrival of <persName ref="#khwajaNandLal">Khwaja Nand Lal</persName> to the <ref type="glossary" target="#gl_girasiya">girasiya</ref> <persName ref="#udaiSingh">Udai Singh</persName>, and the arrival in hell of 
+                    <lb/>two horsemen from that <ref type="glossary" target="#gl_girasiya">girasiya</ref>; and [about] the using up [death] of four horsemen of that <persName ref="#harnathSingh">Harnath Singh</persName>; and the news about the parts
+                    <lb/>and quarters [where] you had sent [searched] is received. By its contents you informed [us] that surely by now the Exalted and Glorious Refuge Khan Jiu<note>In all likelihood, this refers to <persName ref="#muhammadAqil">Muhammad Aqil</persName>.</note>
+                    <lb/>and Location of Bravery <persName ref="#harnathSingh">Harnath Singh</persName> must have found the root of the problem of the <ref type="glossary" target="#gl_girasiya">girasiyas</ref>. And you too in patrolling
+                    <lb/>from village by village, and in those labours, do not give [them] any relief. Your responsibility should be obvious. [Find out] what the situation is, [and]
+                    <lb/>what gathering [forces] they have such that they can cause disturbance to the peasants. Take <ref type="glossary" target="#gl_muchalka">muchalkas</ref> from the <ref type="glossary" target="#gl_muqaddam">muqaddams</ref>
+                    <lb/>that if somebody crosses their area and they do not inform, then they will be committing crimes. By such efforts they [the <ref type="glossary" target="#gl_girasiya">girasiyas</ref>] will be quickly killed                    
+                    <lb/>or set aside. And in the matter of commencing [of agriculture], out of the crops of mushang grains,<note>Often glossed as an unspecified type of grain, mushang likely refers to a type of pea, either field peas or cowpeas.</note> cotton, linseed, <unclear>linseed oil, [and] wheat</unclear> that were indicated,
+                    <lb/>[in what] you had written, [only] half were understood. Even though there was a calamity with the harvest in the past year, nevertheless <measure type="currency" unit="rupee" quantity="11300">11,300 rupees</measure> 
+                    <lb/>extra according to the writing of the honourable <ref type="glossary" target="#gl_karori">karori</ref> <persName ref="#khwajaBhagmal">Khwaja Bhagmal</persName> had been assessed. In this year that by the blessing of God and
+                    <lb/>the endless prosperity of [his] majesty, the agriculture of the spring harvest of the <date calendar="#turkish">dog year</date> is good and without calamity. [However, only] <measure type="currency" unit="rupee" quantity="9000">9,000 rupees</measure>
+                    <lb/>have been sent. What this means is hard to reckon. It is appropriate that paying attention to the present circumstances and by a 
+                    <lb/>village-by-village appraisal, an assessment should be settled without the discrepancy of shortage or surplus that is exposed after an audit. Specifically, it should be shown that 
+                    <lb/>[you] have not become a party to wrong-doing. And the collection of the taxes of the blessed government should be on time. And the complete focus of crops of the said harvest 
+                    <lb/>[should be on] wheat and barley and opium. According to these circumstances, bring it to action. What more is there to write in this matter?                
+                </p>
+            </div>
+           
+            <div xml:id="orig_div3" xml:lang="per" type="authorisation" rend="right margin">
+                <p>
+                    <stamp type="seal"><mentioned><gap/>
+                        <unclear>داس</unclear>
+                        بنده
+                        <persName ref="#daraShukoh">شاه بلند  اقبال</persName>
+                        <date calendar="#julus">۲۹</date>
+                        <date calendar="#hijri-qamri">۱۰۶۶</date>
+                    </mentioned>
+                </stamp>
+                </p>
+            </div>
+            
+            <div corresp="#orig_div3" xml:id="trans_div3">
+                <p>
+                    <stamp type="seal">Round black ink seal<mentioned>
+                        <gap/> <unclear>Das</unclear>, servant of <persName ref="#daraShukoh">Shah Buland Iqbal</persName> [in the year] <date calendar="#julus">29</date> [or] <date calendar= "#hijri-qamri">1066</date><note>Since the document is otherwise undated, based on the year in the seal it was issued in or after 1066 Hijri, i.e. 1655–56 in the Gregorian calendar. Seals were often used for for years after they were issued, so it is possible this document was issued after this date, but most likely before Dara Shukoh's death in 1659.</note> 
+                      </mentioned></stamp>
+                </p>
+            </div>
+            
+            <pb n="1v" facs="lf_pDas_1655_dai_lnsms235_i_v.jpg"/>
+            
+            <div xml:id="orig_div4" xml:lang="per" type="clericalNotes" rend="top right">
+                <p>
+                    <lb/>پروانه وزارت پناه
+                    <lb/><persName>رای انند</persName>
+                    <unclear>بزرگ</unclear>
+                    جیو
+                    <lb/><unclear>بنابر</unclear>
+                    موات
+                    <unclear>جنگ</unclear>
+                    <lb/><persName ref="#udaiSingh">اودی سنگه</persName> 
+                    گراسیه<note>Although at first glance this clerical note appears as one line, the slight stacking of elements and sense suggests it should be read as four lines, starting with the line farthest to the left when the text is viewed rightside up.</note>
+                </p>
+            </div>
+            <div corresp="#orig_div4" xml:id="trans_div4">
+                <p><lb/><ref type="glossary" target="#gl_parvana">Parvana</ref> of the Refuge of the Ministry
+                    <lb/><persName>Rai Anand</persName> <unclear>Buzorg</unclear> <ref type="glossary" target="#gl_jiu">jiu</ref>
+                    <lb/><unclear>regarding</unclear> the <unclear>battle</unclear> death of
+                    <lb/><persName ref="#udaiSingh">Udai Singh</persName> <ref type="glossary" target="#gl_girasiya">girasiya</ref></p>
+            </div>
+            <div xml:id="orig_div5" xml:lang="per" type="laterAddition" rend="top centre"><p>
+                نمبر
+                <num>۱۰</num>
+            </p></div>
+            <div xml:id="trans_div5" corresp="#orig_div5">
+                <p>Number 10</p>
+            </div> 
+        </body>
+    </text>
+</TEI>

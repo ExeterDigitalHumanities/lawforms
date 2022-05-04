@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_sDeshmukh_1582_bism_rumal4_07">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Statement of Adi Sethi about a dispute with the merchant and landlord Nar Sethi over a row of shops in Solapur</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Nandini Chatterjee</persName>
+               <persName>Dominic Vendell</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#bism"/>
+                  <collection ref="#sDeshmukh"/>
+                  <idno>rumal 4, no. 7</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#suhur">23 Jumada al-sani 983</origDate>
+                     <origDate calendar="#gregorian" when="1582">1582</origDate>
+                     <origPlace type="placeOfReceipt" ref="#solapur"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>The village headmen and community heads of <placeName ref="#solapur">Solapur</placeName> are to be summoned to give testimony about
+               the ownership of a row of shops, which is contested by the merchant <persName ref="#adiSethi">Adi Sethi</persName> and the merchant and landlord (desai) <persName ref="#narSethi">Nar Sethi</persName>.</p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="katba"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="judicialDox"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Disputes</term>
+               <term>Inheritance</term>
+               <term>Property</term>
+               <term>Trade</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <person role="issuer">
+               <persName ref="#adiSethi">Adi Sethi</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_sDeshmukh_1582_bism_rumal4_07_r1.jpg"/>
+      <graphic url="lf_sDeshmukh_1582_bism_rumal4_07_r2.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_sDeshmukh_1582_bism_rumal4_07_r1.jpg"/>
+         
+         <div xml:id="orig_div1" xml:lang="per" type="invocation" rend="top centre">
+            <p>ا</p>
+         </div>
+            <div corresp="#orig_div1" xml:id="trans_div1">
+               <p>Alif</p>
+            </div>
+            <div xml:id="orig_div2" xml:lang="per" type="authorisation" rend="top left margin">
+               <p><stamp type="seal"><mentioned><gap/></mentioned></stamp></p></div>
+            <div corresp="#orig_div2" xml:id="trans_div2"><p><stamp type="seal">Black starburst ink seal<mentioned><gap/></mentioned></stamp></p></div>
+         <div xml:id="orig_div3" xml:lang="per" type="maintext">
+            <p>
+               <lb/>دستخط
+               <lb/>باسم
+               <persName ref="#adiSethi">اد سیتهی</persName>
+               بن رامسیتهی سیتهیا قصبه
+               <lb/>
+               <placeName ref="#solapur">سدلاپور</placeName>
+               <date calendar="#suhur"> سهور سنه ثلاث ثمانین تسعمایه</date>
+               <lb/>چنان کتبه برده که دوکان قصبه مذکور
+               <lb/>سر ولای راسته میراث خود است
+               <lb/>درینوقت
+               <persName ref="#narSethi">نرس سیتهی</persName>
+               دیسای
+               فرمان
+               <lb/>اورده است که سر ولای دوکان
+               <lb/>بحکم منصفی بدهانند بنابران هر دو
+               <lb/>قرار دادیم که مقدمان و پنجاه دو قوم
+               <lb/>قصبه مذکور را کل 
+               <persName ref="#siddharama">سدرام</persName>
+               <gap></gap>
+               <lb/>اگر ايشان دوکان سر ولای راسته 
+               <persName ref="#narSethi">نرس سیتهی</persName>
+               <lb/>دیسای است این نوع گواهی خواهند داد
+               <lb/>دوکان بخود نسبت ندارد اگر ازین سخن
+               <lb/>تجاوز شود گنهگار دیوان باشم
+               <lb/>
+               <num>۲۳</num>
+               ماه جماد
+               <unclear>الاخر</unclear>
+               سنه
+               <unclear><num>۹۹۲</num></unclear>
+            </p>
+         </div>
+         <div corresp="#orig_div3" xml:id="trans_div3">
+            <p> 
+               <lb/>Writing<lb/>
+               In the name of <persName ref="#adiSethi">Ad Sethi</persName>, son of Ram Sethi, the <ref type="glossary" target="#gl_sethiya">sethiya</ref> of the <ref type="glossary" target="#gl_qasba">qasba</ref><lb/> 
+               of <placeName ref="#solapur">Sandlapur [Solapur]</placeName> in the Suhur year <date calendar="#suhur">three eighty nine-hundred</date> [983].<lb/> 
+               Such a <ref type="glossary" target="#gl_katba">katba</ref> has been brought that [among] the shops in the aforementioned <ref type="glossary" target="#gl_qasba">qasba</ref>,<lb/> 
+               possession of a row of shops is my patrimony.<lb/> 
+               At this time, the <ref type="glossary" target="#gl_desai">desai</ref> <persName ref="#narSethi">Nars Sethi</persName> has brought a <ref type="glossary" target="#gl_farman">farman</ref> [stating]<lb/> 
+               that possession over the shops<lb/> 
+               should be given [to him] by order of the judge. On account of this both of us<lb/> 
+               struck an agreement that the <ref type="glossary" target="#gl_muqaddam">muqaddams</ref> and the fifty two communities<lb/> 
+               of the aforementioned <ref type="glossary" target="#gl_qasba">qasba</ref> [should gather at] the <persName ref="#siddharama">Siddharama</persName> [temple], and<lb/> 
+               if they, [seeing that] the shop is in the control of the <ref type="glossary" target="#gl_desai">desai</ref> <persName ref="#narSethi">Nars Sethi</persName>,<lb/> 
+               should provide testimony [to that fact],<lb/> 
+               [then], the store has no connection to me. If from this speech<lb/> 
+               there should be any deviation, then I will be a criminal of the <ref type="glossary" target="#gl_diwan">diwan</ref>.<lb/> 
+               23 in the month of Jumada <unclear>al-Akhir</unclear><note>al-Akhir (the last) is a common variation on al-Sani (the second).</note> year <unclear>992</unclear>
+            </p>
+         </div>
+         
+         <div xml:id="orig_div4" xml:lang="per" type="authorisation" rend="middle">
+            <p><stamp type="seal"><mentioned><gap/></mentioned></stamp>
+               <stamp type="seal"><mentioned><gap/></mentioned></stamp>
+            </p>
+         </div>
+         
+         <div corresp="#orig_div4" xml:id="trans_div4">
+            <p><stamp type="seal">Black octagonal ink seal<mentioned><gap/></mentioned></stamp>
+               <stamp type="seal">Black circular ink seal<mentioned><gap/></mentioned></stamp><note>These seals appear at the bottom of the first image but in the middle of the physical document.</note>
+            </p>
+         </div>
+         
+         <pb n="2r" facs="lf_sDeshmukh_1582_bism_rumal4_07_r2.jpg"/>
+         
+         <div xml:id="orig_div5" xml:lang="mar" type="maintext">
+            <p>
+               <lb/>दर बदीगी अज दीवाणे 
+               <lb/>मामले 
+               <placeName ref="#solapur">सोनलपूर</placeName> 
+               साहेब 
+               <lb/>सदर गोसावीयाचे बदी 
+               <lb/>गासी 
+               <lb rend="empty"/> <lb/>
+               <choice>
+                  <abbr>द||</abbr>
+                  <expan>दस्तखत</expan>
+               </choice>
+               <choice>
+                  <abbr>ब||</abbr>
+                  <expan>बेनाव</expan>
+               </choice> 
+               <persName ref="#adiSethi">आदी सेठी</persName> 
+               बीन रमी से- 
+               <lb/>ठी सेठीया 
+               <choice>
+                  <abbr>क||</abbr>
+                  <expan>कसबा</expan>
+               </choice> 
+               मजकूर 
+               <choice>
+                  <abbr>सु||</abbr>
+                  <expan>सुहूर</expan>
+               </choice> 
+               सन 
+               <lb/><date calendar="#suhur">सलास समनीन व तीसमेया</date> 
+               करणे 
+               <lb/>लीहून दीधले कतबा यैसाजे 
+               <choice>
+                  <abbr>क||</abbr>
+                  <expan>कसबा</expan>
+               </choice> 
+               <lb/>मजकुरचे रस्ता दुकान सरवीले 
+               <lb/>आमचे मीरसी पीडी दर पीडी चली- 
+               <lb/>ले आहे दर वक्त 
+               <persName ref="#narSethi">नर सेठी</persName> 
+               देसाई दी- 
+               <lb/>वाणाचे फर्मान आणीले असे जे <gap/>
+               <lb/><gap/>पीडी दर पीडी चलिले आहे म्हणौ[न]  
+               <lb/>मुनसीफ करऊन देवणे म्हणौन 
+               <lb/><gap/>हर दो घेऊन<gap/>नेम केले 
+               <lb/>आहे 
+               <choice>
+                  <abbr>क||</abbr>
+                  <expan>कसबा</expan>
+               </choice> 
+               मजकुरीचे मोकदम व <gap/> 
+               <lb/><gap/> कुम लहन थोर मीलून 
+               <lb/><persName ref="#siddharama">सिदरम देवचे</persName> 
+               प्रसाद घालून 
+               <lb/>धर्मत पसुणे 
+               <persName ref="#narSethi">नर सेठीचे</persName> 
+               दुकन म्ह- 
+               <lb/>णौन बोलीले जरी तेचे दुबाले 
+               <lb/>करणे तेवरी हरकता केले तरी 
+               <lb/>दीवाणाचे गुन्हेगार असे हे कत- 
+               <lb/>बा आमची सही छ २३ माहे जमादि- 
+               <lb/>लाखर 
+            </p>
+         </div>
+         
+         <div corresp="#orig_div5" xml:id="trans_div5">
+            <p>
+               <lb/>In compliments from the <ref type="glossary" target="#gl_diwan">diwan</ref> 
+               <lb/>of <ref type="glossary" target="#gl_muamala">muaʿmala</ref> <placeName ref="#solapur">Sonalapur</placeName> to the 
+               <lb/>compliments of the exalted 
+               <lb/>masters  
+               <lb rend="empty"/>
+               <lb/>Writing in the name of <persName ref="#adiSethi">Adi Sethi</persName>, son of Rami Sethi, 
+               <lb/><ref type="glossary" target="#gl_sethiya">sethiya</ref> of the aforementioned <ref type="glossary" target="#gl_qasba">qasba</ref> in the Suhur year 
+               <lb/>of <date calendar="#suhur">three eighty and nine-hundred</date> [983], the reason [being that] 
+               <lb/>a <ref type="glossary" target="#gl_katba">katba</ref> is written. Such that 
+               <lb/>possession over the aforementioned <ref type="glossary" target="#gl_qasba">qasba’s</ref> row of shops
+               <lb/>has been our patrimony from generation to generation. 
+               <lb/>At this time, the <ref type="glossary" target="#gl_desai">desai</ref> <persName ref="#narSethi">Nar Sethi</persName>  
+               <lb/>brought a <ref type="glossary" target="#gl_farman">farman</ref> of the <ref type="glossary" target="#gl_diwan">diwan</ref> such that<gap/>
+               <lb/>[the patrimony] has proceeded from generation to generation so 
+               <lb/>justice should be effected. So  
+               <lb/><gap/><unclear>a procedure has been established</unclear>. 
+               <lb/>The aforementioned <ref type="glossary" target="#gl_qasba">qasba’s</ref> <ref type="glossary" target="#gl_muqaddam">muqaddams</ref> and<gap/> 
+               <lb/>communities small and large should be gathered 
+               <lb/>and caused to make an offering to <persName ref="#siddharama">Siddarama Dev</persName> 
+               <lb/>and ask rightly<gap/>If the shops belong to <persName ref="#narSethi">Nar Sethi</persName>, 
+               <lb/>so they say, then custody of it 
+               <lb/>should be given [to him]. After this, if any opposition should be made 
+               <lb/>then may [they] be criminals of the <ref type="glossary" target="#gl_diwan">diwan</ref>. This <ref type="glossary" target="#gl_katba">katba</ref> 
+               <lb/>is approved by us. On the date 23 of the month of 
+               <lb/>Jumadi al-Akhir.
+            </p>   
+         </div>   
+      </body>
+   </text>
+</TEI>

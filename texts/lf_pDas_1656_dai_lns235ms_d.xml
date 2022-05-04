@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1656_dai_lns235ms_d">
+   <!--File name and image file names changed from 1655 to 1656-->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of a Mughal official to landlords and peasants of district Dhar to pay full
+               taxes for the year</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Nandini Chatterjee</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#dai"/>
+                  <collection ref="#pDas"/>
+                  <idno>LNS MS 235 d</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#julus">15 Safar 30</origDate>
+                     <origDate calendar="#hijri-qamri">15 Safar 1067</origDate>
+                     <origDate calendar="#gregorian" when="1656-12-03">3 December 1656</origDate>
+                  </origin>
+               </history>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>The landlords and peasants of district (pargana) <placeName ref="#pgDhar">Dhar</placeName> are instructed to pay up the full amount
+               of assessed taxes since it has been a good year with adequate rainfall.</p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="parvana"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Administration</term>
+               <term>Agriculture</term>
+               <term>Taxation and Tribute</term>
+            </keywords>
+         </textClass>
+
+         <!--<particDesc>
+                   new participant role needed for instances when person unknown?
+         </particDesc>-->
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1656_dai_lns235ms_d_r.jpg"/>
+      <graphic url="lf_pDas_1656_dai_lns235ms_d_v.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1656_dai_lns235ms_d_r.jpg"/>
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>الله اکبر</p>
+         </div>
+         <div corresp="#orig_div1" xml:id="trans_div1">
+            <p>God is great</p>
+         </div>
+
+         <div xml:id="orig_div2" xml:lang="per" type="authorisation" rend="right margin">
+            <p><stamp type="seal"><mentioned>
+                     <gap/>
+                      خان مرید
+                     <gap/>
+                     <persName ref="#shahJahan">شاه جهان</persName>
+                  </mentioned></stamp>
+            </p>
+         </div>
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p><stamp type="seal">Round black ink seal<mentioned>
+                     <gap/>
+                      Khan disciple of
+                     <gap/>
+                     <persName ref="#shahJahan">Shah Jahan</persName>
+                  </mentioned></stamp></p>
+         </div>
+
+         <div xml:id="orig_div3" xml:lang="per" type="maintext">
+            <p><lb/>چودهریان و زمینداران و قانونگویان و مقدمان و رعایا و مزارعان پرگنه
+               <placeName ref="#pgDhar">دهار</placeName>
+               <lb/>از صوبه
+               <placeName ref="#malwa">مالوه</placeName>
+                بدانند که چون درین سال بعنایت الهی و مناقب اقبال لایزال شاهی
+               <lb/>باران رحمت ایزدی از اول تا آخر موافق مدعا نازل شده و خوبیهای زراعات بکمال
+               <lb/>رسیده و باران آخر برای زراعت ربیع آب حیات بوده امسال سال کامل بلکه
+               <lb/>اکمل است و احدی را جای سخن نمانده و عین وقت مالگذاری فصلخریف
+               <gap/>
+                و تردد زراعت
+               <lb/>ربیع همینست باید که بخاطر جمع در ادای مالواجبی از قرار واقع و تردد زراعت ربیع و
+               افزونی
+               <lb/>آبادانی و معموری پرگنه مذکور آنچنان سعی و کوشش نماید که مجری دولتخواهی و آبادان
+               کاری
+               <lb/>آنها بظهور آمد که در خور آن رعایت خواهند یافت درین باب قدغن تمام لازم دانسته
+               <lb/>حسب المسطور بعمل آرند تحریر التاریخ
+               <date calendar="#julus">
+                  <num>۱٥</num>
+                   شهر صفر سنه
+                  <num>٣۰</num>
+               </date>
+                از جلوس مبارک 
+                <g ref="#baiz">بیضه</g> </p>
+         </div>
+         <div corresp="#orig_div3" xml:id="trans_div3">
+            <p>
+               <lb/><ref type="glossary" target="#gl_chaudhri">Chaudhris</ref> and <ref type="glossary"
+                  target="#gl_zamindar">zamindars</ref> and <ref type="glossary"
+                  target="#gl_qanungo">qanungos</ref> and peasants and agriculturists of <ref
+                  type="glossary" target="#gl_pargana">pargana</ref>
+               <placeName ref="#pgDhar">Dhar</placeName>
+               <lb/>of <ref type="glossary" target="#gl_suba">suba</ref>
+               <placeName ref="#malwa">Malwa</placeName>, should know that since in this year, by divine favour and the infinite imperial
+               glorious virtues,
+               <lb/>the rain of compassion of God from beginning to end has fallen as planned, the
+               excellence of cultivation
+               <lb/>has reached perfection, and the last rains have been the the water of life for
+               the spring harvest; [so] this year is a perfect year - nay,
+               <lb/>the most perfect year.
+               <note>By "perfect year," the writer suggests that because of the fullness of the
+                  rains, it is a year in which the full tax demand should be paid.</note>
+                And no one has any place to say anything, and the opportune moment of the payment of taxes of the autumn
+               harvest
+               <gap/>
+                is the same as [making] efforts for the cultivation of
+               <lb/>the spring [crop]. With peace of mind, make such efforts towards the
+               payment of taxes, which have been settled, and the cultivation of the spring crop and
+               enhancement of
+               <lb/>the population and cultivation of the aforementioned <ref type="glossary"
+                  target="#gl_pargana">pargana</ref> that [these] efforts and exertions reveal what
+               they [the officials addressed in the letter] who cause the population and cultivation
+               <lb/>have manifested; [and] in fulfillment of that, they will be favoured. Knowing
+               that all legitimate prohibitions are applicable in this matter,
+               <lb/>execute as written. Written on
+               <date calendar="#julus">15 of the month of Safar in year 30 of the blessed
+                  reign</date>. <g ref="#baiz">Ended</g>. </p>
+         </div>
+
+         <pb n="1v" facs="lf_pDas_1656_dai_lns235ms_d_v.jpg"/>
+
+         <div xml:id="orig_div4" xml:lang="per" type="clericalNotes" rend="right margin">
+            <p> <unclear>بتاریخ</unclear>
+               <date calendar="#julus"><unclear><num>۱۶</num></unclear>
+               شهر صفر سنه
+               <num>٣۰</num></date>
+                نقل
+               <unclear>سیاهه</unclear>
+                حضور
+               <unclear>شد</unclear>
+               <gap></gap>
+               د
+            </p>
+         </div>
+
+         <div corresp="#orig_div4" xml:id="trans_div4">
+            <p>
+               <unclear>On the date of</unclear>
+                16 of the month of Safar in the year 30, a copy
+                [reached the] <ref type="glossary" target="#gl_siyahaHuzur">siyaha huzur</ref><gap></gap><note>The meaning of the letter underneath this note is unclear.</note></p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

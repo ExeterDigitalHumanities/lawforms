@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1660_dai_lns235ms_z">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of an official to Purshottam Das to come to Ujjain</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#dai"/>
+                  <collection ref="#pDas"/>
+                  <idno>LNS 235 MS z</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#gregorian" notBefore="1659" notAfter="1684">During the
+                        lifetime of Purshottam Das (active c. 1650 to 1684) and reign of Aurangzeb (r. 1658/1659-1707</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>The landlord (chaudhri)
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+                is instructed to appear in <placeName ref="#ujjain">Ujjain</placeName> regarding the
+               affairs of a district (pargana). The endorsement in the margin urges the proper
+               management of that district. While undated, the document is from the lifetime of <persName ref="#purshottamDas">Purshottam Das</persName>.
+            </p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="parvana"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Administration</term>
+               <term>Disputes</term>
+               <term>Records</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <person role="recipient">
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1660_dai_lns235ms_z_r.jpg"/>
+      <graphic url="lf_pDas_1660_dai_lns235ms_z_v.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1660_dai_lns235ms_z_r.jpg"/>
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>هو</p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="per" type="authorisation" rend="right margin">
+            <p><stamp type="seal"><mentioned>
+               <gap/>
+               <unclear><persName ref="#aurangzebAlamgir">عالم گیر</persName></unclear>
+               <gap/>
+            </mentioned></stamp></p>
+         </div>
+         <div xml:id="orig_div3" xml:lang="per" type="maintext">
+            <p>
+               <lb/>زبده الاقران
+               <persName ref="#purshottamDas">پرسوتم داس</persName>
+                چودهری پرگنه
+               <placeName ref="#pgDhar">دهار</placeName>
+               را انهاء آنکه
+               <lb/>خطی که فرستاده بود بمُطالعه در آمد انچه از حقیقت پته
+               <placeName ref="#sitapuri">سیتاپوری</placeName>
+               <lb/>نوشته بود ظاهر شد
+               عنقریب که اینجانب بدار الفتح
+               <placeName ref="#ujjain">اوجین</placeName>
+               <lb/>میرسد آن زبده الاقران در
+               <placeName ref="#ujjain">اوجین</placeName>
+               آمده حاضر شود
+               <lb/>که چودریان و قانونگویان پرگنه
+               <placeName ref="#lawani">لوانی</placeName>
+                را نیز بحضور طلب داشته
+               <lb/>بحقیقت طرفین وارسیده هرچه حق و نفس الامر خواهد بود
+               <lb/>مقرر کرده خواهد شد
+               <space/>
+                زیاده چه نگاشته شود
+               <g ref="#faqat">فقط</g>
+            </p>
+         </div>
+         
+         <div xml:id="orig_div4" xml:lang="per" type="authorisation" rend="right margin">
+            <p>
+               <lb/>مکرر آنکه چون پرگنه مذکور
+               <lb/>بخالصه والا تعلق گرفته تا بر هر
+               <lb/>طریقه راستی و درستی را پیش گرفته در لوازم
+               <lb/>دولتخهاهی و نیکو خدمتی و افزونی کشتکار
+               <unclear>چند قرار</unclear>
+               <lb/>بکار برد
+               <app>
+                  <rdg cert="high">هر</rdg>
+                  <rdg cert="low">که</rdg>
+               </app>
+                باعث محبات او درین است
+               <g ref="#faqat">فقط</g>
+            </p>
+         </div>
+         
+         <pb n="1v" facs="lf_pDas_1660_dai_lns235ms_z_v.jpg"/>
+         
+         <div xml:id="orig_div5" xml:lang="per" type="laterAddition" rend="top centre">
+            <p><foreign>نمبر</foreign>
+               <num>۴۱</num>
+            </p>
+         </div>
+         
+         <div corresp="#orig_div1" xml:id="trans_div1">
+            <p>He [God] is</p>
+         </div>
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p>
+               <stamp type="seal">Round black ink seal<mentioned>
+                  <gap/>
+                  <unclear><persName ref="#aurangzebAlamgir">Alamgir</persName></unclear>
+                  <gap/>
+               </mentioned></stamp>
+            </p>
+         </div>
+         <div corresp="#orig_div3" xml:id="trans_div3">
+            <p><lb/>Eminent among Contemporaries
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+               <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> of <ref type="glossary"
+                  target="#gl_pargana">pargana</ref>
+               <placeName ref="#pgDhar">Dhar</placeName>
+                is informed that
+               <lb/>the letter that [you] had sent has come to our attention. That which you have
+               written about the facts of the <ref type="glossary" target="#gl_patta">patta</ref> of
+               <placeName ref="#sitapuri">Sitapuri</placeName>
+               <lb/>has become known.
+               Shortly, when this party [the author] reaches the Abode of Victory
+               <placeName ref="#ujjain">Ujjain</placeName>,
+               <lb/>that Eminent among Contemporaries should come to
+               <placeName ref="#ujjain">Ujjain</placeName> and present himself
+               <lb/>[so] that, the <ref type="glossary" target="#gl_chaudhri">chaudhris</ref> and <ref
+                  type="glossary" target="#gl_qanungo">qanungos</ref> of <ref type="glossary"
+                  target="#gl_pargana">pargana</ref>
+               <placeName ref="#lawani">Lawani</placeName>
+                also being summoned to the Lord,
+               <lb/>[and] the facts of the two parties being obtained, whatever [matter] will be
+               right and true
+               <lb/>will be confirmed.
+               <space/>
+                What more shall be written?
+               <g ref="#faqat">Nothing further.</g>
+            </p>
+         </div>
+         <div corresp="#orig_div4" xml:id="trans_div4">
+            <p><lb/>It is repeated that since the aforementioned <ref type="glossary" target="#gl_pargana"
+                  >pargana</ref>
+               <lb/>had been taken into the <ref type="glossary" target="#gl_khalisa">khalisa</ref> so
+               that in each
+               <lb/>manner righteousness and correctness are exhibited, [and] for the necessary things of
+               <lb/>loyalty towards the government and good service and the increase of agriculture,
+               <unclear>several <ref type="glossary" target="#gl_qarar">qarars</ref></unclear>
+               <lb/>shall be drawn up. <app><rdg cert="high">Every</rdg><rdg cert="low">For the</rdg></app> cause of his affection is in this.
+               <g ref="#faqat">Nothing further.</g>
+            </p>
+         </div>
+         <div corresp="#orig_div5" xml:id="trans_div5">
+            <p>Number 41</p>
+         </div>
+      </body>
+   </text>
+</TEI>

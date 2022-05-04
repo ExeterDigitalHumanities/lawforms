@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1655_brd_ncd_i">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of a Mughal official to Purshottam Das excusing the payment of tribute</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Nandini Chatterjee</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#brd"/>
+                  <collection ref="#pDas"/>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#julus">1 Rabiʿ al-sani 28</origDate>
+                     <origDate calendar="#hijri-qamri">1 Rabiʿ al-sani 1065</origDate>
+                     <origDate calendar="#gregorian" when="1655-02-09">8 February 1655</origDate>
+                  </origin>
+               </history>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p><persName ref="#purshottamDas">Purshottam Das</persName> is confirmed in the office of landlord (chaudhri) as the heir of
+               <persName ref="#chandarBhan">Chandar Bhan</persName> and excused for the payment of four thousand rupees as tribute
+               (pishkash).</p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="parvana"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Inheritance</term>
+               <term>Money</term>
+               <term>Petitioning</term>
+               <term>Taxation and Tribute</term>
+            </keywords>
+         </textClass>
+
+
+         <particDesc>
+            <person role="grantor">
+               <persName ref="#muradBakhsh">Murad Bakhsh</persName>
+            </person>
+            <person role="grantee">
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+            </person>
+            <person role="supplicant">
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+            </person>
+         </particDesc>
+
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1655_brd_ncd_i_r.jpg"/>
+      <graphic url="lf_pDas_1655_brd_ncd_i_v.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <pb n="1r" facs="lf_pDas_1655_brd_ncd_i_r.jpg"/>
+
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>الله اکبر</p>
+         </div>
+         <div corresp="#orig_div1" xml:id="trans_div1">
+            <p>God is great</p>
+         </div>
+
+         <div xml:id="orig_div2" xml:lang="per" type="maintext">
+            <p>
+               <lb/>متصدیان مهمات و معاملات پرگنه
+               <placeName ref="#pgDhar">دهار</placeName>
+               را انهاء آنکه چون مطیع الاسلام
+               <lb/><persName ref="#purshottamDas">پرشوتم داس</persName>
+                در باب فرزندان
+                <persName ref="#chandarBhan">چندربهان</persName>
+                وجه پیشکش و حواله داشتن از حضور مبلغ
+               <measure type="currency" unit="rupee" quantity="4000">چهار هزار روپیه</measure>
+               <lb/> بدرگاه والاجاه بخدمت متصدیان حضور عرضه داشت نموده بود این مقدمات را وزارت و
+               اقبال پناه
+               <lb/>وکالت و اجلال و دستگاه مدارالمهامی
+               <persName ref="#dianatKhan">دیانتخان</persName>
+               بعرض باریافتهای مجلس قدس مشاکل رسانید
+               <lb/>حسب الامر جلیل القدر مقرر شد که از نوشته متصدیان جاگیر صوبه
+               <placeName ref="#malwa">مالوه</placeName>
+               ظاهر شد که اگر
+               <measure type="currency" unit="rupee" quantity="4000">چهار هزار روپیه</measure>
+               <lb/>بر پیشکش گرفته شود باعث جلاء وطن فرزندان
+               <persName ref="#chandarBhan">چندربهان</persName>
+               میگردد و زر بوصول نمیرسد
+               پروانه باسم چودری
+               <lb/><persName ref="#purshottamDas">پرسوتمداس</persName>
+               صادر گردد که مبلغ چهارهزار روپیه را معاف داشتم تلافی و تدارک این احسان
+               <lb/>باید که در حاصل آمده شود و از قرار واقع دولتخواهی شما ظاهر گردد که در عوض خدمت
+               چودهرایی<note>From here, the main text continues into the margin.</note>
+               <lb/>مرحمت میشود بموجب پروانه عملنموده شده باید که
+               <lb/><unclear>جستن</unclear>
+               سعی خدمت خود را پرسوتمداس بنوعی که
+               <lb/>در پروانه حضور قید است بعمل آورد که ظاهر گردد خدمت
+               <lb/>را بموجب ایشان عالیشان سعی نموده گرفته خواهد شد و در خدمت خود
+               <lb/>ساعی و سرگرم باشد و آزادی امیدواری تمام در زراعت و آبادانی بکوشد
+               <lb/>درینباب نهایت تاکید دانسته زیاده از این مبالغه نطلبند 
+               <lb/>تحریر فتاریخ 
+               <date calendar="#julus">
+                  غره شهر ربیع الثانی   
+                  سنه
+                  <num>۲۸</num>
+                  جلوس
+               </date>
+               <g ref="#faqat">فقط</g>
+               <g ref="#faqat">فقط</g>
+            </p>
+         </div>
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p><lb/>To the officials of the affairs and business of <ref type="glossary" target="#gl_pargana">pargana</ref>
+               <placeName ref="#pgDhar">Dhar</placeName> it is declared that since the Obedient to Islam
+               <lb/>
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+                had petitioned<note>The phrase used is '<ref type="glossary" target="#gl_arzdasht">ʿarzdasht</ref> numuda'.</note>the officials of
+               the exalted court
+               <lb/>on behalf of the sons<note><persName ref="#purshottamDas">Purshottam Das</persName> was not <persName ref="#chandarBhan">Chandar Bhan's</persName> son, but his
+                  nephew. The term used, farzandan, is sometimes broadly construed and may have included <persName ref="#purshottamDas">Purshottam Das</persName>.</note> of <persName ref="#chandarBhan">Chandar Bhan</persName> [regarding] the obligation of <ref type="glossary" target="#gl_pishkash">pishkash</ref> and the transfer
+               of the sum of
+               <measure type="currency" unit="rupee" quantity="4000">4000 rupees</measure>, this matter was referred by the Refuge of Ministry and Glory
+               <lb/>and Representation
+               <persName ref="#dianatKhan">Dianat Khan</persName>
+                to the members of the heavenly assembly [officers of the exalted court].
+               <lb/>It was ordered that from the writing of the officers of the <ref type="glossary" target="#gl_jagir">jagir</ref> of
+               <ref type="glossary" target="#gl_suba">suba</ref> <placeName ref="#malwa">Malwa</placeName>, it has become clear that if
+               <measure type="currency" unit="rupee" quantity="4000">four thousand rupees</measure>
+               <lb/>were to be seized as <ref type="glossary" target="#gl_pishkash">pishkash</ref>, this will
+               cause the exile of the children of
+               <persName ref="#chandarBhan">Chandar Bhan</persName>
+                and the money will not be collected. [Thus] the <ref type="glossary" target="#gl_parvana">parvana</ref> is issued in the name
+               of <ref type="glossary" target="#gl_chaudhri">chaudhri</ref>
+               <lb/>
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+               that I excuse the sum of <measure type="currency" unit="rupee" quantity="4000">four thousand rupees</measure>. For this kindness,
+               <lb/>all collections should be made and your loyalty should become obvious since
+               in exchange the office of <ref type="glossary" target="#gl_chaudhri"
+                  >chaudhri</ref>.
+               <lb/>should be granted [to you]. Work should be done according to the <ref type="glossary" target="#gl_parvana">parvana</ref>. 
+               <lb/>It is necessary that <persName ref="#purshottamDas">Purshottam Das</persName> makes efforts of service according to the  
+               <lb/>[details] of the <ref type="glossary" target="#gl_parvana">parvana</ref> of the Lord so that it becomes obvious that the service 
+               <lb/>is according to the order and the best effort is made. Be engaged in your 
+               <lb/>own service, and make all efforts in the cultivation and population [of the area]. 
+               <lb/>Know this matter to be settled. More effort than this is not called for. 
+               <lb/>Written on the <date calendar="#julus">first of Rabiʿ al-sani in the year 28 of the reign</date>.
+               <g ref="#faqat">Nothing further.</g>
+               <g ref="#faqat">Nothing further.</g>
+            </p>
+         </div>
+         
+         <div xml:id="orig_div3" xml:lang="per" type="authorisation" rend="right margin">
+            <p><stamp type="seal"><mentioned><gap/>
+               <persName ref="#muradBakhsh">مراد بخش</persName>
+                  سنه
+                  <date calendar="#hijri-qamri">۱۰۶۵</date>
+                   </mentioned></stamp></p>
+         </div>
+         <div corresp="#orig_div3" xml:id="trans_div3">
+            <p>
+               <stamp type="seal">Round black ink seal<mentioned><gap/>
+                  <persName ref="#muradBakhsh">Murad Bakhsh</persName>
+                  <date calendar="#hijri-qamri">1065</date></mentioned></stamp>
+            </p>
+         </div>
+
+         <pb n="1v" facs="lf_pDas_1655_brd_ncd_i_v.jpg"/>
+         
+         <div xml:id="orig_div4" xml:lang="per" type="clericalNotes" rend="right margin">
+            <p>
+               <date calendar="#julus">بتاریخ ۲ شهر ربیع الثانی سنه ۲۸</date>
+               <lb rend="empty"/>نقل بدفتر رسید 
+               <g ref="#faqat">فقط</g>
+               <unclear>د</unclear>
+               </p>
+         </div>
+         
+         <div corresp="#orig_div4" xml:id="trans_div4">
+            <p> 
+               On the <date calendar="#julus">2nd of the month of Rabiʿ al-sani in the year 28</date>,
+               <lb rend="empty"/>the copy reached the office. <g ref="#faqat">Nothing further</g>.<note>The precise meaning of the letter underneath the note is not clear.</note>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

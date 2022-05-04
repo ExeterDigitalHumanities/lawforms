@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_ratansi_arVol01Doc04">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Acknowledgement of a loan taken by Sayyed Hilal bin Said bin Mohammad bin Sulaiman Al-Busaidi from Ratansi Purshottam</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Fahad Bishara</persName>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#vp"/>
+                  <collection ref="#ratansiP"/>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#hijri-qamri">20 Shawwal 1305</origDate>
+                     <origDate calendar="#gregorian" when="1888-06-30">30 June 1888</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p><persName ref="#hilal">Sayyed Hilal bin Said bin Mohammad bin Sulaiman Al-Busaidi</persName> acknowledges the loan of 243.75 silver coins (qurush) that he took from <persName ref="#ratansi">Ratansi</persName> and the [temporary] sale of land to <persName ref="#ratansi">Ratansi</persName>. Such temporary sales functioned in lieu of interest.</p></abstract>       
+        <textClass>
+           <keywords scheme="#formal"><term key="iqrar"/></keywords>
+           <keywords scheme="#functional"><term key="privateDeeds"/></keywords>
+           <keywords scheme="#thematic">
+              <term>Buying and Selling</term>
+              <term>Debt and Mortgage</term>
+              <term>Money</term>
+              <term>Property</term>
+           </keywords>
+        </textClass>
+        <particDesc>
+           <person role="debtor">
+              <persName ref="#hilal">Sayyed Hilal bin Said bin Mohammad bin Sulaiman Al-Busaidi</persName>
+           </person>
+           <person role="creditor">
+              <persName ref="#ratansi">Ratansi bin Purshottam</persName>
+           </person>
+           <person role="writer">
+              <persName ref="#hamoud">Hamoud bin Abdullah bin Mohammed Al-Mandhiri</persName>
+           </person>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+<facsimile>
+      <graphic url="lf_ratansi_arVol01Doc04.jpg"/>
+   </facsimile>
+  <text>
+      <body>
+         <pb n="1r" facs="lf_ratansi_arVol01Doc04.jpg"/>
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>بمنّه تعالى</p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p>By the Grace of God</p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="ara" type="maintext">
+            <p>
+               <lb/>اقر
+               <persName ref="#hilal">السيد هلال بن سعيد بن محمد بن سليمان البسعيدي</persName>
+               بأن عليه
+               <persName ref="#ratansi">لرطنسيه بن برشوتم البانياني</persName>
+               ثلاثة ارباع قرش فضه
+               <lb/>و ثلاثة قروش افرنسيسيات فضة واربعين قرشا فضة افرنسيسياً و مأتين قرش فضة افرنسيسي و قد باع له بحقه  
+               <lb/>هذا ماله القطعة اللذي شرقي الساقية من الباده التاسعة من
+               <placeName ref="#haylAlGhaf">حيل الغاف</placeName>
+               بما بها النخل والفسل والشجر و ماله
+               <lb/>من الحدود والطرق والسواقي مع مشربه المعتاد لسقيه من فلج
+               <placeName ref="#haylAlGhaf">حیل الغاف</placeName>
+               على دوب اواده بيع القطع وله الإقالة
+               <lb/>في ذلك الى مضي تسعة اشهر زمانا من يومنا هذا باقراره له بذلك بتاريخ
+               <date calendar="#hijri-qamri">يوم العشرين من شهر شوال
+               <num>١٣٠٥</num></date>
+               <lb/>و كتبه الفقير 
+               <persName ref="#hamoud">حمود بن عبدالله بن محمد المنذري</persName>
+               بيده
+            </p>
+         </div>
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p>
+               <lb/>The <persName ref="#hilal">Sayyed Hilal bin Said bin Mohammed bin Sulaiman Al-Busaidi</persName> acknowledges that he owes <persName ref="#ratansi">Ratansi bin Purshottam Al-Banyani</persName> <measure type="currency" unit="qirsh" quantity="243.75">three-quarters of a silver <ref type="glossary" target="#gl_qirsh">qirsh</ref>
+               <lb/>and three silver French <ref type="glossary" target="#gl_qirsh">qurush</ref>, and forty silver French <ref type="glossary" target="#gl_qirsh">qurush</ref>, and two hundred French <ref type="glossary" target="#gl_qirsh">qurush</ref></measure>, and that he has sold to him his rights to
+               <lb/>this land that is east of the irrigation canal, including the ninth time-share in <placeName ref="#haylAlGhaf">Hayl Al-Ghaf</placeName>, and what it has in palms and saplings and trees and what appertains to it
+               <lb/>in terms of boundaries and roads and irrigation canals, and its usual amount of irrigation from the <ref type="glossary" target="#gl_falaj">falaj</ref> of <placeName ref="#haylAlGhaf">Hayl Al-Ghaf</placeName><gap/> [and this is] a complete sale, and he has the right to cancel
+               <lb/>it for up to nine months’ time from this date, by his acknowledgment of it, this <date calendar="#hijri-qamri">twentieth day of Shawwal 1305</date>.
+               <lb/>And it was written by the wretched <persName ref="#hamoud">Hamoud bin Abdullah bin Mohammed Al-Mandhiri</persName>, by his own hand.
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

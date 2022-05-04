@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1655_brd_ac">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Order of Abdussalam to Purshottam Das and Paras Ram about a dispute with
+                    other officials</title>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Nandini Chatterjee</persName>
+                </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+            </titleStmt>
+            <editionStmt>
+                <p>Transcribed from manuscript image.</p>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+                    <msIdentifier>
+                        <repository ref="#brd"/>
+                        <collection ref="#pDas"/>
+                        <idno>none</idno>
+                    </msIdentifier>
+                    <history>
+                        <origin>
+                            <origDate calendar="#julus">10 Rabiʿ al-sani 28</origDate>
+                            <origDate calendar="#hijri-qamri">10 Rabiʿ al-sani 1065</origDate>
+                            <origDate calendar="#gregorian" when="1655-02-17">17 February 1655</origDate>
+                            <origPlace type="placeOfReceipt" ref="#dhar"/>
+                        </origin>
+                    </history>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="formal">
+                    <bibl>Law Forms project formal text categories <ptr
+                            target="../metadata/taxonomy.xml#formal"/></bibl>
+                </taxonomy>
+                <taxonomy xml:id="functional">
+                    <bibl>Law Forms project functional text categories <ptr
+                            target="../metadata/taxonomy.xml#functional"/></bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <abstract>
+                <p>
+                    <persName ref="#purshottamDas">Purshottam Das</persName>
+                     and
+                    <persName ref="#parasRam">Paras Ram</persName>
+                     are assured that their petition has been received and their complaints about
+                    local officials will be dealt with; they are urged to maintain peace and
+                    productivity in their areas.</p>
+            </abstract>
+            <textClass>
+                <keywords scheme="#formal">
+                    <term key="parvana"/>
+                </keywords>
+                <keywords scheme="#functional">
+                    <term key="orders"/>
+                </keywords>
+                <keywords scheme="#thematic">
+                    <term>Administration</term>
+                    <term>Disputes</term>
+                    <term>Petitioning</term>
+                </keywords>
+            </textClass>
+            <particDesc>
+                <person role="issuer">
+                    <persName ref="#abdusSalam">Abdussalam</persName>
+                </person>
+                <person role="recipient">
+                    <persName ref="#purshottamDas">Purshottam Das</persName>
+                </person>
+                <person role="recipient">
+                    <persName ref="#parasRam">Paras Ram</persName>
+                </person>
+                <person role="supplicant">
+                    <persName ref="#purshottamDas">Purshottam Das</persName>
+                </person>
+                <person role="supplicant">
+                    <persName ref="#parasRam">Paras Ram</persName>
+                </person>
+            </particDesc>
+
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="lf_pDas_1655_brd_ac_r.jpg"/>
+        <graphic url="lf_pDas_1655_brd_ac_v.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <pb n="1r" facs="lf_pDas_1655_brd_ac_r.jpg"/>
+
+            <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+                <p>الله اکبر</p>
+            </div>
+            <div xml:id="trans_div1" corresp="#orig_div1">
+                <p>God is great</p>
+            </div>
+
+            <div xml:id="orig_div2" xml:lang="per" type="maintext">
+                <p><lb/> زبده الاقران
+                    <persName ref="#purshottamDas">پرسوتمداس</persName>
+                     چودهری و
+                    <persName ref="#parasRam">پرسرام</persName>
+                     قانونگوی پرگنه
+                    <placeName ref="#pgDhar">دهار</placeName>
+                     را انها آنکه
+                    <lb/>عرضداشتی که فرستاده بودنند رسید مضمون معلوم شد و در باب اجاره داران و
+                    <lb/>متصدیان پرگنه مذکور مرقوم بود چه آنها اینطور خیالهای عبث عبث می کنند الحال
+                    <lb/>می باید که برسیدن نوشته دلاسای و تسلی
+                     آنها نمایند که آینده خاطر خودها جمع نموده سازند بجای خودها
+                    <lb/>آباد باشد و در آنچه رضامندی بهبودی آنها است پرداخته خواهد شد و نیز در
+                    ینولا
+                    <lb/>نوشته ها از حضور پرنور
+                    <space/>
+                     آمده اند انشاالله وقتی ما در آنجا خواهم رسید حقایق نوشته های
+                    <lb/>اظهار نموده خواهد شد عرض که
+                    <unclear>بهمدردی</unclear>
+                     خاطر رعایا جمع نمایند که هیچ وجه دغدغه و ملاحظه
+                    <lb/>بخاطر
+                    <unclear>برده</unclear>
+                     ندهند. درین باب تاکید دانند تحریر فی التاریخ
+                    <date calendar="#julus">
+                        <num>۱۰</num>
+                     شهر ربیع الثانی سنه
+                    <num>۲۸</num>
+                    </date>
+                </p>
+            </div>
+            <div xml:id="trans_div2" corresp="#orig_div2">
+                <p><lb/>Eminent among Contemporaries
+                    <persName ref="#purshottamDas">Purshottam Das</persName>
+                    <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> and
+                    <persName ref="#parasRam">Paras Ram</persName>
+                    <ref type="glossary" target="#gl_qanungo">qanungo</ref> of <ref type="glossary"
+                        target="#gl_pargana">pargana</ref>
+                    <placeName ref="#pgDhar">Dhar</placeName>
+                     are informed that
+                    <lb/>the <ref type="glossary" target="#gl_arzdasht">ʿarzdasht</ref> that they
+                    had sent has arrived and the contents have been noted. Regarding the <ref
+                        type="glossary" target="#gl_ijaradar">ijaradars</ref> and
+                    <lb/>officials of the said <ref type="glossary" target="#gl_pargana"
+                        >pargana</ref>, it was written that they have the most absurd ideas. Now
+                    <lb/>it is necessary that on the receipt of this exalted note, they should be
+                    consoled and soothed, so that in future their minds are content and well-settled in their place.
+                    <lb/>And all that causes their satisfaction and well-being will be done. Also,
+                    at this time,
+                    <lb/>the notes from the radiant Lord have arrived [so], God willing, when we
+                    reach there, the rights of all that is
+                    <lb/>written of will be declared. You are requested to settle the minds of the
+                    peasants so that there shall be no cause for their having thoughts of disturbance or quarrel.
+                    <lb/>Know this as settled. Written on the
+                    <date calendar="#julus">10th of the month of Rabiʿ al-sani in the 28th regnal
+                        year</date>.
+                </p>
+            </div>
+            <div xml:id="orig_div3" xml:lang="per" type="endorsements" rend="right margin">
+                <p><lb/>زبده الاقرانانا
+                    <lb/>این شکایت عبث عبث خودها را در وسواس انداخته اند
+                    <lb/>شما دلآسای ان غریبان بسیار بسیار بکنید هر چه
+                    <unclear>آنها</unclear>
+                    <lb/>خود رضامند باشند چنان خواهم کرد چون
+                    <lb/>مشقت آنها را ضایع بخواهم کرد آنها
+                    <lb/>را رضامند و
+                    <app><rdg cert="medium">شاکر</rdg>
+                        <rdg cert="low">ساکن</rdg></app>
+                    نگاه
+                    <gap/>
+                     داشت
+                    <lb/>آنها را خود
+                    <gap/>
+                     هار فرستاد اند
+                    <lb/>و بجا و مقام خود
+                     آورده
+                     <gap></gap>
+                    <lb/>بسیار بسیار بسیار بکنید
+                    <gap/><note>The text continues onto the top margin.</note>
+                    <lb/>در باب آمدن
+                    کسی آنها
+                    <gap/>
+                     بخدمت
+                    <lb/>وزارت پناه معلوم نموده از پروانه ان
+                    <lb/>که سیادت پناه می رسیده معلوم خواهد شد
+                    <lb/>مطابق ان بعمل آورند و
+                    <gap/>
+                    <g ref="#faqat">فقط</g>
+                </p>
+            </div>
+
+            <div xml:id="trans_div3" corresp="#orig_div3">
+                <p><lb/>Eminent among Contemporaries,
+                    <lb/>these very absurd complaints have thrown you into doubt.
+                    <lb/>You should console these poor people very, very much. Whatever
+                    <lb/>would satisfy [them] I will do. When
+                    <lb/>I shall destroy their difficulties, it should keep them
+                    <lb/>satisfied and <app><rdg cert="medium">thankul
+                     </rdg><rdg cert="low">resident</rdg></app>
+                    <gap/>.
+                    <lb/>They
+                    <gap/>
+                     have been sent.
+                    <lb/>And accomplishing and settling [it] yourself, 
+                    <lb/>make <gap/> very, very, very much.
+                    <gap/>
+                    <lb/>In the matter of the coming of some person of them
+                    <gap/>
+                     to serve
+                    <lb/>the Refuge of Ministry becoming known, from each <ref type="glossary" target="#gl_parvana">parvana</ref>
+                    <lb/>that reaches the Refuge of Sublimity, it will be known.
+                    <lb/>Do as ordered in this [order] and
+                    <gap/>. <g ref="#faqt">Nothing further</g>. </p>
+            </div>
+
+            <div xml:id="orig_div4" xml:lang="per" type="authorisation" rend="top left">
+                <p><stamp type="seal"><mentioned>
+                            <persName ref="#abdusSalam">عبد السلام</persName>
+                             بن محمد
+                            <gap/>
+                             خان غلام سلطان
+                            <persName ref="#muradBakhsh">مراد بخش</persName>
+                            <unclear>
+                                <persName ref="#shahJahan">شاه جهان</persName>
+                            </unclear>
+                            <date calendar="#hijri-qamri">۱۰۵۴</date>
+                        </mentioned></stamp></p>
+            </div>
+            <div xml:id="trans_div4" corresp="#orig_div4">
+                <p><stamp type="seal">Round black ink seal<mentioned>
+                            <persName ref="#abdusSalam">Abdussalam</persName>, son of Muhammad
+                            <gap/>
+                             Khan, slave of Sultan
+                            <persName ref="#muradBakhsh">Murad Bakhsh</persName>, [son of]
+                            <unclear>
+                                <persName ref="#shahJahan">Shah Jahan</persName>
+                            </unclear>
+                            <date calendar="#hijri-qamri">1054</date>
+                        </mentioned></stamp>
+                    <note>For a variation of this seal, see "Order of an official of Prince Murad
+                        Bakhsh to Purshottam Das."</note>
+                </p>
+            </div>
+            <pb n="1v" facs="lf_pDas_1655_brd_ac_v.jpg"/>
+            <div xml:id="orig_div5" xml:lang="per" type="clericalNotes">
+                <p> پروانه بندگان رفعت و ایالت دستگاه
+                    <unclear>احور</unclear>
+                    صاحب جیو
+                    <unclear>آمار</unclear>
+                    دلاسای رعایا پرگنه بجانب
+                    <persName ref="#gujaratRai">گجرات رای</persName>
+                    شده نمود بتاریخ
+                    <date calendar="#julus">
+                        <num>۱۳</num>
+                         شهر ربیع الثانی سنه
+                        <num>۲۸</num>
+                    </date>
+                    <gap/>
+                </p>
+            </div>
+            <div xml:id="trans_div5" corresp="#orig_div5">
+                <p><ref type="glossary" target="#gl_parvana">Parvana</ref> of the servants of the exalted and fortunate government of <unclear>Ahwar</unclear><note>This is presumably part of a name or title.</note> Sahib <ref type="glossary" target="#gl_jiu">Jiu</ref>, 
+                    <unclear>the investigation of</unclear> the consolation of the subjects of the <ref type="glossary" target="#gl_pargana"
+                    >pargana</ref> was done on behalf of <persName ref="#gujaratRai">Gujarat Rai</persName>. On the date of <date calendar="#julus">13 [of the] month of Rabiʿ al-sani in the 28th year</date> <gap></gap></p>
+            </div>
+        </body>
+    </text>
+</TEI>

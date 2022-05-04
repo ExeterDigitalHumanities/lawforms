@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1576_dai_lns235ms_a">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of a Mughal official to Jayanti Das and other landlords granting lands as
+               reward for services</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Nandini Chatterjee</persName>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#dai"/>
+                  <collection ref="#pDas"/>
+                  <idno>LNS 235 MS a</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#hijri-qamri">984</origDate>
+                     <origDate calendar="#gregorian" notBefore="1576-04" notAfter="1577-03">1576–77</origDate>
+                     <origPlace type="placeOfReceipt" ref="#pgDhar"/>
+                  </origin>
+               </history>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Since <persName ref="#jayantiDas">Jayanti Das</persName>, <persName ref="#narharDas">Narhari Das</persName> and others have populated and cultivated the district
+               of <placeName ref="#pgDhar">Dhar</placeName>, a tax-free grant (inʿam) of 200 bighas of land is made to them. </p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="parvana"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Grants</term>
+               <term>Taxation and Tribute</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <person role="grantee">
+               <persName ref="#jayantiDas">Jayanti Das</persName>
+            </person>
+            <person role="grantee">
+               <persName ref="#narharDas">Narhari Das</persName>
+            </person>
+            <person role="grantee">
+               <persName ref="#bhagto">Bhagto</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1576_dai_lns235ms_a_r.jpg"/>
+      <graphic url="lf_pDas_1576_dai_lns235ms_a_v.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1576_dai_lns235ms_a_r.jpg"/>
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>هو
+               <lb rend="empty"/><gap/>
+               خلد اله تعلی مالکه اندر
+            </p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p>He [God] is
+               <lb rend="empty"/><gap></gap>May God make his kingdom eternal</p>
+         </div>
+
+         <div xml:id="orig_div2" xml:lang="per" type="authorisation" rend="middle right and centre">
+            <p><stamp type="seal"><mentioned>
+                      غلام
+                      <persName ref="#jahangir">جھانگیر</persName>
+                      شاھ
+                      <gap></gap>
+                      یعقوب 
+                      <date calendar="#hijri-shamsi">۹۸۲</date>
+                      <gap/>
+            </mentioned></stamp>
+               <lb rend="empty"/>
+            <lb rend="empty"/><stamp type="seal"><mentioned><gap></gap></mentioned></stamp></p>
+         </div>
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p><stamp type="seal">Round black ink seal<mentioned><gap/>Yaqub, servant of <persName ref="#jahangir">Jahangir</persName> Shah<note>While it is possible that this is a reference to Mughal emperor <persName ref="#jahangir">Jahangir</persName>, this interpretation is uncertain as he would have been about five years old in the year the seal was issued.</note> <date calendar="#hijri-shamsi">982</date>
+               <gap/></mentioned></stamp>
+               <lb rend="empty"/>
+            <lb rend="empty"/><stamp type="seal">Round black ink seal<mentioned><gap></gap></mentioned></stamp><note>Below and to the left of the first seal. Its position somewhat overlapped by the maintext is unusual.</note></p>
+         </div>
+         
+         <div xml:id="orig_div3" xml:lang="per" type="maintext">
+            <p>
+               <lb/>چون مطیع السلام
+               <persName ref="#jayantiDas">جینتی داس</persName>
+               و
+               <persName ref="#narharDas">نرھرداس</persName>
+               وغیرہ دولتخواہ اند و در باب ابادانی و معموری پرگنہ
+               <placeName ref="#pgDhar">دار</placeName>
+               فی
+               <gap/>
+               <lb/><placeName ref="#mandu">مندو</placeName>
+               اھتمام می نمایند بنابرین از ابتدای خریف
+               <date calendar="#turkish">سیچقانیل</date>
+               موازی دویست بیگه زمین
+               افتادہ
+               <lb/>از موضع
+               <placeName ref="#gardawad">گرداود</placeName>
+               وغیرہ از پرگنه مذکور در وجه انعام مطع اسلام 
+               <persName ref="#jayantiDas">جینتی داس</persName>
+               مذکور وغیرہ مقر شد باید که متصدیان
+               <lb/>مھمات و معاملان پرگنه مذکور اراضی مذکور را
+               <unclear>بتنخواه</unclear>
+               واگذاشته بتصرف ایشان گذارند که
+               باستطاعت خود
+               <lb/>مزروع نموده حاصل آنرا صرف معاش خود نموده بدعاگوی دوام دولت بندگان حضرت
+               <space/>
+               مشغول باشند
+               <lb/>و بعلت مالواجب و اخراجات
+               <gap/>
+               دیوانی مزاحمت عامل ایشان نرساند و آن مطع اسلامان در باب ابادانی
+               <lb/>
+               و معموری پرگنه مذکور چنان سعی نمایند که اثار دولتخواھی ایشانان بظھور رسد سنه
+               <date calendar="#hijri-qamri"><num>۹۸۴</num></date>
+            </p>
+         </div>
+         
+         <div xml:id="trans_div3" corresp="#orig_div3">
+            <p><lb/>Since Obedient to Islam <persName ref="#jayantiDas">Jayanti Das</persName> and <persName ref="#narharDas">Narhar[i] Das</persName> etc. are loyal and have
+               demonstrated diligence in the populating and managing of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#pgDhar">D[h]ar</placeName> in
+               <gap/>
+               <lb/>[<ref type="glossary" target="#gl_sarkar">sarkar</ref>] <placeName ref="#mandu">Mandu</placeName>; on this basis, from the beginning of the autumn season of <date calendar="#turkish">Sichqan-il [Year of the Mouse]</date>, <measure type="land" unit="bigha" quantity="200">200</measure>
+               <ref type="glossary" target="#gl_bigha">bighas</ref> of fallow land
+               <lb/>from the <ref type="glossary" target="#gl_mauza">mauza</ref> <placeName ref="#gardawad">Gardawad</placeName> etc. from
+               the said <ref type="glossary" target="#gl_pargana">pargana</ref> is allocated to
+               Obedient to Islam <persName ref="#jayantiDas">Jayanti Das</persName> etc. as <ref type="glossary" target="#gl_inam">inʿam</ref>. Officers
+               <lb/>of the said <ref type="glossary" target="#gl_pargana">pargana</ref> must give over the said lands <unclear>as an assignment</unclear><note>While the term 'tankhwah' usually refers to pay, or to a jagir assigned in lieu of pay (see <ref type="bibl" target="#habib">Habib, The Agrarian System of Mughal India, p. 329</ref>), its usage here in the context of a grant of inʿam may refer more generically to any assignment on the land revenue. For this sense, see <ref type="bibl" target="#wilson">Wilson, Glossary, p. 509</ref>.</note> and
+               transfer [the lands] into their [the assignees’] possession; so that getting
+               these lands cultivated through their own efforts
+               <lb/>[and] using the collections from these [lands] for their living expenses, they may
+               occupy themselves with praying for the endurance of the good fortune of the servants
+               of the Lord <space/>.
+               <lb/>And the
+               <unclear>officers</unclear>
+               of the <ref type="glossary" target="#gl_diwani">diwani</ref> should not trouble them on account of land tax and other taxes. And these [people who are] Obedient to Islam
+               should
+               <lb/>make such efforts for the populating and governing of the said <ref type="glossary" target="#gl_pargana">pargana</ref> [so] that
+               their loyalty becomes evident.
+               <date calendar="#hijri-qamri">Year 984</date>.
+            </p>
+         </div>
+
+         <pb n="1v" facs="lf_pDas_1576_dai_lns235ms_a_v.jpg"/>
+
+         <div xml:id="orig_div5" xml:lang="per" type="clericalNotes" rend="middle">
+            <p><list><lb/>
+               <head>
+                  <measure type="area" unit="bigha" quantity="200">
+                     <g ref="#siyaq">۲۰۰</g>
+                     بیگه زمین 
+               </measure></head>
+               <lb rend="empty"/>
+               <lb/> 
+               <label>مطیع السلام
+               <lb/><persName ref="#jayantiDas">جینتی داس</persName></label>
+               <item>
+                  <list>
+                  <lb/>
+                     <item>
+                     از موضع
+                     <unclear><placeName ref="#gardawad">گرداود</placeName></unclear>
+                     <lb/>
+                     <g ref="#siyaq">۹۰</g> 
+                     <unclear>بیگه</unclear></item></list></item>
+               <lb rend="empty"/>
+               <lb/> 
+               <label><persName ref="#bhagto">بهگتو</persName></label>
+               <item>
+                  <list>
+                     <lb/>
+                     <item>
+                از موضع
+                <unclear><placeName ref="#anarad">انارد</placeName></unclear>
+               <lb/>
+               <g ref="#siyaq">۷۰</g>
+               <unclear>بیگه</unclear>
+                     </item>
+                  </list>
+               </item>
+               <lb rend="empty"/> 
+               <lb/>
+               <label><app>
+                  <rdg cert="low">شیوجی</rdg>
+                  <rdg cert="medium">سورت</rdg>
+               </app></label>
+               <item>
+                  <list>
+                  <lb/>
+                     <item>
+                از موضع 
+                <app>
+                   <rdg cert="low">مغل پور</rdg>
+                   <rdg cert="low">موهن پور</rdg>
+                </app>
+               <lb/>
+               <g ref="#siyaq">۲۰</g>
+               <unclear>بیگه</unclear>
+                     </item>
+                  </list>
+               </item>
+               <lb rend="empty"/> 
+               <lb/>
+               <label><persName ref="#narharDas">نرهرداس</persName></label> 
+               <item>
+                  <list>
+                     <lb/>
+                     <item>
+                از موضع
+                <unclear>مات پورا</unclear>
+               <lb/>
+               <g ref="#siyaq">۲۰</g>
+               <unclear>بیگه</unclear></item></list></item>
+               <lb rend="empty"/> 
+               <lb/>
+               <label><unclear>بانجک</unclear></label>
+               <item>
+                  <list>
+                     <lb/>
+                     <item>موضع
+               <gap/>
+                <lb/>از موضع مذکور
+               <lb/>
+                  <g ref="#siyaq">۲۰</g></item>
+                  </list>
+               </item>
+            </list>
+               <lb rend="empty"/>
+               <lb/><g ref="#baiz">بیضه</g>
+            </p>
+         </div>
+         <div xml:id="trans_div5" corresp="#orig_div5">
+            <p><list>
+               <lb/>
+               <head><measure type="land" unit="bigha" quantity="200">200</measure> <ref type="glossary" target="#gl_bigha">bighas</ref> 
+               of land</head><note>The amounts of lands granted to each grantee is written in <ref type="glossary"
+                  target="#gl_siyaq">siyaq</ref> numerals; the information is presented in tabular
+                  format.</note>
+               <lb rend="empty"/> <lb/><label>Obedient to Islam 
+               <lb/><persName ref="#jayantiDas">Jayanti Das</persName></label>
+               <item>
+                  <list>
+                     <lb/>
+                     <item>From the village <unclear><placeName ref="#gardawad">Gardawad</placeName></unclear>
+               <lb/><g ref="#siyaq">90</g> 
+               <unclear>bighas</unclear></item>
+                  </list></item>
+               <lb rend="empty"/> 
+               <lb/>
+               <label><persName ref="#bhagto">Bhagto</persName></label>
+               <item><list>
+                  <lb/>
+                  <item>From the village <unclear><placeName ref="#anarad">Anarad</placeName></unclear>
+               <lb/><g ref="#siyaq">70</g> 
+               <unclear>bighas</unclear></item></list></item>
+               <lb rend="empty"/> 
+               <lb/>
+               <label><app>
+                  <rdg cert="medium">Surat</rdg>
+                  <rdg cert="low">Shivji</rdg>
+               </app></label>
+               <item><list>
+                  <lb/>
+                  <item>From the village <app><rdg cert="low">Mughalpur</rdg> <rdg cert="low">Mohanpur</rdg></app>
+               <lb/><g ref="#siyaq">20</g> 
+               <unclear>bighas</unclear></item></list></item>
+               <lb rend="empty"/>
+               <lb/>
+               <label><persName ref="#narharDas">Narhar Das</persName></label>
+               <item><list>
+                  <lb/>
+                  <item>From the village <unclear>Matpura</unclear>
+                     <lb/><g ref="#siyaq">20</g> 
+                     <unclear>bighas</unclear>
+                  </item></list></item>
+               <lb rend="empty"/> <lb/>
+                     <label><unclear>Banjak</unclear></label>
+               <item><list><lb/>
+                  <item>Village
+               <gap/>
+               <lb/>From the aforesaid village
+                     <lb/><g ref="#siyaq">20</g></item><note>The total amount of land mentioned in these entries is 220 <ref type="glossary" target="#gl_bigha">bighas</ref> rather than the 200 <ref type="glossary" target="#gl_bigha">bighas</ref> mentioned in the section header. 
+                        This discrepancy, combined with slight difference in the handwriting and ink colour of the last entry suggest that the last entry may be a later addition.</note>
+               </list></item>
+            </list>
+               <lb rend="empty"/>
+               <lb/><g ref="#baiz">Ended</g>.
+            </p>
+         </div>
+         <div xml:id="orig_div6" xml:lang="per" type="clericalNotes" rend="bottom">
+            <p>
+               بتاریخ
+               <gap></gap>
+               <unclear>نقل</unclear>
+               <gap></gap>
+            </p>
+         </div>
+         <div xml:id="trans_div6" corresp="#orig_div6">
+            <p>
+               On the date <gap></gap> <unclear>copy</unclear> <gap></gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

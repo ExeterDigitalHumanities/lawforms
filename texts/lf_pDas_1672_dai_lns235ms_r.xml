@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1672_dai_lns235ms_r">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of Rafi Muhammad to Purshottam Das about tax payments not received from Amjhera</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Dominic Vendell</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#dai"/>
+                  <collection ref="#pDas"/>
+                  <idno>LNS 235 MS r</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#julus">21 Safar 15</origDate>
+                     <origDate calendar="#hijri-qamri">21 Safar 1083</origDate>
+                     <origDate calendar="#gregorian" when="1672-06-18">18 June 1672</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>The landlord (chaudhri) <persName ref="#purshottamDas">Purshottam Das</persName> of district (pargana) <placeName ref="#dhar">Dhar</placeName> was informed that tax money is due from <placeName ref="#amjhera">Amjhera</placeName> and that a reply 
+               to the record-keeper (qanungo) regarding their collection has not been received.</p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#formal">
+               <term key="parvana"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Administration</term>
+               <term>Taxation and Tribute</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <person role="issuer">
+               <persName ref="#rafiMuhammad">Rafi Muhammad</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <graphic url="lf_pDas_1672_dai_lns235ms_r_r.jpg"/>
+      <graphic url="lf_pDas_1672_dai_lns235ms_r_v.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <pb n="1r" facs="lf_pDas_1660_dai_lns235ms_r_r.jpg"/>
+
+         <div xml:id="orig_div1" xml:lang="per" type="invocation">
+            <p>ا</p>
+         </div>
+         <div corresp="#orig_div1" xml:id="trans_div1" rend="top centre">
+            <p>Alif</p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="per" type="authorisation" rend="right margin">
+            <p>
+               <stamp type="seal" rend="margin (right)"><mentioned>
+                     
+                  <persName ref="#rafiMuhammad">رفیع محمد</persName>
+                  خانه زاد بادشاه 
+                  <persName ref="#aurangzebAlamgir">عالمگیر</persName>
+                  <num>۶</num>
+                  سنه
+                  <date calendar="#hijri-qamri">۱۰۷۳</date></mentioned></stamp></p>
+         </div>
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p>
+               <stamp type="seal">Round black ink seal<mentioned><gap/> <persName ref="#rafiMuhammad">Rafi Muhammad</persName>, servant of <ref type="glossary" target="#gl_badshah">Badshah</ref> <persName ref="#aurangzebAlamgir">Alamgir</persName> in the year 
+                  <date calendar="#hijri-qamri">1073</date> [Regnal Year] <date calendar="#julus">6</date></mentioned><note>This seal was issued in 1663–64 CE.</note></stamp>
+            </p>
+         </div>
+
+         <div xml:id="orig_div3" xml:lang="per" type="maintext">
+            <p>
+               <lb/><persName ref="#purshottamDas">پرسوتمداس</persName>
+               چودری
+               <placeName ref="#dhar">دهار</placeName>
+               را انهاء آنکه مبلغ بابت
+               <unclear>باقی</unclear>
+               <placeName ref="#amjhera">امجهره</placeName>
+               <lb/><unclear>ثابت</unclear>
+               رسد قانونگوی دهه
+               <unclear>او ست</unclear>
+               <persName ref="#muhammadAzim">محمد عاظم</persName>
+               را برای تحصیل آن
+               <lb/>فرستاده شد ظاهراً جواب محصولی نمیداشت
+               <unclear>میداند</unclear>
+               تا دام آخر داخل 
+               <app><rdg cert="low">سرکار کشد</rdg> <rdg cert="low">کردار کسی</rdg></app>
+               <lb/>اگر عرضی
+               <unclear>باشد</unclear>
+               بحضور آمده ظاهر سازد
+               <unclear>و ادا اسواران شدند</unclear>
+               <lb/><unclear>بتنخواه حواله باشد</unclear>
+               فی جمله که
+               درینباب نهایت تاکید دانند
+               <lb/>فی التاریخ
+               <date calendar="#julus"><num>۲۱</num>
+               شهر صفر سنه
+               <num>۱۵</num>
+               </date>
+               جلوس والا
+               <g ref="#baiz">بیض</g>
+            </p>
+         </div>
+
+         <div corresp="#orig_div3" xml:id="trans_div3">
+            <p>
+               <lb/><persName ref="#purshottamDas">Purshottam Das</persName>, the <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> of <placeName ref="#dhar">Dhar</placeName>, is informed that the amount for the <unclear>arrears</unclear> of <placeName ref="#amjhera">Amjhera</placeName>
+               <lb/>was fixed. The <ref type="glossary" target="#gl_qanungoi">qanungoi</ref> of village
+               <unclear>is his.</unclear>
+               <persName ref="#muhammadAzim">Muhammad Azim</persName> has been sent to collect the money.
+               <lb/>It is clear that a reply to the request for collection has not been given.
+               <unclear>Let it be known</unclear> until the last <ref type="glossary" target="#gl_dam">dam</ref>
+               <app><rdg cert="low">shall be entered to the sarkar</rdg><rdg cert="low">the conduct of someone</rdg></app>
+               <lb/>If requested, come to the government and make it known.
+               <unclear>And the payment of the riders [that] shall be</unclear><!--they shall be the satisfaction/payment/dismissal of the riders? (why is the verb plural?)-->
+               <lb/>
+               <unclear>shall be assigned to the salary.</unclear>
+               Know this matter to be completely settled.
+               <lb/>Dated <date calendar="#julus">21 of the month Safar in the year
+               15</date>
+               of the august reign. <g ref="#baiz">Ended</g>. </p>
+         </div>
+
+         <pb n="1v" facs="lf_pDas_1660_dai_lns235ms_r_v.jpg"/>
+
+         <div xml:id="orig_div4" xml:lang="per" type="clericalNotes" rend="right margin">
+            <p>بتاریخ
+               <date calendar="#julus"><num>۲۱</num>
+               شهر صفر سنه
+               <num>۱۵</num></date>
+               داخل
+               <gap/>
+               حضور نموده شد
+               <unclear><g ref="#faqt">فقط</g></unclear>
+               <lb rend="empty"/>د
+            </p>
+         </div>
+
+         <div corresp="#orig_div4" xml:id="trans_div4">
+            <p>On the date of <date calendar="#julus">21 of the month of Safar in the year
+               <num>15</num></date>
+               <gap/>
+               entered the government
+               <unclear><g ref="#faqt">Nothing further.</g></unclear>
+               <lb rend="empty"/>[dal]<note>Endorsements on the verso sometimes include single Persian letters below the main inscription. Most common are the letters mim, dal and fe. There is debate over what these letters mean.</note>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

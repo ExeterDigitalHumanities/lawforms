@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1820_ncd_mar_6a_h">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Memorandum containing answers to queries about agriculture and revenue collection in district Dhar</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Dominic Vendell</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                 <repository ref="#brd"/> 
+                  <collection ref="#pDas"/>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#suhur">Shaʿban 1220</origDate> 
+                     <origDate calendar="#fasli">1227</origDate>
+                     <origDate calendar="#gregorian"  when="1820">May/June 1820</origDate>                 
+                  </origin>
+               </history>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p>This memorandum provides a list of answers to queries about agriculture and revenue collection in district (pargana) <placeName ref="#pgDhar">Dhar</placeName> regarding types of land, terms of land tenure, expenses for cultivation, and sale of land holdings. It is a document fragment.</p></abstract>       
+        <textClass>
+           <keywords scheme="#formal"><term key="yadi"/></keywords>
+           <keywords scheme="#functional"><term key="adminRecords"/></keywords>
+           <keywords scheme="#thematic">
+              <term>Agriculture</term>
+              <term>Records</term>
+              <term>Taxation and Tribute</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+  </teiHeader>
+
+   <facsimile>
+      <graphic url="lf_pDas_1820_brd_ncd_mar_6a.jpg"/>
+      <graphic url="lf_pDas_1820_brd_ncd_mar_6b.jpg"/>
+      <graphic url="lf_pDas_1820_brd_ncd_mar_6c.jpg"/>
+      <graphic url="lf_pDas_1820_brd_ncd_mar_6d.jpg"/>
+      <graphic url="lf_pDas_1820_brd_ncd_mar_6e.jpg"/>
+      <graphic url="lf_pDas_1820_brd_ncd_mar_6f.jpg"/>
+      <graphic url="lf_pDas_1820_brd_ncd_mar_6g.jpg"/>
+      <graphic url="lf_pDas_1820_brd_ncd_mar_6h.jpg"/>
+   </facsimile>
+   
+  <text>
+      <body>
+         
+         <pb n="1r" facs="lf_pDas_1820_brd_ncd_mar_6a.jpg"/>
+         
+         <div xml:id="orig_div1" xml:lang="mar" type="invocation" rend="top centre"><p>श्री</p></div>
+         <div corresp="#orig_div1"  xml:id="trans_div1"><p>Shri</p></div>
+        
+         <div xml:id="orig_div2" xml:lang="mar" type="maintext">
+            <p>
+               <lb/>यादी कलमबंदी
+               <persName ref="#nalShahunAli">नाल शाहून अली</persName>
+                त्याचा
+               <lb/>जवाब प्रगणे <placeName ref="#pgDhar">धार</placeName>
+               <choice>
+                  <abbr>सु||</abbr>
+                  <expan>सुहूर</expan>
+               </choice>
+               <date calendar="#suhur">अशरीन मया-
+                  <lb/>तैन व अलफ</date>
+                सन
+               <date calendar="#fasli">१२२७</date> माहे साबान उर्फ
+               <lb/>अधीक जेष्ठ मास
+               <lb rend="empty"/> 
+               <lb/>४ कीता
+               <lb/>१ गावचा रकबा कीती हांजार बी-
+               <lb/>घे आहे तो दरोबस्त
+               <lb/>१ वहीत जमीन कीती त्यात हली व-
+               <lb/>हीत व पडत कीती
+               <lb/>१ गायरान व कुरण कीती
+               <lb/>१ निवल बजड [बंजर] कीती 
+               <lb rend="empty"/><pb n="2r" facs="lf_pDas_1820_brd_ncd_mar_6b.jpg"/>
+               <lb/>--
+               <lb/>४
+               <lb rend="empty"/>
+               <lb/>येकूण च्यार कलमाचे उतर जरीबा
+               <lb/>चया प्रांतात कधी जालेच नाही आ-
+               <lb/>ज्ञा जाल्यास जरीब करून येक दोन
+               <lb/>गावचे चतु:सीमापूर्वक
+               <unclear>आकारा[स]</unclear>
+               <lb/>आणू सार्‍या प्रगण्याचे तरी होनार
+               <unclear>नाही</unclear>
+               <lb/>दिवस फार लागतील तसे चतु:सीमा-
+               <lb/>पूर्वक जरीबही जालेच नाही मर्जी अस-
+               <lb/>ल्यास येक दोन गावाचे जरीब करू <del>न</del>
+               <lb rend="empty"/> 
+               <lb/>१ गावात वतनदार आहेत याजकडे जमीन 
+               <lb rend="empty"/><pb n="3r" facs="lf_pDas_1820_brd_ncd_mar_6c.jpg"/>
+               <lb/>कीती याचे उतर त्याचा तपसील अला-
+               <lb/>हीदा पत्रकावर लेहून जमेदार याचे गुमा-
+               <lb/>स्ता याज <choice>
+                  <abbr>ब||</abbr>
+                  <expan>बरोबर</expan>
+               </choice> पाठवीला आहे त्या <choice>
+                  <abbr>प्र||</abbr>
+                  <expan>प्रमाणे</expan>
+               </choice> ले-
+               <lb/>हून देवावे<space/>कलम १
+               <lb rend="empty"/> 
+               <lb/>खालसे जमीनीत जीरायेत करीतात 
+               <lb rend="empty"/><pb n="4r" facs="lf_pDas_1820_brd_ncd_mar_6d.jpg"/>
+               <lb/>त्याचा महसूल कसा सीरस्ता येतो म्ह-
+               <lb/>णोन आज्ञा जाली<space/>कलम १
+               <lb rend="empty"/> 
+               <lb/>याचे उतर जीरायत करीतो तो खाद
+               <lb/>बीज तगाईचा कर वगैरे खर्च करावा
+               <lb/>जमीनीत हर जीनस उपन्न [उत्पन्न] होईल ते मा-
+               <lb/>कानी घ्यावे अथवा जिरायेत कीरसा-
+               <lb/>णास दील्यास दर बीघा घेतो 
+               <lb rend="empty"/><pb n="5r" facs="lf_pDas_1820_brd_ncd_mar_6e.jpg"/>
+               <lb/>१ अफीण १ मकी [मका]
+               <lb/><measure type="currency" unit="rupee" quantity="3">३</measure>
+               <measure type="currency" unit="rupee" quantity="2">२</measure>
+               <measure type="currency" unit="rupee" quantity="2.5">२||</measure>
+               <measure type="currency" unit="rupee" quantity="2">२</measure>
+               <measure type="currency" unit="rupee" quantity="3">३</measure>
+               <measure type="currency" unit="rupee" quantity="2.5">२||</measure>
+               <lb/>बाड १ गहू
+               <lb/><measure type="currency" unit="rupee" quantity="3">३</measure>
+               <measure type="currency" unit="rupee" quantity="2">२</measure>
+               <measure type="currency" unit="rupee" quantity="2.25">२|</measure>
+               <measure type="currency" unit="rupee" quantity="3/4">.॥।</measure>
+               <measure type="currency" unit="rupee" quantity="1">१</measure>
+               <lb rend="empty"/> 
+               <lb/>१ वतनदार याजकडे जमीनी आहेत त्याचा
+               <lb/>अमल देतात की नाही<space/>कलम १
+               <lb rend="empty"/> 
+               <lb/>याचे उतर सीरस्ता तीसरे वर्ष पेशकसी
+               <lb/>म्हणोन मोघम बीघ्याचे रुपया रीत व-
+               <lb/>हीत जमीनीवर घेतात या <choice>
+                  <abbr>प्र||</abbr>
+                  <expan>प्रमाणे</expan>
+               </choice> चाल या
+               <lb/>प्रगण्यात आहे<space/>कलम
+               <lb rend="empty"/> 
+               <lb/>१ इनामदार जमीनीचे काही सरकारात देता- 
+               <lb rend="empty"/><pb n="6r" facs="lf_pDas_1820_brd_ncd_mar_6f.jpg"/>
+               <lb/>त की नाही<space/>कलम १
+               <lb rend="empty"/> 
+               <lb/>याचे रीत सरकारात मालकाकडे
+               <unclear>शाहीब्या-
+               <lb/>हा</unclear>
+                जाला असता फाला असामी पाहून करीतात
+               <lb rend="empty"/> 
+               <lb/>१ पायगस्तीने दर गाववाले कीरन जमीन
+               <lb/>हाकतात त्याचा सीरस्ता<space/>कलम १
+               <lb rend="empty"/> 
+               <lb/>याचा सीरस्ता गावात दर बीघा <measure type="currency" unit="rupee" quantity="1"
+                  >येक रूप-
+                  <lb/>या</measure>
+               <measure type="currency" unit="anna" quantity="6">साहा आणे</measure> व पायागस्ती
+               सीरस्ता <measure type="currency" unit="rupee" quantity="1">येक
+                  <lb/>रुपया</measure>
+               <measure type="currency" unit="anna" quantity="2">दोन आणे</measure> व <measure
+                  type="currency" unit="rupee" quantity="1">येक रुपया</measure> व <measure
+                  type="currency" unit="anna" quantity="12">बीरा [बारा] आणे</measure>
+               <lb/>प्रमाणे आहे<space/>कलम १
+               <lb rend="empty"/> 
+               <lb/>१ वतनदार वतनाची जमीन हाकतात याचे 
+               <lb rend="empty"/><pb n="7r" facs="lf_pDas_1820_brd_ncd_mar_6g.jpg"/>
+               <lb/>व खालशातील जमीन हाकल्यास त्या-
+               <lb/>चा सीरस्ता कोणत्या <choice>
+                  <abbr>प्र||</abbr>
+                  <expan>प्रमाणे</expan>
+               </choice> घेतात कलम १
+               <lb rend="empty"/> 
+               <lb/>त्याचा सीरस्ता घांराऊ हाकल्या बीज
+               <lb/>बैल मजुरी लागेतील मालकानी देऊन उ-
+               <lb/>पन्न [उत्पन्न] होईल ते त्याचे त्याणी घ्यावे अथ-
+               <lb/>वा कीरसाणाकडोन हाकीवल्यास <measure type="currency" unit="anna" quantity="12"
+                  >बारा
+                  <lb/>आणे</measure> रुपया <choice>
+                  <abbr>प्र||</abbr>
+                  <expan>प्रमाणे</expan>
+               </choice> रीत कीरसाणाजवलून
+               <lb/>घ्यावी खाद बीज मजुरी वगैरे खर्च कीर-
+               <lb/>साण याचे माथा मालकानी रीत मात्र घ्या-
+               <lb/>वी असमानी सुलतानी मजुरा घ्यावी कलम १
+               <lb rend="empty"/><pb n="8r" facs="lf_pDas_1820_brd_ncd_mar_6h.jpg"/>
+               <lb/>१ वतनदार आहे तो आपली जमीन हाकू विकू
+               <lb/>सकतो की नाही<space/>कलम १
+               <lb rend="empty"/> 
+               <lb/>त्याचा सीरस्ता पुरा वतनदार आहे तरी
+               <lb/>तो जमीन आपली विकतो अथवा गाहाण-
+               <lb/>ही ठेवीतो यात दरबारचा ईलाखा
+               <lb/>दाखल्यास काही नाही त्याचे खुसीने करी-
+               <lb/>तो<space/>कलम १
+               <lb rend="empty"/> 
+               <lb/>१ वतनदार कीरसाण आहे तो आपली जमीन
+               <lb/>भावाबंदास अथवा आणखी को-
+               <lb/>ठल्यास विकतो की नाही त्याजला सरकारात
+               <lb/>वीचाराव्याची गरज आहे की नाही कलम </p>
+         </div>
+         
+         <div corresp="#orig_div2"  xml:id="trans_div2">  
+               <p> 
+               <lb/><ref type="glossary" target="#gl_yadi">Yadi</ref> written in articles [by] <persName ref="#nalShahunAli">Nal Shahun Ali</persName>, [containing] his 
+               <lb/>answers for the <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#pgDhar">Dhar</placeName> in the Suhur year <date calendar="#suhur">twenty, two 
+                  <lb/>hundred and one thousand</date> [i.e. 1220], or the year <date calendar="#fasli">1227</date><note>1227 appears to be a Fasli year; however, it does not correspond to the Suhur
+                     year 1220 written earlier in the document using terms derived from the Arabic
+                     words for numbers. Whereas Shaʿban 1227 converts to June/July 1817 of the
+                     Gregorian calendar, Shaʿban 1220 yields a date of May/June 1820. The document
+                     also references the Hindu intercalary month Adhik Jyeshta, which is inserted to
+                     reconcile lunar and solar modes of reckoning time. Within the period in question,
+                     the months Adhik Jyeshta and Shaʿban coincided at the end of the Suhur year 1220;
+                     hence, we determine that the document is most accurately dated to May/June
+                     1820.</note> in the month of Shaʿban, or 
+               <lb/>Adhik Jyeshtha
+               <lb rend="empty"/> 
+               <lb/>4 items 
+               <lb/>1 How many thousands of <ref type="glossary" target="#gl_bigha">bighas</ref> are 
+               <lb/>part of the grounds of the village in total? 
+               <lb/>1 How much land is cultivated, and within that, today
+               <lb/>how much is cultivated and fallow? 
+               <lb/>1 How much pasture and grassland? 
+               <lb/>1 How much is merely wasteland? 
+               <lb/>-- 
+               <lb/>4
+               <lb rend="empty"/> 
+               <lb/>In total, answers to the four articles [by way of] a land survey 
+               <lb/>in the <ref type="glossary" target="#gl_prant">prant</ref> has never happened. 
+               <lb/>If ordered, we will carry out a land survey, and one or two 
+               <lb/>villages’ estimates according to their four boundaries  
+               <lb/>will be taken. [However] the whole <ref type="glossary" target="#gl_pargana">pargana’s</ref> will not happen.     
+               <lb/>It will require many days so a boundary-wise survey 
+               <lb/>has never happened. If it will please, 
+               <lb/>we will carry out the survey of one or two villages.
+               <lb rend="empty"/> 
+               <lb/>1 How much land do the <ref type="glossary" target="#gl_watandar">watandars</ref> in the villages have? 
+               <lb/>In answer to this, details on a separate 
+               <lb/>paper have written, and via the <ref type="glossary" target="#gl_jamadar">jamadar’s</ref>  
+               <lb/>agent, have been sent. 
+               <lb/>According, write this.<space/>Article 1 
+               <lb rend="empty"/> 
+               <lb/>In the <ref type="glossary" target="#gl_khalsa">khalsa</ref> lands, they conduct agriculture. 
+               <lb/>In what manner does its revenue come in? So it 
+               <lb/>it is ordered.<space/>Article 1 
+               <lb rend="empty"/> 
+               <lb/>In answer to this, [whoever] does agriculture,  
+               <lb/>deducts advances for seeds, provisions, and other expenses. 
+               <lb/>Every good that will be produced out of the land 
+               <lb/>will be taken by the landlord or if given to the cultivator, 
+               <lb/>[from] each <ref type="glossary" target="#gl_bigha">bigha</ref> will be taken 
+               <lb/>1 opium 1 corn 
+               <lb/><measure type="currency" unit="rupee" quantity="3">3</measure> <measure type="currency" unit="rupee" quantity="2">2</measure> <measure type="currency" unit="rupee" quantity="2.5">2½</measure> <measure type="currency" unit="rupee" quantity="2">2</measure>  <measure type="currency" unit="rupee" quantity="3">3</measure> <measure type="currency" unit="rupee" quantity="2.5">2½</measure> 
+               <lb/>pulses          1 wheat 
+               <lb/><measure type="currency" unit="rupee" quantity="3">3</measure>  <measure type="currency" unit="rupee" quantity="2">2</measure> <measure type="currency" unit="rupee" quantity="2.25">2¼</measure>              <measure type="currency" unit="rupee" quantity="3/4">¾</measure> <measure type="currency" unit="rupee" quantity="1">1</measure>  
+               <lb rend="empty"/> <lb/>1 Are the lands held by the <ref type="glossary" target="#gl_watandar">watandars</ref> governed [taxed]  
+               <lb/>or not?<space/>Article 1 
+               <lb rend="empty"/> 
+               <lb/>In answer to this, the procedure [is that] in the third year, a <ref type="glossary" target="#gl_pishkash">pishkash</ref>, 
+               <lb/>meaning a general sum according to the rupee system, 
+               <lb/>on the cultivated lands is taken. So is the practice 
+               <lb/>in the <ref type="glossary" target="#gl_pargana">pargana</ref>.<space/>Article 
+               <lb rend="empty"/> 
+               <lb/>1 Do the <ref type="glossary" target="#gl_inamdar">inʿamdars</ref> of the lands give anything to the government 
+               <lb/>or not?<space/>Article 1 
+               <lb rend="empty"/> 
+               <lb/>The custom is that if a landlord has acquired a command [post] 
+               <lb/>in the government, people look to take shares.
+               <lb rend="empty"/> 
+               <lb/>1 [Regarding] those non-residential tenants who work the land, 
+               <lb/>[what is] the procedure?<space/>Article 1 
+               <lb rend="empty"/> 
+               <lb/>The procedure [is that] in the village, [on] each <ref type="glossary" target="#gl_bigha">bigha</ref> <measure type="currency" unit="rupee" quantity="1">one 
+               <lb/>rupee</measure>, <measure type="currency" unit="anna" quantity="6">six annas</measure> and the procedure [for] non-residential tenancies, <measure type="currency" unit="rupee" quantity="1">one 
+               <lb/>rupee</measure>, <measure type="currency" unit="anna" quantity="2">two annas</measure> and <measure type="currency" unit="rupee" quantity="1">one rupee</measure> and <measure type="currency" unit="anna" quantity="12">twelve annas</measure>; 
+               <lb/>so is [the procedure].<space/>Article 1 
+               <lb rend="empty"/> 
+               <lb/>1 [Regarding] the <ref type="glossary" target="#gl_watandar">watandars</ref> who work their patrimonial lands 
+               <lb/>and if <ref type="glossary" target="#gl_khalsa">khalsa</ref> lands are worked, 
+               <lb/>by which procedure are [revenues] taken?<space/>Article 1
+               <lb rend="empty"/> 
+               <lb/>The procedure [is that] if household [lands] are worked, seed, 
+               <lb/>buffaloes, and wages for laborers will be required. The landlord will give, 
+               <lb/>and he should take his [share] from the resulting yield, or 
+               <lb/>if they are worked through a cultivator, <measure type="currency" unit="rupee" quantity="12">twelve 
+               <lb/>annas</measure> according to the rupee system from the cultivators 
+               <lb/>used to be taken. Seed, provisions, wages, and various other expenses 
+               <lb/>by sheer custom used to be taken by the landlord [on] the head of the cultivator. 
+               <lb/>They used to take deductions on account of the actions of heaven and king.<note>The phrase is asmani-sultani, meaning any unforeseen disaster caused by divine or secular power, such as a drought or an invasion.</note> Article 1
+               <lb rend="empty"/> 
+               <lb/>1 Are the <ref type="glossary" target="#gl_watandar">watandars</ref> able to sell their lands 
+               <lb/>or not?<space/>Article 1
+               <lb rend="empty"/> 
+               <lb/>The procedure [is that] even if one is a full <ref type="glossary" target="#gl_watandar">watandar</ref>, 
+               <lb/>one sells or pawns one’s land. 
+               <lb/>The court has no claim over  
+               <lb/>that whatsoever. He does so 
+               <lb/>at his pleasure.<space/>Article 1 
+               <lb rend="empty"/>
+                  <lb/>If the <ref type="glossary" target="#gl_watandar">watandar</ref> who is a peasant 
+               <lb/>sells his land to his kinsmen or anyone else
+               <lb/>does he need to ask the government 
+               <lb/>[for permission] or not? Article   
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

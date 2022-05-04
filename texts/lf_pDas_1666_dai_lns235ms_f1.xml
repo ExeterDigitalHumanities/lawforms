@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1666_dai_lns235ms_f1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of Wazir Khan about the rights and obligations of Hariram's guarantors after he absconded</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Nandini Chatterjee</persName>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#dai"/>
+                  <collection ref="#pDas"/>
+                  <idno>LNS 235 MS f1</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#julus">7 Zi al-qaʿda 9</origDate>
+                     <origDate calendar="#hijri-qamri">7 Zi al-qaʿda 1076</origDate>
+                     <origDate calendar="#gregorian" when="1666-05-11">11 May 1666</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p><persName ref="#wazirKhan">Wazir Khan</persName> orders that since <persName ref="#hariram">Hariram</persName>, landlord (chaudhri) of district <placeName ref="#amjhera">Amjhera</placeName>, failed to turn up
+               to pay the spring season's taxes, his possessions now belong to his guarantors <persName ref="#purshottamDas">Purshottam Das</persName>, <persName ref="#parasRam">Paras Ram</persName>, and others. The guarantors are obliged to make the revenue payments for the district.
+            </p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="parvana"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term key="desertionAndDepopulation">Desertion and Depopulation</term>
+               <term key="property">Property</term>
+               <term key="taxationAndTribute">Taxation and Tribute</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <person role="issuer">
+               <persName ref="#wazirKhan">Wazir Khan</persName>
+            </person>
+            <person role="guarantor">
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+            </person>
+            <person role="guarantor">
+               <persName ref="#parasRam">Paras Ram</persName>
+            </person>
+            <person role="guarantor">
+               <persName ref="#balram">Balram</persName>
+            </person>
+            <person role="guarantor">
+               <persName ref="#makarand">Makarand</persName>
+            </person>
+            <person role="guarantor">
+               <persName ref="#tulsiDas">Tulsi Das</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1666_dai_lns235ms_f1_r.jpg"/>
+      <graphic url="lf_pDas_1666_dai_lns235ms_f1_v.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1666_dai_lns235ms_f1_r.jpg"/>
+
+         <div type="invocation" xml:lang="ara" xml:id="orig_div1" rend="top centre">
+            <p> هو المستعان</p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p>He [God] is the one from whom help is begged</p>
+         </div>
+
+         <div type="maintext" xml:lang="per" xml:id="orig_div2">
+            <p>
+               <lb/>چون
+               <persName ref="#hariram">هریرام</persName>
+                چودهری
+               <placeName ref="#amjhera">امجهره</placeName>
+                از روی کوته اندیشی و شوره پشتی در
+               <lb/>عین تحصیل ربیع غیر حاضر شده و
+               <persName ref="#purshottamDas">پرسوتم داس</persName>
+                چودری و
+               <persName ref="#parasRam">پرسرام</persName>
+               <lb/>قانونگوی
+               <placeName ref="#pgDhar">دهار</placeName>
+                و
+               <persName ref="#balram">بلرام</persName>
+                و
+               <persName ref="#makarand">مکرند</persName>
+                چودری و
+               <persName ref="#tulsiDas">تلسیداس</persName>
+                قانونگوی پرگنه
+               <placeName ref="#kampel">کنپیل</placeName>
+               <lb/>و
+               <persName ref="#balram">بلرام</persName>
+                قانونگوی
+               <placeName ref="#nalcha">نعلجه</placeName>
+                که ضامنان او بهمه جهت بودند متعهد ادای
+               <lb/>مالواجبی و پرداخت آینده پرگنه مسطور شده اند و ظاهر نمودند که
+               <lb/>خود کاشته و مال و مواشی و انعام و اکرام چودری فراری در آنجا ست
+               <lb/>که بحسب شرع و عرف بضامنان تعلق دارد لهذا مُقرر شُد که در آنجا هر چه
+               <lb/>از مال و متاع او نشان
+               <unclear>پاند</unclear>
+                متصرف شوند بشرطی که از تیر و مضرتی
+               <lb/>بحال و مال
+               <unclear>ریزه</unclear>
+                رعیت نرسانند و در مالواجبی و پرداخت محلمزبور
+               <lb/>مقید شوند و موافق تعهدات بعمل آورند درینباب مطابق مسطور مقرر شناسند
+               <lb/>فی تاریخ
+               <date calendar="#julus">هفتم
+                  <num>۷</num>
+                   ذی قعده سنه
+                  <num>۹</num>
+               </date>
+                از جلوس والا قلمی شد
+               <g ref="#faqat">فقط</g>
+            </p>
+         </div>
+
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p><lb/>Since <persName ref="#hariram">Hariram</persName> <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> of <placeName ref="#amjhera">Amjhera</placeName> has absconded              
+               <lb/>due to disobedience and short-sightedness in the middle of the tax collection of the <ref type="glossary" target="#gl_rabi">Rabiʿ</ref> [harvest], <persName ref="#purshottamDas">Purshottam Das</persName>
+               <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> and <persName ref="#parasRam">Paras Ram</persName>
+               <lb/><ref type="glossary" target="#gl_qanungo">qanungo</ref> of <placeName ref="#pgDhar">Dhar</placeName>, and <persName ref="#balram">Balram</persName> and <persName ref="#makarand">Makarand</persName> <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> and <persName ref="#tulsiDas">Tulsi Das</persName> 
+               <ref type="glossary" target="#gl_qanungo">qanungo</ref> of
+               district <placeName ref="#kampel">Kanpil [Kampel]</placeName>,
+               <lb/>and <persName ref="#balram">Balram</persName><note>Although they have been tagged as the same person, it is unclear whether this Balram is the same as the Balram above, or there are two different officials named Balram, or if the scribe made an error in listing Balram twice.</note> <ref type="glossary" target="#gl_qanungo">qanungo</ref> of <placeName ref="#nalcha">Nalcha</placeName>, who were his guarantors in all
+               respects, were bound to make
+               <lb/>the payment of the land taxes and the future payments of the said district. And they declared that
+               <lb/>the self-cultivated lands, tax [proceeds], animals, <ref type="glossary" target="#gl_inam">inʿam</ref> and
+               other favours of the absconding <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> [which] are there
+               <lb/>belong to the guarantors by <ref type="glossary" target="#gl_sharia">shariʿa</ref> and custom. Therefore it is
+               decided that whatever is there
+               <lb/>of his [the absconder’s] property and remaining possessions, may be confiscated
+               [by the guarantors] on the condition that by force and injury 
+               <lb/>they do not diminish the situation and property of the
+               cultivators. And they shall be obligated for the land taxes and other payments of the aforementioned <ref type="glossary" target="#gl_mahal">mahal</ref>
+               <lb/>and work according to the agreements. They should know this matter
+               to be settled as written.
+               <lb/>Written on the <date calendar="#julus">seventh 7th day of Zi al-qaʿda of the year 9</date> of the elevated reign.
+               <g ref="#faqat">Nothing further.</g>
+            </p>
+         </div>
+
+
+         <div type="authorisation" xml:lang="per" xml:id="orig_div3" rend="right margin">
+            <p>
+               حسب
+               <unclear>المسطور</unclear>
+                عمل نماید
+               <lb rend="empty"/><stamp type="seal"><mentioned>
+                     <persName ref="#wazirKhan">وزیر خان</persName>
+                      مرید بادشاه
+                     <persName ref="#aurangzebAlamgir">علمگیر</persName>
+                     <date calendar="#hijri-qamri">
+                        <num>۱۰۷۰</num>
+                     </date>
+                  </mentioned></stamp></p>
+         </div>
+         <div xml:id="trans_div3" corresp="#orig_div3">
+            <p>
+               According
+               <unclear>to the writing,</unclear>
+                implement it. 
+               <lb rend="empty"/><stamp type="seal">Round black ink seal<mentioned>
+                     <persName ref="#wazirKhan">Wazir Khan</persName>
+                      disciple of <ref type="glossary" target="#gl_badshah">Badshah</ref>
+                     <persName ref="#aurangzebAlamgir">Alamgir</persName>
+                     <date calendar="#hijri-qamri">1070</date>
+                  </mentioned></stamp>
+            </p>
+         </div>
+
+         <pb n="1v" facs="lf_pDas_1666_dai_lns235ms_f1_v.jpg"/>
+
+         <div type="clericalNotes" xml:lang="per" xml:id="orig_div4" rend="middle right">
+            <p> بتاریخ
+               <date calendar="#julus"><num>۷</num>
+                شهر ذی قعده سنه
+               <num>۹</num></date>
+               جلوس والا نقل گرفته شد
+               <gap></gap>
+            </p>
+         </div>
+         <div xml:id="trans_div4" corresp="#orig_div4">
+            <p>Copy taken on the date <date calendar="#julus">7 Zi al-qaʿda year 9</date> of the elevated reign <gap></gap></p>
+         </div>
+      </body>
+   </text>
+</TEI>

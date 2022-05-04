@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1666_dai_lns235ms_v">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of Wazir Khan to Sultan Muhammad to collect outstanding cesses</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#dai"/>
+                  <collection ref="#pDas"/>
+                  <idno>LNS 235 MS v</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#julus">27 Muharram 9</origDate>
+                     <origDate calendar="#hijri-qamri">27 Muharram 1077</origDate>
+                     <origDate calendar="#gregorian" when="1666-07-30">30 July 1666</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p><persName ref="#wazirKhan">Wazir Khan</persName> commands <persName ref="#sultanMuhammad">Sultan Muhammad</persName> to ensure the collection of the outstanding
+               cesses related to the post of landlord (chaudhri) from <persName ref="#purshottamDas">Purshottam Das</persName> and others.</p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="parvana"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term key="money">Money</term>
+               <term key="petitioning">Petitioning</term>
+               <term key="taxationAndTribute">Taxation and Tribute</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <person role="issuer">
+               <persName ref="#wazirKhan">Wazir Khan</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="#sultanMuhammad">Sultan Muhammad</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1666_dai_lns235ms_v_r.jpg"/>
+      <graphic url="lf_pDas_1666_dai_lns235ms_v_v.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1666_dai_lns235ms_v_r.jpg"/>
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>هو المعز</p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="per" type="maintext">
+            <p>
+               <lb/>شجاعت اطوار
+               <persName ref="#sultanMuhammad">سلطانمحمد</persName>
+                بتوجه خاطر مستظهر بوده بداند درینولا از روی تقریر
+               <persName ref="#wazirKhan">وزیری خانی</persName>
+               <lb/>
+               <persName ref="#ahmadBegKhan">احمد بیگ خان</persName>
+                و از مضمون عرضه
+               <persName ref="#purshottamDas">پرسوتم</persName>
+                چودری
+               <placeName ref="#dhar">دهار</placeName>
+                معلوم گردید که چودری مذکور و چودری
+               <lb/>
+               <placeName ref="#nalcha">نعلجه</placeName>
+                زر
+               <add>بابت</add>
+                ضامنی
+               <add>چودری</add>
+               <placeName ref="#amjhera">امجهره</placeName>
+                سوای زری که دعوی آن بمقتضای ضامنی بچودری
+               <placeName ref="#kampel">کنپیل</placeName>
+                دارند بوصول
+               <lb/>رسانیدند و از آنجمله قلیلی باقی مانده لهذا نوشته می شود که آنچه از بابت حصه
+               چودری
+               <lb/>
+               <placeName ref="#dhar">دهار</placeName>
+                که
+               <persName ref="#purshottamDas">پرسوتم</persName>
+                باشد نزد او باقی باشد تا دام آخر پی اینمال بوصول رسانیده خود را
+               <lb/>بحضور برساند و بواسطه اخذ زری که دعوی آن بچودری
+               <placeName ref="#kampel">کنپیل</placeName>
+                دارند بالفعل مزاحم نشود
+               <lb/>که ما در حضور خود چودری
+               <placeName ref="#kampel">کنپیل</placeName>
+                را طلبداشته بمقتضای عدالت این معامله را فیصل خواهیم داد
+               <lb/>حسب المسطور بعمل آورد و باقی وجه حصه چودری
+               <placeName ref="#dhar">دهار</placeName>
+                و
+               <placeName ref="#nalcha">نعلجه</placeName>
+                را تا دام تحصیل نموده بیاورد
+               <lb/>
+                درینباب تاکید داند فی التاریخ
+               <date calendar="#julus">
+                  <num>۲۷</num>
+                   محرم الحرم سنه
+                  <num>۹</num>
+               </date>
+                قلمی شد
+               <g ref="#faqat">فقط</g><note>This last line is written on the left margin, which is unusual. Scribes
+                  typically wrapped text to the right margin if they ran out of space.</note>
+            </p>
+         </div>
+         <div xml:id="orig_div3" xml:lang="per" type="authorisation" rend="right margin">
+            <p>
+               <app>
+                  <rdg cert="high">بموجب مسطور عمل شد</rdg>
+                  <rdg cert="low">بر حسب حضور تحریر شد</rdg>
+               </app>
+               <g ref="#baiz">بیض</g>
+               <lb rend="empty"/><stamp type="seal"><mentioned>
+                     <persName ref="#wazirKhan">وزیر خان</persName>
+                     <unclear>مرید</unclear>
+                      بادشاه
+                     <persName ref="#aurangzebAlamgir">عالمگیر</persName>
+                  </mentioned></stamp></p>
+         </div>
+         <pb n="1v" facs="lf_pDas_1666_dai_lns235ms_v_v.jpg"/>
+         <div xml:id="orig_div4" xml:lang="per" type="laterAddition" rend="top centre">
+            <p>
+               <foreign>نمبر</foreign>
+               <num>۲۱</num>
+            </p>
+         </div>
+         <div corresp="#orig_div1" xml:id="trans_div1">
+            <p>He [God] is respected</p>
+         </div>
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p>
+               <lb/>Courageous in Manner
+               <persName ref="#sultanMuhammad">Sultan Muhammad</persName>, being comforted by the favour of remembrance<note>I.e. being noticed by the Lord</note>, 
+               know that recently from the declaration of the servant of
+               <persName ref="#wazirKhan">Wazir Khan</persName>,
+               <lb/>
+               <persName ref="#ahmadBegKhan">Ahmad Beg Khan</persName>, and from the contents of the <ref type="glossary" target="#gl_arz">ʿarz</ref> of
+               <persName ref="#purshottamDas">Purshottam [Das]</persName>
+               <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> of
+               <placeName ref="#dhar">Dhar</placeName>, it became known that the said <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> and the <ref type="glossary" target="#gl_chaudhri">chaudhri</ref>
+               <lb/>of
+               <placeName ref="#nalcha">Nalcha</placeName>
+               delivered the money for the security of the <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> of
+               <placeName ref="#amjhera">Amjhera</placeName>,
+                except for the money that they have claimed for the surety of the
+               <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> of
+               <placeName ref="#kampel">Kanpil [Kampel]</placeName>.
+               <lb/>And from that total amount, a little [money] is due, and hence it is written that
+               that which is the share of the <ref type="glossary" target="#gl_chaudhri">chaudhri</ref>
+               <lb/>of
+               <placeName ref="#dhar">Dhar</placeName> – that is,
+               <persName ref="#purshottamDas">Purshottam</persName> – is outstanding from him. Until the last <ref type="glossary" target="#gl_dam">dam</ref> for this amount has been
+               deposited, he should
+               <lb/>bring himself to the Lord. And for procuring the money that they have claimed
+               from the <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> of
+               <placeName ref="#kampel">Kanpil [Kampel]</placeName>, let there be no obstruction
+               <lb/> so that we will summon the <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> of
+               <placeName ref="#kampel">Kanpil [Kampel]</placeName>
+                to our presence and decide this matter in accordance with the law.
+               <lb/>Execute [it] as written. And let the remaining sum for the share of the <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> of
+               <placeName ref="#dhar">Dhar</placeName>
+               and
+               <placeName ref="#nalcha">Nalcha</placeName>
+               until the [last] <ref type="glossary" target="#gl_dam">dam</ref> be brought and deposited.
+               <lb/>Know this matter as settled. Written on the date of 
+               <date calendar="#julus">27 Muharram the Holy, [regnal] year 9</date>. </p>
+            <closer>
+               <g ref="#faqat">Nothing further.</g>
+            </closer>
+         </div>
+         <div corresp="#orig_div3" xml:id="trans_div3">
+            <p>
+               <app>
+                  <rdg cert="high">Executed as written.</rdg>
+                  <rdg cert="low">Written according to the Lord.</rdg>
+               </app>
+               <g ref="#baiz">Ended.</g>
+               <lb rend="empty"/><stamp type="seal">Round black ink seal<mentioned>
+                     <persName ref="#wazirKhan">Wazir Khan</persName>
+                     <unclear>disciple</unclear>
+                      of <ref type="glossary" target="#gl_badshah">Badshah</ref>
+                     <persName ref="#aurangzebAlamgir">Alamgir</persName>
+                  </mentioned></stamp>
+            </p>
+         </div>
+         <div corresp="#orig_div4" xml:id="trans_div4">
+            <p>Number 21</p>
+         </div>
+      </body>
+   </text>
+</TEI>

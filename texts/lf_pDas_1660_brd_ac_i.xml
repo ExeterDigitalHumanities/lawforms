@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1660_brd_ac_i">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of a Mughal official to Purshottam Das granting him a house and giving further instructions</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#brd"/>
+                  <collection ref="#pDas"/>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#hijri-qamri">28 Zi al-qaʿda 1070</origDate>
+                     <origDate calendar="#gregorian" when="1660-08-05">5 August 1660</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Following communication from a carpenter called
+               <persName ref="#hamid">Hamid</persName>,
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+                is granted a house, but he is instructed to demolish it, then send the wood to the authorities and pay
+                  <measure type="currency" unit="rupee" quantity="150">150 rupees</measure> as tribute.</p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="parvana"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Building and Construction</term>
+               <term>Natural Resources</term>
+               <term>Petitioning</term>
+               <term>Property</term>
+               <term>Taxation and Tribute</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <person role="recipient">
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1660_brd_ac_i.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1660_brd_ac_i.jpg"/>
+         <div xml:lang="ara" type="invocation" xml:id="orig_div1" rend="top centre">
+            <p>الله اکبر</p>
+         </div>
+         <div xml:lang="per" type="authorisation" xml:id="orig_div2" rend="right margin">
+            <p>
+               <stamp type="seal"><mentioned>
+                  <gap/>
+               </mentioned>
+               </stamp>
+            </p>
+         </div>
+         <div xml:lang="per" type="maintext" xml:id="orig_div3">
+            <p><lb/>زبدة الاقران
+               <persName ref="#purshottamDas">پرسوتم</persName>
+                چودری پرگنه <placeName ref="#pgDhar">دهار</placeName> بعنایت و مهربانی امیدوار
+               <lb/>بوده بداند که درینولا
+               <persName ref="#hamid">حامد</persName>
+                معمار بعرض رساند که او خدمت خوب کرده
+               <lb/> مجری او شد حسب الالتماس او حویلی که در آنجا
+               <persName ref="#bulaqiChand">بولاقیچند</persName>
+                می بود
+               <lb/>باو مرحمت فرمودیم باید که بموجب قرار داد خود حویلی مذکور مسمار نموده
+               <lb/>چوب آنچه باشد بحضور برساند و مرمت پشت تالاب بعهده خود
+               <lb/>دانسته زود سرانجام دهد و مبلغ <measure type="currency" unit="rupee"
+                  quantity="150">یکصد و پنجاه روپیه</measure> که
+               <lb/>برای حویلی مذکور پیشکش قرار کرده بحضور ارسال نماید
+               <lb/>و در دولتخواهی و کفایت سرکار و تردد آبادانی و کشتکار
+               <lb/>زراعت خود را معاف و مقصر ندارد درین باب
+               <lb/>نهایت تاکید دانسته از فرموده تخلف نورزد
+               <lb/>تحریر فی التاریخ
+               <date calendar="#hijri-qamri">
+                  <num>۲۸</num>
+                   ذی قعده سنه
+                  <num>۱۰۷۰</num>
+               </date>
+               <g ref="#faqat">فقط فقط</g>
+            </p>
+         </div>
+         <div xml:id="orig_div4" type="invocation" xml:lang="ara" rend="right margin">
+            <p>هو</p>
+         </div>
+         <div xml:lang="per" type="authorisation" xml:id="orig_div5" rend="right margin">
+            <p> حسب المسطور مقرر شناسد تاکید
+               <lb rend="empty"/>تمام دارند
+               <g ref="#faqat">فقط</g>
+            </p>
+         </div>
+         <div corresp="#orig_div1" xml:id="trans_div1">
+            <p>God is great</p>
+         </div>
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p>
+               <stamp type="seal">Circular black ink seal that is illegible</stamp>
+            </p>
+         </div>
+         <div corresp="#orig_div3" xml:id="trans_div3">
+            <p><lb/>Eminent among Contemporaries
+               <persName ref="#purshottamDas">Purshottam [Das]</persName>
+               <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> of <ref type="glossary"
+                  target="#gl_pargana">pargana</ref>
+               <placeName ref="#pgDhar">Dhar</placeName>, having hoped for kindness,
+               <lb/>should know that recently the builder
+               <persName ref="#hamid">Hamid</persName>
+               has petitioned that having done good work,
+               <lb/>he has completed the job. According to his petition, I have kindly given the house over there that
+               used to belong to
+               <persName ref="#bulaqiChand">Bulaqi Chand</persName>
+               <lb/>to him [i.e. <persName ref="#purshottamDas">Purshottam Das</persName>].<note>Grammatically, it is unclear to whom the pronoun او in 'his petition' and 'to him' refer. 
+                  Based on social status and the subsequent document regarding the grant of a house,
+                  it appears the house was given to <persName ref="#purshottamDas">Purshottam Das</persName>.
+               </note> It is necessary that according to his own agreement,
+               the said house should be destroyed<note>It is very strange that the order is to
+                  destroy a house but the order is similar to that in '1660 Order of Nawazish Khan to Purshottam Das granting a house'.
+                  Perhaps old houses were being destroyed.</note> [and]
+               <lb/>whatever wood is available is sent to the Lord, and knowing the repair of the
+               rear of the tank as his own responsibility,
+               <lb/>he shall finish the work quickly. And he shall send <measure type="currency" unit="rupee"
+                  quantity="150">150 rupees</measure>, 
+               <lb/>which is settled as the tribute for the house, to his Lordship.
+               <lb/>And in the loyalty and support of the government and the organization of
+               populating and agriculture,
+               <lb/>he shall not consider himself exempt in the least. Knowing this matter
+               <lb/>to be fully settled, do not neglect to do what is ordered.
+               <lb/>Written on the date of
+               <date calendar="#hijri-qamri">28 Zi al-qaʿda [in the] year 1070</date>.
+               <g ref="#faqat">Nothing further. Nothing further.</g>
+            </p>
+         </div>
+         <div corresp="#orig_div4" xml:id="trans_div4">
+            <p>He [God] is</p>
+         </div>
+         <div corresp="#orig_div5" xml:id="trans_div5">
+            <p>Know all that is written to be settled and
+               <lb rend="empty"/>fully confirmed. <g ref="#faqat">Nothing further.</g><note>Near this authorisation an office note on the verso appears faintly. However, an image of
+                  the verso was not supplied so this note cannot be read.</note>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_vDeshmukh_1693_01">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Copy of order of Abdurrazaq Khan to district officials about a revenue grant to
+               Lodi Khan and Hasan</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Hannah Archambault</persName>
+               <persName>Nandini Chatterjee</persName>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#ad"/>
+                  <collection ref="#vDeshmukh"/>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>authorized copy</objectType>
+                     <origDate calendar="#julus">14 Zu al-qaʿda 37 julus</origDate>
+                     <origDate calendar="#gregorian" when="1693-07-17">17 July 1693</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>A copy of <persName ref="#abdurrazzaqKhan">Abdurrazzaq Khan's</persName> order to district officials to ensure that the grants of 8 villages to <persName ref="#lodiKhan">Lodi Khan</persName> and <persName ref="#hasan">Hasan</persName> are implemented.</p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="parvana"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Administration</term>
+               <term>Grants</term>
+               <term>Taxation and Tribute</term>
+               <term>War</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <person role="notary">
+               <persName ref="#ghulamMuhiuddin">Ghulam Muhiuddin</persName>
+            </person>
+            <person role="issuer">
+               <persName ref="#abdurrazzaqKhan">Abdurrazzaq Khan</persName>
+            </person>
+            <person role="grantee">
+               <persName ref="#lodiKhan">Lodi Khan</persName>
+            </person>
+            <person role="grantee">
+               <persName ref="#hasan">Hasan</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_vDeshmukh_1693_01.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_vDeshmukh_1693_01.jpg"/>
+         <div xml:id="orig_div1" xml:lang="per" type="endorsements" rend="top right">
+            <p><lb rend="empty"/><stamp type="seal"><mentioned>
+                     <persName ref="#ghulamMuhiuddin">غلام محی الدین</persName>
+                      قاضی خادم شرع
+                     <unclear>متین</unclear>
+                     <date calendar="#hijri-qamri">
+                        <num>۱۱۹۶</num>
+                     </date>
+                  </mentioned></stamp>
+              <lb rend="empty"/>
+            <lb rend="empty"/><stamp type="seal"><mentioned>
+                     <unclear>
+                        <persName ref="#ghulamMuhiuddin">غلام محی الدین</persName>
+                     </unclear>
+                      قاضی خادم شرع متین
+                     <date calendar="#hijri-qamri">
+                        <num>۱۱۹۶</num>
+                     </date>
+                  </mentioned></stamp>
+               <lb rend="empty"/>مطابق اصل است </p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p><lb rend="empty"/>
+               <stamp type="seal">round black ink seal<mentioned>
+                     <persName ref="#ghulamMuhiuddin">Ghulam Muhiuddin</persName>, <ref type="glossary" target="#gl_qazi">qazi</ref>, servant of the
+                     <unclear>firm</unclear>
+                      law
+                     <date calendar="#hijri-qamri">1196</date>
+                  <note>This date is the year the seal was issued and corresponds to 1781–82 CE. This
+                        suggests that the document was copied in the last quarter of the
+                        eighteenth century.</note>
+                  </mentioned></stamp>
+            <lb rend="empty"/>
+            <lb rend="empty"/>
+            <stamp type="seal">round black ink seal<mentioned>
+                     <unclear>
+                        <persName ref="#ghulamMuhiuddin">Ghulam Muhiuddin</persName>
+                     </unclear>, <ref type="glossary" target="#gl_qazi">qazi</ref>, servant of the firm law
+                     <date calendar="#hijri-qamri">1196</date>
+                  </mentioned></stamp>
+               <note>It appears that there are two impressions of the same seal on the
+                  document.</note>
+               <lb rend="empty"/>[It] conforms to the original.
+            </p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="per" type="maintext">
+            <p>
+               <lb/>نقل
+               <lb/>پروانه بمهر
+               <persName ref="#abdurrazzaqKhan">عبد الرزاق خان</persName>
+                متصدیان مهمات حال و استقبال و زمینداران و مقدمان
+               <lb/>مزارعان جمهور سکنه پرگنه
+               <placeName ref="#kondvi">کوندوی</placeName>
+                معموله
+               <placeName ref="#raigarh">اسلامگده</placeName>
+                عرف راهیری بدانند که
+               <persName ref="#lodiKhan">لودی خان</persName>
+                ولد اسمعیل
+               <lb/>و
+               <persName ref="#hasan">احسن</persName><note>The scribe has likely made an error here, writing Ahsan instead of Hasan. The name Hasan is given in <ref type="document" target="lf_vDeshmukh_1690_02">1690 Order of Fath Jang Khan granting the office of deshmukhi and 8 villages to the landlords Lodi and Hasan</ref>.</note>
+                ولد محمد زمینداران پرگنه مذکور
+               <unclear>برهبری</unclear>
+                طالع در فوج فیروزی بخدمات حاضر و سرگرم مصدر
+               <lb/>ترددات گردیدند لهذا خدمت دیشموکهی پرگنه مزبور و انعام موضع
+               <placeName ref="#tudil">تودل</placeName>
+                وغیره چهار دهه ازبابت دیشموکهی
+               <lb/>و ادهیکاری و مقدمی و کشت کامتی و
+               <unclear>سیته گری</unclear>
+                و
+               <unclear>چودهرگری</unclear>
+                و
+               <unclear>یپتلکی گری</unclear>
+                و بیسوا و موضع
+               <placeName ref="#natondi">ناتوندی</placeName>
+               <lb/><unclear>بنابر</unclear>
+               دیسپاندیه گری بموجب قدیم و انعام جدید و موضع
+               <placeName ref="#valote">ولوته</placeName>
+                وغیره سه
+                <num>۳</num> 
+                دهه بموجب سند بمهر
+               <persName ref="#fathJangKhan">فتح جنگ خان</persName>
+               <lb/>مرحوم حسب الضمن بدستور سابق بحال و مقرر
+               <app><rdg cert="low">کرده</rdg><rdg cert="low">نموده</rdg></app>
+               شد باید که خدمات ماموره با انعامات مزکور
+               <lb/>بمشارالهما تا باولاد پیشین مقرر شناسند و 
+               <unclear>سبیل</unclear>
+               مومی الهما انکه بحسن سلوک خود ها
+                <unclear>رعایا</unclear>
+               <gap></gap>
+               <lb/><unclear>باو</unclear><note>In comparison with the related document, this may be اباد</note>
+               داشته در افزونی زراعت کوشیده
+               <unclear>مالواجب و حقوق دیوانی موافق ضابطه</unclear>
+               <lb/>
+               <gap/>
+               <lb/> نورزند
+               <unclear>مبلغ</unclear>
+               شرح ضمن انکه انعام از بابت خدمات دیشموکهی وغیره بموجب
+               <gap/>
+               <lb/>قدیم و انعامات حال بموجب سند
+               <persName ref="#fathJangKhan">فتح جنگ خان</persName>
+                و
+               <persName ref="#aqaAliKhan">اقا علی خان</persName>
+                مقرر شناسند </p>
+         </div>
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p>
+               <lb/>Copy
+               <lb/>A <ref type="glossary" target="#gl_parvana">parvana</ref> under the seal of
+               <persName ref="#abdurrazzaqKhan">Abdurrazzaq Khan</persName>. Let the <ref type="glossary" target="#gl_mutasaddi">mutasaddis</ref> of present
+               and future affairs and the <ref type="glossary" target="#gl_zamindar">zamindars</ref>
+               and the <ref type="glossary" target="#gl_muqaddam">muqqadams</ref>
+               <lb/>and the population of cultivators of <ref type="glossary" target="#gl_pargana"
+                  >pargana</ref>
+               <placeName ref="#kondvi">Kondvi</placeName>, under the administration of
+               <placeName ref="#raigarh">Islamgarh [Raigarh]</placeName>, called Raheri, know that
+               <persName ref="#lodiKhan">Lodi Khan</persName>
+                son of Ismail
+               <lb/>and
+               <persName ref="#hasan">Hasan</persName>
+                son of Muhammad, <ref type="glossary" target="#gl_zamindar">zamindars</ref> of the
+               aforementioned <ref type="glossary" target="#gl_pargana">pargana</ref> have been
+               present and diligently engaged in the service of the glorious army by [providing] fortunate guidance
+               <lb/>[and] embraced undertaking exertions. For this reason, they are granted the service of <ref
+                  type="glossary" target="#gl_deshmukhi">deshmukhi</ref> of the aforementioned <ref
+                  type="glossary" target="#gl_pargana">pargana</ref> and the <ref type="glossary"
+                  target="#gl_inam">inʿam</ref> of village
+               <placeName ref="#tudil">Tudil</placeName>, etc., four villages on account of the <ref type="glossary" target="#gl_deshmukhi"
+                  >deshmukhi</ref>
+               <lb/>and <ref type="glossary" target="#gl_adhikari">adhikari</ref>
+               and <ref type="glossary" target="#gl_muqaddami">muqaddami</ref> and <unclear><ref
+                  type="glossary" target="#gl_kashtkamati">kasht-kamati</ref> and <ref
+                  type="glossary" target="#gl_sethgiri">seth-giri</ref> and <ref
+                  type="glossary" target="#gl_chaudhrgiri">chaudhri-giri</ref> and <ref
+                  type="glossary" target="#gl_patilkigiri">patilki-giri</ref></unclear>; and
+               <ref type="glossary" target="#gl_biswa">biswa</ref>
+                and the village of
+               <placeName ref="#natondi">Natondi</placeName>
+               <lb/>on account of <ref type="glossary" target="#gl_deshpande-giri"
+                  >deshpande-giri</ref> according to old [tradition] and for the new <ref
+                  type="glossary" target="#gl_inam">inʿam</ref>; and the village of
+               <placeName ref="#valote">Valote</placeName>, etc., three villages in accordance with the <ref type="glossary"
+                  target="#gl_sanad">sanad</ref> sealed by
+               <persName ref="#fathJangKhan">Fath Jang Khan</persName>,
+               <lb/>deceased, in accordance with the details on the <ref type="glossary"
+                  target="#gl_zimn">zimn</ref> [and] old custom. It is necessary that the services
+               described with the aforementioned <ref type="glossary" target="#gl_inam"
+                  >inʿams</ref>
+               <lb/>be considered as settled on the two [grantees] together with their future
+               descendants. The undertaking of the grantees is: they should <unclear>please the farmers</unclear>
+               with their good conduct
+               <lb/>and make efforts for the increase of cultivation
+                <unclear>so that the assessed taxes and the assessed dues</unclear>
+               <gap/>
+               <lb/>
+               <gap/>
+               <lb/><gap></gap>The <unclear>amount</unclear> detailed in the <ref type="glossary" target="#gl_zimn">zimn</ref> [is] to the effect
+               [that] the <ref type="glossary" target="#gl_inam">inʿam</ref> on account of the <ref
+                  type="glossary" target="#gl_deshmukh">deshmukh's</ref> services, etc., due to
+               <lb/>old <gap></gap>and the present <ref type="glossary" target="#gl_inam">inʿams</ref> in
+               accordance with the <ref type="glossary" target="#gl_sanad">sanad</ref> of
+               <persName ref="#fathJangKhan">Fath Jang Khan</persName>
+                and
+               <persName ref="#aqaAliKhan">Aqa Ali Khan</persName>
+                they shall understand as settled.</p>
+         </div>
+         <div xml:id="orig_div3" xml:lang="per" type="particulars" rend="bottom">
+            <p>
+               <list>
+                  <lb/>
+                  <head>شرح موضع</head>
+                  <lb rend="empty"/>
+                  <lb/>
+                  <label>انعام از بابت دیشموکهی وغیره دروبست
+                     <g ref="#siyaq">۴</g>
+                      موضع</label>
+                  <item>
+                     <list>
+                        <lb/>
+                        <item>قریت
+                           <placeName ref="#tudil">تودل</placeName>
+                            یکموضع</item>
+                        <lb/>
+                        <item>قریت
+                           <placeName ref="#wakan">واکن</placeName>
+                            یکموضع</item>
+                        <lb/>
+                        <item>قریت
+                           <unclear>
+                              <placeName ref="#karijari">کریجاری</placeName>
+                           </unclear>
+                            یکموضع</item>
+                        <lb/>
+                        <item>قریت
+                           <placeName ref="#ravdhal">راودهل</placeName>
+                            یکموضع</item>
+                     </list></item>
+                  <lb rend="empty"/>
+                  <lb/>
+                  <label>در بابت انعام دیشپاندیه گیری
+                     <gap/>
+                      موضع </label>
+                  <item><list>
+                     <lb/>
+                        <item>
+                           <placeName ref="#natondi">ناتوندی</placeName>
+                            یکموضع</item>
+                     </list></item>
+                  <lb rend="empty"/>
+                  <lb/>
+                  <label>و انعام بموجب سند
+                     <persName ref="#aqaAliKhan">اقا علیخان</persName>
+                      بر حسن تردد مورچال
+                      <placeName ref="#pachor">پاچور</placeName>
+                      بوقت بودند
+                      <unclear>فوج</unclear>
+                      امارت مرتبت
+                     <persName ref="#zulfiqarKhan">ذوالفقار خان</persName>
+                     بهادر
+                     <g ref="#siyaq">۳</g>
+                      موضع</label>
+                  <item><list>
+                     <lb/>
+                        <item>قریت
+                           <placeName ref="#valote">ولوته</placeName>
+                            یکموضع</item>
+                     <lb/>
+                        <item>قریت
+                           <unclear><placeName ref="#tamhane">تامهنه</placeName></unclear>
+                            یکموضع</item>
+                     <lb/>
+                        <item>قریت
+                           <placeName ref="#kotwalBuzurg">کوتوال بزورگ</placeName>
+                        </item>
+                     <lb/>
+                        <item>سی دهه</item>
+                     </list></item>
+               </list>
+            </p>
+         </div>
+         <div xml:id="trans_div3" corresp="#orig_div3">
+            <p>
+               <list>
+                  <lb/>
+                  <head>Village Description</head>
+                  <lb rend="empty"/>
+                  <lb/>
+                  <label><ref type="glossary" target="#gl_inam">Inʿam</ref> from the <ref
+                        type="glossary" target="#gl_deshmukh">deshmukh’s</ref> account, etc.,
+                     entirety of
+                     <g ref="#siyaq">4</g>
+                      villages</label>
+                  <item>
+                     <list>
+                        <lb/>
+                        <item>village
+                           <placeName ref="#tudil">Tudil</placeName>
+                            one <ref type="glossary" target="#gl_mauza">mauzaʿ</ref>
+                           <note>Both <ref type="glossary" target="#gl_mauza">mauzaʿ</ref> and
+                              qiryat mean village, but here the former is used to specify the
+                              revenue unit and the latter is used as a label or 'counting
+                              word.'</note>
+                        </item>
+                        <lb/>
+                        <item>village
+                           <placeName ref="#wakan">Wakan</placeName>
+                            one <ref type="glossary" target="#gl_mauza">mauzaʿ</ref></item>
+                        <lb/>
+                        <item>village
+                           <unclear>
+                              <placeName ref="#karijari">Karijari</placeName>
+                           </unclear>
+                            one <ref type="glossary" target="#gl_mauza">mauzaʿ</ref></item>
+                        <lb/>
+                        <item>village
+                           <placeName ref="#ravdhal">Ravdhal</placeName>
+                            one <ref type="glossary" target="#gl_mauza">mauzaʿ</ref></item>
+                     </list></item>
+                  <lb rend="empty"/>
+                  <lb/>
+                  <label>On account of the <ref type="glossary" target="#gl_inam">inʿam</ref> of
+                        <ref type="glossary" target="#gl_deshpandegiri">deshpandegiri</ref>
+                     <gap/>
+                      village</label>
+                  <item><list>
+                     <lb/>
+                        <item>
+                           <placeName ref="#natondi">Natondi</placeName>
+                            one <ref type="glossary" target="#gl_mauza">mauzaʿ</ref></item>
+                     </list></item>
+                  <lb rend="empty"/>
+                  <lb/>
+                  <label>and the <ref type="glossary" target="#gl_inam">inʿam</ref> in accordance
+                     with the <ref type="glossary" target="#gl_sanad">sanad</ref> of
+                     <persName ref="#aqaAliKhan">Aqa Ali Khan</persName> for at the time of being [in] the army of the
+                      Dignified Office of
+                     <persName ref="#zulfiqarKhan">Zulfiqar Khan</persName>
+                      Bahadur
+                     <g ref="#siyaq">3</g>
+                      villages</label>
+                  <item><list>
+                     <lb/>
+                        <item>village
+                           <placeName ref="#valote">Valote</placeName>
+                            one <ref type="glossary" target="#gl_mauza">mauzaʿ</ref></item>
+                     <lb/>
+                        <item>village
+                           <unclear>
+                              <placeName ref="#tamhane">Tamhane</placeName>
+                           </unclear><note>This is presumably the same village spelled as Tamana in the 1690 document <ref type="document" target="lf_vDeshmukh_1690_02">Order of Fath Jang Khan granting the office of deshmukhi and 8 villages to the landlords Lodi and Hasan</ref>.</note>
+                            one <ref type="glossary" target="#gl_mauza">mauzaʿ</ref></item>
+                     <lb/>
+                        <item>village
+                           <placeName ref="#kotwalBuzurg">Kotwal Buzurg</placeName>
+                        </item>
+                     <lb/>
+                        <item>Three<note>The scribe wrote thirty, but from context this is an error for three.</note> villages</item>
+                     </list></item>
+               </list></p>
+         </div>
+         <div xml:id="orig_div4" xml:lang="per" type="maintext" rend="bottom">
+            <p>
+                فی التاریخ
+               <date calendar="#julus">چهاردهم
+                  <num>۱۴</num>
+                   شهر ذی قعده سنه
+                  <num>۳۷</num>
+               </date>
+                از جلوس منعمت مایوس
+               <note>this is likely an error for مانوس</note>
+                قلمی شد 
+               <g ref="#baiz">بیضه</g> </p>
+         </div>
+         <div xml:id="trans_div4" corresp="#orig_div4">
+            <p>Written on the
+               <date calendar="#julus">14th of Zi qaʿdah 37 years</date>
+                from the enthronement. <g ref="#baiz">Ended</g>.
+               <note>There is probably an abjad word play in this line.</note>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

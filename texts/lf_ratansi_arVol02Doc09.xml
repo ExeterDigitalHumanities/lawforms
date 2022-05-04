@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_ratansi_arVol02Doc09">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Acknowledgement of a loan taken by Abdullah bin Shuhadat Al-Balushi from Seth
+               Ratansi</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Fahad Bishara</persName>
+               <persName>Nandini Chatterjee</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#vp"/>
+                  <collection ref="#ratansiP"/>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#hijri-qamri">25 Dhu Al-Hijjah 1313</origDate>
+                     <origDate calendar="#gregorian" when="1896-06-07">7 June 1896</origDate>
+                  </origin>
+               </history>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p><persName ref="#abdullahAlBalushi">Abdullah bin Shuhadat Al-Balushi</persName> acknowledges the loan he took
+                from
+               <persName ref="#ratansi">Seth Ratansi Purshottam.</persName>
+            </p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="iqrar"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="privateDeeds"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Debt and Mortgage</term>
+               <term>Money</term>
+               <term>Trade</term>
+            </keywords>
+         </textClass>
+
+         <particDesc>
+            <person role="debtor">
+               <persName ref="#abdullahAlBalushi">Abdullah bin Shuhadat Al-Balushi</persName>
+            </person>
+            <person role="creditor">
+               <persName ref="#ratansi">Seth Ratansi Purshottam</persName>
+            </person>
+            <person role="writer">
+               <persName ref="#riyami">Nasser bin Amer bin Sulaiman Al-Riyami</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#ilyas">Ilyas bin Faqir</persName>
+            </person>
+            <person role="witness">
+               <persName ref="#ghulamBalushi">Ghulam Shah</persName>
+            </person>
+         </particDesc>
+
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_ratansi_arVol02Doc09.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_ratansi_arVol02Doc09.jpg"/>
+
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>بسم الله الرحمن الرحیم</p>
+         </div>
+
+         <div corresp="#orig_div1" xml:id="trans_div1">
+            <p>In the name of God, the most gracious, the most compassionate</p>
+         </div>
+
+         <div xml:id="orig_div2" xml:lang="ara" type="maintext">
+            <p>
+               <lb/>اقر
+               <persName ref="#abdullahAlBalushi">عبدالله بن شهدات البلوشي</persName>
+                ان عليه
+               <persName ref="#ratansi">للسيت رطنسيه
+                  <lb/>بن برسوتم البنياني</persName>
+               <measure type="currency" unit="qurush" quantity="53">ثلاثة و خمسين قرشا فضة
+                  افرنسياً</measure>
+               <lb/>و
+               <measure type="currency" unit="qurush" quantity="1/2">نصف قرش فضة افرنسيسي</measure>
+                حقا مؤجلاً عنه لمضي ستة
+               <lb/>اشهر زمانا من اليوم اقرارا منه بذالك بتاريخ يوم
+               <date calendar="#hijri-qamri"><num>٢٥</num> 
+               شهر ذي
+               <lb/>الحجة الحرام سنة
+               <num>١٣١٣</num></date>
+               و كتبه
+               <persName ref="#riyami">ناصر بن عامر بن سليمان الريامي</persName>
+                بيده
+               <lb/> بمعرفة
+               <persName ref="#ilyas">الياس بن فقير</persName>
+                و
+               <persName ref="#ghulamBalushi">غلام شاه</persName>
+                البلوشيين </p>
+         </div>
+
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p>
+               <lb/><persName ref="#abdullahAlBalushi">Abdullah bin Shuhadat Al-Balushi</persName>
+                acknowledges that upon him to the
+               <persName ref="#ratansi">Seth Ratansi
+                  <lb/>Bin Purshottam Al-Banyani</persName>
+                [is]
+               <measure type="currency" unit="qurush" quantity="53">three and fifty French silver
+                  <ref type="glossary" target="#gl_qirsh">qurush</ref></measure>
+               <lb/>and
+               <measure type="currency" unit="qurush" quantity="1/2">half a French silver
+                  <ref type="glossary" target="#gl_qirsh">qirsh</ref></measure>,
+               an obligation that is deferred from him for six
+               <lb/>months’ time from today, an acknowledgement from him of that on
+               <date calendar="#hijri-qamri">25 Dhu
+                <lb/>Al-Hijja Al-Haram 1313</date><note>Arabic transliteration of the month is used here because the document is fully in Arabic. This month is spelled Zi al-hijja elsewhere on the site in accordance with Persian usage.</note>
+               and
+               <persName ref="#riyami">Nasser bin Amer bin Sulaiman Al-Riyami</persName>
+                wrote it with his own hand
+               <lb/>with the cognizance of
+               <persName ref="#ilyas">Ilyas bin Faqir</persName>
+                and
+               <persName ref="#ghulamBalushi">Ghulam Shah</persName>
+                Al-Balushiyin (the Baluchis)
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

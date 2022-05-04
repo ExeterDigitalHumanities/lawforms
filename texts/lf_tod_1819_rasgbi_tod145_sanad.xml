@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_tod_1819_rasgbi_tod145_sanad">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of Maharaja Man Singh to the merchants of Bhilwara to come to the Mundwa fair</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#rasgbi"/>
+                  <collection ref="#tod"/>
+                  <idno>Tod mss. 145, loose leaf paper</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#samvat-shravanadi">12 Ashwin sudi 1876</origDate>
+                     <origDate calendar="#gregorian" when="1819-10-30">30 October 1819</origDate>
+                     <origPlace type="placeOfIssue" ref="#jodhpur"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p>Maharaja <persName ref="#manSinghMarwar">Man Singh</persName> instructs the merchants of <placeName ref="#bhilwara">Bhilwara</placeName> to bring goods to the fair in <placeName ref="#mundwa">Mundwa</placeName> in exchange for a reduction in transit taxes.</p></abstract>       
+        <textClass>
+           <keywords scheme="#formal"><term key="parvana"/></keywords>
+           <keywords scheme="#functional"><term key="orders"/></keywords>
+           <keywords scheme="#thematic">
+              <term>Taxation and Tribute</term>
+              <term>Trade</term>
+           </keywords>
+        </textClass>
+        <particDesc>
+           <person role="issuer">
+              <persName ref="#manSinghMarwar">Man Singh</persName>
+           </person>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+<facsimile>
+   <graphic url="lf_tod_1819_rasgbi_tod145_sanad_r.jpg"/>
+   <graphic url="lf_tod_1819_rasgbi_tod145_sanad_v.jpg"/>
+   </facsimile>
+  <text>
+      <body>
+         <pb n="1r" facs="lf_tod_1819_rasgbi_tod145_sanad_r.jpg"/>
+         <div xml:id="orig_div1" xml:lang="raj" type="invocation" rend="top centre">
+            <p>श्री <persName ref="#jalandharnath">जलंधरनाथ</persName> जी सत्य छै</p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p>Shri <persName ref="#jalandharnath">Jalandharnath</persName> <ref type="glossary" target="#gl_jiu">Ji</ref> is the truth</p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="eng" type="laterAddition" rend="top centre">
+            <p>To <unclear><ref type="glossary" target="#gl_mahajan">Mhajans [mahajans]</ref></unclear> of <placeName ref="#bhilwara">Bhilwara</placeName><note>This remark may have been added by <persName ref="#jamesTod">James Tod</persName>.</note></p>
+         </div>
+         <div xml:id="orig_div3" xml:lang="raj" type="authorisation" rend="middle centre">
+            <p><lb rend="empty"/><stamp type="seal">
+               <mentioned>
+                  <lb/>॥ श्री ॥
+                  <lb/>सिदेश्वर श्री <persName ref="#jalandharnath">जलधर 
+                  <lb/>नाथ</persName> चरणसर<gap/> राज 
+                  <lb/>राजेश्वर महाराजा धिराज 
+                  <lb/>महाराजा श्री <persName ref="#manSinghMarwar">मांसिंह</persName> 
+                  <lb/>जी <unclear>करपमुका </unclear>
+               </mentioned></stamp>
+            <lb rend="empty"/>
+            <lb/><figure></figure></p>
+         </div>
+         <div xml:id="trans_div3" corresp="#orig_div3">
+            <p><lb rend="empty"/><stamp type="seal">Round black ink seal
+               <mentioned>
+                  <lb/>Shri
+                  <lb/>The great ascetic Shri <persName ref="#jalandharnath">Jalandharnath</persName>
+                  <lb/><gap/>The greatest king of kings,
+                  <lb/>great king of kings
+                  <lb/>Maharaja Shri <persName ref="#manSinghMarwar">Man Singh</persName>
+                  <lb/><ref type="glossary" target="#jiu">Ji</ref><gap/>
+            </mentioned></stamp>
+            <lb rend="empty"/>
+               <lb/><figure><figDesc>A stylized drawing of a dagger</figDesc></figure></p>
+         </div>
+         <div xml:id="orig_div4" xml:lang="raj" type="maintext">
+            <p>
+               <lb/>॥ स्वारुप श्री राज राजेश्वर महाराजा धिरा-
+               <lb/>ज महाराजा श्री <persName ref="#manSinghMarwar">मांनसिंघ</persName> जी वचनात 
+               <lb/><placeName ref="#bhilwara">भीलाडा</placeName> रा महाजनां वोपारीयां दिसे
+               <lb/>।तथा खातर जंमैं राख <placeName ref="#mundwa">मूंडवा</placeName> रै मेलै माल
+               <lb/>जिंनस लेनै आवजो हासल मै अधक री
+               <lb/>माफ हुसी ।सबत <date calendar="#samvat-shravanadi">१८७६ रा आसोज सुद १२</date>
+               <lb/>मुकांम पायतखत <placeName ref="#jodhpurFort">गढ जोधपुर</placeName> 
+            </p>
+         </div>
+         <div xml:id="trans_div4" corresp="#orig_div4">
+            <p>
+               <lb/><ref type="glossary" target="#gl_sarup">Sarup</ref> Shri Greatest of Kings, the Great King of Kings, 
+               <lb/>Maharaja Shri <persName ref="#manSinghMarwar">Man Singh</persName> <ref type="glossary" target="#gl_jiu">Ji</ref> says
+               <lb/>to the great merchants and traders of <placeName ref="#bhilwara">Bhil[w]ara</placeName>
+               <lb/>Thus, set your minds at ease. Bringing goods and
+               <lb/>items, come to the <placeName ref="#mundwa">Mundwa</placeName> fair. From the <ref type="glossary" target="#gl_hasal">hasal</ref>,
+               <lb/>half will be forgiven. <date calendar="#samvat-shravanadi">Asoj [Ashwin] <ref type="glossary" target="#gl_sudi">sudi</ref> 12 of the year 1876</date>.
+               <lb/>Place: The foot of the throne [i.e., the royal capital], <placeName ref="#jodhpurFort">Fort Jodhpur</placeName>
+            </p>
+         </div>
+         <pb n="1v" facs="lf_tod_1819_rasgbi_tod145_sanad_v.jpg"/>
+         <div xml:id="orig_div5" xml:lang="raj" type="clericalNotes" rend="top centre">
+            <p>।नकल लीवी श्री हजुर रै दफतर</p>
+         </div>
+         <div xml:id="trans_div5" corresp="#orig_div5">
+            <p>Copy taken [in] the <ref type="glossary" target="#gl_daftar">daftar</ref> of <ref type="glossary" target="#gl_shriHuzur">Shri Huzur</ref>.</p>
+         </div>
+         <div xml:id="orig_div6" xml:lang="raj" type="invocation" rend="bottom centre">
+            <p>॥ श्री ॥</p>
+         </div>
+         <div xml:id="trans_div6" corresp="#orig_div6">
+            <p>Shri</p>
+         </div>
+         
+      </body>
+  </text>
+</TEI>

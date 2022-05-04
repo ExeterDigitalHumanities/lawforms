@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_ratansi_arVol02Doc19">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Acknowledgement of a loan taken by Mansour bin Hamad Al-Nakhli from Seth Ratansi</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Fahad Bishara</persName>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#vp"/>
+                  <collection ref="#ratansiP"/>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#hijri-qamri">24 Ramadan 1314</origDate>
+                     <origDate calendar="#gregorian" when="1897-02-26">26 February 1897</origDate>  
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p><persName ref="#mansour">Mansour bin Hamad Al-Nakhli</persName> acknowledges his debt of fifty-five silver coins (qirsh)
+           to <persName ref="#ratansi">Ratansi bin Purshottam Al-Banyani</persName> and the right of <persName ref="#ratansi">Ratansi bin Purshottam Al-Banyani</persName> to five date palms
+           from <persName ref="#mansour">Mansour bin Hamad Al-Nakhli</persName>'s garden.</p></abstract>       
+        <textClass>
+           <keywords scheme="#formal"><term key="iqrar"/></keywords>
+           <keywords scheme="#functional"><term key="privateDeeds"/></keywords>
+           <keywords scheme="#thematic">
+              <term>Buying and Selling</term>
+              <term>Debt and Mortgage</term>
+              <term>Gardens and Orchards</term>
+              <term>Money</term>
+           </keywords>
+        </textClass>
+        <particDesc>
+           <person role="debtor">
+              <persName ref="#mansour">Mansour bin Hamad Al-Nakhli</persName>
+           </person>
+           <person role="creditor">
+              <persName ref="#ratansi">Ratansi bin Purshottam Al-Banyani</persName>
+           </person>
+         <person role="writer">
+            <persName ref="#saleh">Saleh bin Amer Al-Tiwani</persName>
+         </person>
+         <person role="witness">
+            <persName ref="#hamidBSalem">Hamid bin Salem bin Mohammed</persName>
+         </person>
+         <person role="witness">
+            <persName ref="#khalfan">Khalfan bin Amer</persName>
+         </person>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+<facsimile>
+      <graphic url="lf_ratansi_arVol02Doc19.jpg"/>
+   </facsimile>
+  <text>
+      <body>
+         <pb n="1r" facs="lf_ratansi_arVol02Doc19.jpg"/>
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre">
+            <p>بمنّه تعالى</p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p>By the Grace of God</p>
+         </div>
+         <div xml:id="orig_div2" xml:lang="ara" type="maintext">
+            <p>
+               <lb/>اقر
+               <persName ref="#mansour">منصور بن حميد النخلي</persName>
+               ان عليه لسيت
+               <persName ref="#ratansi">رطنسى بن برسوتم البانياني</persName>
+              <lb/> خمسة و خمسين قرشا فضه افرنسياً مؤجلة عليه له الي مضي خمسة اشهر 
+               <lb/>زمانا منذ اليوم وقد اثبت له بحقه هذا خمس نخلات مبسلى من ماله 
+               <lb/>المسمى بستان جبيل الكاين ببلد 
+               <placeName ref="#nakhl">نخل</placeName>
+               اثباتا صحيحا ثابتا شرعا
+               <lb/>اقرارا منه بذلك بتاريخ
+               <date calendar="#hijri-qamri">يوم
+               <num>٢٤</num>
+               رمضان سنة
+               <num>١٣١٤</num> 
+              </date>
+               وكتبه الفقير 
+               <lb/>
+               <persName ref="#saleh">صالح بن عامر الطيواني</persName>
+               بيده
+               <lb/>اشهدني على ذلك فشهدت و انا الحقير 
+               <persName ref="#hamidBSalem">حامد بن سالم بن محمد</persName>
+               بيدي 
+               <lb/>قذا خط القاضي 
+               <persName ref="#saleh">صالح بن عامر</persName>
+               صحيح و ثابت
+               <gap/>
+               الحقير
+               <persName ref="#khalfan">خلفان بن عامر</persName>
+               <gap/>
+               تاريخ الورقة
+            </p>
+         </div>
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p>
+               <lb/><persName ref="#mansour">Mansour bin Hamad Al-Nakhli</persName> acknowledges that he owes to the Seth <persName ref="#ratansi">Ratansi bin Purshottam Al-Banyani</persName>               
+               <lb/><measure type="currency" unit="qirsh" quantity="55">fifty-five silver French <ref type="glossary" target="#gl_qirsh">qirsh</ref></measure>, delayed upon him for the duration of five months’
+               <lb/>time from today, and he has confirmed for him [<persName ref="#ratansi">Ratansi</persName>] his [i.e. <persName ref="#ratansi">Ratansi's</persName>] right to five mature date palms from his [<persName ref="#mansour">Mansour's</persName>] property
+               <lb/>which is called Jubail Garden in the town of <placeName ref="#nakhl">Nakhl[a]</placeName>, and this is a valid, legal confirmation
+               <lb/>and an acknowledgement from him [<persName ref="#mansour">Mansour</persName>] of that, on the date of <date calendar="#hijri-qamri">24 Ramadan 1314</date>, and it was written by the wretched
+               <lb/><persName ref="#saleh">Saleh bin Amer Al-Tiwani</persName>, in his own hand.
+               <lb/>He had me bear witness to that, and I witnessed, and I am the wretched <persName ref="#hamidBSalem">Hamid bin Salem bin Mohammed</persName> 
+               <lb/>This is the handwriting of the <ref type="glossary" target="#gl_qazi">qadi</ref> <persName ref="#saleh">Saleh bin ‘Amer</persName>, confirmed and valid<gap/> <persName ref="#khalfan">Khalfan bin Amer</persName><gap/> on the date of the <ref type="glossary" target="#gl_waraqa">waraqa</ref>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

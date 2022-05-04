@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lawforms Project - Bibliography and Repositories List</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Nandini Chatterjee</persName>
+               <persName>Elizabeth Thelen</persName>
+               <persName>Dominic Vendell</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding support and website development by</resp>
+               <persName>Lizzy Williamson</persName>
+               <persName>Eva Bodenschatz</persName>
+               <persName>Richard Holding</persName>
+               <persName>Julia Hopkin</persName>
+               <persName>Gary Stringer</persName>
+            </respStmt>
+            <funder>ERC</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Exeter</publisher>
+            <pubPlace>Exeter</pubPlace>
+            <date when="2022">2022</date>
+            <ptr target="https://lawforms.exeter.ac.uk/"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This is an open access work licensed under a Creative Commons Attribution 4.0
+                     International license. Images are not covered by this license; please consult
+                     the website for further details.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Created by and for the Forms of Law project</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>Repositories list</head>
+            <!--        example -->
+            <listOrg xml:id="repositories">
+               <!--<org xml:id="bodleian">
+                  <orgName role="default">Bodleian Library</orgName>
+                  <orgName>Other Example Name for Bodleian</orgName>
+                  <location>
+                     <address>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <country>United Kingdom</country>
+                     </address>
+                  </location>
+                  <note>Example note</note>
+               </org>-->
+               <!--               end of example -->
+               <!--               note: please add role=default to the primary name you want to display on the website. You can now add more than one name for a repository.-->
+               <org xml:id="dai">
+                  <orgName role="default">Dar al-Athar al-Islamiyyah</orgName>
+                  <orgName/>
+                  <location>
+                     <address>
+                        <street/>
+                        <settlement>Kuwait</settlement>
+                        <postCode/>
+                        <country>Kuwait</country>
+                     </address>
+                  </location>
+                  <note/>
+               </org>
+
+               <org xml:id="bism">
+                  <orgName role="default">Bharat Itihas Sansodhak Mandal</orgName>
+                  <location>
+                     <address>
+                        <street>1321, Sadashiv Peth, Near Bharat Natya Mandir</street>
+                        <settlement>Pune</settlement>
+                        <postCode>411030</postCode>
+                        <country>India</country>
+                     </address>
+                  </location>
+               </org>
+
+               <org xml:id="bl">
+                  <orgName role="default">British Library</orgName>
+                  <location>
+                     <address>
+                        <street>96 Euston Road</street>
+                        <settlement>London</settlement>
+                        <postCode>NW1 2DB</postCode>
+                        <country>UK</country>
+                     </address>
+                  </location>
+               </org>
+
+               <org xml:id="hfc">
+                  <orgName role="default">Hamdani Family Collection</orgName>
+                  <location>
+                     <address>
+                        <addrLine>Srinagar, Kashmir</addrLine>
+                        <country>India</country>
+                     </address>
+                  </location>
+               </org>
+
+               <org xml:id="ad">
+                  <orgName role="default">Aisha Deshmukh Family Collection</orgName>
+                  <location>
+                     <address>
+                        <country>India</country>
+                     </address>
+                  </location>
+               </org>
+
+               <org xml:id="rec">
+                  <orgName role="default">Richard Eaton Collection</orgName>
+                  <location>
+                     <address>
+                        <country>U.S.A.</country>
+                     </address>
+                  </location>
+               </org>
+
+               <org xml:id="jcp">
+                  <orgName role="default">Maharaja Sawai Man Singh II Museum</orgName>
+                  <location>
+                     <address>
+                        <street>The City Palace</street>
+                        <settlement>Jaipur</settlement>
+                        <postCode>302002</postCode>
+                        <country>India</country>
+                     </address>
+                  </location>
+                  <note>Colloquially known as the (Jaipur) City Palace Museum.</note>
+               </org>
+
+               <org xml:id="lm">
+                  <orgName role="default">National Museums Liverpool</orgName>
+                  <location>
+                     <address>
+                        <street>World Museum, William Brown Street</street>
+                        <settlement>Liverpool</settlement>
+                        <postCode>L3 8EN</postCode>
+                        <country>UK</country>
+                     </address>
+                  </location>
+               </org>
+
+               <org xml:id="rsa">
+                  <orgName role="default">Rajasthan State Archives, Bikaner</orgName>
+                  <location>
+                     <address>
+                        <street>Old Government Press Road</street>
+                        <settlement>Bikaner</settlement>
+                        <postCode>334001</postCode>
+                        <country>India</country>
+                     </address>
+                  </location>
+               </org>
+               <org xml:id="rsm">
+                  <orgName role="default">Itihascharya V.K. Rajwade Sanshodhan Mandal</orgName>
+                  <location>
+                     <address>
+                        <street>Rajwade Path, Lane No. 1, Near Main Post Office</street>
+                        <settlement>Dhule</settlement>
+                        <postCode>424001</postCode>
+                        <country>India</country>
+                     </address>
+                  </location>
+               </org>
+               <org xml:id="brd">
+                  <orgName role="default">Choudhary Family Collection, Bada Raola Dhar</orgName>
+                  <location>
+                     <address>
+                        <street/>
+                        <settlement>Dhar</settlement>
+                        <postCode/>
+                        <country>India</country>
+                     </address>
+                  </location>
+               </org>
+
+               <org xml:id="vp">
+                  <orgName role="default">Vimal Purecha Family Collection</orgName>
+                  <location>
+                     <address>
+                        <street/>
+                        <settlement>Muscat</settlement>
+                        <postCode/>
+                        <country>Oman</country>
+                     </address>
+                  </location>
+                  <note/>
+               </org>
+
+               <org xml:id="bri">
+                  <orgName role="default">Mandloi Family Collection, Shri Samsthan Bada Raola
+                     Indore</orgName>
+                  <location>
+                     <address>
+                        <settlement>Indore</settlement>
+                        <postCode>452007</postCode>
+                        <country>India</country>
+                     </address>
+                  </location>
+                  <note/>
+               </org>
+
+               <org xml:id="rasgbi">
+                  <orgName role="default">Royal Asiatic Society of Great Britain and
+                     Ireland</orgName>
+                  <location>
+                     <address>
+                        <street>14 Stephenson Way</street>
+                        <settlement>London</settlement>
+                        <postCode>NW1 2HD</postCode>
+                        <country>UK</country>
+                     </address>
+                  </location>
+               </org>
+
+               <org xml:id="zna">
+                  <orgName role="default">Zanzibar National Archives</orgName>
+                  <location>
+                     <address>
+                        <settlement>Zanzibar</settlement>
+                        <postCode>R6F3+CH</postCode>
+                        <country>Tanzania</country>
+                     </address>
+                  </location>
+                  <note/>
+               </org>
+
+            </listOrg>
+         </div>
+
+         <div>
+            <head>Archival Collections</head>
+            <list xml:id="archivalCollections">
+
+               <item xml:id="pDas">
+                  <name>Purshottam Das collection</name>
+                  <note>This was the household archive of a family of landlords from district Dhar
+                     in central India. The archive was scattered and subsequently reconstructed from
+                     3 locations – the National Archives of India, New Delhi; the Dar al-Athar
+                     al-Islamiyyah Museum, Kuwait; and the Choudhary Family Collection, Dhar.</note>
+                  <listBibl type="academic">
+                     <bibl type="academic" n="#chatterjee2020"/>
+                  </listBibl>
+               </item>
+
+               <item xml:id="sDeshmukh">
+                  <name>Solapur Deshmukh collection</name>
+                  <note>This collection relates to the household archive of a land-owning mercantile
+                     family in western India, who also served as village officials. The collection
+                     is currently housed at the Bharat Itihasa Samsodhana Mandal, Pune, India.
+                  </note>
+               </item>
+
+
+               <item xml:id="ratansiP">
+                  <name>Ratansi Purshottam collection</name>
+                  <note>This collection principally pertains to the business activities of Ratansi
+                     Purshottam, a Kachhchi businessman in Muscat, Oman, whose family has been doing
+                     business out of the port city since the mid-nineteenth century. Ratansi
+                     Purshottam was engaged in the trade in general merchandise and arms, but also
+                     moneylending, until his death in 1904. More than half of the family’s documents
+                     are currently housed in the National Archives and Records Authority in Muscat;
+                     the rest remain in the family’s possession, and form part of the private
+                     collection of Ratanshi Purshottam great-grandson, Vimal Purecha.</note>
+                  <!--    further reading -->
+               </item>
+
+               <item xml:id="tod">
+                  <name>James Tod collection</name>
+                  <note>This collection was assembled by the British East India Company official
+                     Lietenant-Colonel James Tod in the first quarter of the nineteenth century.
+                     While posted in Rajputana (known as Rajasthan today), Tod acquired manuscripts
+                     and commissioned copies of various historical documents from the region, many
+                     of which he used to write a history of the region entitled 'Annals and
+                     Antiquities of Rajasthan.' Tod was a founding member of the Royal Asiatic
+                     Society of Great Britain and Ireland and donated his manuscripts to the
+                     society, mostly after his death. The documents presented on this site are a
+                     small selection of these materials.</note>
+               </item>
+
+               <item xml:id="mandloi">
+                  <name>Indore Mandloi collection</name>
+                  <note>This is a household archive of the Mandlois, a family of landlords from
+                     Indore in central India. First holding tax-free rights to land in the district
+                     Kampel, they were central to Mughal and Maratha governance of the Malwa region
+                     as well as to the founding of Indore city. This collection is currently housed
+                     in the family's main residence, known the Bada Raola, in Indore.</note>
+               </item>
+
+               <item xml:id="araDeeds">
+                  <name>Arabic Deeds (Zanzibar) collection</name>
+                  <note>This collection refers to the series of Arabic deeds and contracts copied in
+                     registers dating to the nineteenth century that are held in the General Deeds
+                     (AM) collection at the Zanzibar National Archives, Tanzania. Each document copy
+                     is numbered in the register, and below the copied Arabic text there is an
+                     English summary as well as the date the copy was made and the signature of the
+                     British Vice Consul in Zanzibar. Private deeds were registered in this way in
+                     anticipation of legal disputes. </note>
+               </item>
+
+               <item xml:id="jBahi">
+                  <name>Jodhpur Bahi collection</name>
+                  <note>This collection consists of entries from hundreds of registers known as
+                     bahis maintained by the Kingdom of Marwar and later Jodhpur Princely State in
+                     western Rajasthan. Many of these registers are now held in the Rajasthan State
+                     Archives, Bikaner. The documents from this collection featured on this site are
+                     drawn from a series known as the Jodhpur Sanad Parvana Bahis, which contain
+                     official copies of government orders.</note>
+               </item>
+
+               <item xml:id="vDeshmukh">
+                  <name>Valota Deshmukh collection</name>
+                  <note>This is a household archive of a landlord family from the village of Valota
+                     in the Deccan.</note>
+               </item>
+
+               <item xml:id="gujDeeds">
+                  <name>Gujarati Deeds (Zanzibar) collection</name>
+                  <note>This collection refers to the series of Gujarati deeds and contracts held in
+                     the General Deeds (AM) collection at the Zanzibar National Archives, Tanzania.
+                     Primarily produced in the second half of the nineteenth century, these
+                     documents are copies registered by Gujarati merchants, and their wives and
+                     widows, with the British consulate in anticipation of legal disputes. A
+                     Gujarati clerk copied each deed into the register and assigned it an
+                     identifying number; then, a short English descriptions was added, either by the
+                     clerk or the consul/registrar who signed the copy.</note>
+               </item>
+
+               <item xml:id="hamdani">
+                  <name>Hamdani collection</name>
+                  <note>This collection is a household archive of the Hamdanis, a notable family
+                     from Srinagar.</note>
+               </item>
+
+               <item xml:id="kapadDwara">
+                  <name>Kapad Dwara Documents</name>
+                  <note>The documents in this collection are records held by the Jaipur royal
+                     family. A catalogue of these documents was written by Gopalnarayan Bahura and
+                     Chandramani Singh, and the transcriptions and translations included on this
+                     website are based on images published in that catalogue.</note>
+                  <listBibl type="academic">
+                     <bibl type="academic" n="#bahuraSingh1989"/>
+                  </listBibl>
+               </item>
+
+               <item xml:id="liverpool">
+                  <name>Liverpool Farman</name>
+                  <note>This is a lone document housed in the Liverpool museum, encased in a
+                     cardboard tube. There are no further accession details are currently
+                     available.</note>
+               </item>
+
+               <item xml:id="rEaton">
+                  <name>Richard Eaton collection</name>
+                  <note>This is the research collection of Prof. Richard Eaton, eminent historian of
+                     Mughal India and Persianate South Asia more broadly. These documents were
+                     photographed by Prof. Eaton from several district record rooms in Bangladesh in
+                     the 1980s. These documents formed the basis of his pathbreaking book, The Rise
+                     of Islam and the Bengal Frontier. Prof. Eaton has kindly shared a copy of these
+                     documents – around 600 in number with the Lawforms project – a very small
+                     sample is presented here.</note>
+                  <listBibl type="academic">
+                     <bibl type="academic" n="#eaton1993"/>
+                  </listBibl>
+               </item>
+
+
+
+            </list>
+         </div>
+
+         <div>
+            <head>Works cited</head>
+            <listBibl xml:id="bibliography_secondary">
+
+               <!--            example monograph: use title level m; add editor or author as relevant -->
+               <!-- <bibl xml:id="foner1945_collectedThomasPaine">
+                  <editor>
+                     <surname>Foner</surname>
+                     <forename>Philip S.</forename>
+                  </editor>
+                  <title level="m">The collected writings of Thomas Paine</title>
+                  <pubPlace>New York</pubPlace>
+                  <publisher>Citadel Press</publisher>
+                  <date>1945</date>
+               </bibl>-->
+
+               <bibl xml:id="bahuraSingh1989">
+                  <author>
+                     <surname>Bahura</surname>
+                     <forename>Gopalnarayan</forename>
+                  </author>
+                  <author>
+                     <surname>Singh</surname>
+                     <forename>Chandramani</forename>
+                  </author>
+                  <title level="m">Catalogue of Historic Documents in Kapad Dwara, Jaipur</title>
+                  <pubPlace>Jaipur</pubPlace>
+                  <publisher>Jaigarh Public Charitable Trust</publisher>
+                  <date>1989</date>
+               </bibl>
+
+               <bibl xml:id="blake2013">
+                  <author>
+                     <surname>Blake</surname>
+                     <forename>Stephen</forename>
+                  </author>
+                  <title level="m">Time in Early Modern Islam</title>
+                  <pubPlace>Cambridge</pubPlace>
+                  <publisher>Cambridge University Press</publisher>
+                  <date>2013</date>
+               </bibl>
+
+               <bibl xml:id="bishara2017">
+                  <author>
+                     <surname>Bishara</surname>
+                     <forename>Fahad</forename>
+                  </author>
+                  <title level="m">A Sea of Debt: Law and Economic Life in the Western Indian Ocean,
+                     1780-1950</title>
+                  <pubPlace>Cambridge</pubPlace>
+                  <publisher>Cambridge University Press</publisher>
+                  <date>2017</date>
+               </bibl>
+
+               <bibl xml:id="chatterjee2020">
+                  <author>
+                     <surname>Chatterjee</surname>
+                     <forename>Nandini</forename>
+                  </author>
+                  <title level="m">Negotiating Mughal Law: A Family of Landlords across Three Indian
+                     Empires</title>
+                  <pubPlace>Cambridge</pubPlace>
+                  <publisher>Cambridge University Press</publisher>
+                  <date>2020</date>
+                  <ref type="url"
+                     >https://www.cambridge.org/core/books/negotiating-mughal-law/3C8631AFC67A29A671AD5C3206B035CC</ref>
+               </bibl>
+
+
+               <bibl xml:id="deshpandeP2007">
+                  <author>
+                     <surname>Deshpande</surname>
+                     <forename>Prachi</forename>
+                  </author>
+                  <title level="m">Creative Pasts: Historical Memory and Identity in Western India,
+                     1700-1960</title>
+                  <pubPlace>New York</pubPlace>
+                  <publisher>Columbia University Press</publisher>
+                  <date>2007</date>
+               </bibl>
+
+               <bibl xml:id="ajamMC">
+                  <author>
+                     <surname>Lutfi</surname>
+                     <forename>Ameem</forename>
+                  </author>
+                  <author>
+                     <surname>Stephenson</surname>
+                     <forename>Lindsey</forename>
+                  </author>
+                  <title level="m">Reimagining Baloch “Mercenaries” in the Western Indian
+                     Ocean</title>
+                  <publisher>Ajam Media Collective</publisher>
+                  <date>2020</date>
+                  <ref type="url"
+                     >https://ajammc.com/2020/08/17/ajam-podcast-21-baloch-indian-ocean/</ref>
+               </bibl>
+
+               <bibl xml:id="eaton1993">
+                  <author>
+                     <surname>Eaton</surname>
+                     <forename>Richard</forename>
+                  </author>
+                  <title level="m">The Rise of Islam and the Bengal Frontier, 1204–1760</title>
+                  <pubPlace>Berkeley</pubPlace>
+                  <publisher>University of California Press</publisher>
+                  <date>1993</date>
+               </bibl>
+
+               <bibl xml:id="ernst1992">
+                  <author>
+                     <surname>Ernst</surname>
+                     <forename>Carl</forename>
+                  </author>
+                  <title level="m">Eternal Garden: Mysticism, History, and Politics at a South Asian
+                     Sufi Center</title>
+                  <pubPlace>Albany, NY</pubPlace>
+                  <publisher>State University of New York Press</publisher>
+                  <date>1992</date>
+               </bibl>
+
+               <bibl xml:id="faruquiM2012">
+                  <author>
+                     <surname>Faruqui</surname>
+                     <forename>Munis</forename>
+                  </author>
+                  <title level="m">The Princes of the Mughal Empire, 1504-1719</title>
+                  <pubPlace>Cambridge</pubPlace>
+                  <publisher>Cambridge University Press</publisher>
+                  <date>2012</date>
+               </bibl>
+
+
+               <bibl xml:id="gommans1995">
+                  <author>
+                     <surname>Gommans</surname>
+                     <forename>J.</forename>
+                  </author>
+                  <title level="m">The Rise of the Indo-Afghan Empire, c. 1710-1780</title>
+                  <pubPlace>Leiden</pubPlace>
+                  <publisher>Brill</publisher>
+                  <date>1994</date>
+               </bibl>
+
+               <bibl xml:id="gommans2002">
+                  <author>
+                     <surname>Gommans</surname>
+                     <forename>J.</forename>
+                  </author>
+                  <title level="m">Mughal Warfare: Indian Frontiers and Highroads to Empire,
+                     1500-1700</title>
+                  <pubPlace>London and New York</pubPlace>
+                  <publisher>Routledge</publisher>
+                  <date>2002</date>
+               </bibl>
+
+               <bibl xml:id="gordon1993">
+                  <author>
+                     <surname>Gordon</surname>
+                     <forename>Stewart</forename>
+                  </author>
+                  <title level="m">The Marathas, 1600-1818</title>
+                  <pubPlace>Cambridge</pubPlace>
+                  <publisher>Cambridge University Press</publisher>
+                  <date>1993</date>
+               </bibl>
+
+               <bibl xml:id="habib">
+                  <author>
+                     <surname>Habib</surname>
+                     <forename>Irfan</forename>
+                  </author>
+                  <title level="m">The Agrarian System of Mughal India, 1556-1707</title>
+                  <pubPlace>New Delhi</pubPlace>
+                  <publisher>Oxford University Press</publisher>
+                  <date>1963, 2014</date>
+               </bibl>
+
+               <bibl xml:id="horstmannGD">
+                  <editor>
+                     <surname>Horstmann</surname>
+                     <forename>Monika</forename>
+                  </editor>
+                  <editor>
+                     <surname>Bill</surname>
+                     <forename>Heike</forename>
+                  </editor>
+                  <title level="m">In Favour of Govinddevji: Historical Documents Relating to a
+                     Deity of Vrindaban and Eastern Rajasthan</title>
+                  <pubPlace>New Delhi</pubPlace>
+                  <publisher>Manohar</publisher>
+                  <date>1999</date>
+               </bibl>
+
+               <bibl xml:id="ibnHasan">
+                  <author>
+                     <surname>Hasan</surname>
+                     <forename>Ibn</forename>
+                  </author>
+                  <title level="m">The Central Structure of the Mughal Empire</title>
+                  <pubPlace>New Delhi</pubPlace>
+                  <publisher>Manohar</publisher>
+                  <date>1936, 2nd edition 1980</date>
+               </bibl>
+
+               <bibl xml:id="irvineW">
+                  <author>
+                     <surname>Irvine</surname>
+                     <forename>William</forename>
+                  </author>
+                  <title level="m">The Later Mughals</title>
+                  <pubPlace>New Delhi</pubPlace>
+                  <publisher>Oriental Books Reprint Corporation</publisher>
+                  <date>1971</date>
+                  <note>First published 1922</note>
+                  <ref type="url"
+                     >https://archive.org/details/in.ernet.dli.2015.280772/mode/2up</ref>
+               </bibl>
+
+               <bibl xml:id="kasturi2002">
+                  <author>
+                     <surname>Kasturi</surname>
+                     <forename>Malavika</forename>
+                  </author>
+                  <title level="m">Embattled Identities: Rajput Lineages and the Colonial State in
+                     Nineteenth-century North India</title>
+                  <pubPlace>New Delhi</pubPlace>
+                  <publisher>Oxford University Press</publisher>
+                  <date>2002</date>
+               </bibl>
+
+               <bibl xml:id="khan1963">
+                  <editor>
+                     <surname>Khan</surname>
+                     <forename>Yusuf Husain</forename>
+                  </editor>
+                  <title level="m">Farmans and Sanads of the Deccan Sultans</title>
+                  <pubPlace>Hyderabad</pubPlace>
+                  <publisher>Andhra Pradesh State Archives</publisher>
+                  <date>1963</date>
+               </bibl>
+
+               <bibl xml:id="manaKia">
+                  <author>
+                     <surname>Kia</surname>
+                     <forename>Mana</forename>
+                  </author>
+                  <title level="m">Persianate Selves: Memories of Place and Origin before
+                     Nationalism</title>
+                  <pubPlace>Stanford</pubPlace>
+                  <publisher>Stanford University Press</publisher>
+                  <date>2020</date>
+               </bibl>
+
+               <bibl xml:id="kolff1990">
+                  <author>
+                     <surname>Kolff</surname>
+                     <forename>Dirk H.A.</forename>
+                  </author>
+                  <title level="m">Naukar, Rajput, and Sepoy: The Ethnohistory of the Military
+                     Labour Market of Hindustan, 1450-1850</title>
+                  <pubPlace>Cambridge</pubPlace>
+                  <publisher>Cambridge University Press</publisher>
+                  <date>1990</date>
+               </bibl>
+
+               <bibl xml:id="kothiyal">
+                  <author>
+                     <surname>Kothiyal</surname>
+                     <forename>Tanuja</forename>
+                  </author>
+                  <title level="m">Nomadic Narratives: A History of Mobility and Identity in the
+                     Great Indian Desert</title>
+                  <pubPlace>New Delhi</pubPlace>
+                  <publisher>Cambridge University Press</publisher>
+                  <date>2016</date>
+               </bibl>
+
+               <bibl xml:id="kulkarni1999">
+                  <editor>
+                     <surname>Kulkarni</surname>
+                     <forename>A.R.</forename>
+                  </editor>
+                  <title level="m">Jedhe Shakavali-Karina</title>
+                  <pubPlace>Pune</pubPlace>
+                  <publisher>Mansanman Prakashan</publisher>
+                  <date>1999</date>
+               </bibl>
+
+               <bibl xml:id="leonard">
+                  <author>
+                     <surname>Leonard</surname>
+                     <forename>Karen Isaksen</forename>
+                  </author>
+                  <title level="m">Social History of an Indian Caste: the Kayasths of
+                     Hyderabad</title>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Sangam</publisher>
+                  <date>1994</date>
+               </bibl>
+
+
+
+               <bibl xml:id="mohiuddin">
+                  <author>
+                     <surname>Mohiuddin</surname>
+                     <forename>M.</forename>
+                  </author>
+                  <title level="m">The Chancellery and Persian Epistolography under the
+                     Mughals</title>
+                  <pubPlace>Kolkata</pubPlace>
+                  <publisher>Iran Society</publisher>
+                  <date>1971</date>
+               </bibl>
+
+               <bibl xml:id="moin2012">
+                  <author>
+                     <surname>Moin</surname>
+                     <forename>A. Azfar</forename>
+                  </author>
+                  <title level="m">The Millennial Sovereign: Sacred Kingship and Sainthood in
+                     Islam</title>
+                  <pubPlace>New York</pubPlace>
+                  <publisher>Columbia University Press</publisher>
+                  <date>2012</date>
+               </bibl>
+
+               <bibl xml:id="pernau">
+                  <author>
+                     <surname>Pernau</surname>
+                     <forename>Margrit</forename>
+                  </author>
+                  <title level="m">Information and the Public Sphere: Persian Newsletters from
+                     Mughal Delhi </title>
+                  <pubPlace>New Delhi</pubPlace>
+                  <publisher>Oxford University Press</publisher>
+                  <date>2009</date>
+               </bibl>
+
+               <bibl xml:id="rana">
+                  <author>
+                     <surname>Rana</surname>
+                     <forename>R.P.</forename>
+                  </author>
+                  <title level="m">Rebels to Rulers: The Rise of Jat Power in Medieval India c.
+                     1665-1735</title>
+                  <pubPlace>New Delhi</pubPlace>
+                  <publisher>Manohar</publisher>
+                  <date>2006</date>
+               </bibl>
+
+               <bibl xml:id="richardsGolconda">
+                  <author>
+                     <surname>Richards</surname>
+                     <forename>John F.</forename>
+                  </author>
+                  <title level="m">Mughal Administration in Golconda</title>
+                  <pubPlace>Oxford</pubPlace>
+                  <publisher>Clarendon Press</publisher>
+                  <date>1975</date>
+               </bibl>
+
+               <bibl xml:id="richardsMughalEmpire">
+                  <author>
+                     <surname>Richards</surname>
+                     <forename>John F.</forename>
+                  </author>
+                  <title level="m">The Mughal Empire</title>
+                  <pubPlace>Cambridge</pubPlace>
+                  <publisher>Cambridge University Press</publisher>
+                  <date>1995</date>
+                  <ref type="url"
+                     >https://hdl-handle-net.uoelibrary.idm.oclc.org/2027/heb.02371</ref>
+               </bibl>
+
+               <bibl xml:id="rsaFarmans">
+                  <title level="m">A Descriptive List of Farmans, Manshurs and Nishans: Addressed by
+                     the Imperial Mughals to the Princes of Rajasthan</title>
+                  <pubPlace>Bikaner</pubPlace>
+                  <publisher>Directorate of Archives, Govt. of Rajasthan</publisher>
+                  <date>1962</date>
+               </bibl>
+
+               <bibl xml:id="sarkar1952">
+                  <author>
+                     <surname>Sarkar</surname>
+                     <forename>Jadunath</forename>
+                  </author>
+                  <title level="m">History of Aurangzib Based on Original Sources: Vol. V, The
+                     Closing Years, 1689-1707</title>
+                  <biblScope unit="vol">5</biblScope>
+                  <pubPlace>Calcutta</pubPlace>
+                  <publisher>M.C. Sarkar and Sons Ltd.</publisher>
+                  <date>1952</date>
+               </bibl>
+
+               <bibl xml:id="simmons2019">
+                  <author>
+                     <surname>Simmons</surname>
+                     <forename>Caleb</forename>
+                  </author>
+                  <title level="m">Devotional Sovereignty: Kingship and Religion in India</title>
+                  <pubPlace>Oxford</pubPlace>
+                  <publisher>Oxford University Press</publisher>
+                  <date>2019</date>
+                  <ref type="url">10.1093/oso/9780190088897.001.0001</ref>
+               </bibl>
+
+               <bibl xml:id="sinhRaghubir">
+                  <author>
+                     <surname>Sinh</surname>
+                     <forename>Raghubir</forename>
+                  </author>
+                  <title level="m">Malwa in Transition, or, A Century of Anarchy</title>
+                  <pubPlace>Bombay</pubPlace>
+                  <publisher>D. B. Taporevala and sons</publisher>
+                  <date>1936</date>
+               </bibl>
+
+               <bibl xml:id="wilson">
+                  <author>
+                     <surname>Wilson</surname>
+                     <forename>H.H.</forename>
+                  </author>
+                  <title level="m">A Glossary of Judicial and Revenue Terms, and of Useful Words
+                     Occurring in Official Documents Relating to the Administration of the
+                     Government of British India</title>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Wm. H. Allen and Co.</publisher>
+                  <date>1855</date>
+               </bibl>
+
+               <bibl xml:id="wink">
+                  <author>
+                     <surname>Wink</surname>
+                     <forename>André</forename>
+                  </author>
+                  <title level="m">Land and Sovereignty in India: Agrarian Society and Politics
+                     under the Eighteenth-Century Maratha Svarājya</title>
+                  <pubPlace>Cambridge</pubPlace>
+                  <publisher>Cambridge University Press</publisher>
+                  <date>1986</date>
+               </bibl>
+
+
+
+               <!--              example journal article use title level a for article, j for journal -->
+               <!--<bibl xml:id="purdy1944">
+                  <author>
+                     <surname>Purdy</surname>
+                     <forename>Richard L.</forename>
+                  </author>
+                  <title level="a">Thomas Hardy And Florence Henniker: The Writing Of "The Spectre
+                     Of The Real"</title>
+                  <title level="j">Colby Quarterly</title>
+                  <date when="1944">1944</date>
+                  <biblScope unit="vol">1</biblScope>
+                  <biblScope unit="issue">8</biblScope>
+                  <biblScope unit="part">article 4</biblScope>
+                  <ref type="url">http://digitalcommons.colby.edu/cq/vol1/iss8/4</ref>
+               </bibl>
+-->
+
+               <bibl xml:id="bellarykar2019">
+                  <author>
+                     <surname>Bellarykar</surname>
+                     <forename>Nikhil</forename>
+                  </author>
+                  <title level="a">Two Marathi Letters from the Arsip Nasional Republik Indonesia: A
+                     Snapshot of Dutch-Maratha Relations in the Late-Eighteenth-Century
+                     Coromandel</title>
+                  <title level="j">Itinerario</title>
+                  <date when="2019">2019</date>
+                  <biblScope unit="vol">44</biblScope>
+                  <biblScope unit="issue">1</biblScope>
+                  <biblScope unit="part">14-31</biblScope>
+                  <ref type="url">https://doi.org/10.1017/S0165115319000032</ref>
+               </bibl>
+
+               <bibl xml:id="bellenoit2014">
+                  <author>
+                     <surname>Bellenoit</surname>
+                     <forename>Hayden</forename>
+                  </author>
+                  <title level="a">Between Qanungos and Clerks: The Cultural and Service Worlds of
+                     Hindustan's Pensmen, c. 1750–1850</title>
+                  <title level="j">Modern Asian Studies</title>
+                  <date when="2014">2014</date>
+                  <biblScope unit="vol">48</biblScope>
+                  <biblScope unit="issue">4</biblScope>
+                  <biblScope unit="part">872-910</biblScope>
+                  <ref type="url">https://doi.org/10.1017/S0026749X13000218</ref>
+               </bibl>
+
+               <bibl xml:id="bhallooRezai2019">
+                  <author>
+                     <surname>Bhalloo</surname>
+                     <forename>Zahir</forename>
+                  </author>
+                  <author>
+                     <surname>Rezai</surname>
+                     <forename>Omid</forename>
+                  </author>
+                  <title level="a">Inscribing Authority: Scribal and Archival Practices of a Safavid
+                     Decree</title>
+                  <title level="j">Journal of the Economic and Social History of the Orient</title>
+                  <date when="2014">2019</date>
+                  <biblScope unit="vol">62</biblScope>
+                  <biblScope unit="part">824-855</biblScope>
+                  <ref type="url">https://doi.org/10.1163/15685209-12341495</ref>
+               </bibl>
+
+               <bibl xml:id="chatterjee2021">
+                  <author>
+                     <surname>Chatterjee</surname>
+                     <forename>Nandini</forename>
+                  </author>
+                  <title level="a">Translating Obligations: Tamassuk and Fārigh-khaṭṭī in the
+                     Indo-Persian World</title>
+                  <title level="j">Journal of the Economic and Social History of the Orient</title>
+                  <date when="2021">2021</date>
+                  <biblScope unit="vol">64</biblScope>
+                  <biblScope unit="issue">5-6</biblScope>
+                  <biblScope unit="part">541–82</biblScope>
+                  <ref type="url">https://doi.org/10.1163/15685209-12341546</ref>
+               </bibl>
+
+               <bibl xml:id="chatterjee2016">
+                  <author>
+                     <surname>Chatterjee</surname>
+                     <forename>Nandini</forename>
+                  </author>
+                  <title level="a">Mahzar-namas in the Mughal and British Empires: The Uses of an
+                     Indo-Islamic Legal Form</title>
+                  <title level="j">Comparative Studies in Society and History</title>
+                  <date when="2021">2016</date>
+                  <biblScope unit="vol">58</biblScope>
+                  <biblScope unit="issue">2</biblScope>
+                  <biblScope unit="part">pp.379-406</biblScope>
+                  <ref type="url">https://doi.org/10.1017/S0010417516000116</ref>
+               </bibl>
+
+               <bibl xml:id="deshpandeP2004">
+                  <author>
+                     <surname>Deshpande</surname>
+                     <forename>Prachi</forename>
+                  </author>
+                  <title level="a">Caste as Maratha: Social Categories, Colonial Policy and Identity
+                     in Early Twentieth-century Maharashtra</title>
+                  <title level="j">Indian Economic and Social History Review</title>
+                  <date when="2014">2004</date>
+                  <biblScope unit="vol">41</biblScope>
+                  <biblScope unit="issue">1</biblScope>
+                  <biblScope unit="part">17-32</biblScope>
+                  <ref type="url">https://doi.org/10.1177/001946460404100102</ref>
+               </bibl>
+
+               <bibl xml:id="fisher2019">
+                  <author>
+                     <surname>Fisher</surname>
+                     <forename>Elaine M.</forename>
+                  </author>
+                  <title level="a">The Tangled Roots of Vīraśaivism: On the Vīramāheśvara Textual
+                     Culture of Srisailam</title>
+                  <title level="j">History of Religions</title>
+                  <date when="2013">2019</date>
+                  <biblScope unit="vol">59</biblScope>
+                  <biblScope unit="issue">1</biblScope>
+                  <biblScope unit="part">1-37</biblScope>
+                  <ref type="url">https://www.jstor.org/stable/23426243?seq=1</ref>
+               </bibl>
+               
+               <bibl xml:id="fukazawa1963">
+                  <author>
+                     <surname>Fukazawa</surname>
+                     <forename>Hiroshi</forename>
+                  </author>
+                  <title level="a">A Study of the Local Administration of Adilshahi Sultanate (A.D. 1489–1686)</title>
+                  <title level="j">Hitotsubashi Journal of Economics</title>
+                  <date when="1944">1963</date>
+                  <biblScope unit="vol">3</biblScope>
+                  <biblScope unit="issue">2</biblScope>
+                  <biblScope unit="part">37-67</biblScope>
+                  <ref type="url">https://www.jstor.org/stable/43295419</ref>
+               </bibl>
+
+               <bibl xml:id="fukazawa1965">
+                  <author>
+                     <surname>Fukazawa</surname>
+                     <forename>Hiroshi</forename>
+                  </author>
+                  <title level="a">Land and Peasants in the Eighteenth Century Maratha Kingdom</title>
+                  <title level="j">Hitotsubashi Journal of Economics</title>
+                  <date when="1944">1965</date>
+                  <biblScope unit="vol">6</biblScope>
+                  <biblScope unit="issue">1</biblScope>
+                  <biblScope unit="part">32-61</biblScope>
+                  <ref type="url">https://www.jstor.org/stable/43295450</ref>
+               </bibl>
+
+               <bibl xml:id="gordon1977">
+                  <author>
+                     <surname>Gordon</surname>
+                     <forename>Stewart N.</forename>
+                  </author>
+                  <title level="a">The Slow Conquest: Administrative Integration of Malwa in the
+                     Maratha Empire, 1720-1760</title>
+                  <title level="j">Modern Asian Studies</title>
+                  <date when="1977">1977</date>
+                  <biblScope unit="vol">11</biblScope>
+                  <biblScope unit="issue">1</biblScope>
+                  <biblScope unit="part">1-40</biblScope>
+                  <ref type="url">https://www.jstor.org/stable/311884</ref>
+               </bibl>
+
+               <bibl xml:id="hasanNurul">
+                  <author>
+                     <surname>Hasan</surname>
+                     <forename>Nurul</forename>
+                  </author>
+                  <title level="a">The Position of Zamindars under the Mughal Empire</title>
+                  <title level="j">Indian Economic and Social History Review</title>
+                  <date when="1977">1964</date>
+                  <biblScope unit="vol">1</biblScope>
+                  <biblScope unit="part">107-119</biblScope>
+                  <ref type="url">https://doi.org/10.1177/001946466400100401</ref>
+               </bibl>
+
+               <bibl xml:id="mDeshpande">
+                  <author>
+                     <surname>Deshpande</surname>
+                     <forename>Madhav</forename>
+                  </author>
+                  <title level="a">Ksatriyas in the Kali Age? Gāgābhatta and His Opponents</title>
+                  <title level="j">Indo-Iranian Journal</title>
+                  <date when="2013">2010</date>
+                  <biblScope unit="vol">53</biblScope>
+                  <biblScope unit="issue">2</biblScope>
+                  <biblScope unit="part">95-120</biblScope>
+                  <ref type="url">https://www.jstor.org/stable/24665176</ref>
+               </bibl>
+
+
+               <bibl xml:id="mirKhanFarman">
+                  <author>
+                     <surname>Mir</surname>
+                     <forename>Masrat Ahmad</forename>
+                  </author>
+                  <author>
+                     <surname>Khan</surname>
+                     <forename>Sumbul Halim</forename>
+                  </author>
+                  <title level="a">Saga of Mughal Farman: Understanding the Essentials</title>
+                  <title level="j">International Journal of Social Science and Economic
+                     Research</title>
+                  <date when="2019">2019</date>
+                  <biblScope unit="vol">4</biblScope>
+                  <biblScope unit="issue">6</biblScope>
+                  <biblScope unit="part">article 3</biblScope>
+                  <ref type="url"
+                     >https://www.academia.edu/39957588/SAGA_OF_MUGHAL_FARMAN_-UNDERSTANDING_THE_ESSENTIALS</ref>
+               </bibl>
+
+               <bibl xml:id="mukherjeeT">
+                  <author>
+                     <surname>Mukherjee</surname>
+                     <forename>Tilottama</forename>
+                  </author>
+                  <title level="a">The Co-Ordinating State and the Economy: The Nizamat in
+                     Eighteenth-Century Bengal</title>
+                  <title level="j">Modern Asian Studies</title>
+                  <date when="2019">2009</date>
+                  <biblScope unit="vol">43</biblScope>
+                  <biblScope unit="issue">2</biblScope>
+                  <biblScope unit="part">pp.389-436</biblScope>
+                  <ref type="url">https://www.jstor.org/stable/20488088</ref>
+               </bibl>
+
+               <bibl xml:id="ohanlon2013">
+                  <author>
+                     <surname>O'Hanlon</surname>
+                     <forename>Rosalind</forename>
+                  </author>
+                  <title level="a">Contested Conjunctures: Brahman Communities and "Early Modernity"
+                     in India</title>
+                  <title level="j">American Historical Review</title>
+                  <date when="2013">2013</date>
+                  <biblScope unit="vol">118</biblScope>
+                  <biblScope unit="issue">3</biblScope>
+                  <biblScope unit="part">765-87</biblScope>
+                  <ref type="url">https://www.jstor.org/stable/23426243?seq=1</ref>
+               </bibl>
+
+               <bibl xml:id="shahnawaz2021">
+                  <author>
+                     <surname>Shahnawaz</surname>
+                     <forename>Mohammad</forename>
+                  </author>
+                  <title level="a">Huṇḍī and Nirakh Huṇḍāwan: Indic Mercantile Instruments in the
+                     Persianate Bazaar</title>
+                  <title level="j">Journal of the Economic and Social History of the Orient</title>
+                  <biblScope unit="vol">64</biblScope>
+                  <biblScope unit="issue">5–6</biblScope>
+                  <biblScope unit="part">660–692</biblScope>
+                  <ref type="url">https://doi.org/10.1163/15685209-12341550</ref>
+               </bibl>
+
+               <bibl xml:id="subramanian1985">
+                  <author>
+                     <surname>Subramanian</surname>
+                     <forename>Lakshmi</forename>
+                  </author>
+                  <title level="a">Capital and Crowd in a Declining Asian Port City: The Anglo-Bania
+                     Order and the Surat Riots of 1795</title>
+                  <title level="j">Modern Asian Studies</title>
+                  <date when="2013">1985</date>
+                  <biblScope unit="vol">19</biblScope>
+                  <biblScope unit="issue">2</biblScope>
+                  <biblScope unit="part">205-237</biblScope>
+                  <ref type="url">https://www.jstor.org/stable/312154</ref>
+               </bibl>
+
+               <bibl xml:id="mas2019">
+                  <author>
+                     <surname>Travers</surname>
+                     <forename>Robert</forename>
+                  </author>
+                  <author>
+                     <surname>De</surname>
+                     <forename>Rohit</forename>
+                  </author>
+                  <title level="a">Petitioning and Political Cultures in South Asia</title>
+                  <title level="j">Modern Asian Studies</title>
+                  <date when="2019">2019</date>
+                  <biblScope unit="vol">53</biblScope>
+                  <biblScope unit="issue">1</biblScope>
+                  <biblScope unit="part">1-311</biblScope>
+                  <ref type="url"
+                     >https://www.cambridge.org/core/journals/modern-asian-studies/issue/447C01EEC035C8B792C209D2B9C3DA69</ref>
+               </bibl>
+
+
+
+               <bibl xml:id="thelen2021">
+                  <author>
+                     <surname>Thelen</surname>
+                     <forename>Elizabeth M.</forename>
+                  </author>
+                  <title level="a">Disputed Transactions: Documents, Language, and Authority in
+                     Eighteenth-Century Marwar</title>
+                  <title level="j">Journal of the Economic and Social History of the Orient</title>
+                  <date when="2021">2021</date>
+                  <biblScope unit="vol">64</biblScope>
+                  <biblScope unit="issue">5–6</biblScope>
+                  <biblScope unit="part">792–825</biblScope>
+                  <ref type="url">https://doi.org/10.1163/15685209-12341553</ref>
+               </bibl>
+
+               <!--              example chapter in book entry -->
+               <bibl xml:id="habib1990">
+                  <author>
+                     <surname>Habib</surname>
+                     <forename>Irfan</forename>
+                  </author>
+                  <title level="a">Merchant Communities in Precolonial India</title>
+                  <title level="m">The Rise of Merchant Empires: Long-Distance Trade in the Early
+                     Modern World, 1350–1750</title>
+                  <pubPlace>Cambridge</pubPlace>
+                  <publisher>Cambridge University Press</publisher>
+                  <date when="1990">1990</date>
+                  <ref type="url">https://doi.org/10.1017/CBO9780511563089.015</ref>
+               </bibl>
+
+               <!--              example encyclopaedia entry -->
+               <bibl xml:id="diplomatic2012">
+                  <author>
+                     <forename>W.</forename>
+                     <surname>Björkman</surname>
+                  </author>
+                  <author>
+                     <forename>G.S.</forename>
+                     <surname>Colin</surname>
+                  </author>
+                  <author>
+                     <forename>H.</forename>
+                     <surname>Busse</surname>
+                  </author>
+                  <author>
+                     <forename>J.</forename>
+                     <surname>Reychmann</surname>
+                  </author>
+                  <author>
+                     <forename>A.</forename>
+                     <surname>Zajaczkowski</surname>
+                  </author>
+                  <title level="a">Diplomatic</title>
+                  <title level="m">Encyclopaedia of Islam</title>
+                  <edition>2</edition>
+                  <date when="2012">2012</date>
+                  <ref type="url">https://dx.doi.org/10.1163/1573-3912_islam_COM_0169</ref>
+               </bibl>
+
+               <bibl xml:id="richardsEImansab">
+                  <author>
+                     <surname>Richards</surname>
+                     <forename>John F.</forename>
+                  </author>
+                  <title level="a">Manṣab and Manṣabdār</title>
+                  <title level="m">Encyclopaedia of Islam</title>
+                  <edition>2</edition>
+                  <pubPlace>Leiden</pubPlace>
+                  <publisher>Brill</publisher>
+                  <date when="2012">2012</date>
+                  <ref type="url">https://dx.doi.org/10.1163/1573-3912_islam_SIM_4931</ref>
+               </bibl>
+
+               <!--               example academic website-->
+               <!--<bibl xml:id="websiteTitle">
+                  <!-\-                  editor or author as appropriate-\->
+                  <editor>Name</editor>
+                  <editor>Other name</editor>
+                  <title level="a">Website Title</title>
+                  <date when="2016">2016</date>
+                  <!-\-                  date of website version release, if appropriate/known -\->
+                  <ref type="url">http://digitalcommons.colby.edu/cq/vol1/iss8/4</ref>
+               </bibl>-->
+
+
+            </listBibl>
+            <listBibl xml:id="bibliography_primary">
+               <bibl xml:id="abulfazl">
+                  <author>
+                     <surname>Allami</surname>
+                     <forename>Abul Fazl</forename>
+                  </author>
+                  <editor role="translator">
+                     <surname>Jarrett</surname>
+                     <forename>Colonel H. S.</forename>
+                  </editor>
+                  <title level="m">The Ain i Akbari</title>
+                  <biblScope unit="vol">2</biblScope>
+                  <pubPlace>Calcutta</pubPlace>
+                  <publisher>Asiatic Society of Bengal</publisher>
+                  <date when="1891">1891</date>
+                  <ref type="url"
+                  >https://archive.org/details/ainiakbarivolum00mubgoog</ref><!--This links to vol. II of the translation, published 1891; update listing, add in translators, cover all volumes? -->
+               </bibl>
+
+               <bibl xml:id="gawan">
+                  <author>
+                     <forename>Mahmud</forename>
+                     <surname>Gawan</surname>
+                  </author>
+                  <editor>
+                     <forename>Ma'suma</forename>
+                     <surname>Ma'dankan</surname>
+                  </editor>
+                  <title level="m">Manazir al-Insha</title>
+                  <pubPlace>Tehran</pubPlace>
+                  <publisher>Farhangistan-i Zaban wa Adab-i Farsi</publisher>
+                  <date when="2002">2002</date>
+               </bibl>
+
+               <bibl xml:id="khan1941">
+                  <author>
+                     <forename>Nawwab Samsamuddaula Shah Nawaz</forename>
+                     <surname>Khan</surname>
+                  </author>
+                  <author>
+                     <forename>Abdul</forename>
+                     <surname>Hayy</surname>
+                  </author>
+                  <editor role="translator">
+                     <forename>Henry</forename>
+                     <surname>Beveridge</surname>
+                  </editor>
+                  <editor role="translator">
+                     <forename>Baini</forename>
+                     <surname>Prashad</surname>
+                  </editor>
+                  <title level="m">The Maathir-ul-Umara</title>
+                  <biblScope unit="vol">1</biblScope>
+                  <pubPlace>Calcutta</pubPlace>
+                  <publisher>The Asiatic Society</publisher>
+                  <date when="1941">1941</date>
+                  <ref type="url"
+                     >https://archive.org/details/in.ernet.dli.2015.46908/page/n3/mode/2up</ref>
+               </bibl>
+
+               <bibl xml:id="khare6">
+                  <editor>
+                     <forename>Ganesh Hari</forename>
+                     <surname>Khare</surname>
+                  </editor>
+                  <title level="m">Aitihasik Farsi Sahitya, Sahava Khand</title>
+                  <pubPlace>Pune</pubPlace>
+                  <publisher>Bharat Itihas Samshodhak Mandal</publisher>
+                  <date when="1973">1973</date>
+               </bibl>
+
+               <bibl xml:id="khobrekar1972">
+                  <editor>
+                     <surname>Khobrekar</surname>
+                     <forename>V.G.</forename>
+                  </editor>
+                  <title level="m">English Translation of Tarikh-i-Dilkasha (Memoirs of Bhimsen
+                     Relating to Aurangzib's Deccan Campaigns)</title>
+                  <pubPlace>Bombay</pubPlace>
+                  <publisher>Department of Archives (Government of Maharashtra)</publisher>
+                  <date>1972</date>
+               </bibl>
+
+               <bibl xml:id="malcolm">
+                  <author>
+                     <surname>Malcolm</surname>
+                     <forename>John</forename>
+                  </author>
+                  <title level="m">A Memoir of Central India</title>
+                  <biblScope unit="vol">2</biblScope>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Kingbury, Parbury and Allen</publisher>
+                  <date>1823</date>
+                  <ref type="url">https://archive.org/details/in.ernet.dli.2015.280883</ref>
+               </bibl>
+
+               <bibl xml:id="mukhlis2013">
+                  <author>
+                     <surname>Mukhlis</surname>
+                     <forename>Anand Ram</forename>
+                  </author>
+                  <editor>
+                     <surname>Shekhar</surname>
+                     <forename>Chander</forename>
+                  </editor>
+                  <editor>
+                     <surname>Ghelichkhani</surname>
+                     <forename>Hamidreza</forename>
+                  </editor>
+                  <editor>
+                     <surname>Yousefdahi</surname>
+                     <forename>Houman</forename>
+                  </editor>
+                  <title level="m">Mirat al-Istilah</title>
+                  <pubPlace>New Delhi</pubPlace>
+                  <publisher>National Missions for Manuscripts</publisher>
+                  <date when="2013">2013</date>
+               </bibl>
+
+               <bibl xml:id="skinnerTashrih">
+                  <author>
+                     <surname>Skinner</surname>
+                     <forename>James</forename>
+                  </author>
+                  <title level="m">Tashriḥ al-aqwām</title>
+                  <textLang>Persian</textLang>
+                  <msIdentifier>
+                     <repository ref="#bl"/>
+                     <idno>Add. 27255</idno>
+                  </msIdentifier>
+                  <ref type="url">https://imagesonline.bl.uk/asset/9017</ref>
+                  <biblScope unit="page">142v</biblScope>
+               </bibl>
+
+               <bibl xml:id="tod1829v1">
+                  <author>
+                     <surname>Tod</surname>
+                     <forename>James</forename>
+                  </author>
+                  <title level="m">Annals and Antiquities of Rajast'han, or the Central and Western
+                     Rajpoot States of India</title>
+                  <biblScope unit="vol">1</biblScope>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Smith, Elder, and Co., and Calkin and Budd</publisher>
+                  <date>1829</date>
+                  <ref type="url"
+                     >https://archive.org/details/dli.venugopal.658/page/n1/mode/2up</ref>
+               </bibl>
+
+
+               <bibl xml:id="iow">
+                  <editor>
+                     <forename>Susan</forename>
+                     <surname>Douglass</surname>
+                  </editor>
+                  <editor>
+                     <forename>Emily</forename>
+                     <surname>Voight</surname>
+                  </editor>
+                  <editor>
+                     <forename>Scott</forename>
+                     <surname>Erich</surname>
+                  </editor>
+                  <editor>
+                     <roleName>Ambassador</roleName>
+                     <forename>Elizabeth</forename>
+                     <surname>McKune</surname>
+                  </editor>
+                  <editor>
+                     <forename>Kathleen</forename>
+                     <surname>Ridolfo</surname>
+                  </editor>
+                  <editor>
+                     <forename>Cory</forename>
+                     <surname>Rutz</surname>
+                  </editor>
+                  <title level="m">Indian Ocean in World History</title>
+                  <ref type="url"
+                     >https://www.indianoceanhistory.org/An-Ocean-of-Paper/Types-of-Contracts.aspx</ref>
+               </bibl>
+
+
+
+               <bibl xml:id="khare1983">
+                  <editor>
+                     <surname>Khare</surname>
+                     <forename>G.H.</forename>
+                  </editor>
+                  <title level="a">Chinchwadkar Dev</title>
+                  <title level="j">Bharat Itihas Sanshodhak Mandal Quarterly</title>
+                  <biblScope unit="vol">61</biblScope>
+                  <biblScope unit="issue">2-4</biblScope>
+                  <biblScope unit="page">26-27</biblScope>
+                  <!--                  the page reference should go in the reference within the document/person/place entry etc; the bibliography entry should be the generic reference to the article or book [response: I'll check with DV -this may be page range of the article ET 11 Jan 22. -->
+                  <title level="s">Shiva Charitra Sahitya</title>
+                  <date when="1983">1983</date>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

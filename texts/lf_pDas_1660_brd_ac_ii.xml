@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1660_brd_ac_ii">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of Nawazish Khan to Purshottam Das granting a house</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#brd"/>
+                  <collection ref="#pDas"/>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <objectType>original</objectType>
+                     <origDate calendar="#hijri-qamri">6 Muharram 1071</origDate>
+                     <origDate calendar="#gregorian" when="1660-09-11">11 September 1660</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p><persName ref="#nawazishKhan">Nawazish Khan</persName> grants a house to
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+                in exchange for
+               <measure type="currency" unit="rupee" quantity="150">150 rupees</measure>
+               of tribute (pishkash). The order specifies that the materials of the house – wood, tiles,
+               etc. – are to be sent by <persName ref="#purshottamDas">Purshottam Das</persName> to an unnamed lord.</p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="parvana"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Building and Construction</term>
+               <term>Money</term>
+               <term>Natural Resources</term>
+               <term>Property</term>
+               <term>Taxation and Tribute</term>
+            </keywords>
+         </textClass>
+
+         <particDesc>
+            <person role="grantor">
+               <persName ref="#nawazishKhan">Nawazish Khan</persName>
+            </person>
+            <person role="grantee">
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_pDas_1660_brd_ac_ii.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1660_brd_ac_ii.jpg"/>
+         <div xml:lang="ara" type="invocation" xml:id="orig_div1" rend="top centre">
+            <p>الله اکبر</p>
+         </div>
+         <div xml:lang="per" type="authorisation" xml:id="orig_div2" rend="right margin">
+            <p><stamp type="seal"><mentioned>
+               <persName ref="#nawazishKhan">نوازش خان</persName>
+               مرید حضرت محمد
+               <persName ref="#aurangzebAlamgir">اورنگزیب عالم گیر </persName>
+               بادشاه غازی 
+               <date calendar="#hijri-qamri">
+                  <num>۱۰۷۰</num>
+               </date>
+            </mentioned></stamp></p>
+         </div>
+         <div xml:lang="per" type="maintext" xml:id="orig_div3">
+            <p>
+               <lb/>شرافت پناه فضیلت دستگاه ملاذی قاضی جیو بعافیت باشند
+               <lb/>بعد هذا مخفی نماند در حویلی که
+               <persName ref="#muhammadHashim">محمد هاشم</persName>
+                شقدار می باشد به
+               <persName ref="#purshottamDas">پرسوتم</persName>
+                چودری
+               <lb/>پرگنه
+               <placeName ref="#pgDhar">دهار</placeName>
+                بخشیدیم باید که بمجرد وصول پروانه چوب و کهپریل
+               <lb/>حویلی مسطور آنچه باشد روانه حضور نمایند و زمین را به چودری مذکور
+               <lb/>حواله نموده
+               <measure type="currency" unit="rupee" quantity="150">یکصد پنجاه روپیه</measure>
+                از بابت پیشکش آن گرفته بمصحوب
+               <persName ref="#habibAllahBeg">حبیب الله بیگ</persName>
+               <lb/>ارسال دارند درین باب نهایت تاکید دانند زیاده چه نوشته
+               <lb/>شود تحریر فی التاریخ
+               <date calendar="#hijri-qamri">
+                  <num>۶</num>
+                   محرم سنه
+                  <num>۱۰۷۱</num>
+               </date>
+               <g ref="#faqat">فقط</g>
+            </p>
+         </div>
+         <div xml:id="orig_div4" xml:lang="ara" type="invocation" rend="right margin">
+            <p>هو</p>
+         </div>
+         <div xml:lang="per" type="authorisation" xml:id="orig_div5" rend="right margin">
+            <p>
+               <lb/><app>
+                  <rdg cert="medium">ملازمه</rdg>
+                  <rdg cert="low">مداد شد</rdg></app>
+               <lb/>حسب المسطور مقرر دانند
+               <measure type="currency" unit="rupee" quantity="200">دو صد روپیه</measure>
+               <lb/>قیمت زمین از او بگیرند دیوارها
+               <gap/>
+               <lb/>چوب وغیره تخته
+               <unclear>دیانت</unclear>
+                بحضور روانه نمایند
+               <lb/>درین باب تاکید تمام تمام دانند
+               <g ref="#faqat">فقط</g>
+               <g ref="#faqat">فقط</g>
+            </p>
+         </div>
+
+         <div corresp="#orig_div1" xml:id="trans_div1">
+            <p>God is great</p>
+         </div>
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p>
+               <stamp type="seal">Round black ink seal<mentioned>
+                  <persName ref="#nawazishKhan">Nawazish Khan</persName>
+                  disciple of Lord Muhammad
+                  <persName ref="#aurangzebAlamgir">Aurangzeb Alamgir</persName>
+                  <ref type="glossary" target="#gl_badshah">Badshah</ref> <ref type="glossary" target="#gl_ghazi">Ghazi</ref>
+                  <date calendar="#hijri-qamri">1070</date>
+               </mentioned></stamp>
+            </p>
+         </div>
+         <div corresp="#orig_div3" xml:id="trans_div3">
+            <p>
+               <lb/>The Refuge of Virtue and Protector of Wisdom, the Spiritual <ref type="glossary" target="#gl_qazi">Qazi</ref> <ref type="glossary" target="#gl_jiu">Jiu</ref>, may he be safe!
+               <lb/>After this, let it not remain hidden that I granted the house which belonged to
+               <persName ref="#muhammadHashim">Muhammad Hashim</persName>
+                <ref type="glossary" target="#gl_shiqdar">shiqdar</ref>
+               <lb/>to
+               <persName ref="#purshottamDas">Purshottam Das</persName>
+               <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> of <ref type="glossary" target="#gl_pargana">pargana</ref>
+               <placeName ref="#pgDhar">Dhar</placeName>. It is necessary that as soon as the <ref type="glossary" target="#gl_parvana">parvana</ref> is received, he should send any wood and tiles
+               <lb/>of the said house to the Lord. And the land
+               <lb/>having been entrusted to the said <ref type="glossary" target="#gl_chaudhri">chaudhri</ref>,               
+               <measure type="currency" unit="rupee" quantity="150">150 rupees</measure>
+               should be taken as <ref type="glossary" target="#gl_pishkash">pishkash</ref> for this and sent in the company of
+               <persName ref="#habibAllahBeg">Habibullah Beg</persName>.
+               <lb/>This matter should be known as totally settled. What more should be written? 
+               <lb/>Written on the date of <date calendar="#hijri-qamri">6 Muharram, year 1071</date>.
+               <g ref="#faqat">Nothing further.</g>
+            </p>
+         </div>
+         <div corresp="#orig_div4" xml:id="trans_div4">
+            <p>He [God] is</p>
+         </div>
+         <div corresp="#orig_div5" xml:id="trans_div5">
+            <p>
+               <lb/><app><rdg cert="medium">Being diligent,</rdg><rdg cert="low">It was inked.</rdg></app>
+               <lb/>know it settled as written. Take
+               <measure type="currency" unit="rupee" quantity="200">200 rupees</measure>
+               <lb/>as the price of the land from him. Have the walls <gap/>
+               <lb/>wood etc. – planks and reeds – sent to the Lord.
+               <lb/>Know it totally settled in this matter.
+               <g ref="#faqat">Nothing further.</g>
+            <g ref="#faqat">Nothing further.</g><note>At the top of the page two clerical notes appear faintly on the verso. One appears to be in Persian and the other in Hindi. However, an image of the verso is not available.</note>
+            </p>
+         </div>
+         
+      </body>
+   </text>
+</TEI>

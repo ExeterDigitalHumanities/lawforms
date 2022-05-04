@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1658_dai_lns235ms_h"> 
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of Hakim Muzaffar, servant of Dara Shukoh, to Purshottam Das about working loyally</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Nandini Chatterjee</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#dai"/>
+                  <collection ref="#pDas"/>
+                  <idno>LNS 235 MS h</idno>
+               </msIdentifier>
+               <history>
+                  <origin> 
+                     <origDate calendar="#julus">26 Jumada al-sani 32</origDate>
+                     <origDate calendar="#hijri-qamri">26 Jumada al-sani 1068</origDate>
+                     <origDate calendar="#gregorian"  when="1658-03-31">31 March 1658</origDate>                 
+                  </origin>
+               </history>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p><persName ref="#hakimMuzaffar">Hakim Muzaffar</persName>, servant of <persName ref="#daraShukoh">Shah Buland Iqbal Dara</persName>, acknowledges a petition sent by <persName ref="#purshottamDas">Purshottam Das</persName> and instructs him to work loyally so that he may be rewarded when the authorities reach his area.</p></abstract>       
+        <textClass> 
+           <keywords scheme="#formal"><term key="parvana"/></keywords>
+           <keywords scheme="#functional"><term key="orders"/></keywords>
+           <keywords scheme="#thematic">
+              <term>Administration</term>
+              <term>Petitioning</term>
+              <term>Taxation and Tribute</term>
+           </keywords>
+        </textClass>
+
+        <particDesc>
+           <person role="issuer">
+              <persName ref="#hakimMuzaffar">Hakim Muzaffar</persName>
+           </person>
+           <person role="recipient">
+              <persName ref="#purshottamDas">Purshottam Das</persName>
+           </person>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+      <facsimile>
+      <graphic url="lf_pDas_1658_dai_lns235ms_h_r.jpg"/>
+      <graphic url="lf_pDas_1658_dai_lns235ms_h_v.jpg"/>
+   </facsimile>
+  <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1658_lns235ms_h_r.jpg"/>
+         
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre"> 
+            <p>الله اکبر</p>
+         </div>
+         <div corresp="#orig_div1"  xml:id="trans_div1">  
+            <p>God is great</p> 
+         </div>
+            
+         <div xml:id="orig_div2" xml:lang="per" type="maintext">
+            <p>
+               <lb/>مطیع الاسلام
+               <persName ref="#purshottamDas">پرسوتم</persName>
+               چودهری و
+               <persName ref="#parasRam">پرسرام</persName>
+               قانونوگوی پرگنه
+               <placeName ref="#pgDhar">دهار</placeName>
+               را معلوم بوده باشد
+               <lb/>عرضه داشتی که درین ولا ارسال داشته بودند رسید آنکه از سربراهی کار و آبادانی  
+               <lb/>پرگنه و دولتخواهی سرکار والا شاهی معروض داشته  بود بوضوح انجامید  چون  
+               <lb/>اینجانب نیز درین نزدیکی معملات این حدود را صورت پذیر گردانیده  
+               <lb/>متوجه آن سمت می شود باید که تا رسیدن آنجانب شب و روز در اهتمام  
+               <lb/>و تاکید تحصیل واجبی سرکار  ساعی و سرگرم بوده آنچنان سعی بجا آورند که زر واجبی سرکار هر وقت 
+               <lb/>روز بروز واصل فوطه خانه  می شده باشد و شیوه دولتخواهی و آبادانی  
+               <lb/>که باعث نتایج عظیم است شعار خودها ساخته چنان سعی نمایند که<note>After this, text continues on the right margin.</note>
+               <lb/> بعد از رسیدن آنحدود 
+               <lb/>دولتخواهی شما یان از قرار واقع بظهور آید و موافق  
+               <lb/>دولتخواهی به این نتیجه سر افراز گردید یقین که  
+               <lb/>در آنچه به بود خود داند بعمل خواهد آورد 
+               <lb/>بتاریخ
+               <date calendar="#julus">بیست و ششم شهر جمادی الثانی سنه
+               <num>٣٢</num>
+               </date>              
+               جلوس والا
+               <g type="faqat">فقط</g> 
+            </p>
+         </div>
+         
+         <div corresp="#orig_div2"  xml:id="trans_div2">  
+            <p>
+               <lb/>Obedient to Islam <persName ref="#purshottamDas">Purshottam</persName> <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> and <persName ref="#parasRam">Paras Ram</persName> <ref type="glossary" target="#gl_qanungo">qanungo</ref> of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#pgDhar">Dhar</placeName> should be informed that 
+               <lb/>the <ref type="glossary" target="#gl_arzdasht">ʿarzdasht</ref> that you had recently sent has arrived. That which you had written about the performance of work and the populating of 
+               <lb/>the <ref type="glossary" target="#gl_pargana">pargana</ref> and [your] loyalty towards the exalted government has been represented and made evident. Since 
+               <lb/>this person has [I have] recently settled the affairs of this area, 
+               <lb/>He [I] will set out in that [your] direction. It is necessary that until arriving there, [you] make efforts night and day  
+               <lb/>and be engaged in collecting the dues of the government, and make efforts such that the money that is due to the government always 
+               <lb/>day by day reaches the treasury. And the habit of loyalty and populating [of the <ref type="glossary" target="#gl_pargana">pargana</ref>],
+               <lb/>which is the cause for glorious results, should be your practice, and make such efforts that  
+               <lb/>after [our] reaching those areas,
+               <lb/>your loyalty becomes obvious. And according to [your] 
+               <lb/>loyalty to these ends, you will be glorified [rewarded]. Surely 
+               <lb/>you know wherein your welfare lies and will implement it. 
+               <lb/>Dated <date calendar="#julus">26 of the month of Jumada al-sani in the year 32</date> of the exalted reign. <g ref="#faqat">Nothing further</g>.  
+            </p>
+         </div>
+         
+         <div xml:id="orig_div3" xml:lang="per" type="authorisation" rend="right margin">
+            <p><stamp type="seal"><mentioned>
+               <persName ref="#hakimMuzaffar">حکیم مظفر</persName>
+               بنده
+               <persName ref="#daraShukoh">شاه بلند اقبال شاه دارا</persName>
+               <date calendar="#hijri-qamri">۱۰۶۵</date>
+            </mentioned></stamp></p>
+         </div> 
+         <div corresp="#orig_div3"  xml:id="trans_div3"><p><stamp type="seal">Black round ink seal<mentioned><persName ref="#hakimMuzaffar">Hakim Muzaffar</persName> slave of <persName ref="#daraShukoh">Shah Buland Iqbal Shah Dara</persName> <date calendar="#hijri-qamri">1065</date><note>The seal was issued in 1654–55 per the Gregorian calendar.</note></mentioned></stamp></p></div>
+         
+         <pb n="1r" facs="lf_pDas_1658_lns235ms_h_v.jpg"/>
+         
+         <div xml:id="orig_div4" xml:lang="per" type="clericalNotes" rend="left margin">
+            <p>
+               <lb/>پروانه
+               <persName ref="#hakimMuzaffar">حکیم مظفر</persName>
+               <lb rend="empty"/>
+               <lb/>تاریخ
+               <date calendar="#julus"><num>٢۶</num>
+               شهر جمادی الثانی سنه
+               <num>٣۲</num></date>
+               نقل بدفتر دیوان تن شد بمعه 
+               <choice><abbr>م</abbr><expan>مهر</expan></choice> 
+               <note>In manuscripts, م normally indicates تمام or 'complete'. Here, however, مهر or 'seal' seems more appropriate.</note>
+               <lb rend="empty"/>
+               <lb/>تاریخ 
+                 <date calendar="#julus"><num>٢۶</num>
+                  شهر جمادی الثانی سنه
+               <num>٣۲</num></date>
+               داخل سیاهه حضور شد
+            </p>
+         </div>
+         <div corresp="#orig_div4"  xml:id="trans_div4">  
+            <p>
+               <lb/><ref type="glossary" target="#gl_parvana">Parvana</ref> of <persName ref="#hakimMuzaffar">Hakim Muzaffar</persName>
+               <lb rend="empty"/>
+               <lb/>On the date 26 Jumada al-sani of the year <date calendar="#julus">32</date>, a copy was taken in the office of the <ref type="glossary" target="#gl_diwanitan">diwan-i tan</ref>, with seal.
+               <lb rend="empty"/>
+               <lb/>On the date 26 of the month of Jumada al-sani in the year <date calendar="#julus">32</date>, [it] was entered in the <ref type="glossary" target="#gl_siyahaHuzur">siyaha huzur</ref>. 
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_mandloi_1700_batch3">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of Hidayat Khan appointing Nandlal to the position of chaudhri of Kanpil</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Nandini Chatterjee</persName>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                 <repository ref="#bri"/>                   
+                  <collection ref="#mandloi"/>
+                  <idno>no shelfmark</idno> 
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#julus">25 Shawwal 44</origDate> 
+                     <origDate calendar="#hijri-qamri">25 Shawwal 1111</origDate>
+                     <origDate calendar="#gregorian"  when="1700-04-15">15 April 1700</origDate>                 
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p><persName ref="#nandlal">Nandlal</persName>, son of Churaman, is appointed to serve as the landlord (chaudhri) of <placeName ref="#kampel">Kanpil [Kampel]</placeName> on the death of his father.</p></abstract>       
+        
+        <textClass>
+           <keywords scheme="#formal"><term key="parvana"/></keywords>
+           <keywords scheme="#functional"><term key="orders"/></keywords>
+           <keywords scheme="#thematic">
+              <term>Administration</term>
+              <term>Inheritance</term>
+              <term>Peasants</term>
+           </keywords>
+        </textClass>
+        
+        <particDesc>
+           <person role="grantor">
+              <persName ref="#hidayatKhan">Hidayat Khan</persName>
+           </person>
+           <person role="grantee">
+              <persName ref="#nandlal">Nandlal</persName>
+           </person>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+
+   <facsimile>
+      <graphic url="lf_mandloi_1700_batch3_r.jpg"/>
+      <graphic url="lf_mandloi_1700_batch3_v.jpg"/>
+   </facsimile>
+   
+  <text>
+      <body>
+         
+         <pb n="1r" facs="lf_mandloi_1700_batch3_r.jpg"/>
+         
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="top centre"><p>هو</p></div>
+         <div corresp="#orig_div1"  xml:id="trans_div1"><p>He [God] is</p></div>
+         
+         <div xml:id="orig_div2" xml:lang="per" type="authorisation" rend="right margin">
+            <p><stamp type="seal"><mentioned>
+               <persName ref="#hidayatKhan">هدایت خان</persName>
+               بنده
+               <persName ref="#aurangzebAlamgir">عالمگیر</persName>
+               بادشاه غازی
+               <date calendar="#julus">۲۶</date>
+            </mentioned></stamp>
+            </p>
+         </div> 
+         <div corresp="#orig_div2"  xml:id="trans_div2"><p><stamp type="seal">Round black ink seal<mentioned><persName ref="#hidayatKhan">Hidayat Khan</persName> servant of <persName ref="#aurangzebAlamgir">Alamgir</persName> <ref type="glossary" target="#gl_badshah">Badshah</ref> <ref type="glossary" target="#gl_ghazi">Ghazi</ref> <date calendar="#hijri-qamri">26</date></mentioned></stamp></p></div>
+         
+         <div xml:id="orig_div3" xml:lang="per" type="maintext">
+            <p>
+               <lb/>متصدیان مهمات حال و استقبال پرگنه
+               <placeName ref="#kampel">کنیل</placeName>
+               سرکار
+               دار الفتح
+               <placeName ref="#ujjain">اجین</placeName>
+               <lb/>مضاف بصوبه
+               <placeName ref="#malwa">مالوا</placeName>
+               بداند که چون بموجب نشان عنایت عنوان
+               <lb/>خدمت چودرائی پرگنه مرقوم از جناب مکرمت و افضال
+               <lb/>حسب الضمن از انتقال چورامن چودهری آنجا به
+               <persName ref="#nandlal">نندلال</persName>
+               پسرش
+               <lb/>بشرط دولتخواهی و آبادانکار و حسن سلوک با رعایا
+               <lb/>مرحمت گشته باید که خدمت مزبور را بمشار الیه
+               <lb/>مقرر دانسته دست تصلی او را در اجرای امور مضافه
+               <lb/>این خدمت قوی و مطلق گردانند در این باب تاکید اکید و
+               <lb/>قدغن مزید دانند بتاریخ بیست و پنجم شهر شوال سنه
+               <date calendar="#julus">۴۴</date>
+               <lb/>از جلوس منعمت مانوس سمت تحریر یافت
+               <g ref="#baiz">بیض</g>
+            </p>
+         </div>
+         
+         <div corresp="#orig_div3"  xml:id="trans_div3">  
+            <p>
+               <lb/>The current and future officials of the <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#kampel">Kanpil [Kampel]</placeName>, <ref type="glossary" target="#gl_sarkar">sarkar</ref> Abode of Victory <placeName ref="#ujjain">Ujjain</placeName>, 
+               <lb/>subordinate to <ref type="glossary" target="#gl_suba">suba</ref> <placeName ref="#malwa">Malwa</placeName> should know that according to the kindness-bearing <ref type="glossary" target="#gl_nishan">nishan</ref> 
+               <lb/>the service of <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> in the aforementioned <ref type="glossary" target="#gl_pargana">pargana</ref>, from the gracious and honourable gentleman
+               <lb/>in accordance with the details on the <ref type="glossary" target="#gl_zimn">zimn</ref> [of this document], on the death of the <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> Churaman, <persName ref="#nandlal">Nandlal</persName>, his son, 
+               <lb/>has been kindly appointed to the service of <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> of that place [<placeName ref="#kampel">Kanpil</placeName>] on condition of loyalty and cultivation [of the land] and good behaviour towards the peasants. 
+               <lb/>It is necessary that knowing the service assigned to the said person, 
+               <lb/>they shall be robust and unconditional [in giving] a comforting hand to him in the execution of the affairs related 
+               <lb/>to this service. Know this matter to be settled,
+               <lb/>and all prohibitions in place. Written on the twenty-fifth of the month of Shawwal, <date calendar="#julus">44th year</date>  
+               <lb/>of the exalted reign, which is glorious. Ended. 
+            </p>
+         </div>
+         
+         <pb n="1v" facs="lf_mandloi_1700_batch3_v.jpg"/>
+         
+         <div xml:id="orig_div4" xml:lang="per" type="clericalNotes" rend="middle">
+            <p>
+               <lb/>مقرر ضمن خدمت چودهرای پرگنه
+               <placeName ref="#kampel">کنپیل</placeName>
+               سرکار دار الفتح
+               <placeName ref="#ujjain">اجین</placeName>
+               <lb/>مضاف بصوبه
+               <placeName ref="#malwa">مالوا</placeName>
+               بموجب نشان سعادت عنوان
+               <lb/>مرقوم بتاریخ ۲۱ بیست و یکم شهر شوال سنه  
+               <date calendar="#julus">۴۴</date>
+               از جلوس والا
+               <lb/>از انتقال چورامن چودهری پرگنه مذکور به
+               <persName ref="#nandlal">نندلال</persName>
+               پسرش
+               <lb/>بشرط دولتخواهی و آبادان کاری مرحمت باشد
+            </p>   
+         </div>
+         <div xml:id="trans_div4" corresp="#orig_div4">
+            <p>
+               <lb/>Confirmed by the <ref type="glossary" target="#gl_zimn">zimn</ref> that the service of the <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#kampel">Kanpil [Kampel]</placeName>, <ref type="glossary" target="#gl_sarkar">sarkar</ref> Abode of Victory <placeName ref="#ujjain">Ujjain</placeName>,
+               <lb/>subordinate to <ref type="glossary" target="#gl_suba">suba</ref> <placeName ref="#malwa">Malwa</placeName> according to the blessed <ref type="glossary" target="#gl_nishan">nishan</ref> 
+               <lb/>written on the date of 21 twenty-first of the month of Shawwal of the <date calendar="#julus">44th</date> year of the exalted reign,
+               <lb/>on the death of the <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> Churaman, <persName ref="#nandlal">Nandlal</persName>, his son, 
+               <lb/>on condition of loyalty and cultivation [of the land] should be appointed.
+            </p>   
+         </div>   
+         
+         <div xml:id="orig_div5" xml:lang="per" type="clericalNotes" rend=" middle right margin"><p>بتاریخ ۲۹ شوال سنه
+            <date calendar="#julus">۴۴</date>
+            داخل سیاهه حضور است
+         </p></div>
+         <div xml:id="trans_div5" corresp="#orig_div5"><p>On the date of 29 of Shawwal of the <date calendar="#julus">44th</date> year, it is entered in the account book of the government.</p></div>
+         
+         <div xml:id="orig_div6" xml:lang="per" type="clericalNotes" rend="bottom right margin"><p>بتاریخ ۲۹ شوال سنه 
+            <date calendar="#julus">۴۴</date>
+            نقل بدفتر دیوان رسید
+            <lb rend="empty"/>د
+         </p></div>
+         <div xml:id="trans_div6" corresp="#orig_div6"><p>On the date of 29 of Shawwal of the <date calendar="#julus">44th</date> year, a copy reached the <ref type="glossary" target="#gl_daftar">daftar</ref> of the <ref type="glossary" target="#gl_diwan">diwan</ref>.
+            <lb rend="empty"/>dal<note>The precise meaning of this single Persian letter 'dal' written below the clerical note is unclear, but it is a common feature of such notes.</note>
+         </p></div>
+         
+         <div xml:id="orig_div7" xml:lang="per" type="clericalNotes" rend="bottom centre"><p>محل</p></div>
+         <div xml:id="trans_div7" corresp="#orig_div7"><p><gap/></p></div>
+        
+         <div xml:id="orig_div8" xml:lang="per" type="clericalNotes" rend="left margin"><p>بتاریخ
+            ۲۹
+            شوال سنه
+            <date calendar="#julus">۴۴</date>
+            جلوس والا نقل بدفتر
+            <gap/>
+            <unclear>دیوان</unclear>
+            <gap/>
+            حاضر شد
+            <g ref="#faqat">فقط</g>
+            <lb rend="empty"/>م
+         </p></div>
+         <div xml:id="trans_div8" corresp="#orig_div8"><p>On the date of 29 of Shawwal of the <date calendar="#julus">44th</date> year of the exalted reign, a copy was prepared for the <ref type="glossary" target="#gl_daftar">daftar</ref> <gap/> <unclear><ref type="glossary" target="#gl_diwan">diwan</ref></unclear> <gap/>. Nothing further.
+            <lb rend="empty"/>mim<note>The precise meaning of this single Persian letter 'mim' written below the clerical note is unclear, but it is a common feature of such notes.</note>
+         </p></div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_aurangzebFarman_1694_lm">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of Aurangzeb Alamgir to Shahuji Bhonsle confirming his local kingship in exchange for loyal service</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Nandini Chatterjee</persName>
+               <persName>Dominic Vendell</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#lm"/>
+                  <collection ref="#liverpool"/>
+                  <idno>Farman</idno>
+               </msIdentifier>
+
+               <history>
+                  <origin>
+                     <origDate calendar="#julus">11 Muharram 38</origDate>
+                     <origDate calendar="#hijri-qamri">11 Muharram 1106</origDate>
+                     <origDate calendar="#gregorian" when="1694-09-01">1 September 1694</origDate>
+                  </origin>
+               </history>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="formal">
+               <bibl>Law Forms project formal text categories <ptr
+                     target="../metadata/taxonomy.xml#formal"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="functional">
+               <bibl>Law Forms project functional text categories <ptr
+                     target="../metadata/taxonomy.xml#functional"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>On the recommendation of
+               <persName ref="#zulfiqarKhan">Zulfiqar Khan</persName>, the Mughal emperor <persName ref="#aurangzebAlamgir">Aurangzeb Alamgir</persName> forgives the Maratha ruler of Thanjavur
+               <persName ref="#shahujiBhonsla">Shahuji Bhonsle</persName> for rebellion after he paid thirty thousand rupees as tribute,
+               surrendered several forts, and promised not to assist his cousin, the Maratha king <persName ref="#rajaramBhonsla">Rajaram</persName>.<note><persName ref="#zulfiqarKhan">Zulfiqar Khan's</persName> campaign against <persName ref="#shahujiBhonsla">Shahuji Bhonsla</persName>, and the resulting <ref type="glossary" target="#gl_qaul">qaul-nama</ref> that set out the terms of submission, which are also described in this document, is discussed <ref type="bibl" target="#sarkar1952">Sarkar, History of Aurangzib, Vol. 5, pp. 80-2</ref>. 
+                  For a description of the assistance <persName ref="#shahujiBhonsla">Shahuji Bhonsla</persName> had previously provided <persName ref="#rajaramBhonsla">Rajaram Bhonsla</persName>, see p. 61 of the same volume.</note>
+            </p>
+         </abstract>
+         <textClass>
+            <keywords scheme="#formal">
+               <term key="farman"/>
+            </keywords>
+            <keywords scheme="#functional">
+               <term key="orders"/>
+            </keywords>
+            <keywords scheme="#thematic">
+               <term>Administration</term>
+               <term>Grants</term>
+               <term>Petitioning</term>
+               <term>Taxation and Tribute</term>
+               <term>War</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <person role="grantor">
+               <persName ref="#aurangzebAlamgir">Aurangzeb Alamgir</persName>
+            </person>
+            <person role="grantee">
+               <persName ref="#shahujiBhonsla">Shahuji Bhonsla</persName>
+            </person>
+            <person role="supplicant">
+               <persName ref="#zulfiqarKhan">Zulfiqar Khan</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="lf_aurangzebFarman_1694_lm_r1.jpg"/>
+      <graphic url="lf_aurangzebFarman_1694_lm_r3.jpg"/>
+      <graphic url="lf_aurangzebFarman_1694_lm_r4.jpg"/>
+      <graphic url="lf_aurangzebFarman_1694_lm_v.jpg"/>
+      <graphic url="lf_aurangzebFarman_1694_lm_spine.jpg"/>
+   </facsimile>
+
+   <text>
+      <body>
+         <pb n="1r" facs="lf_aurangzebFarman_1694_lm_r1.jpg"/>
+         
+         <div type="invocation" xml:lang="per" xml:id="orig_div1" rend="top centre">
+            <p>باسمه سبحانه و تعالی شانه</p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p>In His name, may He be praised, the [Lord] most high</p>
+         </div>
+
+         <div type="authorisation" xml:lang="per" xml:id="orig_div2" rend="top right">
+            <p>
+               <stamp type="seal"><mentioned>
+                  <lb/><persName ref="#aurangzebAlamgir">ابوالظفر محی الدین محمد عالم گیر</persName>
+                  پادشاه
+                  غازی 
+                     <date calendar="#hijri-qamri">۱۰۷۹</date>
+                     <date calendar="#julus">۱۲</date>
+                     <lb/>ابن
+                     <persName ref="#shahJahan">شاه جهان</persName>
+                      پادشاه
+                     <lb/>ابن
+                     <persName ref="#jahangir">جهانگیر</persName>
+                      پادشاه
+                     <lb/>ابن
+                     <persName ref="#akbar">اکبر</persName>
+                      پادشاه
+                     <lb/>ابن
+                     <persName ref="#humayun">همایون</persName>
+                      پادشاه
+                     <lb/>ابن
+                     <persName ref="#babur">بابر</persName>
+                      پادشاه
+                     <lb/>ابن
+                     <persName ref="#umarShaikh">عمر شیخ</persName>
+                      شاه
+                  <lb/>ابن
+                     <persName ref="#abuSaidSultan">ابو سعید سلطان</persName>
+                      شاه
+                     <lb/>ابن
+                     <persName ref="#muhammadMirza">سلطان محمد</persName>
+                      شاه
+                     <lb/>ابن
+                     <persName ref="#miranShah">میران شاه</persName>
+                     <lb/>ابن امیر
+                     <persName ref="#timur">تیمور</persName>
+                      صاحب قران</mentioned></stamp>
+            </p>
+         </div>
+         <div xml:id="trans_div2" corresp="#orig_div2">
+            <p><stamp type="seal">Round black ink seal<mentioned>
+               <lb/><persName ref="#aurangzebAlamgir">Abu al-Jafar Muhiuddin Muhammad Aurangzeb</persName> <ref type="glossary" target="#gl_badshah">Badshah</ref> <ref type="glossary" target="#gl_ghazi">Ghazi</ref> <date calendar="#hijri-qamri">1079</date> <date calendar="#julus">12</date>,
+               <lb/>son of Emperor <persName ref="#shahJahan">Shah Jahan</persName>
+               <lb/>son of Emperor <persName ref="#jahangir">Jahangir</persName>
+               <lb/>son of Emperor <persName ref="#akbar">Akbar</persName>
+               <lb/>son of Emperor <persName ref="#humayun">Humayun</persName>
+               <lb/>son of Emperor <persName ref="#babur">Babur</persName>
+               <lb/>son of King <persName ref="#umarShaikh">Umar Shaikh</persName>
+               <lb/> son of King <persName ref="#abuSaidSultan">Abu Said Sultan</persName>
+               <lb/>son of King <persName ref="#muhammadMirza">Sultan Muhammad</persName>
+               <lb/>son of <persName ref="#miranShah">Miran Shah</persName>
+               <lb/>son of Sahib Qiran<note>"Sahib Qiran," which may be translated as "Lord of Conjunction," was a title referring to an ideal ruler whose messianic rise coincides with the powerful conjunction of the planets Saturn and Jupiter. It was particularly associated with the Turco-Mongol warlord Timur, and later appropriated by the Mughal emperor Shah Jahan. For further discussion, see <ref type="bibl" target="#moin2012">Moin, The Millennial Sovereign, pp. 23-55</ref>.</note> <ref type="glossary" target="#gl_amir">Amir</ref> <persName ref="#timur">Timur</persName> 
+            </mentioned></stamp></p>
+         </div>
+         
+         <div type="authorisation" xml:lang="per" xml:id="orig_div3" rend="top centre">
+            <p> <stamp type="cipher"><mentioned>فرمان
+               <persName ref="#aurangzebAlamgir">محی الدین محمد ابوالظفر اورنگزیب عالم گیر</persName>
+                بهادر پادشاه غازی</mentioned></stamp></p>
+         </div>
+         <div xml:id="trans_div3" corresp="#orig_div3">
+            <p><stamp type="cipher"><ref type="glossary" target="#gl_tughra">Tughra</ref> in red and gold ink<mentioned><ref type="glossary" target="#gl_farman">Farman</ref> of
+               <persName ref="#aurangzebAlamgir">Muhiuddin Muhammad Abu al-Zafar Aurangzeb
+                  Alamgir</persName>
+                <ref type="glossary" target="#gl_bahadur">Bahadur</ref> <ref type="glossary" target="#gl_badshah">Padshah</ref> <ref type="glossary" target="#gl_ghazi">Ghazi</ref></mentioned></stamp></p>
+         </div>
+
+         <div type="maintext" xml:lang="per" xml:id="orig_div4">
+            <p>
+               <lb/>زبدة الاقران خلاصة الاخوان مطیع الاسلام
+               <persName ref="#shahujiBhonsla">ساهوجی بهونسلا</persName>
+               <lb/> بنوازش پادشاهی امیدوار بوده بداند که درین ایام فیروزی انجام
+               <lb/> از نوشته خانه زاد فدوی شجاعت نشان
+               <persName ref="#zulfiqarKhan">ذوالفقار خان</persName>
+                بهادر بعرض مقدس معلی رسید که آنمطیع الاسلام از تقصیرات گذشته
+               <lb/> پیشمان گشته بیاوری نیک اختری کمربندگی و فرمانبری بر میان جان بسته مبلغ
+               <measure type="currency" unit="rupee" quantity="3000000">سی لک روپیه</measure>
+                پشکش سرکار فلک مدار نموده
+               <lb/> من جمله آن
+               <measure type="currency" unit="rupee" quantity="2000000">بیست لک روپیه</measure>
+                از نقد و جنس بوصول رسانیده قلعه
+               <placeName ref="#palamkottah">پالم کوتا</placeName>
+                وغیرها سه قلعه را با ولایات متعلقه تسلیم اولیاء دولت قاهره غالبه
+               <lb/>کرده متعهد شده که پیرامون امداد
+               <persName ref="#rajaramBhonsla">رامآء</persName>
+                شقاوت سیما ظاهراً و باطنا نگردد و التماس صدور فرمان والا شان مرحمت عنوان نموده
+               <lb/>بنابرین فضل و کرم پادشاهانه از راه ذره پروری و عاطفت گستری او را بعنایت اصدار
+               اینمثال واجب الامتثال که پیرانه امان و سرمآ
+               <lb/>اطمینان او است متضمن نوید عفو و صفح جرائم و مأثم و موهبت خلعت فاخره و فیل و پدک
+               مرصع نواخته بشرط احتراز و اجتناب از معاونت
+               <lb/>و موافقت
+               <persName ref="#rajaramBhonsla">رامآء</persName>
+                روسیاه و رفیقان گمراه او بمرحمت خطاب کلان راجگی و زمینداری محالی که در تصرف آنزبده
+               الاقران است
+               <lb/>مطابق اسناد بیجاپوریان امتیاز و اعتبار بخشید باید که سپاس و ستایش بخشش و بخشایش
+               والا بجای آورده بر منهج رسوخ اطاعت
+               <lb/>و فرمانبرداری و خلوص انقیاد و خدمتگزاری ثابت و مستقیم بوده بر طبق قرار داد
+               خویشتن همه پشکش را بخزانه عامره عائد کند و
+               <lb/>چنانکه تعهد نموده از اعانت
+               <persName ref="#rajaramBhonsla">رامآء</persName>
+               مقهور و همراهایش دوری گزیده پیوسته در تقدیم خدمات
+               پادشاهی و لوازم دولتخواهی کوشیده خان بهادر را
+               <lb/>از خود راضی و شاکر داشته در کشتن و بستن آن خاسر مدبر اهتمام تمام بعمل آورد و حسن بندگی
+               را مثمر نتایج نیک شناسد 
+               <date calendar="#julus">یازدهم محرم سال سی و هشتم</date>
+               از جلوس والا نوشته شد
+            </p>
+         </div>
+
+         <div xml:id="trans_div4" corresp="#orig_div4">
+            <p>
+               <lb/>Eminent among Contemporaries, Select among Brothers, Obedient of Islam, <persName ref="#shahujiBhonsla">Shahuji Bhonsla</persName>,
+               <lb/>having hoped for imperial kindness, know that in these victorious times,
+               <lb/>from the writing of the house-born devoted servant, the brave <persName ref="#zulfiqarKhan">Zulfiqar Khan</persName> <ref type="glossary" target="#gl_bahadur">Bahadur</ref>, it has been represented to His Divine Highness that the
+               Obedient to Islam [<persName ref="#shahujiBhonsla">Shahuji Bhonsla</persName>],
+               <lb/>having repented his past errors, [and] with the coming of good fortune, having tied belt of determination and obedience in [to] his heart, has presented
+               <measure type="currency" unit="rupee" quantity="3000000">30 lakh rupees</measure> as <ref type="glossary" target="#gl_pishkash">pishkash</ref> to the
+               government that is the support of the heavens.
+               <lb/>Out of this, he has caused <measure type="currency" unit="rupee" quantity="2000000">20 lakh rupees</measure> to be received in cash and goods [and] has submitted <placeName ref="#palamkottah">Palamkottah</placeName> fort, etc., [in total] three forts, with associated territories to the guardians of the conquering and victorious government.<note>For Zulfiqar Khan's siege of Palamkottah in 1694, see <ref type="bibl" target="#khobrekar1972">Khobrekar, English Translation of Tarikh-i-Dilkasha, pp. 195, 197</ref>.</note>
+               <lb/>He has promised that regarding <persName ref="#rajaramBhonsla">Rama [i.e. Rajaram Bhonsla]</persName> the wretched-faced, there shall be no open or clandestine aid. And having petitioned for the issuance of an exalted <ref type="glossary" target="#gl_farman">farman</ref> of august favour,
+               <lb/>on this basis, by way of nurturing the little [people] and dispersing affection, the imperial kindness and compassion favours him with the production of this royal mandate fit for obedience, which is his security in old age and a means of protection,
+               <lb/>including the good news of the erasure and forgiveness of offenses and sins, and the gift of prestigious robes of honour and an elephant and a decorated medal is bestowed, [and] on the condition that he abstains [from] and avoids assistance [to]
+               <lb/>and agreement [with] <persName ref="#rajaramBhonsla">Rama [i.e. Rajaram Bhonsla]</persName> the black-faced and his misguided companions, he is distinguished and honoured by the favour of the
+               great title of kingship and the <ref type="glossary" target="#gl_zamindari">zamindari</ref> of the districts that are in possession of that Eminent among Contemporaries [<persName ref="#shahujiBhonsla">Shahuji Bhonsla</persName>]
+.               <lb/>in accordance with the documents of the Bijapuris. It is
+               necessary that giving thanks and praise for the exalted mercy and generosity, he should be on the road of firm submission
+               <lb/>and obedience and pure subjection and steadfast service, [and] according to his own engagement, deposit all the tribute in the treasury of
+               the protector. And
+               <lb/>as promised, he will stay away from giving assistance to the defeated <persName ref="#rajaramBhonsla">Rama [i.e. Rajaram Bhonsla]</persName> and
+               his companions, and by endeavouring to perform imperial services and loyal necessities, Khan <ref type="glossary" target="#gl_bahadur">Bahadur</ref> [<persName ref="#zulfiqarKhan">Zulfiqar Khan</persName>]
+               <lb/>will be pleased with and grateful to him, [and] in killing and fettering that unfortunate loser [<persName ref="#rajaramBhonsla">Rama</persName>], everything will be managed. And the beauty of servitude will know many fruitful results.
+               Written on the <date calendar="#julus">eleventh of Muharram of the thirty-eighth year</date> of the exalted reign.
+            </p>
+         </div>
+
+         <pb n="1v" facs="lf_aurangzebFarman_1694_lm_v.jpg"/>
+
+         <div type="authorisation" xml:lang="per" xml:id="orig_div5" rend="top centre">
+            <p>
+               برساله کمترین فدویان
+               <persName ref="#asadKhan">اسد خان</persName>
+               <lb rend="empty"/><stamp type="seal"><mentioned>
+                  <persName ref="#asadKhan">اسد خان</persName>
+                  بنده
+                  پادشاه
+                  <persName ref="#aurangzebAlamgir">عالمگیر</persName>
+                  غازی
+                  <date calendar="#julus">۳۶</date>
+                  <date calendar="#hijri-qamri">۱۱۰۴</date>
+               </mentioned></stamp></p></div>
+         <div xml:id="trans_div5" corresp="#orig_div5">
+            <p>
+               By the letter of the least of the servants, <persName ref="#asadKhan">Asad Khan</persName>
+               <lb rend="empty"/><stamp type="seal">Round black ink seal<mentioned><persName ref="#asadKhan">Asad Khan</persName>, slave of <ref type="glossary" target="#gl_badshah">Badshah</ref> <persName ref="#aurangzebAlamgir">Alamgir</persName> <ref type="glossary" target="#gl_ghazi">Ghazi</ref> <date calendar="#julus">36</date> <date calendar="#hijri-qamri">1104</date>
+               </mentioned></stamp></p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

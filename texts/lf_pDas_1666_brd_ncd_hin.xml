@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1666_brd_ncd_hin">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter of Maha Singh to Nathmal expressing pleasure with Nathmal's deeds</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Nandini Chatterjee</persName>
+               <persName>Elizabeth Thelen</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                  <repository ref="#brd"/> 
+                  <collection ref="#pDas"/>
+                  <idno>no shelfmark</idno>
+               </msIdentifier>
+               <history>
+                  <origin><origDate calendar="#samvat">2 Vaisakh Sudi 1723</origDate>
+                     <origDate calendar="#gregorian" when="1666-04-26">26 April 1666</origDate>    
+                  </origin>
+               </history>
+                
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Parvana <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Imperial and noble decrees <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p>Maharaja <persName ref="#mahaSingh">Maha Singh</persName>, a Rajput noble, expresses satisfaction with <persName ref="#nathmal">Nathmal</persName>, 
+           who has gained the lands of <persName ref="#hariram">Hari Ram</persName> in <placeName ref="#amjhera">Amjhera</placeName>.</p></abstract>       
+        <textClass>
+           <keywords scheme="#formal"><term key="khat"/></keywords>
+           <keywords scheme="#functional"><term key="letters"/></keywords>
+           <keywords scheme="#thematic">
+              <term>Administration</term>
+              <term>Taxation and Tribute</term>
+           </keywords>
+        </textClass>
+         <particDesc>
+           <person role="issuer">
+              <persName ref="#mahaSingh">Maha Singh</persName>
+           </person>
+           <person role="recipient">
+              <persName ref="#nathmal">Nathmal</persName>
+           </person>
+            <person role="debtor">
+               <persName ref="#hariram">Hariram</persName>
+            </person>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+   
+  <facsimile>
+     <graphic url="lf_pDas_1666_brd_ncd_hin_r.jpg"/>
+  </facsimile> 
+   
+  <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1666_brd_ncd_hin_r.jpg"/>
+         <div type="invocation" xml:lang="raj" xml:id="orig_div1" rend="top centre">
+            <p>
+            श्री गोपाल सत्यः
+            </p>
+         </div>
+         <div xml:id="trans_div1" corresp="#orig_div1">
+            <p>The honoured <ref type="glossary" target="#gl_gopal">Gopal</ref> is true</p>
+         </div>
+         <div type="authorisation" xml:lang="raj" xml:id="orig_div2" rend="top centre">
+            <p><figure></figure></p></div>
+         <div corresp="#orig_div2" xml:id="trans_div2">
+            <p><figure><figDesc>Black ink drawing of dagger [katar]</figDesc></figure></p></div>
+         <div type="maintext" xml:lang="raj" xml:id="orig_div3">
+          <p> 
+             <lb/>माहाराजधीराज माहाराजै श्री <persName ref="#mahaSingh">माहासींघजी</persName> आग्ये का-
+            <lb/>नुगो <persName ref="#nathmal">नथमल</persName> लीखतं राम राम वंच्या अपर अठा रा
+            <lb/>स्माचार श्री <space/> जी री मया थी भला छौ थाहरा स्माचा-
+            <lb/>र लीखणा आग्ये थाहरो कागल आयो हकीकत मा-
+             <lb/>लम हूई आग्ये थे <choice><abbr>प्रा॰</abbr><expan>परगना</expan></choice> <placeName ref="#amjhera">अमझरा</placeName> मां॰ <persName ref="#hariram">हरीराम</persName> री हकी-
+             <lb/>कत लीखी थी सो थे तो भली करी थी और थासु दगा-            
+             <lb/>बाजी करी तो परेस्यानी <unclear>पौचसी</unclear> बतन थानु गोपा-
+             <lb/>लजी दीनी छौ खातीर जमा राखणी म्हारौ थासु जु-            
+             <lb/>दागी न छौ कदीम ईखलास छौ अठौ थारो दर-
+             <lb/>बार ठोड छौ आग्ये <choice><abbr>ठा</abbr><expan>ठाकुर</expan></choice> <persName ref="#purshottamDas">परसोतम दास</persName> <placeName ref="#ujjain">ऊजेण</placeName>
+             <lb/>श्री <space/> नौवा बजया सौ गया छौ थे स्याणा छो
+             <lb/>भलो काम करणो म्हे थासु राजी छा घणो कासु
+             <lb/>लीखा बलता कागल स्माचार लीखणा <date calendar="#samvat">बौसाख<note>This appears to be a misspelling of बैसाख.</note>
+             <lb/>सुदी २ रोज ब्रस्पतवार संवत १७२३</date>
+         </p>
+            <div xml:id="trans_div3" corresp="#orig_div3">
+            <p>
+               <lb/>Maharajadhiraj Maharaja Shri <persName ref="#mahaSingh">Maha Singh</persName> <ref type="glossary" target="#gl_jiu">ji</ref> ordered:
+               <lb/>to <ref type="glossary" target="#gl_qanungo">qanungo</ref> <persName ref="#nathmal">Nathmal</persName> Ram Ram<note>This is a greeting.</note> is written. And that
+               <lb/>the news here is fine by the glory of Shri<space></space><ref type="glossary" target="#gl_jiu">ji</ref>.<note><ref type="glossary" target="#gl_gopal">Gopal ji</ref> and/or the king.</note> Write your
+               <lb/>news. Earlier, your letter arrived [and] the facts were made               
+               <lb/>known [to me]. Then, you had written about <persName ref="#hariram">Hariram</persName><note>The meaning of the abbreviated title 'ma.' given to <persName ref="#hariram">Hariram</persName> is not clear. It may refer to his occupation or ethnic identity.</note> in <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#amjhera">Amjhera</placeName>, [and]
+               <lb/>you had done well. If [anyone] deceives you,
+               <lb/>there will be trouble. The <ref type="glossary" target="#gl_watan">watan</ref> [lands] have been given to you by               
+               <lb/><ref type="glossary" target="#gl_gopal">Gopal ji</ref>. Stay content. I am not apart from you.               
+               <lb/>You are an old servant. You have a place here
+               <lb/>in the court. Then, <ref type="glossary" target="#gl_thakur">Thakur</ref> <persName ref="#purshottamDas">Purshottam Das</persName> 
+               <lb/><app><rdg cert="medium">was summoned by Shri<space></space> on the 9th</rdg> <rdg cert="low">had fled on the 9th of Shri <space></space></rdg></app> to <placeName ref="#ujjain">Ujjain</placeName> so he has gone. 
+               You are <app><rdg cert="high">intelligent</rdg> <rdg cert="low">patient</rdg></app>.
+               <lb/>Do good work. I am pleased with you. [I have]  written enough
+               <lb/>in this way. Return [and] write news. <date calendar="#samvat">Vaisakh               
+               <lb/>Sudi 2, day [of] Thursday, Samvat 1723</date>.<note>This date was converted to Gregorian per the standard Samvat calendar beginning with the month Chaitr. In this interpretation, the day of the week accords with date.</note>               
+            </p></div>
+         </div>
+         <div xml:id="orig_div4" xml:lang="raj" type="authorisation" rend="left margin"><p>
+            <lb/>अप्र म्हे बोहोत राजी हुवा छा <placeName ref="#amjhera">अमजरो</placeName> थाहार हाथ ल<gap></gap>
+            <lb/>गो छ श्री गोपाल जी महरवान हुवा जे थाहार बतन हुइ हब म्हे जा<gap></gap>           
+            <lb/><app><rdg cert="medium">छाजे</rdg><rdg cert="medium">छा जे</rdg></app> म्हार घरे छ <persName ref="#hariram">हरीराम</persName> हरामखोर भला फरद रा पेसा पण ह<gap></gap>
+            <lb/>थे हाथ राखणी ज्यु जाणे त्यु हाथ करणो गोपालजी करसी तो म्हे घणे<gap></gap>
+            <lb/>पर करस्या घणी अवादानी करस्या म्हारो चाह्यो थो सो हुवो छ सो<gap></gap>
+         </p></div>
+         <div corresp="#orig_div4" xml:id="trans_div4">
+            <p>
+               <lb/>That: I have become very satisfied. <placeName ref="#amjhera">Amjhera</placeName> is [in] your hands <gap></gap><note>The end of each line in the margin is missing. Because the Rajasthani text is written without gaps between words and with words that run across linebreaks, this creates uncertainty in the readings.</note>
+               <lb/>Shri <ref type="glossary" target="#gl_gopal">Gopal ji</ref> was merciful so [it] became your <ref type="glossary" target="#gl_watan">watan</ref>. <app><rdg cert="high">Now</rdg><rdg cert="medium">Quickly</rdg></app> I <gap></gap>
+               <lb/><app><rdg cert="medium">shall want</rdg><rdg cert="medium">is <gap></gap>. If</rdg></app> is my <app><rdg cert="high">greatness</rdg> <rdg cert="low">house</rdg></app>. That wretch <persName ref="#hariram">Hariram</persName> <unclear>whether</unclear> the profit receipt of the money also<gap/>
+               <lb/>You keep hold of [it]. In the way it shall be produced, it shall be possessed. <ref type="glossary" target="#gl_gopal">Gopal ji</ref> will do so I <gap></gap>
+               <lb/>will do enough. It will be made well populated. I had wanted [it] so [it] has happened <gap></gap>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

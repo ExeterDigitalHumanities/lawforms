@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_eaton_1750_01_27">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Copy of an order of Hussein Quli Khan to the officials of Askarabad regarding a grant of land to Reza Ali</title>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName>Nandini Chatterjee</persName>
+                </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+            </titleStmt>    
+            <editionStmt>
+                <p>Transcribed from manuscript image</p>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+                    <msIdentifier>
+                        <repository ref="#rec"/>
+                        <collection ref="#rEaton"/>
+                        <idno>no shelfmark</idno>
+                    </msIdentifier>
+                    <history>
+                        <origin>
+                            <origDate calendar="#julus">1 Rajab Regnal Year 2</origDate>
+                            <origDate calendar="#gregorian" when="1750">1750</origDate>
+                        </origin>
+                    </history>  
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="formal">
+                    <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+                </taxonomy>
+                <taxonomy xml:id="functional">
+                    <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+                </taxonomy>
+            </classDecl>        
+        </encodingDesc>
+        <profileDesc>
+            <abstract><p><persName ref="#husseinQuli">Hussein Quli Khan</persName> informs the officials and residents of disctrict (pargana) <placeName ref="#askarabad">Askarabad</placeName> that <persName ref="#rezaAli">Reza Ali's</persName> claim to a grant of land ifor taking care of the mosque is true. Therefore, no one
+                should trouble <persName ref="#rezaAli">Reza Ali</persName> regarding his right to the land. The document was copied in a British colonial collector's office, likely at some point in the nineteenth century.</p></abstract>      
+            <textClass>
+                <keywords scheme="#formal"><term key="sanad"/></keywords>
+                <keywords scheme="#formal"><term key="parvana"></term></keywords>
+                <keywords scheme="#functional"><term key="orders"/></keywords>
+                <keywords scheme="#thematic">
+                    <term>Grants</term>
+                    <term>Petitioning</term>
+                </keywords>
+            </textClass>
+            <particDesc>
+                <person role="issuer">
+                    <persName ref="#husseinQuli">Hussein Quli Khan</persName>
+                </person>
+                <person role="supplicant">   
+                    <persName ref="#rezaAli">Reza Ali</persName> 
+                </person> 
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="lf_eaton_1750_01_27_r.jpg"/>  
+    </facsimile>
+    <text>
+        <body>
+            <pb n="1r" facs="lf_eaton_01_27_r.jpg"/>
+            
+            <div xml:id="orig_div1" xml:lang="eng" type="clericalNotes" rend="centre top">
+                <p>
+                    <lb/>For <persName ref="#yusufKhan">Eusoof Khan [Yusuf Khan]</persName>
+                    <lb rend="empty"/>
+                    <lb/>Copy
+                    <lb/><gap/>
+                </p>
+            </div>
+            <div xml:id="orig_div2" xml:lang="per" type="clericalNotes" rend="top left">
+                <p><num>۲۵۴۶</num>
+                نمبر
+                </p>
+            </div>
+            <div xml:id="trans_div2" corresp="#orig_div2">
+                <p>Number 2546</p>
+            </div>
+            <div xml:id="orig_div3" xml:lang="ben" type="clericalNotes" rend="top left margin">
+                <p><gap></gap><note>The text is written in a cursive script and is partially covered by a paperweight.</note></p>
+            </div>
+            <div xml:id="trans_div3" corresp="#orig_div3">
+                <p><gap></gap></p>
+            </div>
+            <div xml:id="orig_div4" xml:lang="per" type="authorisation" rend="top centre">
+                <p><stamp type="seal"><mentioned><gap/></mentioned></stamp></p>
+            </div>
+            <div xml:id="trans_div4" corresp="#orig_div4">
+                <p>
+                    <stamp type="seal">Round black ink seal<mentioned><gap/></mentioned></stamp><note>The faint and illegible inscription appears to be bi-lingual in Persian and Bengali.</note>
+                </p>
+            </div>
+            
+            <div xml:id="orig_div5" xml:lang="per" type="maintext">
+                <p>
+                   <lb/>نقل
+                   <lb/>سند بمهر نواب حسین قلیخان از قرار بتاریخ
+                    <date calendar="#julus">غره شهر رجب سنه
+                        <num>۲</num> 
+                    جلوس والا</date>
+                    شرح آنکه متصدیان مهمات حال و استقبال
+                    <lb/>چودریان و قانونگویان و رعایا و مزارعان پرگنه
+                    <note>There is a phrase inserted here that possibly reads کرم خواجه, or 'the benevolence of the saint'.</note>
+                    <placeName ref="#askarabad">عسکراباد</placeName>
+                    سرکار
+                    <placeName ref="islamabad">اسلاماباد</placeName>
+                    بدانند که چون
+                    <persName ref="#rezaAli">رضا علی</persName>
+                    ظاهر نموده که
+                    <lb/>موازی 
+                    <gap></gap><note>A note is inserted above this text, which may read بالا نویسی, or 'writing above'.</note>
+                    زمین خارج جمع سیوای 
+                    <gap/>
+                    شاهی در وجه حراست مسجد بنام رافع بموجب اسناد حکام
+                    <lb/>سابق در پرگنه مزبور مقرر است امیدوار که سندی بعدم مزاحمت بمهر سرکار مرحمت شود چنانچه از روی تحقیقات
+                    <lb/>اظهار مشار الیه بصدق مفزون پیوست لهذا موازی مزبوره را بوجه خیرات مسجد مقرر و بحال داشته شد که  
+                    <lb/>مومی الیه موازی مسطوره را قابض و 
+                    <note>A note is inserted above this text, which may read بالا نویسی, or 'writing above'.</note>مداخلت
+                    نموده حاصل آنرا وجه چراغ افروزی و امام خطب و موزن 
+                    <lb/>و جاروبکشی و صادروارد وغیره لوازمه مسجد مذکور 
+                    کرده بدعاگوی دولت
+                    <gap/>
+                    <persName rend="elevated">حضرت ظل سبحانی</persName>
+                    اشتغال شده باشد
+                    <lb/>احدی
+                    <unclear>بعلت</unclear>
+                    خط حرمت جمعبندی وغیره هیچ وجه مزاحمت میرساند 
+                    <unclear>در اینباب</unclear>
+                    تاکید تمام دانسته حسب المسطور بعمل آرند 
+                </p>
+            </div>
+            <div xml:id="trans_div5" corresp="#orig_div5">
+                <p>
+                    <lb/>Copy.
+                    <lb/>A <ref type="glossary" target="#gl_sanad">sanad</ref> with the seal of <ref type="glossary" target="#gl_nawab">Nawab</ref> <persName ref="#husseinQuli">Hussein Quli Khan</persName><note>Naib Nazim of Bengal under <persName ref="#aliVardi">Ali Vardi Khan</persName>, governor of Dhaka</note> issued on <date calendar="#julus">the first of the month of Rajab, 2nd regnal year</date><note>The Gregorian date of 1750 has been assigned based on the fact that <ref type="glossary" target="#gl_nawab">Nawab</ref> <persName ref="#husseinQuli">Hussein Quli Khan</persName> (d. 1755) was active in the middle of the eighteenth century, and thus this document was likely composed during the reign of the Mughal Emperor Ahmad Shah (r. 1748–54).</note> and the details are [as follows]: the <ref type="glossary" target="#gl_mutasaddi">mutasaddis</ref> of current and future affairs,                   
+                    <lb/>the <ref type="glossary" target="#gl_chaudhri">chaudhris</ref> and <ref type="glossary" target="#gl_qanungo">qanungos</ref> and peasants and agriculturists of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#askarabad">Askarabad</placeName>, <ref type="glossary" target="#gl_sarkar">sarkar</ref> <placeName ref="#islamabad">Islamabad</placeName> should know that, since <persName ref="#rezaAli">Reza Ali</persName> has made it apparent that
+                    <lb/>the amount of<gap/> of land, exempt from taxes except<gap/> imperial is allocated from within the said <ref type="glossary" target="#gl_pargana">pargana</ref> to the applicant for reason of taking care of a mosque on account of the orders of the governors
+                    <lb/>of the past. He hopes that an order sealed by the government for the end of harassment will be kindly awarded. Therefore, on the basis of checks
+                    <lb/>the declaration of the said person was found to be true. Hence, the said land is allocated and appointed for the custody of the mosque, so that 
+                    <lb/>the said person, taking possession of the said land, can use the collections from therein for lighting lamps, the daily allowance of the sermon-giver and the caller to prayer, 
+                    <lb/>and sweeping and coming and going [i.e., hospitality for travellers] etc., legitimate [activities] of the mosque [and] engage himself in saying prayers for the state of <persName rend="elevated">His Lordship Zill-i Subhani</persName><note>I.e., Shadow of God, likely a reference to the Mughal emperor.</note>
+                    <lb/>No one should give him trouble on account of the document of favour of the land assessment, etc. Knowing all the injunctions to be applicable <unclear>in this matter</unclear>, do as written.                    
+                </p>   
+            </div> 
+            <div xml:id="orig_div6">
+                <p>
+                    <lb/>
+                    <num>۲۵۴۶</num>
+                    <num>۲۵۴۰</num>
+                    <lb rend="empty"/>
+                    <lb/>مقابله کرده
+                    <gap></gap>
+                    <lb/><gap></gap>
+                    محرر
+                    <gap></gap>
+                </p>
+            </div>
+            <div xml:id="trans_div6" corresp="#orig_div6">
+                <p>
+                    <lb/>2546   2540
+                    <lb rend="empty"/>
+                    <lb/>Compared <gap></gap>
+                    <lb/><gap/>written<gap></gap>
+                </p>
+            </div>
+            <div xml:id="orig_div7" xml:lang="ben" type="clericalNotes" rend="bottom right">
+                <p><gap></gap><note>The text is written in a cursive script.</note></p>
+            </div>
+            <div xml:id="trans_div7" corresp="#orig_div7">
+                <p><gap></gap></p>
+            </div>
+        </body>
+    </text>
+</TEI>

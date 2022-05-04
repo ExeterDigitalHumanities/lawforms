@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_mandloi_1785_batch1">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter of Ahilyabai Holkar to Khando Baburao about informing landlords of fines imposed by tax collectors</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Dominic Vendell</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image.</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                 <repository ref="#bri"/>                   
+                  <collection ref="#mandloi"/>
+                  <idno>no shelfmark</idno> 
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#suhur">25 Safar 1186</origDate> 
+                     <origDate calendar="#gregorian" when="1785-12-29">29 December 1785</origDate>
+                  </origin>
+               </history>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p>Responding to the petition of local landlords <persName ref="#duleraoMandloi">Dulerao Mandloi</persName> and <persName ref="#tejkaranMandloi">Tejkaran Mandloi</persName>, Maratha queen <persName ref="#ahilyabaiHolkar">Ahilyabai Holkar</persName> instructs the revenue collector (kamavisdar) of district (pargana) <placeName ref="#indore">Indore</placeName> that in keeping with existing practice, the landlords ought to be informed of any fines that are exacted.</p></abstract>       
+        
+        <textClass>
+           <keywords scheme="#formal"><term key="patra"/></keywords>
+           <keywords scheme="#functional"><term key="letters"/></keywords>
+           <keywords scheme="#thematic">
+              <term>Administration</term>
+              <term>Money</term>
+              <term>Petitioning</term>
+              <term>Women</term>
+           </keywords>
+        </textClass>
+        
+        <particDesc>
+           <person role="issuer">
+              <persName ref="#ahilyabaiHolkar">Ahilyabai Holkar</persName>
+           </person>
+           <person role="recipient">
+              <persName ref="#khandoBaburao">Khando Baburao</persName>
+           </person>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+
+   <facsimile>
+      <graphic url="lf_mandloi_1785_batch1_r.jpg"/>
+      <graphic url="lf_mandloi_1785_batch1_v.jpg"/>
+   </facsimile>
+  <text>
+      <body>
+         <pb n="1r" facs="lf_mandloi_1785_batch1_r.jpg"/>
+         
+         <div xml:id="orig_div1" xml:lang="mar" type="invocation" rend="top"><p>श्री</p></div>
+         <div corresp="#orig_div1"  xml:id="trans_div1"><p>Shri</p></div>
+         
+         <div xml:id="orig_div2" xml:lang="mar" type="maintext">
+            <p>
+               <lb/><choice>
+                  <abbr>द</abbr>
+                  <expan>दंडवत</expan>
+               </choice><note>The standalone 'द' is known as a दकार, or dakar, in the Marathi
+                  epistolographic tradition. Molesworth states that it stands for the salutation
+                  दंडवत, or dandavat, which an inferior would use when writing to a superior, for example
+                  if a non-Brahman writes to a Brahman. However, it has also been observed that a shloka
+                  attributed to the Yadava minister Hemadripant recommends this salutation when
+                  writing to anyone for whom one feels affection, which may be a more appropriate
+                  reading in this case. For further discussion with respect to a late-eighteenth
+                  century letter from Peshwa Madhavrao Narayan to the Dutch VOC, see <ref
+                     type="bibl" target="#bellarykar2019">Bellarykar, "Two Marathi Letters," p.
+                     26-7</ref>.</note>
+               अखंडीत लक्ष्मी आलंकृत 
+               <lb/>राजमान्य<note>Beginning here, the text
+                  is elevated as a mark of respect to the recipient of the letter.</note> राजश्री
+               <persName ref="#khandoBaburao">खंडो बाबुराव</persName>
+               <choice>
+                  <abbr>क||र</abbr>
+                  <expan>कमाविसदार</expan>
+               </choice>
+               <choice>
+                  <abbr>प||</abbr>
+                  <expan>परगना</expan>
+               </choice>
+               <placeName ref="#indore">इंदुर</placeName>
+               <choice>
+                  <abbr>गो||</abbr>
+                  <expan>गोसावी</expan>
+               </choice> 
+               <choice>
+                  <abbr>स्न||</abbr>
+                  <expan>स्नेहंकित</expan>
+               </choice> 
+               <persName ref="#ahilyabaiHolkar">आहील्याबाई 
+               <lb/>होलकर</persName> दंडवत 
+               <choice>
+                  <abbr>सु||</abbr>
+                  <expan>सुहूर</expan>
+               </choice> 
+               <date calendar="#suhur">सीत समानैन मया 
+                  <lb/>व अलफ</date> 
+               <persName ref="#duleraoMandloi">दुलेराव मंडलोई</persName> 
+               व 
+               <persName ref="#tejkaranMandloi">तेजकर्ण
+               <lb/>मंडलोई</persName>
+               <choice>
+                  <abbr>प||</abbr>
+                  <expan>परगना</expan>
+               </choice> 
+               <choice>
+                  <abbr>म||र</abbr>
+                  <expan>मजकूर</expan>
+               </choice> 
+               यानी सरकारात येऊन 
+               <lb/>वीनंती केली की सुदामत पासोन फ- 
+               <lb/>रोई जे करणे ते आमचे ईताल्याने करावी 
+               <lb/>आसी वहिवट चालत आली असता हली 
+               <lb/>मामलेदार आम्हास दाखला देत नाहीत
+               <lb/>यैवीषई ताकीद जाली पाहीजे म्हणोन 
+               <lb/>त्यावरून हे पत्र सादर केले असे तरी 
+               <lb/>तुम्ही येवीषईचा मागील वलवटा 
+               <lb/>मनास आणुन पेशजी पासोन फरोई मंड-
+               <lb rend="empty"/><pb n="1v" facs="lf_mandloi_1785_batch1_v.jpg"/>
+               <lb/>लोई 
+               <choice>
+                  <abbr>म||र</abbr>
+                  <expan>मजकूर</expan>
+               </choice> 
+               याचे ईतल्याने होत आली 
+               <lb/>आसोन अलिकडे होत नसल्यास मागील 
+               <lb/>वहीवाटी प्रमाणे पुढेही याचे ईतल्या- 
+               <lb/>ने फरोईचे काम करीत जाणे जाणीजे 
+               <lb/>छ २५ सफर बहुत काय लिहीणे 
+               <stamp type="seal"><mentioned>मोर्तब सुद</mentioned></stamp>
+            </p>
+         </div>
+         
+         <div corresp="#orig_div2"  xml:id="trans_div2">  
+            <p>
+               <lb/>Salutations. [To the] Master Adorned by Boundless Wealth,  
+               <lb/>honored by kings, [and] <ref type="glossary" target="#gl_rajashri">Rajashri</ref> <persName ref="#khandoBaburao">Khando Baburao</persName>, <ref type="glossary" target="#gl_kamavisdar">kamavisdar</ref> of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#indore">Indore</placeName>, [from the] affectionate <persName ref="#ahilyabaiHolkar">Ahilyabai 
+               <lb/>Holkar</persName>, salutations. In the year <date calendar="#suhur">six eighty one hundred 
+               <lb/>and one thousand</date> [1186], <persName ref="#duleraoMandloi">Dulerao Mandloi</persName> and <persName ref="#tejkaranMandloi">Tejkaran  
+               <lb/>Mandloi</persName> of the aforementioned <ref type="glossary" target="#gl_pargana">pargana</ref> came to the government 
+               <lb/>and petitioned that out of good order, the fines  
+               <lb/>that are to be imposed should be imposed with our understanding. 
+               <lb/>Such a practice having been ongoing, these days  
+               <lb/>the <ref type="glossary" target="#gl_mamlatdar">mamledars</ref> do not give us evidence [of these fines]. 
+               <lb/>Regarding this, a warning must be issued so 
+               <lb/>on this basis, this <ref type="glossary" target="#gl_patra">patra</ref> has been prepared. Therefore,  
+               <lb/>bring this former practice 
+               <lb/>to mind, and if previously the fines<note>From here the main text continues on the verso.</note>
+               <lb/>took place with the understanding of the aforementioned Mandlois, 
+               <lb/>[and] now are not taking place [with their understanding], then 
+               <lb/>in accordance with former practice, henceforth too with their understanding 
+               <lb/>the work of the fines ought to be conducted. Take notice. 
+               <lb/>On the lunar date of 25 Safar. Why write more? <stamp type="seal">Ovular black ink seal<mentioned>Prepared.</mentioned></stamp> 
+            </p> 
+         </div>
+         
+         <div xml:id="orig_div3" xml:lang="mar" type="clericalNotes" rend="right margin"><p>बार</p></div>
+         <div xml:id="trans_div3" corresp="#orig_div3"><p>Registered.</p></div>
+         
+      </body>
+  </text>
+</TEI>

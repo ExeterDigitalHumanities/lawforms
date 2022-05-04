@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/lawforms_texts.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="lf_pDas_1659_dai_lns235ms_q1">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order of Asadullah to Purshottam Das and Paras Ram regarding removal of soldiers from villages</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Dominic Vendell</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Encoding support and website development by</resp>
+                <persName>Lizzy Williamson</persName>
+                <persName>Eva Bodenschatz</persName>
+                <persName>Richard Holding</persName>
+                <persName>Julia Hopkin</persName>
+                <persName>Gary Stringer</persName>
+             </respStmt>
+             <funder>ERC</funder> 
+         </titleStmt>    
+         <editionStmt>
+            <p>Transcribed from manuscript image</p>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>University of Exeter</publisher>
+                 <pubPlace>Exeter</pubPlace>
+                 <date when="2022">2022</date>
+                 <ptr target="https://lawforms.exeter.ac.uk/"/>
+                 <availability>
+                     <licence target="https://creativecommons.org/licenses/by/4.0/">
+                         <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license. Images are not covered by this license; please consult the website for further details.</p>
+                     </licence>
+                 </availability>
+             </publicationStmt>
+             <sourceDesc>
+                 <msDesc>
+               <msIdentifier>
+                 <repository ref="#dai"/> 
+                  <collection ref="#pDas"/>
+                  <idno>LNS 235 MS q1</idno>
+               </msIdentifier>
+               <history>
+                  <origin>
+                     <origDate calendar="#hijri-qamri">20 Jumada</origDate> 
+                     <origDate calendar="#gregorian"  notBefore="1659" notAfter="1665">1659–65</origDate>                 
+                  </origin>
+               </history>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="formal">
+              <bibl>Law Forms project formal text categories <ptr target="../metadata/taxonomy.xml#formal"/></bibl>
+           </taxonomy>
+           <taxonomy xml:id="functional">
+              <bibl>Law Forms project functional text categories <ptr target="../metadata/taxonomy.xml#functional"/></bibl>
+           </taxonomy>
+        </classDecl>        
+     </encodingDesc>
+     <profileDesc>
+        <abstract><p>In response to their petition (ʿarzdasht), the landlord (chaudhri) <persName ref="#purshottamDas">Purshottam Das</persName> and the record-keeper (qanungo) <persName ref="#parasRam">Paras Ram</persName> of district (pargana) <placeName ref="#pgDhar">Dhar</placeName> are informed that the police officials <persName ref="#abdulHamid">Abdul Hamid</persName> and <persName ref="#khudaDost">Khuda Dost</persName> have been instructed to remove their soldiers from the villages. 
+           Additionally, <persName ref="#purshottamDas">Purshottam Das</persName> and <persName ref="#parasRam">Paras Ram</persName> are told to send certain dues, having already been forgiven a large amount of rupees.</p></abstract>       
+        
+        <textClass>
+           <keywords scheme="#functional"><term key="orders"/></keywords>
+           <keywords scheme="#formal"><term key="parvana"/></keywords>
+           <keywords scheme="#thematic">
+              <term>Petitioning</term>
+              <term>Policing and Crime</term>
+              <term>Soldiers</term>
+              <term>Taxation and Tribute</term>
+           </keywords>
+        </textClass>
+        <particDesc>
+           <person role="issuer">
+              <persName ref="#asadullah">Asadullah</persName>
+           </person>
+           <person role="recipient">
+              <persName ref="#purshottamDas">Purshottam Das</persName>
+           </person>   
+           <person role="recipient">
+              <persName ref="#parasRam">Paras Ram</persName>
+           </person>
+        </particDesc>
+     </profileDesc>   
+  </teiHeader>
+
+   <facsimile>
+      <graphic url="lf_pDas_1659_dai_lns235ms_q1_r.jpg"/>
+      <graphic url="lf_pDas_1659_dai_lns235ms_q1_v.jpg"/>
+   </facsimile>
+   
+  <text>
+      <body>
+         <pb n="1r" facs="lf_pDas_1659_dai_lns235ms_q1_r.jpg"/>
+         
+         <div xml:id="orig_div1" xml:lang="ara" type="invocation" rend="middle centre"><p>الله اکبر</p></div> 
+         <div corresp="#orig_div1"  xml:id="trans_div1"><p>God is great</p></div>         
+         
+         <div xml:id="orig_div2" xml:lang="per" type="maintext">
+            <p>
+               <lb/>زبده الاماثل و الاعیان
+               <persName ref="#purshottamDas">پرسوتمداس</persName>
+               چودری و
+               <persName ref="#parasRam">پرسرام</persName>
+               قانونگوی پرگنه
+               <placeName ref="#pgDhar">دهار</placeName>
+               <lb/>را انهاء آنکه عرضه داشتی که دراینولا در باب بر طرف شدن دهات شحنگی
+               <lb/><persName ref="#abdulHamid">عبد الحمید</persName> 
+               نوشته ارسال داشته بودند رسید
+               <persName ref="#abdulHamid">بعبد الحمید</persName>
+               و
+               <persName ref="#khudaDost">خدا دوست</persName>
+               نگاشته اند که
+               <lb/>برسیدن نوشته پیادهای خود را از دهات مذکور بردارند یقین که بزودی پیادها
+               <lb/>را ازاینجا برطرف خواهد نمود باید که ازینممری خاطر خود را جمعداشته در
+               <lb/>تردد ابادانی و کشتکار زراعت خود را معاف ندارند و در یکساعت
+               <lb/>برای رضامندی شما هست
+               <measure type="currency" unit="rupee" quantity="3000">سه
+                  <num>٣</num>
+                  هزار روپیه</measure>
+               را معاف نموده شد عجب که شما جزوی ما را نمی فرستید الحال لایق انکه بزودی زر اینجانب را ارسال
+               <unclear>دارید</unclear>
+               و پاره در رضاجوی ما سعی نماید 
+               <gap/>
+               زیاده
+               <unclear>چه نوشته</unclear>
+               <gap/>
+               <g ref="#baiz">بیض</g><note>This line of text is written up the left margin. Unusually, the scribe has written a 'pesh' above the baiz.</note>
+               <lb/><date calendar="#hijri-qamri">۲۰</date>
+               <unclear>جمادی</unclear><note>The date is written in the top left corner and due to damage is incomplete.</note>
+               <gap/>
+            </p>
+         </div>
+         
+         <div corresp="#orig_div2"  xml:id="trans_div2">  
+            <p>
+               <lb/>Eminent among Equals and among Nobles <persName ref="#purshottamDas">Purshottam Das</persName> <ref type="glossary" target="#gl_chaudhri">chaudhri</ref> and <persName ref="#parasRam">Paras Ram</persName> <ref type="glossary" target="#gl_qanungo">qanungo</ref> of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#pgDhar">Dhar</placeName> 
+               <lb/>are informed that the <ref type="glossary" target="#gl_arzdasht">ʿarzdasht</ref> which recently had been written and sent about the matter of the setting aside of the villages [by the] police [officer] 
+               <lb/><persName ref="#abdulHamid">Abdul Hamid</persName> has arrived. To <persName ref="#abdulHamid">Abdul Hamid</persName> and <persName ref="#khudaDost">Khuda Dost</persName> it has been written that 
+               <lb/>on the arrival of the writing [instructions], they should remove their soldiers from the said villages. Surely, the soldiers 
+               <lb/>will be removed from here immediately. It is necessary that in this matter [<persName ref="#purshottamDas">Purshottam Das</persName> and <persName ref="#parasRam">Paras Ram</persName>] settle their minds and 
+               <lb/>not take themselves as exempt from populating [the area] and managing agriculture. At the same time,
+               <lb/>to please you,<note>Unusually, here the writer addresses <persName ref="#purshottamDas">Purshottam Das</persName> and <persName ref="#parasRam">Paras Ram</persName> directly, using the second-person subject "shoma."</note> 
+               <measure type="currency" unit="rupee">3000 rupees</measure> have been forgiven. It is strange that you are not sending a part of my [dues]. Now it is suitable that you send the money here quickly and that you make a little effort to please me. What more [should be] <unclear>written</unclear>? <g ref="#baiz">Ended.</g> 
+               <lb/>[On] <date calendar="#julus">20 <unclear>Jumada</unclear></date><note>Because the edge of the page is tattered, the date is incomplete. The date range ascribed to the document has been estimated based on the years <persName ref="#asadullah">Asadullah</persName> and <persName ref="#nawazishKhan">Nawazish Khan</persName> are known to have been active in the area based on other documents in this collection.</note><gap/>
+            </p> 
+         </div>
+         
+         <div xml:id="orig_div3" xml:lang="ara" type="invocation" rend="bottom right margin">
+            <p>
+               <lb rend="empty"/> هوُ
+               <lb rend="empty"/>عزت اثار 
+            </p>   
+         </div>
+         
+         <div corresp="#orig_div3" xml:id="trans_div3">
+            <p>
+               <lb rend="empty"/>He [God] is,
+               <lb rend="empty"/>bearing respect
+            </p>
+         </div>
+         
+         <div xml:id="orig_div4" xml:lang="per" type="authorisation" rend="bottom right margin">
+            <p>
+               <lb/>بموجب که شما نوشته بودید مقرر شد
+               <lb/>قوی با قوت است رعایا را
+               <lb/>خاطر جمع سازید الله الله خاطر خود را
+               <lb/>جمع سازید انچه نگارد
+               <g ref="#baiz">بیض</g>
+            </p>   
+         </div>
+         
+         <div corresp="#orig_div4" xml:id="trans_div4">
+            <p>
+               <lb/>That for which you had written has been settled. 
+               <lb/>The strong are with strength.  
+               <lb/>Settle the minds of the peasants and [by] God 
+               <lb/>settle your own minds, and so it should be written. Ended.
+            </p>   
+         </div>      
+         
+         <div xml:id="orig_div5" xml:lang="per" type="authorisation" rend="top right margin">
+            <p>
+               <lb/>زر ما را بزودی حواله منتخب ما را نمایند که 
+               <lb/>بفرستند الله الله اینقدر زر چه خواهد بود
+               <lb/>رعایت ما مسطور
+               <gap/>
+               عجزی آن است
+               <lb/><unclear>انچه</unclear>
+               نگارد
+               <g ref="#baiz">بیض</g>
+               <lb/><stamp type="seal" rend="top centre"><mentioned>
+                  <persName ref="#asadullah">اسد الله</persName>
+                 مرید
+                  <unclear>اخلاص</unclear>
+                  <persName ref="#nawazishKhan">نوازش خانی</persName>
+                  
+               </mentioned></stamp>
+            </p>
+         </div>
+         
+         <div corresp="#orig_div5" xml:id="trans_div5">
+            <p>
+               <lb/>Entrust my money, with speed, to the person selected by me so that 
+               <lb/>he can send it. [By] God, what use is such money? 
+               <lb/>My opinion as written will be the cure [of this problem].  
+               <lb/>So should be written. <g ref="#baiz">Ended</g>. 
+               <lb/><stamp type="seal">Round black ink seal<mentioned><persName ref="#asadullah">Asadullah</persName>, <unclear>sincere</unclear> disciple of <persName ref="#nawazishKhan">Nawazish Khan</persName></mentioned></stamp><note>This seal, which belonged to <persName ref="#asadullah">Asadullah</persName>, the deputy of the noble <persName ref="#nawazishKhan">Nawazish Khan</persName>, also appears in the document with shelfmark LNS 235 MS l1 from 1660.</note>
+            </p>   
+         </div>   
+      </body>
+  </text>
+</TEI>
