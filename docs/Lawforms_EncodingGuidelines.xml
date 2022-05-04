@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Encoding Guidelines for Lawforms Project</title>
+            <author>Elizabeth Williamson</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>ERC Lawforms Project encoding guidelines, 2018-22</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart>Encoding Guidelines for Lawforms Project</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <lb/>
+         <div>
+            <head>Project Description</head>
+            <p>The aim is to encode 50-100 legal texts (with an upper limit of 200). As of June
+               2019, these are likely to include 60 so far transcribed (but to varying quality) and
+               10-20 texts that are currently PDFs on Asnad.</p>
+         </div>
+         <div>
+            <head>TEIheader and metadata</head>
+            <p>Fill in the spaces for title, editor etc marked with comments in the template
+               document.</p>
+            <div>
+               <head>Id number for the document</head>
+               <p><emph>Every document needs to have a unique <att>xml:id</att> on the <gi>TEI</gi>
+                     element.</emph> This should be a unique, abbreviated version of the shelfmark
+                  and repository, or some similar format, preceded by lf for Lawforms. Use the
+                  same identifier for the filename, and for the filename for any related images
+                  (including page numbers as needed). The filename is constructed by: lf_[repository
+                  abbreviation]_[shelfmark or ID number] - you can use camelCase if any of these
+                  sections have multiple words. You may also include an indication of the collection
+                  to which the manuscript belongs, and date, in the middle of the filename if
+                  relevant, as in the second example: <egXML
+                     xmlns="http://www.tei-c.org/ns/Examples">
+                     <TEI xml:id="lf_pDas_1661_brd_ac"> </TEI>
+                     <TEI xml:id="lf_hamdani_1850_01"> </TEI>
+                  </egXML>
+               </p>
+            </div>
+            <div>
+               <head>Source and Manuscript description</head>
+               <p>Use the <gi>msDesc</gi> element in the TEI header to provide additional details on
+                  the manuscript and its contents. This will include responsitory/shelfmark
+                  information. If there is no shelfmark, eg private archive, write 'no shelfmark' in
+                  the <gi>idno</gi> tag, since this is for recording the shelfmark given by the
+                  repository. If the manuscript is part of a collection, even one dispersed across
+                  multiple archives, add this in collection and ensure there is an entry in the
+                  archival collections list in repositories file. For example: <egXML
+                     xmlns="http://www.tei-c.org/ns/Examples">
+                     <msDesc>
+                        <msIdentifier>
+                           <repository ref="#bibliothequeMunicipale"/>
+                           <collection ref="#pDas"/>
+                           <idno>Shelfmark or manuscript number goes here, including folio reference
+                              if relevant, or 'no shelfmark'</idno>
+                        </msIdentifier>
+                     </msDesc>
+                  </egXML></p>
+               <p>When you encounter a new repository, add it to the repositories list in
+                  bibliography.xml and use its xml id to provide the <att>ref</att> for the
+                  manuscript description in the header.</p>
+               <p>If the source of the document is a publication rather than a manuscript, add this
+                  in <gi>bibl</gi> before the <gi>msDesc</gi>; if there is both a publication and
+                  the original manuscript, you can record both; if there is only a publication
+                  extant, delete the <gi>msDesc</gi> section.</p>
+
+               <p>Include whether the document is original/authorized copy/unauthorized copy, if
+                  known, in the <gi>history</gi> section, in <gi>objectType</gi>.</p>
+               <p>Include the date of the document in the manuscript description section, within
+                     <gi>history</gi>. You may provide several calendars if wanted, but you should
+                  also provide a default translation to the Gregorian calendar, with <att>when</att>
+                  given in standardized (gregorian) format: </p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples"><history>
+                     <origin>
+                        <origDate calendar="#julus">9 Jumadi I 1071</origDate>
+                        <origDate calendar="#gregorian" when="1661-01-10">10 Jan 1661</origDate>
+                     </origin>
+                  </history>
+               </egXML>
+               <p>If it's not clear what date it is, you can provide date ranges, for example:
+                     <egXML xmlns="http://www.tei-c.org/ns/Examples"><date calendar="#gregorian"
+                        notBefore="1650" notAfter="1700">the second half of the seventeenth
+                        century</date></egXML></p>
+               <p>Date ranges can also include months, for example:
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples"><date calendar="#gregorian"
+                     notBefore="1735-05" notAfter="1736-05">Between May 1735 and May 1736</date></egXML></p>
+               <p>You can provide a partial date in the standardized <att>when</att> attribute if
+                  relevant, e.g. <egXML xmlns="http://www.tei-c.org/ns/Examples"><date
+                        calendar="#gregorian" when="--09">septembre</date>
+                     <date calendar="#gregorian" when="1980-02">early February
+                  1980</date></egXML></p>
+               <p>Possible calendar values: bengali, fasli, gregorian, hijri-qamri, hijri-shamsi,
+                  jovian_brihaspati, julian, julus, maghi, samvat, samvat-chaitradi,
+                  samvat-shravanadi, shaka, suhur, turkish.</p>
+               <p>You can also provide a place of issue and place of receipt if wanted/relevant,
+                  with <att>ref</att> refering to their xml:id in the places file (see below);
+                  delete these if not relevant: <egXML xmlns="http://www.tei-c.org/ns/Examples"
+                        ><origDate calendar="#gregorian" when="1000-01-01">Example date</origDate>
+                     <origPlace type="placeOfIssue" ref="#example"/>
+                     <origPlace type="placeOfReceipt" ref="#example"/></egXML>
+               </p>
+               <p>If the manuscript is published, you can add the bibliographic reference in
+                     <gi>additional</gi>, following the <gi>history</gi> section, within
+                     <gi>msDesc</gi>. In a <gi>ref</gi> tag (with type=bibl) add a reference to the
+                  book in the bibliography file (add an entry there if it doesn't yet exist). Add
+                  page numbers or similar reference as <gi>biblScope</gi> as follows: <egXML
+                     xmlns="http://www.tei-c.org/ns/Examples">
+                     <additional>
+                        <listBibl>
+                           <bibl type="academic" n="#foner1945_collectedThomasPaine">
+                              <biblScope>pp.1-2</biblScope>
+                           </bibl>
+                        </listBibl>
+                     </additional>
+                  </egXML></p>
+
+            </div>
+
+
+            <div>
+               <head>Text categories, keywords, summary, participant roles</head>
+               <p><hi>Functional type</hi>: Each text will be assigned to a category that describes the actual function of the document, eg imperial and
+                  royal decrees. This is your interpretive judgement.</p>
+               <p><hi>Formal type</hi>: Each text may also be assigned to a category that describes
+                  the formal status or appearance of the document, for example, a document might
+                  state that it is a declaration of victory. This is not an interpretive judgement
+                  but rather a description of the form of the document.</p>
+               <p><hi>Thematic keywords</hi>: Each text is assigned one or several thematic keywords.</p>
+               <p>Both of these should use controlled vocabulary listed below. Use the profile description in the TEI header, as follows: <egXML
+                     xmlns="http://www.tei-c.org/ns/Examples">
+                     <profileDesc>
+                        <textClass>
+                           <keywords scheme="#functional">
+                              <term key="privateDeeds"/>
+                              <!-- NOTE: put the larger category first -->
+                              <term key="sales"/>
+                           </keywords>
+                           <keywords scheme="#formal">
+                              <term key="farman"/>
+                           </keywords>
+                           <keywords scheme="#thematic">
+                              <term>Women</term>
+                           </keywords>
+                        </textClass>
+                     </profileDesc>
+                  </egXML></p>
+               <p>Formal and functional categories, and keywords, are listed in the Taxonomy document. Ensure that
+                  the primary name in the taxonomy list is marked by role=default (usually Persian),
+                  and add further details to form the essay pages as preferred: <egXML
+                     xmlns="http://www.tei-c.org/ns/Examples">
+                     <item xml:id="farighKhatti">
+                        <name xml:lang="per" role="default">Farigh Khatti</name>
+                        <name xml:lang="hin">Pharkhati</name>
+                        <name xml:lang="eng">Quittance deed</name>
+                        <note>Detailed description here</note>
+                        <!--    further reading -->
+                        <listBibl>
+                           <bibl type="academic" n="#exampleFromBibliographyFile"/>
+                        </listBibl>
+                     </item>
+                  </egXML>
+               </p>
+               <p>You must provide a concise summary for each document transcribed. Include this in
+                  the <gi>abstract</gi> section. Use <gi>note</gi> to add information that apply to
+                  the whole document, e.g. academic citations. <egXML
+                     xmlns="http://www.tei-c.org/ns/Examples"><abstract>
+                        <p>Example summary here. Ideally, these should be similar lengths, though
+                           this isn't essential - would you aim for a small paragraph? Try to also
+                           have an agreed style/tone. <note>For discussion of the transactions
+                              leading to the issuance of this imperial order, inlcluding Zulfiqar
+                              Khan's earlier grant of a <ref type="glossary" target="#gl_qaul"
+                                 >qaul-nama</ref> to Shahu, see <ref type="bibl"
+                                 target="#sarkar1952">Sarkar, History of Aurangzib, Vol. 5, pp.
+                                 81-2</ref>.</note>
+                        </p></abstract></egXML>
+               </p>
+               <p>Include a participant description to describe the roles of the people in the
+                  document. To see how to mark up names with correct IDs etc, see Names section.
+                     <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <particDesc>
+                        <person role="buyer">
+                           <persName ref="#shahBeg">Shah Beg</persName>
+                        </person>
+                        <person role="seller">
+                           <persName ref="#mohammadSonOfYassein">Mohammad</persName>
+                        </person>
+                     </particDesc>
+                  </egXML> Possible roles include: arbitrator, buyer, creditor, debtor, guarantor,
+                  grantor, grantee, heir, issuer, recipient, judge, mortgager, seller, supplicant,
+                  witness, writer, litigant.</p>
+
+            </div>
+            <div>
+               <head>Images</head>
+               <p>Add references to images as facsimile references on each <gi>pb</gi> tag, and add
+                  a separate facsimiles section where all images are listed, between the TEIheader
+                  and body. This will allow you to record multiple images for each page. eg: <egXML
+                     xmlns="http://www.tei-c.org/ns/Examples">
+                     <teiHeader>...</teiHeader>
+                     <facsimile>
+                        <graphic url="lf_liverpoolMuseum_farman_r.jpg"/>
+                        <graphic url="lf_liverpoolMuseum_farman_r_1.jpg"/>
+                        <graphic url="lf_liverpoolMuseum_farman_r_2.jpg"/>
+                        <graphic url="lf_liverpoolMuseum_farman_v.jpg"/>
+                     </facsimile>
+                     <text>...</text>
+                  </egXML>
+               </p>
+            </div>
+         </div>
+         <lb/>
+         <div>
+            <head>Encoding Legal Documents</head>
+
+            <div>
+               <head>Structure</head>
+
+               <p>We will transcribe and present the text in reading order, so that we offer an
+                  edited text which makes sense to readers. However, we can still record the
+                  information that it appears elsewhere in the document, and convey that in a
+                  hover-over or footnote (see Elevated text section).</p>
+               <div>
+                  <head>Text divisions</head>
+                  <p>We treat the text as made up of different divisions for different textual units
+                     within a document. All text must be contained in divs, with language
+                        <att>xml:lang</att> and a <att>type</att> as follows. <egXML
+                        xmlns="http://www.tei-c.org/ns/Examples">
+                        <div xml:lang="per" type="maintext">Example</div>
+                     </egXML></p>
+                  <p><hi>Possible language values include</hi>: ara (Arabic), ben (Bengali), eng
+                     (English), guj (Gujarati), hin (Hindi), mar (Marathi), per (Persian), pan
+                     (Punjabi), raj (Rajasthani), urd (Urdu), syl (Sylheti), kan (Kannada), arm
+                     (Armenian)</p>
+                  <p><hi>Possible types include</hi>: authorisation (for ciphers, seals), maintext
+                     (for the primary textual sections of the document), witness (for witness
+                     statements), invocation, particulars (for appendix-like enumerations),
+                     endorsements (lower level authorisations), clericalNotes, laterAddition,
+                     laterTranslation. </p>
+                  <p>If a div contains more than one language, tag the words that are foreign to the
+                     main language of the div in a <gi>foreign</gi> element, including
+                        <att>xml:lang</att>: <egXML xmlns="http://www.tei-c.org/ns/Examples"><div
+                           xml:lang="per" type="witness">
+                           <p>اسحاق <foreign lang="eng">example</foreign> آل محمد</p>
+                        </div>
+                     </egXML></p>
+                  <p>If the text division is located in the margin or in an unusual place on the
+                     page, you can record that using <att>rend</att> on <gi>div</gi>, using the
+                     following terms 'below; bottom; margin (left, right, or both); top; opposite
+                     (i.e. facing); overleaf; above; inline; inspace.</p>
+               </div>
+               <!-- schema: all divs should have one type/lang only               -->
+
+               <div>
+                  <head>Pages, paragraphs, lines</head>
+                  <p>Record page beginnings, including numbering and a <att>facs</att> with name of
+                     any image file. Give the page an 'n' value that makes sense for the document,
+                     eg 1r if it is a single page, 54v if it is the verso of folio 54. The image
+                     file should be named similarly: <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <pb n="1r" facs="1661_AC-BRD_1r.jpg"/>
+                     </egXML> Use only images of the whole page as the facsimile reference for the
+                     page; the separate facsimile section allows you to record more images.</p>
+                  <p>Ensure all the text is enclosed in either <gi>p</gi> for paragraphs/prose or
+                        <gi>l</gi> for verse. Note that the tags will be typed as they would be for
+                     left-to-right languages (ie the first <gi>p</gi> tag will be at the left end of
+                     the first line). However, the software will understand that the paragraph
+                     begins at the right end of the first line. For headings use the <gi>head</gi>
+                     tag within the main text division (These will not be visible on the website
+                     until the text display functionality is changed). <egXML
+                        xmlns="http://www.tei-c.org/ns/Examples"><div>
+                           <head>Heading text</head>
+                           <p>Example text</p>
+                           <p> نقل فرمان حضرت محی الدین محمد اورنگ زیب عالمگیر بادشاه غازی فی سنه
+                              هزار و هفتاد و نه هجری در باب گرفتن خراج</p>
+                        </div></egXML></p>
+                  <p>Encode serial page numbers using the <gi>fw</gi> forme work tag in the main
+                     text division and record its location on the document in <att>place</att>, e.g.
+                     "top-right", "bottom-left".</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <fw type="pageNum" place="top-right">29</fw>
+                  </egXML>
+
+
+
+                  <p>Add line beginnings where they appear in the text where there is more than one line. Use <gi>lb</gi> tag: <egXML
+                        xmlns="http://www.tei-c.org/ns/Examples">
+                        <p><lb/> نقل فرمان حضرت محی الدین محمد <lb/> اورنگ زیب عالمگیر بادشاه غازی
+                           فی سنه <lb/>هزار و هفتاد و نه هجری در باب گرفتن خراج </p>
+                     </egXML></p>
+                  
+               </div>
+               <div>
+                  <head>Lists</head>
+                  <p>Particulars or appendix-like materials are often presented in a list or tabular
+                     structure. We aim to reproduce the semantic meaning of this information as a list rather than representing the exact list or tabular structure. 
+                     Use line beginning tags to indicate where a new line/number should be. You can use rend=empty to indicate a blank line.
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <list>
+                           <lb/><item>a butcher</item>
+                           <lb/><item>a baker</item>
+                           <lb/><item>a candlestick maker</item>
+                        </list>
+                        <list>
+                           <lb/><item>rings on his fingers</item>
+                           <lb/><item>bells on his toes</item>
+                        </list>
+                     </egXML>
+                  </p>
+                  <p>For nested lists, see the following example, with optional headings and labels.
+                     Note the first item on the main list is itself a list with a label, the second
+                     item is another list, and so on: <egXML
+                        xmlns="http://www.tei-c.org/ns/Examples">
+                        <list>
+                           <lb/><head>Optional Heading</head>
+                           <lb/><label>Trees</label>
+                           <item>
+                              <list>
+                                 <lb/><item>Rowan</item>
+                                 <lb/><item>Birch</item>
+                              </list>
+                           </item>
+                           <lb rend="empty"/>
+                           <lb/><label>Fruit</label>
+                           <item>
+                              <list>
+                                 <lb/><item>Apple</item>
+                                 <lb/><item>Orange</item>
+                              </list>
+                           </item>
+                        </list>
+                     </egXML>
+                  </p>
+                  </div>
+            </div>
+            <lb/>
+            <div>
+               <head>Elevated text</head>
+               <p>Sometimes the names of a royal person are elevated out of the text as a mark of
+                  deference. This should be transcribed where it appears in the reading order. This
+                  should be tagged as a person (see below), with an additional <att>rend</att> to
+                  specify the position: <egXML xmlns="http://www.tei-c.org/ns/Examples"><persName
+                        rend="elevated">Example</persName></egXML></p>
+            </div>
+
+            <lb/>
+            <div>
+               <head>Translations</head>
+               <p>All texts will have summaries (see TEI header); some will also have translations.
+                  
+                  The maintext will be translated, and so will any other sections which are
+                  legible/possible to translate. The
+                  division is given an id, and the translating div is given a <att>corresp</att>
+                  that references it, preceded by hash - the translating div must also be given an
+                  id. To create ids use orig for original and trans for translated, underscore, then
+                  div1, div2, and so on.. eg: </p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                  <div xml:id="orig_div1" xml:lang="per" type="maintext">
+                     <p> تحریر یافت</p>
+                  </div>
+                  <div corresp="#orig_div1" xml:id="trans_div1">
+                     <p>written</p>
+                  </div>
+               </egXML>
+               
+            </div>
+            <lb/>
+            <div>
+               <head>Glossing emic terms</head>
+               <p>To enable emic terms to appear with either a hover-over gloss in the translation
+                  or be hyperlinked to an essay page, or have an explanatory pop-up box, you need to
+                  tag the term itself as follows: <egXML xmlns="http://www.tei-c.org/ns/Examples"
+                     >according to the <ref type="glossary" target="#gl_chaudhari"
+                     >chaudhari</ref></egXML> Next, ensure there is a category for 'chaudhari' and a
+                  gloss in the taxonomy.xml document, in the new glossary taxonomy. Ensure that the
+                  primary name in the taxonomy list is marked by role=default (usually Persian), and
+                  add any other language forms as you prefer. Note the id should be prefixed by gl:
+                  for glossary. It is up to the editorial team whether you have a brief note or
+                  longer explanation, or include both. You could also add further reading if wanted;
+                  capture any information you want here and we can decide how and where to display
+                  it later. <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <item xml:id="gl_zimn">
+                        <name role="default">zimn</name>
+                        <name xml:lang="eng">verso of the document</name>
+                        <note>This is where the details of a grant were often entered.</note>
+                     </item>
+                  </egXML></p>
+            </div>
+            <lb/>
+            <div>
+               <head>Special characters, flourishes, elongated letters.</head>
+               <p>To use unicode if there is an appropriate unicode symbol.</p>
+               <p>The project will include a page that discusses visual organisational features.</p>
+               <p>Formulaic phrases and logographs sometimes act as openers and closers to the
+                  document.</p>
+               <p>Opening flourishes: some flourishes begin the main text as a stand-alone character
+                  to indicate a salutation, often they indicate the directionality of the text (who
+                  it is sent to/from). These are similar to symbols in witness statements.</p>
+               <p>Closing logographs: the special characters the Baiz or Baiza, and faqat,
+                  terminate documents. We decided not to tag these as a <gi>closer</gi> but rather
+                  to use a specific <gi>g</gi> element to specify which character is used. These
+                  will be defined in the Encoding Description in the Header and in an essay on the
+                  site. The following examples show how these should appear in original and
+                  translations. <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <div>
+                        <p>... <g ref="#baiz">بیض</g>
+                        </p>
+                     </div>
+                  </egXML>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <div>
+                        <p>... <g ref="#baiz">Ended</g>
+                        </p>
+                     </div>
+                  </egXML>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <g ref="#faqat">فقط</g>
+                  </egXML>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <g ref="#faqat">Nothing further</g>
+                  </egXML>
+               </p>
+               <p>For moratab shod closer that appears as a seal (often in Marathi documents), we
+                  will encode as a seal with the text of the two words, or occasionally in
+                  handwritten form as part of the text. We can add an editorial note in the
+                  document. Editorial essay will discuss this element alongside baiz, faqat, and
+                  other closers and openers.</p>
+               <p>For other character symbols you can just add more <gi>g</gi> forms. For the
+                  absence of a number that is quite common in Marathi documents, and representations
+                  of fractions, suggest the following for original and translated sections: <egXML
+                     xmlns="http://www.tei-c.org/ns/Examples">
+                     <g ref="#ali">[अळी]</g>
+                     <g ref="#ali">[fractional symbol]</g>
+                  </egXML></p>
+               <div>
+                  <head>Siyaq accounting shorthand</head>
+                  <p>Siyaq is accounting shorthand for numbers, but it is not possible to type the
+                     characters or use unicode. Therefore we treat them as glyphs that we
+                     transliterate into the relevant number, again using <gi>g</gi>: <egXML
+                        xmlns="http://www.tei-c.org/ns/Examples"><g ref="#siyaq">4</g></egXML>
+                  </p>
+               </div>
+               <div>
+                  <head>Symbols indicating absence/ending of number</head>
+                  <p>Common in Marathi documents, there are symbols denoting absence of a
+                     number/that a number is finished, but it is not possible to type the
+                     characters, use unicode, or easily transliterate to another character.
+                     Therefore we treat these as graphic symbols.</p>
+               </div>
+            </div>
+            <lb/>
+
+            
+            <div>
+               <head>Seals and ciphers</head>
+               <p>Transcribe seals and ciphers where they appear in the text using the
+                     <gi>stamp</gi> element, including any text within the stamp in a
+                     <gi>mentioned</gi> element. We are using 'stamp' for convenience, as a marker
+                  of authorisation: <egXML xmlns="http://www.tei-c.org/ns/Examples"><p>
+                        <lb/>بمضمون مسطور مقر مذکور اقرار نمود فقط <lb/><stamp type="seal">Red wax
+                              seal<mentioned>فتح الباب من فضل الله</mentioned></stamp>
+                        <stamp type="cipher">Red ink cipher<mentioned>فتح الباب من فضل
+                              الله</mentioned></stamp>
+                     </p></egXML> If there is no text to transcribe, describe the seal in the
+                     <gi>stamp</gi> element, but don't use <gi>mentioned</gi>: <egXML
+                     xmlns="http://www.tei-c.org/ns/Examples"><p>
+                        <lb/>بمضمون مسطور مقر مذکور اقرار نمود فقط <lb/><stamp type="seal">Elaborate
+                           seal with image of Lion</stamp>
+                     </p></egXML>
+               </p>
+            </div>
+            <lb/>
+            <div>
+               <head>Illustrations and figures</head>
+               <p> Use <gi>figure</gi> element for illustrations and graphic symbols, especially
+                  those in witness statements (e.g. dagger, plough, scissors, sign of the hand). Add
+                  a description with <gi>figDesc</gi>. Use concise lower-case descriptions, as
+                  below. To optionally indicate where it is located on the page, use
+                     <att>place</att>, using the following terms 'below; bottom; margin (left,
+                  right, or both); top; opposite (i.e. facing); overleaf; above; inline;
+                  inspace.</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                  <figure place="margin right">
+                     <figDesc>dagger</figDesc>
+                  </figure>
+                  <figure>
+                     <figDesc>plough</figDesc>
+                  </figure>
+               </egXML>
+            </div>
+
+
+
+            <lb/>
+            <div>
+               <head>Editorial notes and bibliographic references</head>
+               <p>Editorial notes written by the project team can be added with note element. Type
+                  this note where you want a footnote superscript number to appear (the text itself
+                  will appear as a footnote or a pop-up).: <egXML
+                     xmlns="http://www.tei-c.org/ns/Examples"><note>The qazi's endorsement appears
+                        in the top-left margin.</note></egXML>
+               </p>
+               <p>You may cite bibliographic references in your note: do this by typing the
+                  short-form of the reference, and tagging the reference with <gi>ref</gi>, adding a
+                     <att>type</att> = bibl, and a <att>target</att> which gives the xml:id of the
+                  reference in the bibliography file, preceded by hash. <egXML
+                     xmlns="http://www.tei-c.org/ns/Examples">
+                     <note>For further discussion with respect to a late-eighteenth century letter
+                        from Peshwa Madhavrao Narayan to the Dutch VOC, see <ref type="bibl"
+                           target="#bellarykar2019">Bellarykar, "Two Marathi Letters," p.
+                        26-7</ref>.</note>
+                  </egXML>
+               </p>
+               <p>
+                  To refer to another document or document type, see section 3.12.
+               </p>
+            </div>
+            <lb/>
+            <div>
+               <head>Abbreviations</head>
+               <p> For abbreviations, tag both the abbreviated form of the word and the expanded
+                  version. Note that if there is a punctuation mark that indicates the abbreviation,
+                  if you are transcribing it, it must be included in the <tag>abbr</tag> tag.
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <choice>
+                        <abbr>yr</abbr>
+                        <expan>your</expan>
+                     </choice>
+                  </egXML></p>
+               <p>If you don't want to provide an expansion, eg for a word like Mr, then don't tag
+                  as an abbreviation.</p>
+            </div>
+            <lb/>
+            <div>
+               <head>Deletions, additions, notes made by contemporaries</head>
+               <div>
+                  <head>Notes and additions</head>
+                  <p>Remember that editorial notes made by the project team should be encoded in a
+                        <gi>note</gi> element; notes made by contemporaries should be transcribed as
+                     normal text, either as part of an existing <gi>div</gi> or if it is an addition
+                     to the text, using the <gi>add</gi> element.</p>
+                  <p>When showing a word added by the author or a contemporary (as opposed to by you
+                     the editor), use <gi>add</gi>: <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        It was written on <add>(day)</add> 15, month zi-al-Qua'da, year 15. </egXML>
+                  </p>
+
+               </div>
+               <div>
+                  <head>Deletions</head>
+                  <p>When a word or letter has been deleted, use <gi>del</gi>. In the example below,
+                     the words "alias Mathura" have been crossed out: <egXML
+                        xmlns="http://www.tei-c.org/ns/Examples">
+                        <p>in the town of Islamabad, <del>alias Mathura</del>, etc. those (lands)
+                           are given in lease (dar wajh-i supurd) to Gosamin</p>
+                     </egXML> If the word has been replaced in the text, use <gi>add</gi> also:
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <p>in the town of Islamabad, <del>alias Mathura</del><add>also called
+                              M.</add>, etc. those (lands) are given in lease (dar wajh-i supurd) to
+                           Gosamin</p>
+                     </egXML>
+                  </p>
+               </div>
+            </div>
+
+            <lb/>
+            <div>
+               <head>Dates</head>
+               <p>Include the date of the document in the TEIHeader (see above)</p>
+               <p>Tag any dates mentioned in the body of the text, including the calendar: <egXML
+                     xmlns="http://www.tei-c.org/ns/Examples"><date calendar="#hijri-qamri">9 نهم
+                        شهر جمادی الاول سنه ۱۰۷۱ هجری</date></egXML></p>
+            </div>
+            <lb/>
+            <div>
+               <head>Other features: measurements, document references</head>
+               <p>Tag any references to measurements as follows: <egXML
+                     xmlns="http://www.tei-c.org/ns/Examples"><measure type="currency" unit="rupee"
+                        quantity="13">سیزده روپیه</measure></egXML></p>
+               <p>If the measure is part of a rate/ratio or something else which you want to record
+                  as a group, wrap the measure tags in <gi>measureGrp</gi>, eg: <egXML
+                     xmlns="http://www.tei-c.org/ns/Examples">
+                     <measureGrp type="ratio">
+                        <measure type="currency" unit="rupee" quantity="30">30 rupees</measure> per
+                           <measure type="currency" unit="rupee" quantity="100">100 rupees</measure>
+                     </measureGrp>
+                  </egXML></p>
+               <p>Tag any references to other documents with <gi>ref</gi>, adding a
+                  <att>type</att> = document, and a <att>target</att> of the document ID, preceded by hash. 
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <note>It is very strange that the order is to destroy a house but the order is similar to that in <ref type="document" target="#lf_pDas_1660_brd_ac_ii">1660 Order of Nawazish Khan to Purshottam Das granting a house</ref>'. Perhaps old houses were being destroyed.</note>
+                  </egXML>
+               </p>
+               
+            </div>
+            
+            <lb/>
+            <div>
+               <head>Uncertainty: general</head>
+               <p>To indicate uncertainty in your transcription, use <gi>unclear</gi> element. You
+                  can also add a footnote offering further detail if wanted:</p>
+
+               <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                  <p>in the area of <unclear>Kushk</unclear> on the bank of the river</p>
+               </egXML>
+               
+               <egXML xmlns="http://www.tei-c.org/ns/Examples"><persName>मोहन</persName>
+                  <unclear>कु</unclear> थार अपणी रजा रगवत सु चोध- </egXML>
+
+            </div>
+            <div>
+               <head>Uncertainty and gaps</head>
+               <p>If you have no guess for what the word is, or if it is missing from the source
+                  text because of a tear etc, use the <gi>gap</gi> element:</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                  <p>Example text with <gap/>.</p>
+               </egXML>
+            </div>
+            <div>
+               <head>Uncertainty: multiple possible readings</head>
+               <p>If you aren't clear what the word is, but there are multiple possibilities, you
+                  can record these using the <gi>app</gi> element:</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                  <p>is <app><rdg cert="low">allocated</rdg><rdg cert="high">situated</rdg></app> in
+                     the town of Islamabad</p>
+               </egXML>
+            </div>
+            <div>
+               <head>Spaces intentionally left blank</head>
+               <p>If there is a gap in the transcription because of unclear words or a tear etc, use
+                     <gi>gap</gi> as described above. However use <gi>space</gi> wherever it is
+                  desired to record an unusual space in the source text, e.g. space left for a word
+                  to be filled in later, for later rubrication, etc.</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples">The <space/> day of June
+                  1675.</egXML>
+            </div>
+
+         </div>
+         <lb/>
+         <div>
+            
+            <head>Encoding People, Places, Archival Collections, Works Cited</head>
+            <lb/>
+            <p> When marking up people and places that have not been encountered previously, you
+               will need to create a new entry in the people.xml or places.xml file. If they already
+               have an entry in these separate files, simply find it and use its xml:id in the
+                  <gi>persName</gi> or <gi>placeName</gi> tag, as explained below. </p>
+
+
+
+
+            <div>
+               <head>People</head>
+               <p>Encode people's names in the body of the document using <gi>persName</gi>. Look at
+                  the people list to find their xml:id, use this preceded by '#' as a
+                  <att>ref</att>: <egXML xmlns="http://www.tei-c.org/ns/Examples"><persName
+                        ref="#nathu">ناتهو</persName></egXML>
+               </p>
+               <p> Every <gi>persName</gi> should have a <att>ref</att> which references the default
+                  name of the person in the separate person list. If the person doesn't have an
+                  entry in the person list, create one. </p>
+               <p>If readings of person or place names are unclear or illegible, create an entry in
+                  people.xml or places.xml using your best guess at the name and add a <gi>note</gi>
+                  to explain that it's unclear. In the document itself wrap the persName or
+                  placeName element in an <gi>unclear</gi> tag: <egXML
+                     xmlns="http://www.tei-c.org/ns/Examples"><unclear><persName ref="#nathu"
+                           >ناتهو</persName></unclear></egXML>
+               </p>
+               <div>
+                  <head>Adding entries to the Person list</head>
+                  <p> Whenever a new person is encoded in the documents, you must create a reference
+                     to them in the people.xml file within <gi>listPerson</gi>, with the
+                        <att>xml:id</att> on the <gi>person</gi> element, which will be used for the
+                        <att>ref</att> used in the main text. This should be capitalized and a
+                     single word: if you need to disambiguate between multiple people of the same
+                     name, use an expanded name where possible e.g. 'virginiaWoolf'.</p>
+                  <p> Each person entry must also contain a <gi>persName</gi> element with a
+                     relevant <att>xml:lang</att> indicating the language. They may have more than
+                     one name across different languages; record that here and choose a default name
+                     for the website by adding <tag>@role='default'</tag> - if possible, use the
+                     English version as default. </p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <person xml:id="maqbul">
+                        <persName xml:lang="eng" role="default"><name>Maqbul</name></persName>
+                        <persName xml:lang="per">مقبول </persName>
+                     </person>
+                  </egXML>
+                  <p>If there are multiple people within the corpus with the same name, they must
+                     have different identifiers; if all you know about someone is a single name so
+                     you can't give them an expanded name that makes sense e.g.
+                        <tag>@xml:id='muhammadSonOfYassein'</tag>, add a number after their name
+                     instead, e.g. <tag>@xml:id='muhammad001'</tag></p>
+                  <p>For people with several parts to their name, tag as follows: <egXML
+                        xmlns="http://www.tei-c.org/ns/Examples">
+                        <person xml:id="shahBeg">
+                           <persName role="default">
+                              <roleName>Judge</roleName>
+                              <name>Shah Beg</name>
+                              <addName type="honorific">refuge of justice</addName>
+                              <addName type="patronym">son of Raji Muhammad, son of
+                                 Yassein</addName>
+                           </persName>
+                        </person>
+                     </egXML> Note the difference between a roleName and addName type=honorific
+                     here. Other types of additional name could be: <egXML
+                        xmlns="http://www.tei-c.org/ns/Examples"><addName type="spousal">wife of
+                           Yassein</addName></egXML>
+                  </p>
+                  <p>To be decided by editorial team whether to encode all language versions using
+                        <gi>name</gi> and tagging name parts - it's not necessary for current
+                     display but would be richer encoding. Optional, and depends in part on how you
+                     want the people pages to display different names.</p>
+                  <p>You can record any additional information you have on the person, such as
+                     gender and occupation.</p>
+                  <p>Record their status as a known or not known individual using 'trait': are they
+                     a well-known individual or is there little known about the person? Use Trait
+                     element with attributes 'status' and 'key' to specify.</p>
+                  <p>Record their status as part of a particular social grouping using 'trait'
+                     type=socialGroup.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <person>
+                        <persName role="default">
+                           <roleName>Lady</roleName>
+                           <name>Smith</name>
+                        </persName>
+                        <sex value="F"/>
+                        <trait type="status" key="known"/>
+                        <trait type="socialGroup" key="afghans"/>
+                        <occupation>Poet</occupation>
+                        <note>I can add extra detail here if wanted.</note>
+                     </person>
+                  </egXML>
+                  <p>Record the gender of the person, specifying F(female), M (male), O(other),
+                     U(unknown), N (not applicable), as follows, within the <tag>person</tag>
+                     tag.</p>
+
+               </div>
+
+            </div>
+            <lb/>
+            <div>
+               <head>Places</head>
+               <p>Encode place names in the body of the document using <gi>placeName</gi>: <egXML
+                     xmlns="http://www.tei-c.org/ns/Examples"><placeName ref="#burhanpur"
+                        >برهانپور</placeName></egXML>
+               </p>
+               <p>Every <gi>placeName</gi> should have a <att>ref</att> which references the default
+                  name of the place in the separate places list. If there is no entry for the place
+                  in the places list, create one. </p>
+
+               <div>
+                  <head>Adding entries to the Places list</head>
+                  <p> Whenever a new place is encoded in the documents, you must create a reference
+                     to it in the places.xml file, with the <att>xml:id</att> matching the
+                        <att>ref</att> used in the main text. The id should be should be the
+                     standard name for that place, capitalized/in camelcase, such as LittleHintock,
+                     Burhanpur or India.</p>
+                  <p> We have divided places into the following hierarchy, from largest to smallest,
+                     based on their definition: <list>
+                        <item>country or territory</item>
+                        <item>province or region (corresp. to prant and suba)</item>
+                        <item>division (corresp. to sarkar)</item>
+                        <item>district (corresp. to pargana)</item>
+                        <item>sub-district (corresp. to taraf, karyat, and mahal)</item>
+                        <item>city, town, village (corresp. to mauza, qasba, balda)</item>
+                        <item>neighbourhood</item>
+                        <item>fort</item>
+                        <item>street</item>
+                        <item>building</item>
+                     </list>
+                  </p>
+                  <p> Like person entries, each place entry must also contain at least one
+                     <gi>placeName</gi> element with a <gi>name</gi> tag and relevant <att>xml:lang</att>, and a
+                        <gi>placeName</gi> for the English translation. Add a <att>type</att> to the
+                        <gi>place</gi> element, indicating which of the above categories it
+                     falls into.<egXML
+                        xmlns="http://www.tei-c.org/ns/Examples">
+                        <place xml:id="burhanpur" type="city">
+                           <placeName xml:lang="per"><name>برهانپور</name></placeName>
+                           <placeName xml:lang="eng"><name>Burhanpur</name></placeName>
+                        </place>
+                     </egXML>
+                  </p>
+                  <p>if a placeName encorporates an epithet, like Realm of Light, tag this within the placeName as we do for people names, as an addName type=epithet. This is why you also need to tag the rest of the placeName with <gi>name</gi>, following practice in people file.
+                     <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <place xml:id="subaAurangabad" type="province">
+                           <placeName xml:lang="per">
+                              <addName type="epithet">خجسته بنیاد</addName>
+                              <name>اورنگاباد</name>
+                           </placeName>
+                           <placeName xml:lang="eng">
+                              <addName type="epithet">Fortunate Foundation (Khujasta Bunyad)</addName>
+                              <name>Aurangabad</name>
+                           </placeName>
+                           <location>
+                              <geo>19.87757 75.34226</geo>
+                              <offset type="zoom">5</offset>
+                           </location>
+                           <note>The coordinates provided are for the city of Aurangabad.</note>
+                        </place>
+                     </egXML>
+                  </p>
+                  <p>Location: Add <gi>location</gi> to every place entry. Provide coordinates (if known) in a <gi>geo</gi> tag within
+                     <gi>location</gi>, separated by a space, not a comma. Use <gi>offset</gi> with
+                     <att>type</att>="zoom" and the corresponding zoom level number depending on place
+                     type (see below) to set the correct place map view.
+                  <list>
+                     <item>region/ province: 5</item>
+                     <item>district/ division: 8</item>
+                     <item>city/ sub-district: 11</item>
+                     <item>town: 13</item>
+                     <item>neighbourhood/ village: 14</item>
+                     <item>fort/ street: 16</item>
+                  </list>
+                  </p>
+
+                  <p>Alias: if a place is known by another name, the simplest method is to add this
+                     as another <gi>placeName</gi> with the relevant language, and explain their
+                     relationship in a note. If this does not suffice, add a separate
+                        <gi>addName</gi> tag beneath the existing placeNames, with type=alias.</p>
+
+                  <p>Where possible, add a reference from Geonames in <gi>listBibl</gi> or if there
+                     is no entry, give approximate geographical coordinates in <gi>location</gi>.
+                     Add notes if wanted. If the place no longer exists, add as a note. 
+                     <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <place xml:id="khandwa" type="village">
+                           <placeName xml:lang="per"><name>کندوهه</name></placeName>
+                           <placeName xml:lang="eng"><name>Khandwa</name></placeName>
+                           <location>
+                              <geo>22.5839 75.64596</geo>
+                              <offset type="zoom">14</offset>
+                           </location>
+                           <note>The identification of this place is tentative.</note>
+                           <bibl type="geonames" n="10705333"></bibl>
+                        </place>
+                     </egXML> NB: if including a note, add this before the listBibl.</p>
+               </div>
+               
+            </div>
+            <div>
+               <head>Social Groupings</head>
+               <p>Org stands for organisational name and can be used to refer to any social or
+                  ethnic grouping as well as any organisations. At the bottom of the people.xml
+                  file, you can use this to record any number of names in different languages, a
+                  descriptive note (this will be the paragraph of the essay), and further reading
+                  using the listBibl/bibl elements. <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <org xml:id="afghans">
+                        <orgName xml:lang="eng">Afghans</orgName>
+                        <note>Descriptive note about grouping.</note>
+                        <!--    further reading -->
+                        <listBibl>
+                           <bibl type="academic" n="#exampleFromBibliographyFile"/>
+                           <bibl type="wikipedia" n="Afghan_(ethnonym)"/>
+                        </listBibl>
+                     </org></egXML>
+               </p>
+            </div>
+
+            <div>
+               <head>Archival Collections</head>
+               <p>Reference the archival collection in the TEI header, underneath repository,
+                  preceded by # (as seen above). Ensure that the archival collections are recorded
+                  as entities in the repositories file, within the archival collections list. You
+                  can use this to record name, a descriptive note (this will be the paragraph of the
+                  essay), and further reading using the listBibl/bibl elements. <egXML
+                     xmlns="http://www.tei-c.org/ns/Examples">
+                     <item xml:id="pDas">
+                        <name>P Das collection</name>
+                        <note>Descriptive note.</note>
+                        <!--    further reading -->
+                        <listBibl>
+                           <bibl type="academic" n="#chatterjee2020"/>
+                        </listBibl>
+                     </item>
+                  </egXML>
+               </p>
+            </div>
+            <div>
+               <head>Works Cited</head>
+               <p>When creating bibliographic entries in bibliography_repositories.xml, format
+                  entries according to the type of reference, see examples below.</p>
+               <div>
+                  <head>Primary source</head>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <bibl xml:id="mukhlis2013">
+                        <author>
+                           <surname>Mukhlis</surname>
+                           <forename>Anand Ram</forename>
+                        </author>
+                        <author>
+                           <surname>Shekhar</surname>
+                           <forename>Chander</forename>
+                        </author>
+                        <author>
+                           <surname>Ghelichkhani</surname>
+                           <forename>Hamidreza</forename>
+                        </author>
+                        <author>
+                           <surname>Yousefdahi</surname>
+                           <forename>Houman</forename>
+                        </author>
+                        <title level="m">Mirat al-Istilah</title>
+                        <pubPlace>New Delhi</pubPlace>
+                        <publisher>National Missions for Manuscripts</publisher>
+                        <date when="2013">2013</date>
+                     </bibl>
+                  </egXML>
+               </div>
+               <div>
+                  <head>Journal article</head>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <bibl xml:id="bellarykar2019">
+                        <author>
+                           <surname>Bellarykar</surname>
+                           <forename>Nikhil</forename>
+                        </author>
+                        <title level="a">Two Marathi Letters from the Arsip Nasional Republik
+                           Indonesia: A Snapshot of Dutch-Maratha Relations in the
+                           Late-Eighteenth-Century Coromandel</title>
+                        <title level="j">Itinerario</title>
+                        <date when="2019">2019</date>
+                        <biblScope unit="vol">44</biblScope>
+                        <biblScope unit="issue">1</biblScope>
+                        <biblScope unit="part">14-31</biblScope>
+                        <ref type="url">https://doi.org/10.1017/S0165115319000032</ref>
+                     </bibl>
+                  </egXML>
+               </div>
+               <div>
+                  <head>Chapter in book entry</head>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <bibl xml:id="habib1990">
+                        <author>
+                           <surname>Habib</surname>
+                           <forename>Irfan</forename>
+                        </author>
+                        <editor/>
+                        <title level="a">Merchant Communities in Precolonial India</title>
+                        <title level="m">The Rise of Merchant Empires: Long-Distance Trade in the
+                           Early Modern World, 1350–1750</title>
+                        <pubPlace>Cambridge</pubPlace>
+                        <publisher>Cambridge University Press</publisher>
+                        <date when="1990">1990</date>
+                     </bibl>
+                  </egXML>
+               </div>
+               <div>
+                  <head>Encyclopaedia entry</head>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <bibl xml:id="diplomatic2012">
+                        <author>
+                           <surname>Björkman</surname>
+                           <forename>W.</forename>
+                        </author>
+                        <author>
+                           <surname>Colin</surname>
+                           <forename>G.S.</forename>
+                        </author> 
+                        <author>
+                           <surname>Busse</surname>
+                           <forename>H.</forename>
+                        </author>, 
+                        <author>
+                           <surname>Reychmann</surname>
+                           <forename>J.</forename>
+                        </author>
+                        <author>
+                           <surname>Zajaczkowski</surname>
+                           <forename>A.</forename>
+                        </author>
+                        <title level="a">Diplomatic</title>
+                        <title level="m">Encyclopaedia of Islam</title>
+                        <edition>2</edition>
+                        <date when="2012">2012</date>
+                        <ref type="url"
+                           >https://referenceworks-brillonline-com.uoelibrary.idm.oclc.org/entries/encyclopaedia-of-islam-2/*-COM_0169</ref>
+                     </bibl>
+                  </egXML>
+               </div>
+               <div>
+                  <head>Dictionary</head>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <bibl xml:id="steingass1892">
+                        <author>
+                           <surname>Steingass</surname>
+                           <forename>Francis Joseph</forename>
+                        </author>
+                        <title level="m">A Comprehensive Persian-English dictionary, including the
+                           Arabic words and phrases to be met with in Persian literature</title>
+                        <pubPlace>London</pubPlace>
+                        <publisher>Routledge &amp; K. Paul</publisher>
+                        <date when="1892">1892</date>
+                        <ref type="url">https://dsal.uchicago.edu/dictionaries/steingass/</ref>
+                     </bibl>
+                  </egXML>
+               </div>
+               <div>
+                  <head>Blog post</head>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <bibl xml:id="ajamMC">
+                        <editor>
+                           <surname>Lutfi</surname>
+                           <forename>Ameem</forename>
+                        </editor>
+                        <editor>
+                           <surname>Stephenson</surname>
+                           <forename>Lindsey</forename>
+                        </editor>
+                        <title level="a">Reimagining Baloch “Mercenaries” in the Western Indian
+                           Ocean</title>
+                        <publisher>Ajam Media Collective</publisher>
+                        <date when="2020-08-17">17 August 2020</date>
+                        <ref type="url"
+                           >https://ajammc.com/2020/08/17/ajam-podcast-21-baloch-indian-ocean/</ref>
+                     </bibl>
+                  </egXML>
+               </div>
+               <div>
+                  <head>Unpublished manuscript</head>
+                  <p>Use <gi>availability</gi> for any information about the availability of the
+                     text such as restrictions on use, distribution, copyright or licence status.
+                     For more general information use <gi>note</gi>. Both are optional.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <bibl xml:id="skinnerTashrih">
+                        <author>
+                           <surname>Skinner</surname>
+                           <forename>James</forename>
+                        </author>
+                        <title level="u">Tashrih al-aqwam</title>
+                        <msIdentifier>
+                           <repository ref="#bl"/>
+                           <idno>Add. 27455</idno>
+                        </msIdentifier>
+                        <biblScope unit="page">143 r-v</biblScope>
+                        <ref type="url">https://imagesonline.bl.uk/asset/9017</ref>
+                        <availability>Unpublished manuscript, copy available through the British
+                           Library.</availability>
+                     </bibl>
+                  </egXML>
+               </div>
+               <div>
+                  <head>Translated Sources</head>
+                  <p>To include a translator in a reference, use <gi>editor</gi> with an attribute @role="translator". The rest of the entry can be formatted following the examples above.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <bibl xml:id="skinnerTashrih">
+                        <author>
+                           <surname>Skinner</surname>
+                           <forename>James</forename>
+                        </author>
+                        <editor role="translator">
+                           <surname>Hypothetical surname</surname>
+                           <forename>Hypothetical first name</forename>
+                        </editor>
+                        <title level="u">Tashrih al-aqwam</title>
+                        <msIdentifier>
+                           <repository ref="#bl"/>
+                           <idno>Add. 27455</idno>
+                        </msIdentifier>
+                        <biblScope unit="page">143 r-v</biblScope>
+                        <ref type="url">https://imagesonline.bl.uk/asset/9017</ref>
+                        <availability>Unpublished manuscript, copy available through the British
+                           Library.</availability>
+                     </bibl>
+                  </egXML>
+               </div>
+            </div>
+            <div>
+               <head>Further reading sources and bibliography</head>
+               <p>This section applies to people, places, document types and archival collections.
+                  If your person is relatively well-known, they may have an entry in the Virtual
+                  International Authority File, Library of Congress Name Authority File, WorldCat,
+                  International Standard Name Identifier, or on Wikipedia that you can link to. You
+                  may want to reference academic books/articles or other websites too as further
+                  reading for these entities. </p>
+               <p>Add a <tag>listBibl</tag> tag at the end of the entry for the person, place,
+                  document type, social group or archival collection. Note that there is no longer
+                  any need to add a type to listBibl.</p>
+               <p>Within this, add a <tag>bibl</tag> element with a <att>type</att> attribute
+                  'viaf', or similar and then give it an <att>n</att> attribute, with the value
+                  being the relevant number or reference to the relevant entry. If adding a
+                  Wikipedia link to a <tag>person</tag> entry, use <att>type</att> of "wikipedia",
+                  and so on. The <att>n</att> attribute should be the final part of the URL of the
+                  Wikipedia entry, as follows.</p>
+               <p>Adding a wikipedia link will mean we can display the person's image from their
+                  wikipedia page.</p>
+               <p>Note that for academic sources, you should add the id of the academic source as
+                  listed in the bibliography file as the <att>n</att> value, preceded by hash. If
+                  there is no entry for the academic writing in the bibliography file, add one.</p>
+               <p>See the examples below:</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                  <listBibl>
+                     <bibl type="viaf" n="54148778"/>
+                     <bibl type="wikipedia" n="Elizabeth_Martha_Brown"/>
+                     <bibl type="academic" n="#chatterjee2020"/>
+                     <bibl type="website" n="www.example.com"/>
+                  </listBibl>
+               </egXML>
+               <p>To give a relevant page range, use biblScope in the bibl element here and not in
+                  the full bibliographic entry, as follows: <egXML
+                     xmlns="http://www.tei-c.org/ns/Examples">
+                     <listBibl>
+                        <bibl type="academic" n="#chatterjee2020"
+                           ><biblScope>pp.44-46</biblScope></bibl>
+                     </listBibl>
+                  </egXML></p>
+            </div>
+         </div>
+
+      </body>
+   </text>
+</TEI>
