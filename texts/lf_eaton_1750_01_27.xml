@@ -65,8 +65,10 @@
             <abstract><p><persName ref="#husseinQuli">Hussein Quli Khan</persName> informs the officials and residents of disctrict (pargana) <placeName ref="#askarabad">Askarabad</placeName> that <persName ref="#rezaAli">Reza Ali's</persName> claim to a grant of land ifor taking care of the mosque is true. Therefore, no one
                 should trouble <persName ref="#rezaAli">Reza Ali</persName> regarding his right to the land. The document was copied in a British colonial collector's office, likely at some point in the nineteenth century.</p></abstract>      
             <textClass>
-                <keywords scheme="#formal"><term key="sanad"/></keywords>
-                <keywords scheme="#formal"><term key="parvana"></term></keywords>
+                <keywords scheme="#formal">
+                    <term key="sanad"/>
+                    <term key="parvana"></term>
+                </keywords>
                 <keywords scheme="#functional"><term key="orders"/></keywords>
                 <keywords scheme="#thematic">
                     <term>Grants</term>
@@ -133,7 +135,7 @@
                     <note>There is a phrase inserted here that possibly reads کرم خواجه, or 'the benevolence of the saint'.</note>
                     <placeName ref="#askarabad">عسکراباد</placeName>
                     سرکار
-                    <placeName ref="islamabad">اسلاماباد</placeName>
+                    <placeName ref="#islamabad">اسلاماباد</placeName>
                     بدانند که چون
                     <persName ref="#rezaAli">رضا علی</persName>
                     ظاهر نموده که
@@ -168,7 +170,7 @@
                     <lb/>of the past. He hopes that an order sealed by the government for the end of harassment will be kindly awarded. Therefore, on the basis of checks
                     <lb/>the declaration of the said person was found to be true. Hence, the said land is allocated and appointed for the custody of the mosque, so that 
                     <lb/>the said person, taking possession of the said land, can use the collections from therein for lighting lamps, the daily allowance of the sermon-giver and the caller to prayer, 
-                    <lb/>and sweeping and coming and going [i.e., hospitality for travellers] etc., legitimate [activities] of the mosque [and] engage himself in saying prayers for the state of <persName rend="elevated">His Lordship Zill-i Subhani</persName><note>I.e., Shadow of God, likely a reference to the Mughal emperor.</note>
+                    <lb/>and sweeping and coming and going [i.e., hospitality for travellers] etc., legitimate [activities] of the mosque [and] engage himself in saying prayers for the state of His Lordship Zill-i Subhani<note>I.e., the Shadow of God, likely a reference to the Mughal emperor. This honorific text is elevated and written to the left of the seal.</note>
                     <lb/>No one should give him trouble on account of the document of favour of the land assessment, etc. Knowing all the injunctions to be applicable <unclear>in this matter</unclear>, do as written.                    
                 </p>   
             </div> 
