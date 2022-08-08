@@ -22,8 +22,9 @@ Dr Elizabeth Williamson, Technical Director.
 
 Eva Bodenschatz, Richard Holding, Julia Hopkin, Gary Stringer, Digital Humanities Team, University of Exeter.
 
-Dr Hannah Archambault, copy editor.
+Dr Hannah Archambault, Copy Editor.
 
+Dr Mehrbod Khanizadeh, Research Assistant.
 
 Funded by: European Research Council [Starting Grant ERC-2016-STG-714569](https://erc.easme-web.eu/?p=714569) 
 
