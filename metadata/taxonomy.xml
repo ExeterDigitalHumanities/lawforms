@@ -749,7 +749,7 @@
 
                <item xml:id="gl_bahadur">
                   <name role="default">bahadur</name>
-                  <name xml:lang="eng">brave, valiant, courageous; an honourific</name>
+                  <name xml:lang="eng">brave, valiant, courageous; an honorific</name>
                </item>
 
                <item xml:id="gl_bahi">
@@ -852,7 +852,7 @@
                </item>
 
                <item xml:id="gl_dasturalamal">
-                  <name role="default">dastur al-amal</name>
+                  <name role="default">dastur al-ʿamal</name>
                   <name xml:lang="eng">record of revenue assessment</name>
                </item>
 
@@ -1157,9 +1157,8 @@
 
                <item xml:id="gl_kharita">
                   <name role="default">kharita</name>
-                  <name>a high-status letter</name>
-                  <note>Also can refer to the pouch or silk bag used to hold such letters. In
-                     Rajasthani, sometimes called a khalita.</note>
+                  <name xml:lang="eng">a high-status letter</name>
+                  <note>Also can refer to the pouch or silk bag used to hold such letters. Alternate Rajasthani spelling: khalita.</note>
                </item>
 
                <item xml:id="gl_khatib">
@@ -1432,7 +1431,7 @@
                      deeds for official posts.</note>
                </item>
 
-               <item xml:id="pattayat">
+               <item xml:id="gl_pattayat">
                   <name role="default">pattayat</name>
                   <name xml:lang="eng">landlord or one who holds a patta</name>
                   <note>Most widely used in Rajasthan, especially Mewar, where pattayats were
@@ -1622,9 +1621,10 @@
                   <note>Mughal term</note>
                </item>
 
-               <item xml:id="sarup">
+               <item xml:id="gl_sarup">
                   <name role="default">sarup</name>
                   <name xml:lang="eng">the earring worn by the nath yogis</name>
+                  <note>sometimes used as an invocative or honorific word</note>
                </item>
 
                <item xml:id="gl_sethi">

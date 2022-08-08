@@ -73,6 +73,7 @@
            <keywords scheme="#thematic">
               <term>Administration</term>
               <term>Money</term>
+              <term>Records</term>
               <term>Taxation and Tribute</term>
            </keywords>
         </textClass>
@@ -138,7 +139,7 @@
          <div xml:id="trans_div2" corresp="#orig_div2">
             <p>
                <lb/>The <ref type="glossary" target="#gl_chaudhri">chaudhris</ref> and <ref type="glossary" target="#gl_qanungo">qanungos</ref> of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#hindola">Hindola</placeName> should know that the news [about the] <ref type="glossary" target="#gl_muchalka">muchalka</ref>
-               <lb/>of the <ref type="glossary" target="#gl_ijara">ijara</ref> of the said <ref type="glossary" target="#gl_pargana">pargana</ref> being made in free will with the old <ref type="glossary" target="#gl_ijaradars">ijaradars</ref> [which] they had sent to the servants 
+               <lb/>of the <ref type="glossary" target="#gl_ijara">ijara</ref> of the said <ref type="glossary" target="#gl_pargana">pargana</ref> being made in free will with the old <ref type="glossary" target="#gl_ijaradar">ijaradars</ref> [which] they had sent to the servants 
                <lb/>of the Refuge of Ministry and Glory and Haven of Bravery and Courage <ref type="glossary" target="#gl_mirza">Mirza</ref> <ref type="glossary" target="#gl_sahib">Sahib</ref> 
                <lb/>has come to his blessed attention. Therefore, having deposited and held the <ref type="glossary" target="#gl_muchalka">muchalkas</ref> this way [with myself], they [the <ref type="glossary" target="#gl_muchalka">muchalkas</ref>]
                <lb/>were sent to them. If the taking of <ref type="glossary" target="#gl_ijara">ijara</ref> by old <ref type="glossary" target="#gl_ijaradar">ijaradars</ref> is useful to the government and convenient  
@@ -150,9 +151,9 @@
                <lb/>will be engaged and diligent with the amelioration of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#hindola">Hindola</placeName> such that it becomes a route for good service in the employment of the Refuge of Ministry 
                <lb/>and be hopeful of good results. One thousand one hundred rupees are left in arrears by the <ref type="glossary" target="#gl_ijaradar">ijaradar</ref> [for the] <date calendar="#fasli">1073</date> <ref type="glossary" target="#gl_amali">ʿamali</ref> year. 
                <lb/>Insist that he quickly get that amount entered into the royal treasury at the City of Victory, <placeName ref="#ujjain">Ujjain</placeName>, by a person of his. 
-               <lb/>And acquire the <ref type="glossary" target="#gl_qabzalwasul">qabzul-wasul</ref>. Beware that there would be no imperial taxes outstanding with anyone<gap/> 
-               <lb/>The money should be given. And the <ref type="glossary" target="#gl_muwazanaDahsala">muwazana dahsala</ref> and summary of the year <date calendar="#fasli">1072</date> 
-               <lb/>and the <ref type="glossary" target="#gl_dasturalamal">dasturul-amal</ref> and copy of <ref type="glossary" target="#gl_tumar">tumar</ref> etc. whatever necessary papers 
+               <lb/>And acquire the <ref type="glossary" target="#gl_qabzalwasul">qabz al-wasul</ref>. Beware that there would be no imperial taxes outstanding with anyone<gap/> 
+               <lb/>The money should be given. And the <ref type="glossary" target="#gl_muwazanaDahsala">muwazana dahsala</ref>, and the summary of the year <date calendar="#fasli">1072</date>, 
+               <lb/>and the <ref type="glossary" target="#gl_dasturalamal">dastur al-ʿamal</ref>, and the copy of <ref type="glossary" target="#gl_tumar">tumar</ref>, etc., whatever necessary papers 
                <lb/>there might be, write it down, and deposit it in the  
                <lb/>coming year. And the copy of the <ref type="glossary" target="#gl_parvana">parvana</ref> of the gracious <ref type="glossary" target="#gl_nawab">Nawab</ref>, Eminence of the Realm, Refuge of Ministry has been sent 
                <lb/>[and you] will learn about its contents from it. 
@@ -186,7 +187,8 @@
                <lb rend="empty"/>
                <lb/>پروانه بولاقیچند 
                <lb rend="empty"/>
-               <lb/><num>۳۸</num>
+               <lb/>
+               <num>۳۸</num>
             </p>
          </div>
          <div xml:id="trans_div4" corresp="#orig_div4">

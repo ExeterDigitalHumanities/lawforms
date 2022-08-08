@@ -140,7 +140,8 @@
                     <persName ref="#rezaAli">رضا علی</persName>
                     ظاهر نموده که
                     <lb/>موازی 
-                    <gap></gap><note>A note is inserted above this text, which may read بالا نویسی, or 'writing above'.</note>
+                    <measure type="length" unit="kani" quantity="9">نه کانی</measure>
+                    <note>A note is inserted above this text, which may read بالا نویسی, or 'writing above'.</note>
                     زمین خارج جمع سیوای 
                     <gap/>
                     شاهی در وجه حراست مسجد بنام رافع بموجب اسناد حکام
@@ -166,7 +167,7 @@
                     <lb/>Copy.
                     <lb/>A <ref type="glossary" target="#gl_sanad">sanad</ref> with the seal of <ref type="glossary" target="#gl_nawab">Nawab</ref> <persName ref="#husseinQuli">Hussein Quli Khan</persName><note>Naib Nazim of Bengal under <persName ref="#aliVardi">Ali Vardi Khan</persName>, governor of Dhaka</note> issued on <date calendar="#julus">the first of the month of Rajab, 2nd regnal year</date><note>The Gregorian date of 1750 has been assigned based on the fact that <ref type="glossary" target="#gl_nawab">Nawab</ref> <persName ref="#husseinQuli">Hussein Quli Khan</persName> (d. 1755) was active in the middle of the eighteenth century, and thus this document was likely composed during the reign of the Mughal Emperor Ahmad Shah (r. 1748–54).</note> and the details are [as follows]: the <ref type="glossary" target="#gl_mutasaddi">mutasaddis</ref> of current and future affairs,                   
                     <lb/>the <ref type="glossary" target="#gl_chaudhri">chaudhris</ref> and <ref type="glossary" target="#gl_qanungo">qanungos</ref> and peasants and agriculturists of <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#askarabad">Askarabad</placeName>, <ref type="glossary" target="#gl_sarkar">sarkar</ref> <placeName ref="#islamabad">Islamabad</placeName> should know that, since <persName ref="#rezaAli">Reza Ali</persName> has made it apparent that
-                    <lb/>the amount of<gap/> of land, exempt from taxes except<gap/> imperial is allocated from within the said <ref type="glossary" target="#gl_pargana">pargana</ref> to the applicant for reason of taking care of a mosque on account of the orders of the governors
+                    <lb/>the amount of<measure type="length" unit="kani" quantity="9">nine kanis</measure><note>Kani is a local unit of measurement in the Chittagong and Tripura areas of Bengal. Reading kindly provided by Richard Eaton.</note> of land, exempt from taxes except<gap/> imperial is allocated from within the said <ref type="glossary" target="#gl_pargana">pargana</ref> to the applicant for reason of taking care of a mosque on account of the orders of the governors
                     <lb/>of the past. He hopes that an order sealed by the government for the end of harassment will be kindly awarded. Therefore, on the basis of checks
                     <lb/>the declaration of the said person was found to be true. Hence, the said land is allocated and appointed for the custody of the mosque, so that 
                     <lb/>the said person, taking possession of the said land, can use the collections from therein for lighting lamps, the daily allowance of the sermon-giver and the caller to prayer, 
@@ -196,7 +197,7 @@
                 </p>
             </div>
             <div xml:id="orig_div7" xml:lang="ben" type="clericalNotes" rend="bottom right">
-                <p><gap></gap><note>The text is written in a cursive script.</note></p>
+                <p><gap></gap><note>The text is written in Bengali, in a cursive hand the team has not been able to decipher.</note></p>
             </div>
             <div xml:id="trans_div7" corresp="#orig_div7">
                 <p><gap></gap></p>

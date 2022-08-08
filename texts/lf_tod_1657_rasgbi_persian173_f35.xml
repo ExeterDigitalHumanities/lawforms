@@ -81,7 +81,7 @@
                <term key="arzdasht"/>
             </keywords>
             <keywords scheme="#functional">
-               <term key="letter"/>
+               <term key="letters"/>
             </keywords>
             <keywords scheme="#thematic">
                <term>Administration</term>
@@ -115,7 +115,7 @@
             </p>
          </div>
          <div xml:id="trans_div1" corresp="#orig_div1">
-            <p><ref type="glossary" target="#arzdasht">ʿArzdasht</ref> of Raja <persName ref="#jaiSinghI">Jai Singh</persName> in the service of Shah Buland Iqbal <persName ref="#daraShukoh">Muhammad Dara Shukoh</persName> </p>
+            <p><ref type="glossary" target="#gl_arzdasht">ʿArzdasht</ref> of Raja <persName ref="#jaiSinghI">Jai Singh</persName> in the service of Shah Buland Iqbal <persName ref="#daraShukoh">Muhammad Dara Shukoh</persName> </p>
          </div>
          <div xml:id="orig_div2" xml:lang="per" type="maintext">
             <p>
@@ -167,7 +167,6 @@
                <lb/>واجبی داده از انجا برارند صاحب جهان و جهانیان سلامت از رسیدن انجا
                <lb rend="empty"/>
                <lb/>بموجبی که
-               <note>This is the catch-word used to indicate the order of folios.</note>
                <pb n="36r" facs="lf_tod_1657_rasgbi_persian173_f36_r.jpg"/>
                <lb/>بموجبی که امر است بعمل خواهد آورد و از روی کمال عنایات و توجهات
                <lb/>امر رفیع القدر شرف ایراد یافته که پرگنه
@@ -184,7 +183,7 @@
          <div xml:id="trans_div2" corresp="#orig_div2">
             <p>
                <lb/>Written
-               <lb/>the <date calendar="#hijri-qamri">eighth of Rabiʿ al-awwal of the year 1068</date><note>Here, there is likely a scribal error, writing eight (hashtom) instead of twentieth (bistom), given that the document references the nineteenth of the same month.</note>. This, that the <ref type="glossary" target="#gl_arzdasht">ʿarzdasht</ref> of the humblest servant of true belief <persName ref="#jaiSinghI">Jai Singh</persName>, who had
+               <lb/>the <date calendar="#hijri-qamri">eighth of Rabiʿ al-awwal of the year 1068</date>.<note>Here, there is likely a scribal error, writing eight (hashtom) instead of twentieth (bistom), given that the document references the nineteenth of the same month.</note> This, that the <ref type="glossary" target="#gl_arzdasht">ʿarzdasht</ref> of the humblest servant of true belief <persName ref="#jaiSinghI">Jai Singh</persName>, who had
                <lb/>performed the rituals of the greetings of devotion and servitude, shall be presented to the audience of the <ref type="glossary" target="#gl_nawab">Nawab</ref> of the Most Pure Titles, 
                <lb/>the Ruler of the World and Conquerer of the Countries, Lord of the Universe and of Mortal Creation, Prince of the Earth and Mortals [i.e., <persName ref="#daraShukoh">Dara Shukoh</persName>],
                <lb/>[stating] that the imperial nishan of the exalted mercy of power and grace, which had been issued for the exaltation 
@@ -204,7 +203,8 @@
                <lb/>And the illustrious order had been issued that the assembly [of people]<note>This likely refers to the prince Shah Shuja and his army.</note> that had come from <placeName ref="#bengal">Bengal</placeName> to <placeName ref="#patna">Patna</placeName>
                <lb/>should be given appropriate admonishment [and] return from there. The Lord of the World and Creation [be] well. When [they] arrive there, 
                <lb rend="empty"/>
-               <lb/>in accordance with
+               <lb/>in accordance with<note>This is a catchphrase used to indicate the order of folios. It matches the first few words of the first line of the next folio.</note>
+               <lb rend="empty"/>
                <lb/>in accordance with what is ordered, it will be implemented. And from the perfection of favours and kindnesses
                <lb/>the command of the sublime rank produced the honour that I received the <ref type="glossary" target="#gl_pargana">pargana</ref> <placeName ref="#niwai">Niwai</placeName> in the increase of [my] <ref type="glossary" target="#gl_jagir">jagir</ref>.
                <lb/>By what tongue shall thanksgiving for the boundless favours be offered standing in the assembly of the Lord?

@@ -69,6 +69,8 @@
                 <keywords scheme="#functional"><term key="orders"/></keywords>
                 <keywords scheme="#thematic">
                     <term>Administration</term>
+                    <term>Peasants</term>
+                    <term>Soldiers</term>
                 </keywords>
             </textClass>
             <particDesc>    
@@ -103,7 +105,7 @@
                 </mentioned></stamp></p>
             </div>
             <div xml:id="trans_div2" corresp="#orig_div2">
-                <p><stamp type="seal">Rectangular black ink seal with trishul symbol<mentioned>Worshipper of Shri Ram, Chandrawat Rao <persName ref="#amarSingh">Amar Singh</persName><unclear>ji</unclear> [son of] Hari Singhji <gap/></mentioned></stamp></p>
+                <p><stamp type="seal">Rectangular black ink seal with trishul symbol<mentioned>Worshipper of Shri Ram, Chandrawat Rao <persName ref="#amarSingh">Amar Singh</persName> <unclear><ref type="glossary" target="#gl_jiu">Ji</ref></unclear> [son of] Hari Singh <ref type="glossary" target="#gl_jiu">Ji</ref> <gap/></mentioned></stamp></p>
             </div>
             
             <div xml:id="orig_div3" xml:lang="per" type="maintext">
@@ -146,8 +148,7 @@
                     <lb/>of <ref type="glossary" target="#gl_pargana">pargana</ref>
                     <placeName ref="#pgDhar">Dhar</placeName>
                      in the administration of <ref type="glossary" target="#gl_sarkar">sarkar</ref>
-                    <placeName ref="#mandu">Mandu</placeName>
-                    , know that since now the exalted <ref type="glossary" target="#gl_nishan"
+                    <placeName ref="#mandu">Mandu</placeName>, know that since now the exalted <ref type="glossary" target="#gl_nishan"
                         >nishan</ref>
                     <lb/>worthy of obedience has been issued, allocating <ref type="glossary"
                         target="#gl_pargana">pargana</ref>
@@ -158,14 +159,12 @@
                     <lb/>Sultan
                     <persName ref="#muradBakhsh" rend="elevated">Murad Bakhsh</persName>
                      according to the orders that the world obeys [of the emperor]
-                    <space/>
-                    ,<note>This space is likely left to indicate the name of the emperor.</note> in
+                    <space/>,<note>This space is likely left to indicate the name of the emperor.</note> in
                     the <ref type="glossary" target="#gl_jagir">jagir</ref> of the representative of
                     the majestic <ref type="glossary" target="#gl_nawab">Nawab</ref>,
                     <lb/>the exalted <ref type="glossary" target="#gl_sarkar">Sarkar</ref>, from the
                     beginning of the autumn harvest of the
-                    <date calendar="#turkish">Fowl Year</date>
-                    .
+                    <date calendar="#turkish">Fowl Year</date>.
                     <lb/>Therefore, we have also issued a copy of the exalted <ref type="glossary"
                         target="#gl_nishan">nishan</ref>
                     <lb/>and the dignified order has been issued that the servants of the court
@@ -176,8 +175,8 @@
                     <lb/>and <ref type="glossary" target="#gl_amin">amins</ref> of the Lord who will
                         arrive.<note>For more on the regular appointment of <ref type="glossary"
                             target="#gl_amin">amins</ref> and other officials to districts and their
-                        relationships with district landlords, see Irfan Habib, The Agrarian System
-                        of Mughal India, pp. 316-341.</note> On this basis, it is written that
+                        relationships with district landlords, see <ref type="bibl" target="#habib">Irfan Habib, The Agrarian System
+                        of Mughal India, pp. 316-341</ref>.</note> On this basis, it is written that
                     <lb/>with a settled mind, they should work towards the conciliation and
                     population of the <ref type="glossary" target="#gl_pargana">pargana</ref>, and
                     they should pay attention
@@ -185,8 +184,8 @@
                     from their promise,
                     <lb/>it is stipulated that following the orders, soldiers will arrive.
                     <lb/>Written on the 24th of the month of Safar in the year
-                    <date calendar="#hijri-qamri">1068</date>
-                    . </p>   
+                    <date calendar="#hijri-qamri">1068</date>. 
+                </p>   
             </div> 
             <div xml:id="orig_div4" xml:lang="per" type="endorsements" rend="right margin">
                 <p>

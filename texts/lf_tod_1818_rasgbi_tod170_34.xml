@@ -6,7 +6,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Order of Gokul Das to the landlords of Devgarh assuring non-interference in their affairs</title>
+            <title>Copy of an order of Gokul Das to the landlords of Devgarh assuring non-interference in their affairs</title>
             <respStmt>
                <resp>Edited by</resp>
                <persName>Elizabeth Thelen</persName>
@@ -94,14 +94,14 @@
             <p>श्री ऋष्नायनमः श्रीरामजी</p>
          </div>
          <div xml:id="trans_div2" corresp="#orig_div2">
-            <p>Bow to Shri <ref type="glossary" target="#gl_krishna">Krishna</ref><note>This invocation is in Sanskrit.</note> Shri <ref type="glossary" target="#gl_ram">Ram</ref> <ref type="glossary" target="#gl_jiu">ji</ref></p>
+            <p>Bow to Shri <ref type="glossary" target="#gl_krishna">Krishna</ref><note>This invocation is in Sanskrit.</note> Shri <ref type="glossary" target="#gl_ram">Ram</ref> <ref type="glossary" target="#gl_jiu">Ji</ref></p>
          </div>
          <div xml:id="orig_div3" xml:lang="raj" type="laterAddition" rend="top centre">
             <p><placeName ref="#devgarh">देवगढ</placeName> रा रावत <persName ref="#gokulDas">गोकल दास</persName> जी रा परवाना री नकल
             </p>
          </div>
          <div xml:id="trans_div3" corresp="#orig_div3">
-            <p><lb/>Copy of the <ref type="glossary" target="#gl_parvana">parvana</ref> of <ref type="glossary" target="#gl_rawat">Rawat</ref> <persName ref="#gokulDas">Gokul Das</persName> <ref type="glossary" target="#gl_jiu">ji</ref> of <placeName ref="#devgarh">Devgarh</placeName><note>This is a clerical note from the scribe who copied the document.</note></p>
+            <p>Copy of the <ref type="glossary" target="#gl_parvana">parvana</ref> of <ref type="glossary" target="#gl_rawat">Rawat</ref> <persName ref="#gokulDas">Gokul Das</persName> <ref type="glossary" target="#gl_jiu">Ji</ref> of <placeName ref="#devgarh">Devgarh</placeName><note>This is a clerical note from the scribe who copied the document.</note></p>
          </div>
          <div xml:id="orig_div4" xml:lang="raj" type="authorisation" rend="top centre">
             <p>सही</p>
@@ -118,10 +118,10 @@
                <lb/>णी मै तफावत पडै न्ही <date calendar="#samvat-chaitradi"><choice><abbr>सं</abbr><expan>संवत</expan></choice> १८७४ पोस बद ६</date>
             </p>
          </div>
-         <div>
+         <div xml:id="trans_div5" corresp="#orig_div5">
             <p>
                <lb/>Success! By the order of Shri <ref type="glossary" target="#gl_maharawat">Maharawat</ref> <ref type="glossary" target="#gl_jiu">Ji</ref> Shri <persName ref="#gokulDas">Gokul Das</persName> <ref type="glossary" target="#gl_jiu">Ji</ref>, proclaim benevolent
-               <lb/>greetings to the four ranks of <ref type="glossary" target="#gl_pattayat">pattayats</ref>. Thereafter: [ordered that] without fault<note>The word 'khun' most commonly means blood but is also used in Rajasthani in the sense of crime, offense or sin.</note>, 
+               <lb/>greetings to the four ranks of <ref type="glossary" target="#gl_pattayat">pattayats</ref>. Thereafter: [ordered that] without fault,<note>The word 'khun' most commonly means blood but is also used in Rajasthani in the sense of crime, offense or sin.</note> 
                a <ref type="glossary" target="#gl_pattayat">pattayat's</ref> <unclear>traditional</unclear><note>This may be a technical revenue term. The term 'charas' most commonly is used to refer either a resin extracted from hemp or the leather buckets used to carry water in a Persian wheel, in Rajasthani it can also mean 'traditional,' which seems more likely here.</note> village [rights] 
                <lb/>shall not be withdrawn. And if he should commit an offense, then he shall make an inquiry from the brotherhood of the four ranks and
                <lb/>a reprimand shall not be made [by <persName ref="#gokulDas">Gokul Das</persName>]. If we give a reprimand without an inquiry, then we take the oath of <ref type="glossary" target="#gl_shrinathji">Shrinathji</ref>.

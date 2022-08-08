@@ -183,8 +183,8 @@
               <gap/>
            </p>
         </div>
-        <div xml:id="trans_div6" corresp="#orig_div6"><p><ref type="glossary" target="#gl_parvana">Parvana</ref> of the office of Refuge of Prosperity <persName ref="#mirIbrahim">Mir Ibrahim</persName> <unclear>jiu</unclear> in the matter of comforting and consoling <gap/>,
-           that whatever <ref type="glossary" target="#gl_qaul">qaul-qarar</ref> the Refuge of Faith <gap></gap> jiu <unclear>shall give</unclear>, the <ref type="glossary" target="#gl_istamalat">istamalat</ref> <gap/></p></div>
+        <div xml:id="trans_div6" corresp="#orig_div6"><p><ref type="glossary" target="#gl_parvana">Parvana</ref> of the office of Refuge of Prosperity <persName ref="#mirIbrahim">Mir Ibrahim</persName> <unclear><ref type="glossary" target="#gl_jiu">Jiu</ref></unclear> in the matter of comforting and consoling<gap/>,
+           that whatever <ref type="glossary" target="#gl_qaul">qaul-qarar</ref> the Refuge of Faith <gap></gap> <ref type="glossary" target="#gl_jiu">Jiu</ref> <unclear>shall give</unclear>, the <ref type="glossary" target="#gl_istamalat">istamalat</ref> <gap/></p></div>
         
       </body>
   </text>

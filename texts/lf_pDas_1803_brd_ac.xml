@@ -272,6 +272,7 @@
                </p>
          </div>
          <div xml:id="orig_div3" xml:lang="per" type="particulars" rend="bottom"><p>
+            <lb rend="empty"/><figure/>
             <lb/>طول
             <unclear><g ref="#siyaq">۲۴</g></unclear>
             تمام
@@ -349,7 +350,7 @@
          <div xml:id="trans_div4" corresp="#orig_div4">
             <p>
                <lb/>Witnessed by
-               <persName ref="#wahidKhan">Wahid Khan</persName><note>Witness signatures in the right margin read from top to bottom</note>
+               <persName ref="#wahidKhan">Wahid Khan</persName><note>Witness signatures in the right margin read from top to bottom.</note>
                <lb rend="empty"/>
                <lb/>Witnessed by Sheikh
                <gap/>
